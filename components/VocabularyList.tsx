@@ -33,6 +33,13 @@ export default function VocabularyList({ items }: VocabularyListProps) {
                   <p className="vocab-example-en">"{item.exampleEn}"</p>
                 </div>
               )}
+
+              <div className="mt-3">
+                <textarea 
+                  placeholder="Suas anotações..." 
+                  className="w-full p-2 bg-gray-50/50 border border-gray-200 rounded-lg text-sm text-gray-700 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-400 transition-all resize-y min-h-[50px]"
+                />
+              </div>
             </div>
           </div>
         ))}
