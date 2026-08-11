@@ -1,15 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { BookOpen, Eye, EyeOff } from "lucide-react";
-import type { VocabularyItem } from "@/data/scenarios";
+import { Lightbulb, Eye, EyeOff } from "lucide-react";
+import type { UsefulExpression } from "@/data/scenarios";
 
-interface VocabularyListProps {
-  items: VocabularyItem[];
-  isReverse?: boolean;
+interface UsefulExpressionsProps {
+  items: UsefulExpression[];
 }
 
-export default function VocabularyList({ items, isReverse = false }: VocabularyListProps) {
+export default function UsefulExpressions({ items }: UsefulExpressionsProps) {
   const [revealed, setRevealed] = useState<Record<number, boolean>>({});
 
   const toggleReveal = (index: number) => {
@@ -19,9 +18,11 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
   return (
     <div className="vocabulary-section">
       <h2 className="section-title">
-        <span className="section-title-icon"><BookOpen size={22} /></span>
-        Vocabulário Essencial
-        <span className="section-subtitle">Essential Vocabulary</span>
+        <span className="section-title-icon" style={{ backgroundColor: "var(--warning-color)" }}>
+          <Lightbulb size={22} color="white" />
+        </span>
+        Expressões Úteis
+        <span className="section-subtitle">Useful Expressions</span>
       </h2>
       <div className="vocabulary-list">
         {items.map((item, index) => {
@@ -36,7 +37,7 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
               <div className="vocab-content w-full">
                 <div className="vocab-header flex justify-between items-center">
                   <p className="vocab-english" style={{ fontSize: "1.1rem", fontWeight: 600, color: "var(--text-primary)" }}>
-                    {isReverse ? item.portuguese : item.english}
+                    {item.expressionPt}
                   </p>
                   
                   <button 
@@ -55,18 +56,11 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
                 {isRevealed && (
                   <div className="mt-3 p-3 rounded-lg" style={{ backgroundColor: "var(--bg-accent)", border: "1px solid var(--border-color)" }}>
                     <p style={{ color: "var(--primary-color)", fontWeight: 600, fontSize: "1.1rem" }}>
-                      {isReverse ? item.english : item.portuguese}
+                      {item.translationEn}
                     </p>
                   </div>
                 )}
                 
-                {item.exampleEn && (
-                  <div className="vocab-examples mt-3">
-                    <p className="vocab-example-en italic text-gray-700">"{item.exampleEn}"</p>
-                    {isRevealed && item.examplePt && <p className="text-gray-500 text-sm mt-1">{item.examplePt}</p>}
-                  </div>
-                )}
-
                 <div className="mt-3">
                   <textarea 
                     placeholder="Suas anotações..." 

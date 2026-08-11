@@ -73,6 +73,44 @@ export const scenarios2: Scenario[] = [
       { question: 'What do you wear on your feet?', options: ["Gloves", "Hats", "Shirts", "Shoes"], correctIndex: 3, explanation: 'You wear Shoes (sapatos) on your feet.' },
       { question: 'How do you say "Quanto custa?"', options: ["How many is it?", "How much is it?", "What price?", "How to pay?"], correctIndex: 1, explanation: '"How much is it?" is the most natural way to ask the price.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You use a fitting room to eat.", statementPt: "Você usa um provador para comer.", isTrue: false, explanation: "You use a fitting room to try on clothes (experimentar roupas)." },
+      { statement: "A wallet is where you keep your money.", statementPt: "Uma carteira é onde você guarda seu dinheiro.", isTrue: true, explanation: "Wallet means carteira." },
+      { statement: "When something is on sale, it is usually cheaper.", statementPt: "Quando algo está em promoção, geralmente é mais barato.", isTrue: true, explanation: "Sale means promoção, cheap means barato." },
+      { statement: "A customer sells things in the store.", statementPt: "Um cliente vende coisas na loja.", isTrue: false, explanation: "A customer (cliente) buys things. The seller (vendedor) sells them." },
+      { statement: "You wear shoes on your feet.", statementPt: "Você usa sapatos nos seus pés.", isTrue: true, explanation: "Shoes means sapatos." },
+        { statement: "A cashier is the person you pay.", statementPt: "O caixa é a pessoa que você paga.", isTrue: true, explanation: "Cashier means caixa (pessoa)." }
+      ],
+      part2: [
+        { statement: "A wallet is where you keep money.", statementPt: "Uma carteira é onde você guarda dinheiro.", isTrue: true, explanation: "Wallet means carteira." },
+        { statement: "A credit card is made of paper.", statementPt: "Um cartão de crédito é feito de papel.", isTrue: false, explanation: "Credit cards are made of plastic." },
+        { statement: "A receipt is proof you paid.", statementPt: "Um recibo é a prova de que você pagou.", isTrue: true, explanation: "Receipt means recibo." },
+        { statement: "You wear a medium size if you are very big.", statementPt: "Você usa tamanho médio se você é muito grande.", isTrue: false, explanation: "Large is for big sizes, medium is in the middle." },
+        { statement: "A fitting room is where you eat in a store.", statementPt: "Um provador é onde você come na loja.", isTrue: false, explanation: "A fitting room is where you try on clothes." },
+        { statement: "When something is on sale, it is cheaper.", statementPt: "Quando algo está na promoção, é mais barato.", isTrue: true, explanation: "On sale means na promoção." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you go to the shopping mall often?", translation: "Você vai ao shopping frequentemente?" },
+        { question: "Do you like to buy cheap or expensive things?", translation: "Você gosta de comprar coisas baratas ou caras?" },
+        { question: "Do you usually ask for a discount when you buy something?", translation: "Você costuma pedir um desconto quando compra algo?" },
+        { question: "Where do you pay for your items in a store?", translation: "Onde você paga pelos seus itens em uma loja?" },
+        { question: "Do you often visit the store near your house?", translation: "Você visita frequentemente a loja perto da sua casa?" },
+        { question: "Do you think food is expensive in your city?", translation: "Você acha que a comida é cara na sua cidade?" },
+        { question: "Do you know anyone who works as a cashier?", translation: "Você conhece alguém que trabalha como caixa?" }
+      ],
+      part2: [
+        { question: "Do you use a credit card or a wallet?", translation: "Você usa cartão de crédito ou carteira?" },
+        { question: "What size clothes do you usually wear: small, medium, or large?", translation: "Que tamanho de roupa você costuma usar: pequeno, médio ou grande?" },
+        { question: "Do you always use the fitting room before buying clothes?", translation: "Você sempre usa o provador antes de comprar roupas?" },
+        { question: "Do you like buying clothes when they are on sale?", translation: "Você gosta de comprar roupas quando estão na promoção?" },
+        { question: "Do you ever forget your wallet at home?", translation: "Você já esqueceu sua carteira em casa?" },
+        { question: "Do you prefer small or large bags?", translation: "Você prefere bolsas pequenas ou grandes?" },
+        { question: "Do you keep the receipt when you buy shoes?", translation: "Você guarda o recibo quando compra sapatos?" }
+      ]
+    }
   },
   {
     id: "profissoes",
@@ -144,6 +182,44 @@ export const scenarios2: Scenario[] = [
       { question: 'Who protects the citizens and enforces laws?', options: ["Teacher", "Police officer", "Mechanic", "Engineer"], correctIndex: 1, explanation: 'The "Police officer" (Policial) protects citizens.' },
       { question: 'Complete: "She is a very good _____."', options: ["cooker", "chef", "cooking", "cooked"], correctIndex: 1, explanation: 'A professional cook is often called a "Chef".' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "A mechanic fixes cars.", statementPt: "Um mecânico conserta carros.", isTrue: true, explanation: "Mechanic means mecânico." },
+      { statement: "A pilot works in a hospital.", statementPt: "Um piloto trabalha em um hospital.", isTrue: false, explanation: "A pilot flies airplanes. A doctor or nurse works in a hospital." },
+      { statement: "Your boss is the person who manages you at work.", statementPt: "Seu chefe é a pessoa que te gerencia no trabalho.", isTrue: true, explanation: "Boss means chefe." },
+      { statement: "A lawyer cooks food in a restaurant.", statementPt: "Um advogado cozinha comida em um restaurante.", isTrue: false, explanation: "A chef cooks food. A lawyer (advogado) works with the law." },
+      { statement: "Salary is the money you get for your job.", statementPt: "Salário é o dinheiro que você recebe pelo seu trabalho.", isTrue: true, explanation: "Salary means salário." },
+        { statement: "A doctor helps sick people.", statementPt: "Um médico ajuda pessoas doentes.", isTrue: true, explanation: "Doctor means médico." }
+      ],
+      part2: [
+        { statement: "An engineer builds things.", statementPt: "Um engenheiro constrói coisas.", isTrue: true, explanation: "Engineer means engenheiro." },
+        { statement: "A pilot works in a hospital.", statementPt: "Um piloto trabalha em um hospital.", isTrue: false, explanation: "A pilot works in airplanes." },
+        { statement: "A boss is the person in charge.", statementPt: "Um chefe é a pessoa no comando.", isTrue: true, explanation: "Boss means chefe." },
+        { statement: "An employee works for a boss.", statementPt: "Um empregado trabalha para um chefe.", isTrue: true, explanation: "Employee means empregado." },
+        { statement: "A lawyer fixes cars.", statementPt: "Um advogado conserta carros.", isTrue: false, explanation: "A mechanic fixes cars." },
+        { statement: "A meeting is when people talk about work.", statementPt: "Uma reunião é quando as pessoas falam sobre o trabalho.", isTrue: true, explanation: "Meeting means reunião." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "What is your job?", translation: "Qual é o seu trabalho?" },
+        { question: "Do you know any good doctors or nurses?", translation: "Você conhece bons médicos ou enfermeiros?" },
+        { question: "Do you think it is hard to be a police officer?", translation: "Você acha que é difícil ser policial?" },
+        { question: "Have you ever worked as a waiter or waitress?", translation: "Você já trabalhou como garçom ou garçonete?" },
+        { question: "Did you have a favorite teacher when you were a student?", translation: "Você tinha um professor favorito quando era estudante?" },
+        { question: "Do you think firefighters are brave?", translation: "Você acha que os bombeiros são corajosos?" },
+        { question: "Are you a good driver?", translation: "Você é um bom motorista?" }
+      ],
+      part2: [
+        { question: "Do you like your boss?", translation: "Você gosta do seu chefe?" },
+        { question: "Do you work in an office?", translation: "Você trabalha em um escritório?" },
+        { question: "Is having a high salary important to you?", translation: "Ter um salário alto é importante para você?" },
+        { question: "Do you have many meetings at work?", translation: "Você tem muitas reuniões no trabalho?" },
+        { question: "Do you know any engineers or mechanics?", translation: "Você conhece algum engenheiro ou mecânico?" },
+        { question: "Would you like to be a pilot?", translation: "Você gostaria de ser um piloto?" },
+        { question: "Do you think employees should get a higher salary?", translation: "Você acha que os empregados deveriam receber um salário maior?" }
+      ]
+    }
   },
   {
     id: "lugares",
@@ -215,6 +291,44 @@ export const scenarios2: Scenario[] = [
       { question: 'What does "Street" mean?', options: ["Parque", "Cidade", "Rua", "Avenida"], correctIndex: 2, explanation: '"Street" translates to Rua.' },
       { question: 'Complete: "Turn _____ at the next traffic light."', options: ["straight", "front", "left", "walk"], correctIndex: 2, explanation: 'You can "turn left" or "turn right".' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You go to a library to buy shoes.", statementPt: "Você vai a uma biblioteca para comprar sapatos.", isTrue: false, explanation: "You go to a library to read or borrow books." },
+      { statement: "A bridge helps you cross a river or road.", statementPt: "Uma ponte te ajuda a cruzar um rio ou estrada.", isTrue: true, explanation: "Bridge means ponte." },
+      { statement: "When the traffic light is red, you must stop.", statementPt: "Quando o semáforo está vermelho, você deve parar.", isTrue: true, explanation: "Traffic light is semáforo, and red means stop." },
+      { statement: "A pharmacy is a place to eat pizza.", statementPt: "Uma farmácia é um lugar para comer pizza.", isTrue: false, explanation: "You buy medicine at a pharmacy. You eat pizza at a restaurant." },
+      { statement: "If a place is near, it is close to you.", statementPt: "Se um lugar é 'near' (perto), ele é próximo de você.", isTrue: true, explanation: "Near means perto." },
+        { statement: "A street is where cars drive.", statementPt: "Uma rua é onde os carros andam.", isTrue: true, explanation: "Street means rua." }
+      ],
+      part2: [
+        { statement: "A library is a place to borrow books.", statementPt: "Uma biblioteca é um lugar para emprestar livros.", isTrue: true, explanation: "Library means biblioteca." },
+        { statement: "You sleep in a museum.", statementPt: "Você dorme em um museu.", isTrue: false, explanation: "You sleep in a hotel." },
+        { statement: "An airport is where planes land and take off.", statementPt: "Um aeroporto é onde os aviões pousam e decolam.", isTrue: true, explanation: "Airport means aeroporto." },
+        { statement: "A pharmacy is where you buy food.", statementPt: "Uma farmácia é onde você compra comida.", isTrue: false, explanation: "You buy medicine at a pharmacy." },
+        { statement: "A bridge goes over a river.", statementPt: "Uma ponte passa por cima de um rio.", isTrue: true, explanation: "Bridge means ponte." },
+        { statement: "You must stop at a red traffic light.", statementPt: "Você deve parar no semáforo vermelho.", isTrue: true, explanation: "Traffic light means semáforo." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you live in a city or a small town?", translation: "Você mora em uma cidade grande ou uma cidade pequena?" },
+        { question: "Is there a park near your house?", translation: "Tem um parque perto da sua casa?" },
+        { question: "How often do you go to a restaurant?", translation: "Com que frequência você vai a um restaurante?" },
+        { question: "When was the last time you went to the bank?", translation: "Quando foi a última vez que você foi ao banco?" },
+        { question: "Do you prefer living in a city or a small town?", translation: "Você prefere morar em uma cidade ou em uma cidadezinha?" },
+        { question: "Is your school or hospital far from here?", translation: "Sua escola ou hospital é longe daqui?" },
+        { question: "Have you ever been to the post office this year?", translation: "Você já foi ao correio este ano?" }
+      ],
+      part2: [
+        { question: "Do you go to the library to study?", translation: "Você vai à biblioteca para estudar?" },
+        { question: "Is there a good museum in your city?", translation: "Tem um bom museu na sua cidade?" },
+        { question: "Are there many traffic lights on your street?", translation: "Tem muitos semáforos na sua rua?" },
+        { question: "Do you like staying in hotels when you travel?", translation: "Você gosta de ficar em hotéis quando viaja?" },
+        { question: "Is there a pharmacy on the corner of your street?", translation: "Tem uma farmácia na esquina da sua rua?" },
+        { question: "Have you ever slept in a hotel at the airport?", translation: "Você já dormiu em um hotel no aeroporto?" },
+        { question: "Do you always stop at the red traffic light?", translation: "Você sempre para no semáforo vermelho?" }
+      ]
+    }
   },
   {
     id: "animais",
@@ -286,6 +400,44 @@ export const scenarios2: Scenario[] = [
       { question: 'How do you say "Andar a cavalo"?', options: ["Drive a horse", "Ride a horse", "Walk a horse", "Play a horse"], correctIndex: 1, explanation: 'We use the verb "Ride" for horses and bikes.' },
       { question: 'Complete: "Max is a very _____ dog."', options: ["friend", "friendly", "friendship", "friends"], correctIndex: 1, explanation: '"Friendly" is the adjective meaning amigável.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "A horse is a very small animal.", statementPt: "Um cavalo é um animal muito pequeno.", isTrue: false, explanation: "A horse (cavalo) is a large animal." },
+      { statement: "Birds can fly in the sky.", statementPt: "Pássaros podem voar no céu.", isTrue: true, explanation: "Bird means pássaro." },
+      { statement: "A vet is a doctor for animals.", statementPt: "Um veterinário é um médico para animais.", isTrue: true, explanation: "Vet is short for veterinarian." },
+      { statement: "Tigers live in the ocean.", statementPt: "Tigres vivem no oceano.", isTrue: false, explanation: "Tigers live on land. Fish live in the ocean." },
+      { statement: "When a dog barks, it makes a sound.", statementPt: "Quando um cachorro late, ele faz um som.", isTrue: true, explanation: "Bark means latir." },
+        { statement: "A cat is a popular pet.", statementPt: "O gato é um animal de estimação popular.", isTrue: true, explanation: "Cat means gato." }
+      ],
+      part2: [
+        { statement: "A lion is called the king of the jungle.", statementPt: "O leão é chamado de rei da selva.", isTrue: true, explanation: "Lion means leão." },
+        { statement: "A spider has six legs.", statementPt: "Uma aranha tem seis pernas.", isTrue: false, explanation: "Spiders have eight legs. Insects have six." },
+        { statement: "A snake has no legs.", statementPt: "Uma cobra não tem pernas.", isTrue: true, explanation: "Snake means cobra." },
+        { statement: "An elephant is a very small animal.", statementPt: "Um elefante é um animal muito pequeno.", isTrue: false, explanation: "An elephant is very big." },
+        { statement: "A monkey likes to climb trees.", statementPt: "Um macaco gosta de subir em árvores.", isTrue: true, explanation: "Monkey means macaco." },
+        { statement: "A vet is a doctor for animals.", statementPt: "Um veterinário é um médico para animais.", isTrue: true, explanation: "Vet means veterinário." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you have any pets?", translation: "Você tem animais de estimação?" },
+        { question: "Do you prefer dogs or cats?", translation: "Você prefere cachorros ou gatos?" },
+        { question: "Have you ever ridden a horse?", translation: "Você já andou a cavalo?" },
+        { question: "Do you like to watch birds?", translation: "Você gosta de observar pássaros?" },
+        { question: "Have you ever seen a pig or a cow on a farm?", translation: "Você já viu um porco ou uma vaca em uma fazenda?" },
+        { question: "Are you afraid of seeing a mouse in your house?", translation: "Você tem medo de ver um rato na sua casa?" },
+        { question: "Do you like eating fish?", translation: "Você gosta de comer peixe?" }
+      ],
+      part2: [
+        { question: "Are you afraid of spiders or snakes?", translation: "Você tem medo de aranhas ou cobras?" },
+        { question: "What is your favorite wild animal: a lion, tiger, or elephant?", translation: "Qual é o seu animal selvagem favorito: um leão, tigre ou elefante?" },
+        { question: "Have you ever taken your pet to the vet?", translation: "Você já levou seu animal de estimação ao veterinário?" },
+        { question: "Does your dog bark a lot?", translation: "O seu cachorro late muito?" },
+        { question: "Did a mosquito ever bite you?", translation: "Um mosquito já te picou?" },
+        { question: "Have you seen a monkey in the zoo?", translation: "Você já viu um macaco no zoológico?" },
+        { question: "Do you kill an insect when you see one?", translation: "Você mata um inseto quando vê um?" }
+      ]
+    }
   },
   {
     id: "culinaria",
@@ -357,6 +509,44 @@ export const scenarios2: Scenario[] = [
       { question: 'Complete: "Do we have all the _____ for the cake?"', options: ["books", "ingredients", "spoons", "receipts"], correctIndex: 1, explanation: 'You need ingredients to make a cake.' },
       { question: 'Translate "Forno".', options: ["Stove", "Fridge", "Oven", "Microwave"], correctIndex: 2, explanation: '"Forno" translates to Oven.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You need ingredients to follow a recipe.", statementPt: "Você precisa de ingredientes para seguir uma receita.", isTrue: true, explanation: "Ingredients means ingredientes, recipe means receita." },
+      { statement: "A fork is used to cut meat.", statementPt: "Um garfo é usado para cortar carne.", isTrue: false, explanation: "A knife (faca) is used to cut. A fork (garfo) is used to pick up food." },
+      { statement: "To boil water, you need to make it very hot.", statementPt: "Para ferver água, você precisa deixá-la muito quente.", isTrue: true, explanation: "Boil means ferver." },
+      { statement: "Sweet food has a lot of salt in it.", statementPt: "Comida doce tem muito sal nela.", isTrue: false, explanation: "Sweet (doce) food has sugar. Salty (salgada) food has salt." },
+      { statement: "You bake a cake in the oven.", statementPt: "Você assa um bolo no forno.", isTrue: true, explanation: "Bake means assar, oven means forno." },
+        { statement: "You eat soup with a spoon.", statementPt: "Você come sopa com uma colher.", isTrue: true, explanation: "Spoon means colher." }
+      ],
+      part2: [
+        { statement: "You bake food in the fridge.", statementPt: "Você assa a comida na geladeira.", isTrue: false, explanation: "You bake food in the oven (forno)." },
+        { statement: "To fry means to cook in oil.", statementPt: "Fritar significa cozinhar em óleo.", isTrue: true, explanation: "Fry means fritar." },
+        { statement: "Sweet food has a lot of sugar.", statementPt: "Comida doce tem muito açúcar.", isTrue: true, explanation: "Sweet means doce." },
+        { statement: "To boil water, you need heat.", statementPt: "Para ferver água, você precisa de calor.", isTrue: true, explanation: "Boil means ferver." },
+        { statement: "You cut food with a spoon.", statementPt: "Você corta a comida com uma colher.", isTrue: false, explanation: "You cut with a knife (faca)." },
+        { statement: "To mix is to combine ingredients.", statementPt: "Misturar é combinar ingredientes.", isTrue: true, explanation: "Mix means misturar." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you use a recipe when you cook?", translation: "Você usa uma receita quando cozinha?" },
+        { question: "What ingredients do you need to make a sandwich?", translation: "Quais ingredientes você precisa para fazer um sanduíche?" },
+        { question: "Do you eat pizza with your hands or with a knife and fork?", translation: "Você come pizza com as mãos ou com faca e garfo?" },
+        { question: "How many plates do you have in your kitchen?", translation: "Quantos pratos você tem na sua cozinha?" },
+        { question: "Do you drink water from a glass or a bottle?", translation: "Você bebe água de um copo ou de uma garrafa?" },
+        { question: "Do you have a large bowl for salads?", translation: "Você tem uma tigela grande para saladas?" },
+        { question: "Do you wash the pans and pots after cooking?", translation: "Você lava as panelas e caçarolas depois de cozinhar?" }
+      ],
+      part2: [
+        { question: "Do you prefer sweet or salty food?", translation: "Você prefere comida doce ou salgada?" },
+        { question: "Do you know how to bake a cake?", translation: "Você sabe assar um bolo?" },
+        { question: "Do you fry or boil your eggs?", translation: "Você frita ou cozinha seus ovos?" },
+        { question: "Is your fridge full of food right now?", translation: "Sua geladeira está cheia de comida agora?" },
+        { question: "Do you often clean your stove?", translation: "Você costuma limpar seu fogão?" },
+        { question: "Can you mix the ingredients quickly?", translation: "Você consegue misturar os ingredientes rapidamente?" },
+        { question: "Do you like the smell of food when you bake something?", translation: "Você gosta do cheiro da comida quando assa algo?" }
+      ]
+    }
   },
   {
     id: "tecnologia",
@@ -428,6 +618,44 @@ export const scenarios2: Scenario[] = [
       { question: 'Complete: "I forgot my Wi-Fi _____."', options: ["app", "charger", "password", "screen"], correctIndex: 2, explanation: 'You need a password to access private Wi-Fi.' },
       { question: 'How do you ask for a charger?', options: ["Where is your laptop?", "Do you have a charger?", "Is the internet slow?", "What is the app?"], correctIndex: 1, explanation: '"Do you have a charger?" asks if the person possesses one.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You use a keyboard to type words.", statementPt: "Você usa um teclado para digitar palavras.", isTrue: true, explanation: "Keyboard means teclado." },
+      { statement: "A screen is where you hear sounds.", statementPt: "Uma tela é onde você ouve sons.", isTrue: false, explanation: "A screen (tela) is for seeing images. You hear sounds with headphones or speakers." },
+      { statement: "You need a charger when your battery is low.", statementPt: "Você precisa de um carregador quando sua bateria está fraca.", isTrue: true, explanation: "Charger means carregador." },
+      { statement: "To delete a file means to save it forever.", statementPt: "Apagar um arquivo significa salvá-lo para sempre.", isTrue: false, explanation: "Delete means apagar/remover." },
+      { statement: "A password protects your account.", statementPt: "Uma senha protege sua conta.", isTrue: true, explanation: "Password means senha." },
+        { statement: "A charger gives battery to your phone.", statementPt: "Um carregador dá bateria ao seu celular.", isTrue: true, explanation: "Charger means carregador." }
+      ],
+      part2: [
+        { statement: "You use a password to lock your house.", statementPt: "Você usa uma senha para trancar sua casa.", isTrue: false, explanation: "You use a key. A password is for accounts." },
+        { statement: "A website is on the internet.", statementPt: "Um site está na internet.", isTrue: true, explanation: "Website means site." },
+        { statement: "You use an app on your smartphone.", statementPt: "Você usa um aplicativo no seu celular.", isTrue: true, explanation: "App means aplicativo." },
+        { statement: "To download means to send a file to the internet.", statementPt: "Fazer o download significa enviar um arquivo para a internet.", isTrue: false, explanation: "Download means to get a file. Upload is to send." },
+        { statement: "A folder helps you organize files.", statementPt: "Uma pasta ajuda você a organizar arquivos.", isTrue: true, explanation: "Folder means pasta." },
+        { statement: "To delete a file means to remove it.", statementPt: "Apagar um arquivo significa removê-lo.", isTrue: true, explanation: "Delete means apagar." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you use a laptop or a desktop computer at home?", translation: "Você usa um notebook ou computador de mesa em casa?" },
+        { question: "Is your smartphone screen big or small?", translation: "A tela do seu celular é grande ou pequena?" },
+        { question: "Do you always carry your phone charger with you?", translation: "Você sempre leva seu carregador de celular com você?" },
+        { question: "Is your internet connection fast?", translation: "Sua conexão de internet é rápida?" },
+        { question: "Do you use a tablet to watch videos?", translation: "Você usa um tablet para assistir vídeos?" },
+        { question: "Is your smartphone battery good?", translation: "A bateria do seu celular é boa?" },
+        { question: "Do you know how to type fast on the keyboard?", translation: "Você sabe digitar rápido no teclado?" }
+      ],
+      part2: [
+        { question: "Do you remember all your passwords?", translation: "Você lembra de todas as suas senhas?" },
+        { question: "How many apps do you have on your phone?", translation: "Quantos aplicativos você tem no seu celular?" },
+        { question: "Do you check your email every day?", translation: "Você checa seu email todo dia?" },
+        { question: "Do you often download movies or music?", translation: "Você baixa filmes ou música com frequência?" },
+        { question: "Do you always delete old photos from your phone?", translation: "Você sempre apaga fotos antigas do seu celular?" },
+        { question: "Do you have a special folder for your documents?", translation: "Você tem uma pasta especial para seus documentos?" },
+        { question: "Do you visit many websites every day?", translation: "Você visita muitos sites todos os dias?" }
+      ]
+    }
   },
   {
     id: "redes-sociais",
@@ -499,5 +727,43 @@ export const scenarios2: Scenario[] = [
       { question: 'What is the action of uploading a picture to your feed?', options: ["Download", "Post", "Like", "Scroll"], correctIndex: 1, explanation: 'To upload and display a picture is to "Post".' },
       { question: 'Translate: "Eu sigo ela."', options: ["I see her.", "I follow her.", "I like her.", "I share her."], correctIndex: 1, explanation: '"Follow" means seguir.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You scroll your feed to see new posts.", statementPt: "Você rola seu feed para ver novas publicações.", isTrue: true, explanation: "Scroll means rolar a tela, feed is linha do tempo." },
+      { statement: "When a video goes viral, nobody watches it.", statementPt: "Quando um vídeo viraliza, ninguém o assiste.", isTrue: false, explanation: "Viral means many people watch and share it." },
+      { statement: "A follower is someone who sees your posts.", statementPt: "Um seguidor é alguém que vê suas publicações.", isTrue: true, explanation: "Follower means seguidor." },
+      { statement: "You use a hashtag to send a private message.", statementPt: "Você usa uma hashtag para enviar uma mensagem privada.", isTrue: false, explanation: "You use a direct message (DM) for private messages." },
+      { statement: "To tag someone is to link their profile in a post.", statementPt: "Marcar alguém é linkar o perfil dela em uma publicação.", isTrue: true, explanation: "Tag means marcar." },
+        { statement: "You share a post to show it to friends.", statementPt: "Você compartilha um post para mostrá-lo aos amigos.", isTrue: true, explanation: "Share means compartilhar." }
+      ],
+      part2: [
+        { statement: "A story is a post that disappears after 24 hours.", statementPt: "Um story é um post que desaparece após 24 horas.", isTrue: true, explanation: "Story means história." },
+        { statement: "An influencer is someone with no followers.", statementPt: "Um influenciador é alguém sem seguidores.", isTrue: false, explanation: "An influencer has many followers." },
+        { statement: "A meme is usually funny.", statementPt: "Um meme geralmente é engraçado.", isTrue: true, explanation: "Meme means meme." },
+        { statement: "If a video goes viral, many people watch it.", statementPt: "Se um vídeo viraliza, muitas pessoas assistem.", isTrue: true, explanation: "Viral means viral." },
+        { statement: "To block someone means you want to see more of them.", statementPt: "Bloquear alguém significa que você quer ver mais da pessoa.", isTrue: false, explanation: "Block means you don't want to see them anymore." },
+        { statement: "A notification tells you about a new message.", statementPt: "Uma notificação avisa você sobre uma nova mensagem.", isTrue: true, explanation: "Notification means notificação." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you follow many famous people online?", translation: "Você segue muitas pessoas famosas online?" },
+        { question: "How many followers do you have on your profile?", translation: "Quantos seguidores você tem no seu perfil?" },
+        { question: "Do you always like and share your friends' posts?", translation: "Você sempre curte e compartilha as publicações dos seus amigos?" },
+        { question: "Do you spend a lot of time scrolling your feed?", translation: "Você passa muito tempo rolando o seu feed?" },
+        { question: "Do you always read the comments on a post?", translation: "Você sempre lê os comentários em uma publicação?" },
+        { question: "Do you prefer sending a message or calling?", translation: "Você prefere enviar uma mensagem ou ligar?" },
+        { question: "Have you ever used a funny hashtag?", translation: "Você já usou uma hashtag engraçada?" }
+      ],
+      part2: [
+        { question: "Do you often post stories?", translation: "Você posta stories com frequência?" },
+        { question: "Is your account public or private?", translation: "Sua conta é pública ou privada?" },
+        { question: "Do you receive many notifications on your phone?", translation: "Você recebe muitas notificações no celular?" },
+        { question: "Have you ever blocked someone?", translation: "Você já bloqueou alguém?" },
+        { question: "Do you laugh at memes on the internet?", translation: "Você ri de memes na internet?" },
+        { question: "Do you follow any digital influencer?", translation: "Você segue algum influenciador digital?" },
+        { question: "Do you keep your phone on silent to avoid notifications?", translation: "Você deixa seu celular no silencioso para evitar notificações?" }
+      ]
+    }
   },
 ];

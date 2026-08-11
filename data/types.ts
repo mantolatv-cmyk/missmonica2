@@ -5,6 +5,11 @@ export interface VocabularyItem {
   examplePt?: string;
 }
 
+export interface UsefulExpression {
+  expressionPt: string;
+  translationEn: string;
+}
+
 export interface FlashcardItem {
   english: string;
   portuguese: string;
@@ -25,6 +30,28 @@ export interface DialogueLine {
   isPrimary?: boolean;
 }
 
+export interface TrueOrFalseItem {
+  statement: string;
+  statementPt: string;
+  isTrue: boolean;
+  explanation: string;
+}
+
+export interface TrueOrFalsePractice {
+  part1: TrueOrFalseItem[];
+  part2: TrueOrFalseItem[];
+}
+
+export interface SpeakingQuestion {
+  question: string;
+  translation: string;
+}
+
+export interface SpeakingPractice {
+  part1: SpeakingQuestion[];
+  part2: SpeakingQuestion[];
+}
+
 export interface Scenario {
   id: string;
   title: string;
@@ -39,4 +66,7 @@ export interface Scenario {
   flashcards: FlashcardItem[];
   quiz: QuizQuestion[];
   dialogue?: DialogueLine[];
+  trueOrFalse?: TrueOrFalsePractice;
+  speakingPractice?: SpeakingPractice;
+  usefulExpressions?: UsefulExpression[];
 }

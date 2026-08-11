@@ -6,13 +6,16 @@ import {
   ArrowLeft, BookOpen, Layers, Brain, Lock, MessageSquare,
   Users, UserPlus, Accessibility, Home, Palette, Trophy,
   ShoppingCart, ShoppingBag, Briefcase, MapPin, PawPrint,
-  ChefHat, Laptop, Share2,
+  ChefHat, Laptop, Share2, CheckSquare, Mic, Lightbulb
 } from "lucide-react";
 import { getScenarioById } from "@/data/scenarios";
 import VocabularyList from "@/components/VocabularyList";
 import Flashcard from "@/components/Flashcard";
 import Quiz from "@/components/Quiz";
 import Dialogue from "@/components/Dialogue";
+import TrueOrFalse from "@/components/TrueOrFalse";
+import SpeakingPractice from "@/components/SpeakingPractice";
+import UsefulExpressions from "@/components/UsefulExpressions";
 
 const iconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
   Users, UserPlus, Accessibility, Home, Palette, Trophy,
@@ -29,7 +32,7 @@ export default function ScenarioPage({ params }: ScenarioPageProps) {
   const router = useRouter();
   const scenario = getScenarioById(id);
 
-  const [activeTab, setActiveTab] = useState<"vocabulary" | "dialogue" | "flashcards" | "quiz">("vocabulary");
+  const [activeTab, setActiveTab] = useState<"vocabulary" | "dialogue" | "flashcards" | "quiz" | "truefalse" | "speaking" | "expressions">("vocabulary");
 
   if (!scenario || !scenario.available) {
     return (
@@ -104,11 +107,34 @@ export default function ScenarioPage({ params }: ScenarioPageProps) {
           <Brain size={16} />
           Quiz
         </button>
+        <button
+          className={`tab-btn ${activeTab === "truefalse" ? "tab-btn-active" : ""}`}
+          onClick={() => setActiveTab("truefalse")}
+        >
+          <CheckSquare size={16} />
+          True / False
+        </button>
+        <button
+          className={`tab-btn ${activeTab === "speaking" ? "tab-btn-active" : ""}`}
+          onClick={() => setActiveTab("speaking")}
+        >
+          <Mic size={16} />
+          Speaking
+        </button>
+        {scenario.usefulExpressions && (
+          <button
+            className={`tab-btn ${activeTab === "expressions" ? "tab-btn-active" : ""}`}
+            onClick={() => setActiveTab("expressions")}
+          >
+            <Lightbulb size={16} />
+            Expressões
+          </button>
+        )}
       </div>
 
       {/* Tab Content */}
       {activeTab === "vocabulary" && (
-        <VocabularyList items={scenario.vocabulary} />
+        <VocabularyList items={scenario.vocabulary} isReverse={scenario.id.startsWith("revisao")} />
       )}
       {activeTab === "dialogue" && scenario.dialogue && (
         <Dialogue lines={scenario.dialogue} />
@@ -118,6 +144,15 @@ export default function ScenarioPage({ params }: ScenarioPageProps) {
       )}
       {activeTab === "quiz" && (
         <Quiz questions={scenario.quiz} />
+      )}
+      {activeTab === "truefalse" && scenario.trueOrFalse && (
+        <TrueOrFalse items={scenario.trueOrFalse} />
+      )}
+      {activeTab === "speaking" && scenario.speakingPractice && (
+        <SpeakingPractice data={scenario.speakingPractice} />
+      )}
+      {activeTab === "expressions" && scenario.usefulExpressions && (
+        <UsefulExpressions items={scenario.usefulExpressions} />
       )}
     </div>
   );

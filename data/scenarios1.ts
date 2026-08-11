@@ -74,6 +74,44 @@ export const scenarios1: Scenario[] = [
       { question: 'What do you call your father\'s brother?', options: ["Grandfather", "Uncle", "Cousin", "Aunt"], correctIndex: 1, explanation: 'Your father\'s brother is your "Uncle" (tio).' },
       { question: 'How do you say "Irmão mais velho"?', options: ["Big cousin", "Older brother", "New brother", "Tall brother"], correctIndex: 1, explanation: '"Older" means "mais velho".' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "Your mother's sister is your aunt.", statementPt: "A irmã da sua mãe é sua tia.", isTrue: true, explanation: "Aunt means tia." },
+      { statement: "A nephew is a girl.", statementPt: "Um sobrinho é uma menina.", isTrue: false, explanation: "Nephew is a boy (sobrinho), niece is a girl (sobrinha)." },
+      { statement: "Parents means relatives.", statementPt: "Parents significa parentes.", isTrue: false, explanation: "Parents means pais (mother and father)." },
+      { statement: "Your mother's mother is your grandmother.", statementPt: "A mãe da sua mãe é sua avó.", isTrue: true, explanation: "Grandmother means avó." },
+      { statement: "A single person has a wife.", statementPt: "Uma pessoa solteira tem uma esposa.", isTrue: false, explanation: "A wife (esposa) means the person is married." },
+        { statement: "A sister is your female sibling.", statementPt: "Uma irmã é a sua irmã do sexo feminino.", isTrue: true, explanation: "Sister means irmã." }
+      ],
+      part2: [
+        { statement: "A husband is a female spouse.", statementPt: "Um marido é uma esposa do sexo feminino.", isTrue: false, explanation: "Husband is a male spouse (marido)." },
+        { statement: "Your sister's son is your nephew.", statementPt: "O filho da sua irmã é seu sobrinho.", isTrue: true, explanation: "Nephew means sobrinho." },
+        { statement: "Your brother's daughter is your niece.", statementPt: "A filha do seu irmão é sua sobrinha.", isTrue: true, explanation: "Niece means sobrinha." },
+        { statement: "A daughter is a male child.", statementPt: "Uma filha é uma criança do sexo masculino.", isTrue: false, explanation: "Daughter is a female child (filha)." },
+        { statement: "Your son's son is your grandson.", statementPt: "O filho do seu filho é seu neto.", isTrue: true, explanation: "Grandson means neto." },
+        { statement: "Relatives are people in your family.", statementPt: "Parentes são pessoas da sua família.", isTrue: true, explanation: "Relatives means parentes." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you have any brothers or sisters?", translation: "Você tem irmãos ou irmãs?" },
+        { question: "What is your mother's name?", translation: "Qual é o nome da sua mãe?" },
+        { question: "How many cousins do you have?", translation: "Quantos primos você tem?" },
+        { question: "Do your grandparents live near you?", translation: "Seus avós moram perto de você?" },
+        { question: "Do your parents work every day?", translation: "Seus pais trabalham todos os dias?" },
+        { question: "Who is the youngest brother or sister in your family?", translation: "Quem é o irmão ou irmã mais novo(a) na sua família?" },
+        { question: "Do you look like your father or your mother?", translation: "Você se parece com seu pai ou com sua mãe?" }
+      ],
+      part2: [
+        { question: "Are you single or married?", translation: "Você é solteiro ou casado?" },
+        { question: "Do you have any nephews or nieces?", translation: "Você tem sobrinhos ou sobrinhas?" },
+        { question: "How often do you visit your relatives?", translation: "Com que frequência você visita seus parentes?" },
+        { question: "Do you have a husband or a wife?", translation: "Você tem marido ou esposa?" },
+        { question: "Do you have a big family with many relatives?", translation: "Você tem uma família grande com muitos parentes?" },
+        { question: "How old is your oldest son or daughter?", translation: "Quantos anos tem o seu filho ou filha mais velho(a)?" },
+        { question: "Do you know anyone who just got a new grandson?", translation: "Você conhece alguém que acabou de ter um novo neto?" }
+      ]
+    }
   },
   {
     id: "amigos",
@@ -147,6 +185,44 @@ export const scenarios1: Scenario[] = [
       { question: 'How do you say "A festa é hoje"?', options: ["The party is tomorrow.", "The party is today.", "The party is nice.", "The party is late."], correctIndex: 1, explanation: '"Today" is hoje.' },
       { question: 'What does "Sure!" mean in a conversation?', options: ["Não!", "Talvez!", "Claro!", "Nunca!"], correctIndex: 2, explanation: '"Sure!" is a friendly way to say yes or agree (Claro!).' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "When you argue with a friend, you are happy.", statementPt: "Quando você discute com um amigo, você está feliz.", isTrue: false, explanation: "Argue means discutir/brigar, which usually makes people sad or angry." },
+      { statement: "A secret is something you tell everyone.", statementPt: "Um segredo é algo que você conta para todo mundo.", isTrue: false, explanation: "A secret is something you keep and don't share." },
+      { statement: "If you trust someone, you believe in them.", statementPt: "Se você confia em alguém, você acredita nela.", isTrue: true, explanation: "Trust means confiar." },
+      { statement: "A joke is supposed to be funny.", statementPt: "Uma piada deve ser engraçada.", isTrue: true, explanation: "Joke means piada." },
+      { statement: "When you apologize, you say 'I am sorry'.", statementPt: "Quando você pede desculpas, você diz 'me desculpe'.", isTrue: true, explanation: "Apologize means pedir desculpas." },
+        { statement: "To meet someone means to see them for the first time.", statementPt: "Encontrar alguém significa ver pela primeira vez.", isTrue: true, explanation: "Meet means conhecer ou encontrar." }
+      ],
+      part2: [
+        { statement: "To argue means to agree with someone.", statementPt: "Discutir (argue) significa concordar com alguém.", isTrue: false, explanation: "Argue means to disagree or fight with words." },
+        { statement: "When you forgive someone, you stop being angry.", statementPt: "Quando você perdoa alguém, você para de ficar com raiva.", isTrue: true, explanation: "Forgive means perdoar." },
+        { statement: "A secret is something everyone knows.", statementPt: "Um segredo é algo que todo mundo sabe.", isTrue: false, explanation: "A secret is something hidden from others." },
+        { statement: "A promise is something you say you will definitely do.", statementPt: "Uma promessa é algo que você diz que definitivamente fará.", isTrue: true, explanation: "Promise means promessa." },
+        { statement: "An honest person tells lies.", statementPt: "Uma pessoa honesta conta mentiras.", isTrue: false, explanation: "An honest person tells the truth." },
+        { statement: "If you miss someone, you feel sad they are not here.", statementPt: "Se você sente falta de alguém, você fica triste que a pessoa não está aqui.", isTrue: true, explanation: "Miss means sentir falta." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Who is your best friend?", translation: "Quem é o seu melhor amigo?" },
+        { question: "Where do you usually hang out with your friends?", translation: "Onde você costuma sair com seus amigos?" },
+        { question: "Do you share your secrets with your friends?", translation: "Você compartilha seus segredos com seus amigos?" },
+        { question: "What makes you laugh and smile?", translation: "O que faz você rir e sorrir?" },
+        { question: "Do you talk to your friends every day?", translation: "Você conversa com seus amigos todos os dias?" },
+        { question: "Who is the funniest friend you have?", translation: "Quem é o amigo mais engraçado que você tem?" },
+        { question: "Have you ever helped a friend with a problem?", translation: "Você já ajudou um amigo com um problema?" }
+      ],
+      part2: [
+        { question: "Are you always honest with your friends?", translation: "Você é sempre honesto com seus amigos?" },
+        { question: "Do you easily forgive people when they apologize?", translation: "Você perdoa facilmente as pessoas quando elas pedem desculpas?" },
+        { question: "Can you keep a secret?", translation: "Você consegue guardar um segredo?" },
+        { question: "Tell me a joke!", translation: "Me conte uma piada!" },
+        { question: "Do you miss any friend who lives far away?", translation: "Você sente falta de algum amigo que mora longe?" },
+        { question: "Have you ever broken a promise to a friend?", translation: "Você já quebrou uma promessa para um amigo?" },
+        { question: "Do you support your friends when they are sad?", translation: "Você apoia seus amigos quando eles estão tristes?" }
+      ]
+    }
   },
   {
     id: "corpo",
@@ -219,6 +295,44 @@ export const scenarios1: Scenario[] = [
       { question: 'What do you use to eat food?', options: ["Mouth", "Eye", "Nose", "Ear"], correctIndex: 0, explanation: 'You put food in your mouth (boca).' },
       { question: 'How do you say "Minha cabeça dói"?', options: ["My arm is bad.", "My head hurts.", "My eye is red.", "My leg is broken."], correctIndex: 1, explanation: '"Head" is cabeça, and "hurts" means dói.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You have ten toes in total.", statementPt: "Você tem dez dedos dos pés no total.", isTrue: true, explanation: "Toes are the fingers of your feet, and humans usually have 10." },
+      { statement: "The stomach is located in your head.", statementPt: "O estômago está localizado na sua cabeça.", isTrue: false, explanation: "The stomach is in your belly/abdomen, not your head." },
+      { statement: "You use your ears to see.", statementPt: "Você usa suas orelhas para ver.", isTrue: false, explanation: "You use your eyes (olhos) to see." },
+      { statement: "Your teeth are inside your mouth.", statementPt: "Seus dentes ficam dentro da sua boca.", isTrue: true, explanation: "Teeth (dentes) are in the mouth." },
+      { statement: "The neck connects the head to the body.", statementPt: "O pescoço conecta a cabeça ao corpo.", isTrue: true, explanation: "Neck means pescoço." },
+        { statement: "You smell with your nose.", statementPt: "Você cheira com o seu nariz.", isTrue: true, explanation: "Nose means nariz." }
+      ],
+      part2: [
+        { statement: "Your hand has five fingers.", statementPt: "Sua mão tem cinco dedos.", isTrue: true, explanation: "Finger means dedo da mão." },
+        { statement: "You walk using your arms.", statementPt: "Você caminha usando os seus braços.", isTrue: false, explanation: "You walk with your legs." },
+        { statement: "Your knee is part of your leg.", statementPt: "Seu joelho faz parte da sua perna.", isTrue: true, explanation: "Knee means joelho." },
+        { statement: "You wear shoes on your hands.", statementPt: "Você usa sapatos nas mãos.", isTrue: false, explanation: "You wear shoes on your feet." },
+        { statement: "Your chest is located on your back.", statementPt: "Seu peito fica localizado nas suas costas.", isTrue: false, explanation: "Chest (peito) is on the front. Back (costas) is on the back." },
+        { statement: "The toes are the fingers on your foot.", statementPt: "Os \'toes\' são os dedos do seu pé.", isTrue: true, explanation: "Toe means dedo do pé." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "What color are your eyes?", translation: "De que cor são seus olhos?" },
+        { question: "Is your hair short or long?", translation: "Seu cabelo é curto ou longo?" },
+        { question: "How many teeth do you have?", translation: "Quantos dentes você tem?" },
+        { question: "Do your shoulders hurt after working?", translation: "Seus ombros doem depois de trabalhar?" },
+        { question: "Do you have a big or small nose?", translation: "Você tem um nariz grande ou pequeno?" },
+        { question: "Do you wash your face every morning?", translation: "Você lava seu rosto todas as manhãs?" },
+        { question: "Are your ears sensitive to cold?", translation: "Suas orelhas são sensíveis ao frio?" }
+      ],
+      part2: [
+        { question: "Does your back hurt?", translation: "Sua costa dói?" },
+        { question: "How many fingers are on your left hand?", translation: "Quantos dedos tem na sua mão esquerda?" },
+        { question: "Do you use your legs a lot during the day?", translation: "Você usa muito suas pernas durante o dia?" },
+        { question: "Can you touch your toes?", translation: "Você consegue tocar os dedos dos pés?" },
+        { question: "Do you have strong arms?", translation: "Você tem braços fortes?" },
+        { question: "Does your stomach hurt when you eat too much?", translation: "Seu estômago dói quando você come demais?" },
+        { question: "Do your knees hurt when it rains?", translation: "Seus joelhos doem quando chove?" }
+      ]
+    }
   },
   {
     id: "casa",
@@ -291,6 +405,44 @@ export const scenarios1: Scenario[] = [
       { question: 'Translate "Sala de estar".', options: ["Living room", "Dining room", "Rest room", "Bed room"], correctIndex: 0, explanation: '"Living room" is where people sit and relax.' },
       { question: 'What does "Clean" mean?', options: ["Sujo", "Cozinhar", "Limpar", "Dormir"], correctIndex: 2, explanation: '"Clean" can be a verb meaning limpar or an adjective meaning limpo.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You sleep in the kitchen.", statementPt: "Você dorme na cozinha.", isTrue: false, explanation: "You sleep in the bedroom. The kitchen is for cooking." },
+      { statement: "You sweep the floor when it is dirty.", statementPt: "Você varre o chão quando ele está sujo.", isTrue: true, explanation: "Sweep the floor means varrer o chão." },
+      { statement: "A mirror shows your reflection.", statementPt: "Um espelho mostra o seu reflexo.", isTrue: true, explanation: "Mirror means espelho." },
+      { statement: "You do the laundry to clean your dishes.", statementPt: "Você lava a roupa para limpar seus pratos.", isTrue: false, explanation: "Doing the laundry is for clothes. You do the dishes to clean plates." },
+      { statement: "A garage is a place for your car.", statementPt: "Uma garagem é um lugar para o seu carro.", isTrue: true, explanation: "Garage means garagem." },
+        { statement: "An apartment is a type of home.", statementPt: "Um apartamento é um tipo de moradia.", isTrue: true, explanation: "Apartment means apartamento." }
+      ],
+      part2: [
+        { statement: "You use an iron to cook food.", statementPt: "Você usa um ferro de passar para cozinhar comida.", isTrue: false, explanation: "You use an iron to press clothes." },
+        { statement: "You sweep the floor with a broom.", statementPt: "Você varre o chão com uma vassoura.", isTrue: true, explanation: "Sweep means varrer." },
+        { statement: "To take out the trash means to put garbage outside.", statementPt: "Levar o lixo para fora significa colocar o lixo na rua.", isTrue: true, explanation: "Take out the trash means tirar o lixo." },
+        { statement: "You make the bed before you go to sleep.", statementPt: "Você arruma a cama antes de dormir.", isTrue: false, explanation: "Usually, you make the bed in the morning, after sleeping." },
+        { statement: "When you cook, you make food.", statementPt: "Quando você cozinha, você faz comida.", isTrue: true, explanation: "Cook means cozinhar." },
+        { statement: "A vacuum is used to clean floors and carpets.", statementPt: "Um aspirador é usado para limpar o chão e tapetes.", isTrue: true, explanation: "Vacuum means aspirar." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you live in a house or an apartment?", translation: "Você mora numa casa ou apartamento?" },
+        { question: "How many bedrooms are in your house?", translation: "Quantos quartos tem na sua casa?" },
+        { question: "Do you have a garage or a garden?", translation: "Você tem garagem ou jardim?" },
+        { question: "What do you do in the living room?", translation: "O que você faz na sala de estar?" },
+        { question: "Do you spend a lot of time in your bedroom?", translation: "Você passa muito tempo no seu quarto?" },
+        { question: "Is your kitchen big enough to cook for many people?", translation: "Sua cozinha é grande o suficiente para cozinhar para muitas pessoas?" },
+        { question: "How many bathrooms are in your house?", translation: "Quantos banheiros tem na sua casa?" }
+      ],
+      part2: [
+        { question: "Who does the laundry in your house?", translation: "Quem lava a roupa na sua casa?" },
+        { question: "How many times a week do you take out the trash?", translation: "Quantas vezes por semana você tira o lixo?" },
+        { question: "Do you make your bed every morning?", translation: "Você arruma sua cama toda manhã?" },
+        { question: "Do you like to cook?", translation: "Você gosta de cozinhar?" },
+        { question: "Do you iron your clothes before going out?", translation: "Você passa suas roupas antes de sair?" },
+        { question: "Who vacuums the floor in your house?", translation: "Quem passa aspirador no chão da sua casa?" },
+        { question: "Do you know how to fix a broken chair?", translation: "Você sabe como consertar uma cadeira quebrada?" }
+      ]
+    }
   },
   {
     id: "casa2",
@@ -362,6 +514,44 @@ export const scenarios1: Scenario[] = [
       { question: 'Where do you hang your clothes?', options: ["In the closet", "In the sink", "In the attic", "In the hallway"], correctIndex: 0, explanation: 'You hang clothes in a "Closet" (guarda-roupa/armário).' },
       { question: 'What do you use to wash dishes?', options: ["The ceiling", "The couch", "The sink", "The wall"], correctIndex: 2, explanation: 'You wash dishes in the "Sink" (pia).' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "The ceiling is below your feet.", statementPt: "O teto fica abaixo dos seus pés.", isTrue: false, explanation: "The ceiling (teto) is above your head. The floor is below your feet." },
+      { statement: "You use a mop to clean the floor with water.", statementPt: "Você usa um esfregão/pano para limpar o chão com água.", isTrue: true, explanation: "Mop means passar pano/esfregão." },
+      { statement: "A basement is at the top of the house.", statementPt: "Um porão fica no topo da casa.", isTrue: false, explanation: "The basement (porão) is under the house. The attic (sótão) is at the top." },
+      { statement: "You set the table before you eat.", statementPt: "Você arruma a mesa antes de comer.", isTrue: true, explanation: "Set the table means arrumar a mesa." },
+      { statement: "A closet is used to keep clothes.", statementPt: "Um guarda-roupa é usado para guardar roupas.", isTrue: true, explanation: "Closet means guarda-roupa." },
+        { statement: "You use stairs to go up or down.", statementPt: "Você usa as escadas para subir ou descer.", isTrue: true, explanation: "Stairs means escadas." }
+      ],
+      part2: [
+        { statement: "A sofa is usually in the bathroom.", statementPt: "Um sofá geralmente fica no banheiro.", isTrue: false, explanation: "A sofa is usually in the living room." },
+        { statement: "You look at yourself in a mirror.", statementPt: "Você olha para si mesmo em um espelho.", isTrue: true, explanation: "Mirror means espelho." },
+        { statement: "A sink is used to wash hands.", statementPt: "Uma pia é usada para lavar as mãos.", isTrue: true, explanation: "Sink means pia." },
+        { statement: "You sleep on a toilet.", statementPt: "Você dorme em um vaso sanitário.", isTrue: false, explanation: "You sleep on a bed." },
+        { statement: "A shower is where you bathe.", statementPt: "Um chuveiro é onde você toma banho.", isTrue: true, explanation: "Shower means chuveiro/ducha." },
+        { statement: "A bed is a piece of furniture.", statementPt: "Uma cama é um móvel.", isTrue: true, explanation: "Furniture means móvel(is)." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "What color are the walls in your bedroom?", translation: "Que cor são as paredes do seu quarto?" },
+        { question: "Does your house have an attic or a basement?", translation: "Sua casa tem sótão ou porão?" },
+        { question: "Do you need to use stairs to enter your house?", translation: "Você precisa usar escadas para entrar na sua casa?" },
+        { question: "How many windows are in your living room?", translation: "Quantas janelas tem na sua sala de estar?" },
+        { question: "Do you clean the floor every day?", translation: "Você limpa o chão todos os dias?" },
+        { question: "Is your front door made of wood?", translation: "Sua porta da frente é feita de madeira?" },
+        { question: "Do you have a long hallway in your home?", translation: "Você tem um corredor longo na sua casa?" }
+      ],
+      part2: [
+        { question: "Is your bed big or small?", translation: "Sua cama é grande ou pequena?" },
+        { question: "Do you have a big mirror in your bathroom?", translation: "Você tem um espelho grande no seu banheiro?" },
+        { question: "What is on your table right now?", translation: "O que tem na sua mesa agora?" },
+        { question: "Where do you usually sit? On a chair or on the couch?", translation: "Onde você costuma sentar? Numa cadeira ou no sofá?" },
+        { question: "Do you like the furniture in your house?", translation: "Você gosta dos móveis da sua casa?" },
+        { question: "Do you have a comfortable couch in your living room?", translation: "Você tem um sofá confortável na sua sala de estar?" },
+        { question: "Do you take a long shower in the morning?", translation: "Você toma um banho demorado de manhã?" }
+      ]
+    }
   },
   {
     id: "hobbies",
@@ -433,6 +623,44 @@ export const scenarios1: Scenario[] = [
       { question: 'How do you say "Tempo livre"?', options: ["Free time", "Good time", "Play time", "Rest time"], correctIndex: 0, explanation: '"Tempo livre" is "Free time".' },
       { question: 'Complete: "Let\'s _____ a movie tonight."', options: ["see", "look", "watch", "read"], correctIndex: 2, explanation: 'We use "watch" for movies and TV.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "When you listen to music, you use a book.", statementPt: "Quando você ouve música, você usa um livro.", isTrue: false, explanation: "You use a book to read, not to listen to music." },
+      { statement: "Hiking is usually done in nature.", statementPt: "Fazer trilha é geralmente feito na natureza.", isTrue: true, explanation: "Hiking means caminhar na natureza/trilha." },
+      { statement: "If you like to draw, you might need a pencil.", statementPt: "Se você gosta de desenhar, você pode precisar de um lápis.", isTrue: true, explanation: "Draw means desenhar." },
+      { statement: "Gardening involves working with plants.", statementPt: "Jardinar envolve trabalhar com plantas.", isTrue: true, explanation: "Gardening means jardinar." },
+      { statement: "To play video games, you only need a kitchen.", statementPt: "Para jogar videogame, você só precisa de uma cozinha.", isTrue: false, explanation: "You need a console or PC, not a kitchen." },
+        { statement: "When you paint, you use colors.", statementPt: "Quando você pinta, você usa cores.", isTrue: true, explanation: "Paint means pintar." }
+      ],
+      part2: [
+        { statement: "You play the guitar with your feet.", statementPt: "Você toca violão com seus pés.", isTrue: false, explanation: "You play the guitar with your hands." },
+        { statement: "To travel means to visit different places.", statementPt: "Viajar significa visitar lugares diferentes.", isTrue: true, explanation: "Travel means viajar." },
+        { statement: "When you camp, you usually sleep in a tent.", statementPt: "Quando você acampa, geralmente dorme em uma barraca.", isTrue: true, explanation: "Camp means acampar." },
+        { statement: "Fishing is catching birds in the sky.", statementPt: "Pescar é pegar pássaros no céu.", isTrue: false, explanation: "Fishing is catching fish in the water." },
+        { statement: "Hiking involves walking in nature.", statementPt: "Fazer trilha envolve caminhar na natureza.", isTrue: true, explanation: "Hike means fazer trilha/caminhada." },
+        { statement: "You use a camera to take photos.", statementPt: "Você usa uma câmera para tirar fotos.", isTrue: true, explanation: "Take photos means tirar fotos." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "What do you do in your free time?", translation: "O que você faz no seu tempo livre?" },
+        { question: "Do you like to read books or watch movies?", translation: "Você gosta de ler livros ou assistir filmes?" },
+        { question: "Can you sing or dance well?", translation: "Você canta ou dança bem?" },
+        { question: "What kind of music do you listen to?", translation: "Que tipo de música você escuta?" },
+        { question: "Do you have a favorite hobby?", translation: "Você tem um hobby favorito?" },
+        { question: "Do you ever paint pictures?", translation: "Você costuma pintar quadros?" },
+        { question: "Do you write in a journal?", translation: "Você escreve em um diário?" }
+      ],
+      part2: [
+        { question: "Do you play any video games?", translation: "Você joga algum videogame?" },
+        { question: "Do you prefer to travel to the beach or the mountains?", translation: "Você prefere viajar para a praia ou para as montanhas?" },
+        { question: "Have you ever gone camping?", translation: "Você já foi acampar?" },
+        { question: "Do you like taking photos of nature?", translation: "Você gosta de tirar fotos da natureza?" },
+        { question: "Do you know how to play the guitar?", translation: "Você sabe tocar violão?" },
+        { question: "Do you ever go fishing on the weekends?", translation: "Você costuma pescar nos fins de semana?" },
+        { question: "Do you prefer to cook or garden?", translation: "Você prefere cozinhar ou cuidar do jardim?" }
+      ]
+    }
   },
   {
     id: "esportes",
@@ -504,6 +732,44 @@ export const scenarios1: Scenario[] = [
       { question: 'How do you ask "Você ganhou?"', options: ["Did you lose?", "Did you play?", "Did you win?", "Did you run?"], correctIndex: 2, explanation: '"Win" means ganhar/vencer.' },
       { question: 'What sport uses a large orange ball and a hoop?', options: ["Soccer", "Tennis", "Basketball", "Golf"], correctIndex: 2, explanation: 'Basketball uses an orange ball thrown into a hoop.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You need a ball to play swimming.", statementPt: "Você precisa de uma bola para jogar natação.", isTrue: false, explanation: "Swimming (natação) is done in the water without a ball." },
+      { statement: "A coach helps the players to improve.", statementPt: "Um treinador ajuda os jogadores a melhorar.", isTrue: true, explanation: "Coach means treinador." },
+      { statement: "If you score a goal in soccer, you get points.", statementPt: "Se você marcar um gol no futebol, você ganha pontos.", isTrue: true, explanation: "Score means marcar pontos/gols." },
+      { statement: "A stadium is usually a small room.", statementPt: "Um estádio é geralmente um quarto pequeno.", isTrue: false, explanation: "A stadium (estádio) is a very large place for many people." },
+      { statement: "The referee controls the game.", statementPt: "O árbitro controla o jogo.", isTrue: true, explanation: "Referee means árbitro/juiz." },
+        { statement: "The coach helps the players train.", statementPt: "O treinador ajuda os jogadores a treinar.", isTrue: true, explanation: "Coach means treinador." }
+      ],
+      part2: [
+        { statement: "Soccer is played with the hands.", statementPt: "Futebol é jogado com as mãos.", isTrue: false, explanation: "Soccer is played mainly with the feet." },
+        { statement: "You swim in a pool.", statementPt: "Você nada em uma piscina.", isTrue: true, explanation: "Swimming means natação/nadar." },
+        { statement: "Tennis is played with a racket.", statementPt: "Tênis é jogado com uma raquete.", isTrue: true, explanation: "Tennis is a sport with rackets." },
+        { statement: "To jump means to stay close to the ground.", statementPt: "Pular significa ficar perto do chão.", isTrue: false, explanation: "Jump means ir para o ar, pular." },
+        { statement: "When you catch a ball, you grab it with your hands.", statementPt: "Quando você pega/agarra uma bola, você a segura com as mãos.", isTrue: true, explanation: "Catch means pegar/agarrar." },
+        { statement: "You throw the ball to pass it.", statementPt: "Você arremessa a bola para passá-la.", isTrue: true, explanation: "Throw means arremessar/jogar." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "What is your favorite sport?", translation: "Qual é o seu esporte favorito?" },
+        { question: "Do you play on any team?", translation: "Você joga em algum time?" },
+        { question: "Are you a big fan of a specific player?", translation: "Você é muito fã de um jogador específico?" },
+        { question: "Do you prefer to win or is playing more important?", translation: "Você prefere ganhar ou jogar é mais importante?" },
+        { question: "Do you feel sad when your team loses?", translation: "Você se sente triste quando o seu time perde?" },
+        { question: "Do you watch sports matches on TV?", translation: "Você assiste partidas de esportes na TV?" },
+        { question: "Are you a fan of any famous player?", translation: "Você é fã de algum jogador famoso?" }
+      ],
+      part2: [
+        { question: "Do you like to watch soccer games?", translation: "Você gosta de assistir jogos de futebol?" },
+        { question: "Can you swim?", translation: "Você sabe nadar?" },
+        { question: "How often do you run or jump?", translation: "Com que frequência você corre ou pula?" },
+        { question: "Have you ever played tennis?", translation: "Você já jogou tênis?" },
+        { question: "Can you throw a ball very far?", translation: "Você consegue jogar uma bola muito longe?" },
+        { question: "Have you ever played volleyball?", translation: "Você já jogou vôlei?" },
+        { question: "Do you know how to kick a ball properly?", translation: "Você sabe chutar uma bola corretamente?" }
+      ]
+    }
   },
   {
     id: "supermercado",
@@ -577,5 +843,43 @@ export const scenarios1: Scenario[] = [
       { question: 'What does the "Cashier" do?', options: ["Cleans the floor", "Cooks food", "Receives the payment", "Drives the bus"], correctIndex: 2, explanation: 'The cashier is the person who receives your payment at the checkout.' },
       { question: 'Complete: "How much does it _____?"', options: ["price", "cost", "pay", "money"], correctIndex: 1, explanation: '"How much does it cost?" is the standard way to ask for the price.' },
     ],
+    trueOrFalse: {
+      part1: [
+        { statement: "You put your groceries in a shopping cart.", statementPt: "Você coloca suas compras em um carrinho de compras.", isTrue: true, explanation: "Shopping cart means carrinho de compras." },
+      { statement: "Frozen food is very hot.", statementPt: "Comida congelada é muito quente.", isTrue: false, explanation: "Frozen means congelado (very cold)." },
+      { statement: "You get a receipt after you pay.", statementPt: "Você recebe um recibo depois de pagar.", isTrue: true, explanation: "Receipt is nota fiscal/recibo." },
+      { statement: "A bakery is where you buy fresh bread.", statementPt: "Uma padaria é onde você compra pão fresco.", isTrue: true, explanation: "Bakery means padaria." },
+      { statement: "You use a scale to cut your vegetables.", statementPt: "Você usa uma balança para cortar seus vegetais.", isTrue: false, explanation: "A scale (balança) is used to weigh things, not cut them." },
+        { statement: "Products are placed on shelves.", statementPt: "Os produtos são colocados em prateleiras.", isTrue: true, explanation: "Shelf (plural: shelves) means prateleira." }
+      ],
+      part2: [
+        { statement: "Fresh food is usually old.", statementPt: "Comida fresca geralmente é velha.", isTrue: false, explanation: "Fresh means fresca/nova." },
+        { statement: "Frozen food is very cold.", statementPt: "Comida congelada é muito fria.", isTrue: true, explanation: "Frozen means congelada." },
+        { statement: "Meat comes from animals.", statementPt: "A carne vem dos animais.", isTrue: true, explanation: "Meat means carne." },
+        { statement: "Dairy products include milk and cheese.", statementPt: "Laticínios incluem leite e queijo.", isTrue: true, explanation: "Dairy means laticínios." },
+        { statement: "You pay with cash using coins and bills.", statementPt: "Você paga com \'cash\' usando moedas e notas.", isTrue: true, explanation: "Cash means dinheiro em espécie." },
+        { statement: "Change is the money the cashier keeps as a tip.", statementPt: "\'Change\' (troco) é o dinheiro que o caixa guarda como gorjeta.", isTrue: false, explanation: "Change is the money given back to you." }
+      ]
+    },
+    speakingPractice: {
+      part1: [
+        { question: "Do you use a shopping cart or a basket at the supermarket?", translation: "Você usa um carrinho ou uma cesta no supermercado?" },
+        { question: "Do you always check the price of things?", translation: "Você sempre checa o preço das coisas?" },
+        { question: "Do you usually bring your own bag?", translation: "Você costuma levar sua própria sacola?" },
+        { question: "Are there many aisles in the supermarket near your house?", translation: "Tem muitos corredores no supermercado perto da sua casa?" },
+        { question: "Do you use a basket when you buy only a few things?", translation: "Você usa uma cesta quando compra poucas coisas?" },
+        { question: "Can you easily reach the top shelf in the supermarket?", translation: "Você consegue alcançar facilmente a prateleira de cima no supermercado?" },
+        { question: "Do you always keep your receipt after you buy?", translation: "Você sempre guarda o seu recibo depois que compra?" }
+      ],
+      part2: [
+        { question: "Do you buy a lot of fresh vegetables?", translation: "Você compra muitos vegetais frescos?" },
+        { question: "Do you prefer to pay in cash or by credit card?", translation: "Você prefere pagar em dinheiro ou no cartão de crédito?" },
+        { question: "Do you buy your bread at the bakery?", translation: "Você compra o seu pão na padaria?" },
+        { question: "How often do you eat frozen food?", translation: "Com que frequência você come comida congelada?" },
+        { question: "Do you eat a lot of fresh fruits?", translation: "Você come muitas frutas frescas?" },
+        { question: "Do you always check if you get the right change?", translation: "Você sempre checa se recebeu o troco certo?" },
+        { question: "Do you buy meat at the supermarket or the butcher?", translation: "Você compra carne no supermercado ou no açougue?" }
+      ]
+    }
   },
 ];
