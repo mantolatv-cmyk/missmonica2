@@ -55,18 +55,6 @@ export const reviewScenarios: Scenario[] = [
       { english: "The kitchen smells like fresh bread.", portuguese: "A cozinha cheira a pão fresco." },
       { english: "We bought a new comfortable sofa.", portuguese: "Nós compramos um novo sofá confortável." }
     ],
-    quiz: [
-      { question: 'What is the correct translation for "Mãe"?', options: ["Friend", "Mother", "Father", "Grandmother"], correctIndex: 1, explanation: '"Mother" is the translation for "Mãe".' },
-      { question: 'Where do you sleep?', options: ["Bathroom", "Kitchen", "Window", "Bedroom"], correctIndex: 3, explanation: 'You sleep in the "Bedroom".' },
-      { question: 'Which body part do you use to see?', options: ["Eyes", "Mouth", "Finger", "Knee"], correctIndex: 0, explanation: 'You see with your "Eyes".' },
-      { question: 'What do you use to clean the floor?', options: ["Chair", "Mirror", "Broom", "Sofa"], correctIndex: 2, explanation: 'You use a "Broom" to sweep the floor.' },
-      { question: 'How do you say "Marido"?', options: ["Father", "Friend", "Husband", "Brother"], correctIndex: 2, explanation: '"Marido" is "Husband".' },
-      { question: 'What is a "Secret"?', options: ["A family member", "Something hidden", "A room in the house", "A piece of furniture"], correctIndex: 1, explanation: 'A "Secret" is something hidden from others.' },
-      { question: 'What do you do when you make a mistake?', options: ["Trust", "Apologize", "Sleep", "Cook"], correctIndex: 1, explanation: 'You "Apologize" (pedir desculpas) when you make a mistake.' },
-      { question: 'Which of these is furniture?', options: ["Sofa", "Knee", "Mouth", "Friend"], correctIndex: 0, explanation: 'A "Sofa" is a piece of furniture.' },
-      { question: 'Where do you cook food?', options: ["Bathroom", "Kitchen", "Bedroom", "Window"], correctIndex: 1, explanation: 'You cook in the "Kitchen".' },
-      { question: 'What do you look at to see your own face?', options: ["Chair", "Broom", "Mirror", "Knee"], correctIndex: 2, explanation: 'You look in the "Mirror" to see yourself.' }
-    ],
     dialogue: [
       { speaker: "A", english: "Mom, where is my friend?", portuguese: "Mãe, onde está meu amigo?", isPrimary: true },
       { speaker: "B", english: "He is in the living room, sitting on the sofa.", portuguese: "Ele está na sala de estar, sentado no sofá.", isPrimary: false },
@@ -123,8 +111,20 @@ export const reviewScenarios: Scenario[] = [
       { expressionPt: "Eu confio no meu melhor amigo.", translationEn: "I trust my best friend." },
       { expressionPt: "A vassoura está na cozinha.", translationEn: "The broom is in the kitchen." },
       { expressionPt: "Me desculpe por quebrar o espelho.", translationEn: "I apologize for breaking the mirror." }
-    ]
-  },
+    ],
+      quiz: [
+            { question: 'Translate: "Meu pai está limpando a cozinha com a vassoura."', options: ["My father is cleaning the bathroom with a mop.", "My father is cleaning the kitchen with a broom.", "My brother is cleaning the kitchen with a broom.", "My husband is cleaning the bedroom with a broom."], correctIndex: 1, explanation: '"Kitchen" is cozinha, and "Broom" is vassoura.' },
+            { question: 'Translate: "Minha mãe e minha avó estão conversando no sofá."', options: ["My mother and my aunt are talking on the chair.", "My grandmother and my friend are sitting on the sofa.", "My mother and my grandmother are talking on the sofa.", "My father and my grandfather are talking on the sofa."], correctIndex: 2, explanation: '"Mother" is mãe, "Grandmother" is avó, and "Sofa" is sofá.' },
+            { question: 'Fill in the blank: "I look at myself in the ________ every morning."', options: ["window", "broom", "kitchen", "mirror"], correctIndex: 3, explanation: 'You look at yourself in a "mirror" (espelho).' },
+            { question: 'Translate: "Você consegue guardar um segredo?"', options: ["Can you keep a secret?", "Can you keep a friend?", "Do you have a secret?", "Can you apologize?"], correctIndex: 0, explanation: '"Secret" is segredo.' },
+            { question: 'Which sentence is logically correct?', options: ["I eat with my eyes and see with my mouth.", "I see with my eyes and eat with my mouth.", "I walk with my mouth and eat with my knee.", "I see with my finger and eat with my knee."], correctIndex: 1, explanation: 'You use "eyes" (olhos) to see, and "mouth" (boca) to eat.' },
+            { question: 'Fill in the blank: "He fell and hurt his ________."', options: ["chair", "sofa", "knee", "window"], correctIndex: 2, explanation: 'He hurt his "knee" (joelho).' },
+            { question: 'Translate: "Por favor, abra a janela do quarto."', options: ["Please open the window of the bathroom.", "Please close the window of the bedroom.", "Please open the door of the bedroom.", "Please open the window of the bedroom."], correctIndex: 3, explanation: '"Window" is janela, and "Bedroom" is quarto.' },
+            { question: 'Complete the dialogue:\\nA: "I broke your favorite cup."\\nB: "You should..."', options: ["apologize.", "trust me.", "sit on the chair.", "go to the kitchen."], correctIndex: 0, explanation: 'When you break something, you should "apologize" (pedir desculpas).' },
+            { question: 'Fill in the blank: "My sister\'s husband is a good ________."', options: ["friend", "grandmother", "bathroom", "broom"], correctIndex: 0, explanation: 'A husband can be a good "friend" (amigo).' },
+            { question: 'Which sentence correctly uses the word "trust"?', options: ["I trust my broom to cook dinner.", "I trust my best friend completely.", "I trust my knee to open the window.", "I trust the sofa to clean the house."], correctIndex: 1, explanation: '"Trust" means confiar. You trust a friend.' },
+          ]
+},
   {
     id: "revisao-2",
     title: "Review 2",
@@ -178,18 +178,6 @@ export const reviewScenarios: Scenario[] = [
       { english: "I put the frozen pizza in the oven.", portuguese: "Eu coloquei a pizza congelada no forno." },
       { english: "Those shoes are on sale right now.", portuguese: "Aqueles sapatos estão na promoção agora mesmo." },
       { english: "The meeting will start in ten minutes.", portuguese: "A reunião vai começar em dez minutos." }
-    ],
-    quiz: [
-      { question: 'What do you use to buy things?', options: ["Music", "Wallet", "Jump", "Teacher"], correctIndex: 1, explanation: 'You keep your money in a "Wallet" to buy things.' },
-      { question: 'Who works in a school?', options: ["Engineer", "Player", "Teacher", "Store"], correctIndex: 2, explanation: 'A "Teacher" works in a school.' },
-      { question: 'What do you use to take photos?', options: ["Camera", "Credit card", "Book", "Meat"], correctIndex: 0, explanation: 'You use a "Camera" to take photos.' },
-      { question: 'What do you put your food in at the supermarket?', options: ["Team", "Meeting", "Shopping cart", "Wallet"], correctIndex: 2, explanation: 'You put your food in a "Shopping cart".' },
-      { question: 'What is the translation for "Viajar"?', options: ["Swimming", "Travel", "Jump", "Job"], correctIndex: 1, explanation: '"Viajar" is "Travel".' },
-      { question: 'Where do you go to buy clothes?', options: ["Store", "Meeting", "Team", "Music"], correctIndex: 0, explanation: 'You buy clothes at a "Store".' },
-      { question: 'Which of these is a sport?', options: ["Engineer", "Book", "Swimming", "Price"], correctIndex: 2, explanation: '"Swimming" is a sport.' },
-      { question: 'What does "On sale" mean?', options: ["Congelado", "Preço", "Na promoção", "Trabalho"], correctIndex: 2, explanation: '"On sale" means "Na promoção".' },
-      { question: 'Who designs buildings or machines?', options: ["Teacher", "Player", "Engineer", "Credit card"], correctIndex: 2, explanation: 'An "Engineer" designs buildings and machines.' },
-      { question: 'What do you do when you hear good music?', options: ["Jump", "Frozen", "Meat", "Price"], correctIndex: 0, explanation: 'You might "Jump" (pular) when you hear good music.' }
     ],
     dialogue: [
       { speaker: "A", english: "Are you ready for the meeting with the engineer?", portuguese: "Você está pronto para a reunião com o engenheiro?", isPrimary: true },
@@ -247,8 +235,20 @@ export const reviewScenarios: Scenario[] = [
       { expressionPt: "O engenheiro tem uma reunião importante.", translationEn: "The engineer has an important meeting." },
       { expressionPt: "Posso pagar com cartão de crédito?", translationEn: "Can I pay with a credit card?" },
       { expressionPt: "O time jogou muito bem.", translationEn: "The team played very well." }
-    ]
-  },
+    ],
+      quiz: [
+            { question: 'Translate: "O carrinho de compras está cheio de carne congelada."', options: ["The shopping cart is full of fresh meat.", "The shopping cart is full of frozen meat.", "The shopping cart is full of frozen vegetables.", "The wallet is full of frozen meat."], correctIndex: 1, explanation: '"Shopping cart" is carrinho de compras, "frozen" is congelada, and "meat" is carne.' },
+            { question: 'Fill in the blank: "The ________ designed a new building for the city."', options: ["teacher", "player", "engineer", "shopping cart"], correctIndex: 2, explanation: 'An "engineer" (engenheiro) designs buildings.' },
+            { question: 'Translate: "Esses sapatos estão na promoção, mas o preço ainda é alto."', options: ["Those shoes are on sale, but the price is still high.", "Those shoes are cheap, but the price is high.", "Those shoes are on sale, but the credit card is full.", "That book is on sale, but the price is high."], correctIndex: 0, explanation: '"On sale" is na promoção, and "price" is preço.' },
+            { question: 'Which sentence describes a "Teacher"?', options: ["Someone who cooks meat at a restaurant.", "Someone who helps students learn new things.", "Someone who plays on a sports team.", "Someone who fixes cameras and wallets."], correctIndex: 1, explanation: 'A "Teacher" (professor) helps students learn.' },
+            { question: 'Fill in the blank: "I forgot my ________, so I can\'t pay for the food."', options: ["music", "meeting", "wallet", "jump"], correctIndex: 2, explanation: 'You keep money in your "wallet" (carteira).' },
+            { question: 'Translate: "Nós vamos viajar para outro país para uma reunião."', options: ["We will travel to another country for a meeting.", "We will go to the store for a meeting.", "We will jump to another country for a meeting.", "We will travel to another country for swimming."], correctIndex: 0, explanation: '"Travel" is viajar, and "meeting" is reunião.' },
+            { question: 'Which sentence correctly uses the word "Camera"?', options: ["I used my camera to buy frozen food.", "I used my camera to listen to music.", "I used my camera to take pictures of our team.", "I used my camera to pay with a credit card."], correctIndex: 2, explanation: 'You use a "camera" (câmera) to take pictures.' },
+            { question: 'Complete the sentence: "The basketball ________ can ________ very high."', options: ["teacher / travel", "engineer / swim", "player / jump", "meeting / jump"], correctIndex: 2, explanation: 'A basketball "player" (jogador) can "jump" (pular).' },
+            { question: 'Translate: "Posso pagar com cartão de crédito nesta loja?"', options: ["Can I pay with money in this store?", "Can I pay with credit card in this meeting?", "Can I pay with credit card in this store?", "Can I buy meat with cash in this store?"], correctIndex: 2, explanation: '"Credit card" is cartão de crédito, and "store" is loja.' },
+            { question: 'Fill in the blank: "Reading a good ________ and listening to ________ relaxes me."', options: ["wallet / meetings", "book / music", "shopping cart / players", "camera / swimming"], correctIndex: 1, explanation: 'You read a "book" (livro) and listen to "music" (música).' },
+          ]
+},
   {
     id: "revisao-3",
     title: "Review 3",
@@ -302,18 +302,6 @@ export const reviewScenarios: Scenario[] = [
       { english: "I am going to bake some chocolate cookies.", portuguese: "Eu vou assar alguns biscoitos de chocolate." },
       { english: "Please delete those old files from your computer.", portuguese: "Por favor, apague aqueles arquivos velhos do seu computador." },
       { english: "I got a notification about the meeting.", portuguese: "Eu recebi uma notificação sobre a reunião." }
-    ],
-    quiz: [
-      { question: 'What is a "Dog"?', options: ["A machine", "An animal", "A food", "A city"], correctIndex: 1, explanation: 'A "Dog" is an animal.' },
-      { question: 'Where do you go when you are sick?', options: ["Airport", "Pan", "Hospital", "Hotel"], correctIndex: 2, explanation: 'You go to a "Hospital" when sick.' },
-      { question: 'What do you use to fry food?', options: ["Smartphone", "Pan", "Internet", "Vet"], correctIndex: 1, explanation: 'You use a "Pan" to fry food.' },
-      { question: 'How do you say "Mensagem" in English?', options: ["Message", "Like", "Bird", "Sweet"], correctIndex: 0, explanation: '"Mensagem" is "Message".' },
-      { question: 'What do planes use to take off?', options: ["Hotel", "Internet", "Airport", "Password"], correctIndex: 2, explanation: 'Planes use an "Airport".' },
-      { question: 'What is a "Vet"?', options: ["An animal doctor", "A type of food", "A social media post", "A building"], correctIndex: 0, explanation: 'A "Vet" is an animal doctor.' },
-      { question: 'What do you do when you "Bake"?', options: ["Morder", "Assar", "Apagar", "Curtir"], correctIndex: 1, explanation: '"Bake" means "Assar".' },
-      { question: 'What protects your digital accounts?', options: ["Notification", "Password", "Influencer", "Message"], correctIndex: 1, explanation: 'A "Password" protects your accounts.' },
-      { question: 'What do you serve food on?', options: ["Plate", "Smartphone", "City", "Hotel"], correctIndex: 0, explanation: 'You serve food on a "Plate".' },
-      { question: 'If you remove a file, what do you do?', options: ["Like", "Bite", "Delete", "Bake"], correctIndex: 2, explanation: 'To remove a file is to "Delete" it.' }
     ],
     dialogue: [
       { speaker: "A", english: "Did you see that influencer's new video on the internet?", portuguese: "Você viu o novo vídeo daquele influenciador na internet?", isPrimary: true },
@@ -371,6 +359,18 @@ export const reviewScenarios: Scenario[] = [
       { expressionPt: "Eu recebi uma mensagem daquele influenciador.", translationEn: "I received a message from that influencer." },
       { expressionPt: "Onde fica o hospital mais próximo?", translationEn: "Where is the nearest hospital?" },
       { expressionPt: "Por favor, não apague este arquivo importante.", translationEn: "Please do not delete this important file." }
-    ]
-  }
+    ],
+      quiz: [
+            { question: 'Translate: "Nós fomos para o hospital na cidade grande."', options: ["We went to the hotel in the small city.", "We went to the airport in the big city.", "We went to the hospital in the big city.", "We went to the vet in the big city."], correctIndex: 2, explanation: '"Hospital" is hospital, and "city" is cidade.' },
+            { question: 'Which sentence is logically correct?', options: ["A dog can bite, and a bird can fly.", "A bird can bite, and a dog can fly.", "A hospital can bite, and a city can fly.", "A pan can bite, and a plate can fly."], correctIndex: 0, explanation: 'A "dog" (cachorro) can "bite" (morder), and a "bird" (pássaro) can fly.' },
+            { question: 'Fill in the blank: "I received a ________ on my ________."', options: ["pan / plate", "notification / smartphone", "vet / hospital", "password / internet"], correctIndex: 1, explanation: 'You receive a "notification" (notificação) on a "smartphone" (celular).' },
+            { question: 'Translate: "Por favor, apague a mensagem e mude sua senha."', options: ["Please delete the message and change your password.", "Please delete the notification and change your smartphone.", "Please like the message and change your password.", "Please send the message and change your password."], correctIndex: 0, explanation: '"Delete" is apagar, "message" is mensagem, and "password" is senha.' },
+            { question: 'What does a "Vet" do?', options: ["Bakes sweet food in the hospital.", "Treats sick animals like dogs and birds.", "Deletes passwords on the internet.", "Flies airplanes at the airport."], correctIndex: 1, explanation: 'A "vet" (veterinário) treats animals.' },
+            { question: 'Fill in the blank: "The famous ________ stayed at a luxury ________."', options: ["influencer / hotel", "dog / pan", "vet / plate", "password / smartphone"], correctIndex: 0, explanation: 'An "influencer" (influenciador) stays at a "hotel" (hotel).' },
+            { question: 'Translate: "Eu vou assar um bolo doce na panela."', options: ["I am going to bake a sweet cake in the pan.", "I am going to bite a sweet cake in the pan.", "I am going to delete a sweet cake in the pan.", "I am going to bake a sweet cake in the city."], correctIndex: 0, explanation: '"Bake" is assar, "sweet" is doce, and "pan" is panela.' },
+            { question: 'Complete the dialogue:\\nA: "Is there free Wi-Fi?"\\nB: "Yes, you need the ________ to connect to the ________."', options: ["password / internet", "message / smartphone", "notification / vet", "plate / airport"], correctIndex: 0, explanation: 'You need a "password" (senha) for the "internet" (internet).' },
+            { question: 'Translate: "Eu curti o vídeo do influenciador na internet."', options: ["I liked the influencer's video on the internet.", "I deleted the influencer's video on the internet.", "I baked the influencer's video on the internet.", "I bit the influencer's video on the internet."], correctIndex: 0, explanation: '"Like" is curtir, and "internet" is internet.' },
+            { question: 'Fill in the blank: "We must arrive at the ________ early for our flight."', options: ["hospital", "hotel", "airport", "city"], correctIndex: 2, explanation: 'You go to the "airport" (aeroporto) to catch a flight.' },
+          ]
+}
 ];
