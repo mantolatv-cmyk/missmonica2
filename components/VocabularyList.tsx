@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { BookOpen, Eye, EyeOff } from "lucide-react";
-import type { VocabularyItem } from "@/data/scenarios";
+import type { VocabularyItem } from "@/data/types";
 
 interface VocabularyListProps {
   items: VocabularyItem[];
@@ -11,6 +11,7 @@ interface VocabularyListProps {
 
 export default function VocabularyList({ items, isReverse = false }: VocabularyListProps) {
   const [revealed, setRevealed] = useState<Record<number, boolean>>({});
+  const [level, setLevel] = useState<'A1' | 'A2' | 'B1'>('A1');
 
   const toggleReveal = (index: number) => {
     setRevealed(prev => ({ ...prev, [index]: !prev[index] }));
@@ -18,14 +19,38 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
 
   return (
     <div className="vocabulary-section">
-      <h2 className="section-title">
-        <span className="section-title-icon"><BookOpen size={22} /></span>
-        Vocabulário Essencial
-        <span className="section-subtitle">Essential Vocabulary</span>
-      </h2>
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+        <h2 className="section-title !mb-0">
+          <span className="section-title-icon"><BookOpen size={22} /></span>
+          Vocabulário Essencial
+          <span className="section-subtitle">Essential Vocabulary</span>
+        </h2>
+        <div className="flex bg-gray-100 p-1 rounded-lg mt-4 sm:mt-0 overflow-x-auto">
+          <button 
+            onClick={() => setLevel('A1')}
+            className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'A1' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+          >
+            Nível A1
+          </button>
+          <button 
+            onClick={() => setLevel('A2')}
+            className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'A2' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+          >
+            Nível A2
+          </button>
+          <button 
+            onClick={() => setLevel('B1')}
+            className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'B1' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+          >
+            Nível B1
+          </button>
+        </div>
+      </div>
       <div className="vocabulary-list">
         {items.map((item, index) => {
           const isRevealed = revealed[index];
+          const currentLevelData = item.levels?.[level];
+          
           return (
             <div
               key={index}
@@ -60,10 +85,10 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
                   </div>
                 )}
                 
-                {item.exampleEn && (
+                {currentLevelData && currentLevelData.en && (
                   <div className="vocab-examples mt-3">
-                    <p className="vocab-example-en italic text-gray-700">"{item.exampleEn}"</p>
-                    {isRevealed && item.examplePt && <p className="text-gray-500 text-sm mt-1">{item.examplePt}</p>}
+                    <p className="vocab-example-en italic text-gray-700">"{currentLevelData.en}"</p>
+                    {isRevealed && currentLevelData.pt && <p className="text-gray-500 text-sm mt-1">{currentLevelData.pt}</p>}
                   </div>
                 )}
 

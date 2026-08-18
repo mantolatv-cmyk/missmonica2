@@ -6,9 +6,10 @@ import type { TrueOrFalsePractice, TrueOrFalseItem } from "@/data/types";
 
 interface TrueOrFalseProps {
   items: TrueOrFalsePractice;
+  itemsLevel2?: TrueOrFalsePractice;
 }
 
-export default function TrueOrFalse({ items }: TrueOrFalseProps) {
+export default function TrueOrFalse({ items, itemsLevel2 }: TrueOrFalseProps) {
   const [activePart, setActivePart] = useState<"part1" | "part2" | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<boolean | null>(null);
@@ -16,8 +17,10 @@ export default function TrueOrFalse({ items }: TrueOrFalseProps) {
   const [showTranslation, setShowTranslation] = useState(false);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
+  const [level, setLevel] = useState<1 | 2>(1);
 
-  const currentQuestions = activePart === "part1" ? items.part1 : activePart === "part2" ? items.part2 : [];
+  const activeItems = level === 1 ? items : (itemsLevel2 || items);
+  const currentQuestions = activePart === "part1" ? activeItems.part1 : activePart === "part2" ? activeItems.part2 : [];
   const current = currentQuestions[currentIndex];
   const isCorrect = selectedAnswer === current?.isTrue;
 
@@ -58,11 +61,29 @@ export default function TrueOrFalse({ items }: TrueOrFalseProps) {
   if (!activePart) {
     return (
       <div className="quiz-section">
-        <h2 className="section-title">
-          <span className="section-title-icon"><CheckSquare size={22} /></span>
-          True or False
-          <span className="section-subtitle">Choose a part</span>
-        </h2>
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+          <h2 className="section-title !mb-0">
+            <span className="section-title-icon"><CheckSquare size={22} /></span>
+            True or False
+            <span className="section-subtitle">Choose a part</span>
+          </h2>
+          {itemsLevel2 && (
+            <div className="flex bg-gray-100 p-1 rounded-lg mt-4 sm:mt-0 overflow-x-auto">
+              <button 
+                onClick={() => { setLevel(1); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 1 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível 1
+              </button>
+              <button 
+                onClick={() => { setLevel(2); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 2 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível 2
+              </button>
+            </div>
+          )}
+        </div>
         <div className="quiz-card" style={{ textAlign: "center" }}>
           <p style={{ color: "var(--text-secondary)", marginBottom: "2rem" }}>
             Pratique a sua compreensão! Escolha a parte que deseja praticar.
@@ -104,11 +125,35 @@ export default function TrueOrFalse({ items }: TrueOrFalseProps) {
 
     return (
       <div className="quiz-section">
-        <h2 className="section-title">
-          <span className="section-title-icon"><CheckSquare size={22} /></span>
-          True or False
-          <span className="section-subtitle">Results</span>
-        </h2>
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+          <h2 className="section-title !mb-0">
+            <span className="section-title-icon"><CheckSquare size={22} /></span>
+            True or False
+            <span className="section-subtitle">Test your knowledge</span>
+          </h2>
+          {itemsLevel2 && (
+            <div className="flex bg-gray-100 p-1 rounded-lg mt-4 sm:mt-0 overflow-x-auto">
+              <button 
+                onClick={() => { setLevel(1); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 1 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível 1
+              </button>
+              <button 
+                onClick={() => { setLevel(2); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 2 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível 2
+              </button>
+            </div>
+          )}
+        </div>
+
+        <button className="back-button mb-4" onClick={handleRestart} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', color: 'var(--text-secondary)' }}>
+          <ArrowLeft size={18} />
+          Voltar para Seleção
+        </button>
+
         <div className={`quiz-results ${isGreat ? "quiz-results-great" : "quiz-results-ok"}`}>
           <div className="quiz-results-icon">
             {isGreat ? <Trophy size={48} /> : <Sparkles size={48} />}

@@ -6,15 +6,18 @@ import type { SpeakingPractice as SpeakingPracticeType, SpeakingQuestion } from 
 
 interface SpeakingPracticeProps {
   data: SpeakingPracticeType;
+  dataLevel2?: SpeakingPracticeType;
 }
 
-export default function SpeakingPractice({ data }: SpeakingPracticeProps) {
+export default function SpeakingPractice({ data, dataLevel2 }: SpeakingPracticeProps) {
   const [activePart, setActivePart] = useState<"part1" | "part2" | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showTranslation, setShowTranslation] = useState(false);
   const [isFinished, setIsFinished] = useState(false);
+  const [level, setLevel] = useState<1 | 2>(1);
 
-  const currentQuestions = activePart === "part1" ? data.part1 : activePart === "part2" ? data.part2 : [];
+  const activeData = level === 1 ? data : (dataLevel2 || data);
+  const currentQuestions = activePart === "part1" ? activeData.part1 : activePart === "part2" ? activeData.part2 : [];
   const current = currentQuestions[currentIndex];
 
   function handleNext() {
@@ -36,11 +39,29 @@ export default function SpeakingPractice({ data }: SpeakingPracticeProps) {
   if (!activePart) {
     return (
       <div className="quiz-section">
-        <h2 className="section-title">
-          <span className="section-title-icon"><Mic size={22} /></span>
-          Speaking Practice
-          <span className="section-subtitle">Choose a part</span>
-        </h2>
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+          <h2 className="section-title !mb-0">
+            <span className="section-title-icon"><Mic size={22} /></span>
+            Speaking Practice
+            <span className="section-subtitle">Choose a part</span>
+          </h2>
+          {dataLevel2 && (
+            <div className="flex bg-gray-100 p-1 rounded-lg mt-4 sm:mt-0 overflow-x-auto">
+              <button 
+                onClick={() => { setLevel(1); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 1 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível 1
+              </button>
+              <button 
+                onClick={() => { setLevel(2); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 2 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível 2
+              </button>
+            </div>
+          )}
+        </div>
         <div className="quiz-card" style={{ textAlign: "center" }}>
           <p style={{ color: "var(--text-secondary)", marginBottom: "2rem" }}>
             Pratique a sua fala! Escolha a parte que deseja praticar.
@@ -79,11 +100,29 @@ export default function SpeakingPractice({ data }: SpeakingPracticeProps) {
   if (isFinished) {
     return (
       <div className="quiz-section">
-        <h2 className="section-title">
-          <span className="section-title-icon"><Mic size={22} /></span>
-          Speaking Practice
-          <span className="section-subtitle">Results</span>
-        </h2>
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+          <h2 className="section-title !mb-0">
+            <span className="section-title-icon"><Mic size={22} /></span>
+            Speaking Practice
+            <span className="section-subtitle">Results</span>
+          </h2>
+          {dataLevel2 && (
+            <div className="flex bg-gray-100 p-1 rounded-lg mt-4 sm:mt-0 overflow-x-auto">
+              <button 
+                onClick={() => { setLevel(1); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 1 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível 1
+              </button>
+              <button 
+                onClick={() => { setLevel(2); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 2 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível 2
+              </button>
+            </div>
+          )}
+        </div>
         <div className="quiz-results quiz-results-great">
           <div className="quiz-results-icon">
             <Mic size={48} />
@@ -109,11 +148,29 @@ export default function SpeakingPractice({ data }: SpeakingPracticeProps) {
 
   return (
     <div className="quiz-section">
-      <h2 className="section-title">
-        <span className="section-title-icon"><Mic size={22} /></span>
-        Speaking Practice
-        <span className="section-subtitle">{activePart === "part1" ? "Part 1" : "Part 2"}</span>
-      </h2>
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+        <h2 className="section-title !mb-0">
+          <span className="section-title-icon"><Mic size={22} /></span>
+          Speaking Practice
+          <span className="section-subtitle">{activePart === "part1" ? "Part 1" : "Part 2"}</span>
+        </h2>
+        {dataLevel2 && (
+          <div className="flex bg-gray-100 p-1 rounded-lg mt-4 sm:mt-0 overflow-x-auto">
+            <button 
+              onClick={() => { setLevel(1); handleRestart(); }}
+              className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 1 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+            >
+              Nível 1
+            </button>
+            <button 
+              onClick={() => { setLevel(2); handleRestart(); }}
+              className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 2 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+            >
+              Nível 2
+            </button>
+          </div>
+        )}
+      </div>
 
       <div className="quiz-progress-dots">
         {currentQuestions.map((_, i) => (

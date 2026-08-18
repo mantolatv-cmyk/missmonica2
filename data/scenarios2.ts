@@ -12,26 +12,146 @@ export const scenarios2: Scenario[] = [
     color: "sky",
     available: true,
     vocabulary: [
-      { english: "Clothes", portuguese: "Roupas", exampleEn: "I need to buy new clothes.", examplePt: "Preciso comprar roupas novas." },
-      { english: "Shoes", portuguese: "Sapatos", exampleEn: "These shoes are very comfortable.", examplePt: "Estes sapatos são muito confortáveis." },
-      { english: "Size", portuguese: "Tamanho", exampleEn: "What is your size?", examplePt: "Qual é o seu tamanho?" },
-      { english: "Price", portuguese: "Preço", exampleEn: "The price is too high.", examplePt: "O preço está muito alto." },
-      { english: "Try on", portuguese: "Experimentar", exampleEn: "Can I try this on?", examplePt: "Posso experimentar isto?" },
-      { english: "Store / Shop", portuguese: "Loja", exampleEn: "The store opens at 9 AM.", examplePt: "A loja abre às 9 da manhã." },
-      { english: "Fitting room", portuguese: "Provador", exampleEn: "The fitting room is over there.", examplePt: "O provador é ali." },
-      { english: "Sale", portuguese: "Promoção / Liquidação", exampleEn: "Everything is on sale today.", examplePt: "Tudo está em promoção hoje." },
-      { english: "Customer", portuguese: "Cliente", exampleEn: "The customer is always right.", examplePt: "O cliente tem sempre razão." },
-      { english: "Expensive", portuguese: "Caro", exampleEn: "This watch is too expensive.", examplePt: "Este relógio é muito caro." },
-      { english: "Cheap", portuguese: "Barato", exampleEn: "I found a very cheap shirt.", examplePt: "Encontrei uma camisa muito barata." },
-      { english: "Wallet", portuguese: "Carteira", exampleEn: "I left my wallet at home.", examplePt: "Deixei minha carteira em casa." },
-      { english: "Credit card", portuguese: "Cartão de crédito", exampleEn: "Do you accept credit card?", examplePt: "Você aceita cartão de crédito?" },
-      { english: "Cash", portuguese: "Dinheiro (espécie)", exampleEn: "I only have cash.", examplePt: "Eu só tenho dinheiro." },
-      { english: "Jacket", portuguese: "Jaqueta", exampleEn: "It is cold, put on a jacket.", examplePt: "Está frio, coloque uma jaqueta." },
-      { english: "Pants", portuguese: "Calças", exampleEn: "I am looking for black pants.", examplePt: "Estou procurando calças pretas." },
-      { english: "Dress", portuguese: "Vestido", exampleEn: "She bought a red dress.", examplePt: "Ela comprou um vestido vermelho." },
-      { english: "Hat", portuguese: "Chapéu / Boné", exampleEn: "Don't forget your hat.", examplePt: "Não esqueça o seu chapéu." },
-      { english: "Mirror", portuguese: "Espelho", exampleEn: "Look in the mirror.", examplePt: "Olhe no espelho." },
-      { english: "Gift", portuguese: "Presente", exampleEn: "This is a gift for you.", examplePt: "Isto é um presente para você." },
+      { english: "Clothes", portuguese: "Roupas",
+          levels: { 
+                        A1: { en: "I need to buy new clothes.", pt: "Preciso comprar roupas novas." }, 
+                        A2: { en: "I need to buy new clothes.", pt: "Preciso comprar roupas novas." }, 
+                        B1: { en: "She bought expensive clothes for the wedding.", pt: "Ela comprou roupas caras para o casamento." } 
+                      }
+    },
+      { english: "Shoes", portuguese: "Sapatos",
+          levels: { 
+                        A1: { en: "These shoes are very comfortable.", pt: "Estes sapatos são muito confortáveis." }, 
+                        A2: { en: "These shoes are very comfortable.", pt: "Estes sapatos são muito confortáveis." }, 
+                        B1: { en: "He tried on new shoes at the mall.", pt: "Ele experimentou sapatos novos no shopping." } 
+                      }
+    },
+      { english: "Size", portuguese: "Tamanho",
+          levels: { 
+                        A1: { en: "What is your size?", pt: "Qual é o seu tamanho?" }, 
+                        A2: { en: "What is your size?", pt: "Qual é o seu tamanho?" }, 
+                        B1: { en: "The clerk checked the correct size for the customer.", pt: "O balconista verificou o tamanho correto para o cliente." } 
+                      }
+    },
+      { english: "Price", portuguese: "Preço",
+          levels: { 
+                        A1: { en: "The price is too high.", pt: "O preço está muito alto." }, 
+                        A2: { en: "The price is too high.", pt: "O preço está muito alto." }, 
+                        B1: { en: "She checked the price before adding the item to her cart.", pt: "Ela verificou o preço antes de adicionar o item ao seu carrinho." } 
+                      }
+    },
+      { english: "Try on", portuguese: "Experimentar",
+          levels: { 
+                        A1: { en: "Can I try this on?", pt: "Posso experimentar isto?" }, 
+                        A2: { en: "Can I try this on?", pt: "Posso experimentar isto?" }, 
+                        B1: { en: "She tried on three different dresses.", pt: "Ela experimentou três vestidos diferentes." } 
+                      }
+    },
+      { english: "Store / Shop", portuguese: "Loja",
+          levels: { 
+                        A1: { en: "The store opens at 9 AM.", pt: "A loja abre às 9 da manhã." }, 
+                        A2: { en: "The store opens at 9 AM.", pt: "A loja abre às 9 da manhã." }, 
+                        B1: { en: "They opened a new clothing store downtown.", pt: "Eles abriram uma nova loja de roupas no centro." } 
+                      }
+    },
+      { english: "Fitting room", portuguese: "Provador",
+          levels: { 
+                        A1: { en: "The fitting room is over there.", pt: "O provador é ali." }, 
+                        A2: { en: "The fitting room is over there.", pt: "O provador é ali." }, 
+                        B1: { en: "He waited outside the fitting room for ten minutes.", pt: "Ele esperou do lado de fora do provador por dez minutos." } 
+                      }
+    },
+      { english: "Sale", portuguese: "Promoção / Liquidação",
+          levels: { 
+                        A1: { en: "Everything is on sale today.", pt: "Tudo está em promoção hoje." }, 
+                        A2: { en: "Everything is on sale today.", pt: "Tudo está em promoção hoje." }, 
+                        B1: { en: "I bought this jacket during the winter sale.", pt: "Eu comprei esta jaqueta durante a liquidação de inverno." } 
+                      }
+    },
+      { english: "Customer", portuguese: "Cliente",
+          levels: { 
+                        A1: { en: "The customer is always right.", pt: "O cliente tem sempre razão." }, 
+                        A2: { en: "The customer is always right.", pt: "O cliente tem sempre razão." }, 
+                        B1: { en: "The demanding customer asked to speak with the manager.", pt: "O cliente exigente pediu para falar com o gerente." } 
+                      }
+    },
+      { english: "Expensive", portuguese: "Caro",
+          levels: { 
+                        A1: { en: "This watch is too expensive.", pt: "Este relógio é muito caro." }, 
+                        A2: { en: "This watch is too expensive.", pt: "Este relógio é muito caro." }, 
+                        B1: { en: "That luxury watch cost a lot because it was expensive.", pt: "Aquele relógio de luxo custou muito porque era caro." } 
+                      }
+    },
+      { english: "Cheap", portuguese: "Barato",
+          levels: { 
+                        A1: { en: "I found a very cheap shirt.", pt: "Encontrei uma camisa muito barata." }, 
+                        A2: { en: "I found a very cheap shirt.", pt: "Encontrei uma camisa muito barata." }, 
+                        B1: { en: "He preferred cheap options to save money.", pt: "Ele preferia opções baratas para economizar dinheiro." } 
+                      }
+    },
+      { english: "Wallet", portuguese: "Carteira",
+          levels: { 
+                        A1: { en: "I left my wallet at home.", pt: "Deixei minha carteira em casa." }, 
+                        A2: { en: "I left my wallet at home.", pt: "Deixei minha carteira em casa." }, 
+                        B1: { en: "She lost her leather wallet yesterday.", pt: "Ela perdeu sua carteira de couro ontem." } 
+                      }
+    },
+      { english: "Credit card", portuguese: "Cartão de crédito",
+          levels: { 
+                        A1: { en: "Do you accept credit card?", pt: "Você aceita cartão de crédito?" }, 
+                        A2: { en: "Do you accept credit card?", pt: "Você aceita cartão de crédito?" }, 
+                        B1: { en: "She used her credit card to buy expensive groceries.", pt: "Ela usou seu cartão de crédito para comprar mantimentos caros." } 
+                      }
+    },
+      { english: "Cash", portuguese: "Dinheiro (espécie)",
+          levels: { 
+                        A1: { en: "I only have cash.", pt: "Eu só tenho dinheiro." }, 
+                        A2: { en: "I only have cash.", pt: "Eu só tenho dinheiro." }, 
+                        B1: { en: "He always paid in cash to control his budget.", pt: "Ele sempre pagava em dinheiro para controlar seu orçamento." } 
+                      }
+    },
+      { english: "Jacket", portuguese: "Jaqueta",
+          levels: { 
+                        A1: { en: "It is cold, put on a jacket.", pt: "Está frio, coloque uma jaqueta." }, 
+                        A2: { en: "It is cold, put on a jacket.", pt: "Está frio, coloque uma jaqueta." }, 
+                        B1: { en: "He wore a thick jacket because of the cold wind.", pt: "Ele usou uma jaqueta grossa por causa do vento frio." } 
+                      }
+    },
+      { english: "Pants", portuguese: "Calças",
+          levels: { 
+                        A1: { en: "I am looking for black pants.", pt: "Estou procurando calças pretas." }, 
+                        A2: { en: "I am looking for black pants.", pt: "Estou procurando calças pretas." }, 
+                        B1: { en: "She bought comfortable pants for the trip.", pt: "Ela comprou calças confortáveis para a viagem." } 
+                      }
+    },
+      { english: "Dress", portuguese: "Vestido",
+          levels: { 
+                        A1: { en: "She bought a red dress.", pt: "Ela comprou um vestido vermelho." }, 
+                        A2: { en: "She bought a red dress.", pt: "Ela comprou um vestido vermelho." }, 
+                        B1: { en: "She wore a stunning red dress to the party.", pt: "Ela usou um vestido vermelho deslumbrante na festa." } 
+                      }
+    },
+      { english: "Hat", portuguese: "Chapéu / Boné",
+          levels: { 
+                        A1: { en: "Dont forget your hat.", pt: "Não esqueça o seu chapéu." }, 
+                        A2: { en: "Dont forget your hat.", pt: "Não esqueça o seu chapéu." }, 
+                        B1: { en: "He put on a hat to protect his face from the sun.", pt: "Ele colocou um chapéu para proteger o rosto do sol." } 
+                      }
+    },
+      { english: "Mirror", portuguese: "Espelho",
+          levels: { 
+                        A1: { en: "Look in the mirror.", pt: "Olhe no espelho." }, 
+                        A2: { en: "Look in the mirror.", pt: "Olhe no espelho." }, 
+                        B1: { en: "She looked at herself in the mirror before leaving.", pt: "Ela olhou para si mesma no espelho antes de sair." } 
+                      }
+    },
+      { english: "Gift", portuguese: "Presente",
+          levels: { 
+                        A1: { en: "This is a gift for you.", pt: "Isto é um presente para você." }, 
+                        A2: { en: "This is a gift for you.", pt: "Isto é um presente para você." }, 
+                        B1: { en: "They bought a special gift for their parents.", pt: "Eles compraram um presente especial para os pais deles." } 
+                      }
+    },
     ],
     dialogue: [
       { speaker: "Customer", english: "Excuse me, how much is this shirt?", portuguese: "Com licença, quanto custa esta camisa?", isPrimary: true },
@@ -110,8 +230,20 @@ export const scenarios2: Scenario[] = [
         { question: "Do you prefer small or large bags?", translation: "Você prefere bolsas pequenas ou grandes?" },
         { question: "Do you keep the receipt when you buy shoes?", translation: "Você guarda o recibo quando compra sapatos?" }
       ]
-    }
-  },
+    },
+      buildSentence: {
+                    level1: [ { english: "I need to buy new clothes.", portuguese: "Preciso comprar roupas novas." }, { english: "Can I try this on?", portuguese: "Posso experimentar isto?" }, { english: "The customer is always right.", portuguese: "O cliente tem sempre razão." }, { english: "I found a very cheap shirt.", portuguese: "Encontrei uma camisa muito barata." }, { english: "It is cold, put on a jacket.", portuguese: "Está frio, coloque uma jaqueta." }, { english: "Look in the mirror.", portuguese: "Olhe no espelho." } ],
+                    level2: [ { english: "She bought expensive clothes for the wedding.", portuguese: "Ela comprou roupas caras para o casamento." }, { english: "She tried on three different dresses.", portuguese: "Ela experimentou três vestidos diferentes." }, { english: "The demanding customer asked to speak with the manager.", portuguese: "O cliente exigente pediu para falar com o gerente." }, { english: "He preferred cheap options to save money.", portuguese: "Ele preferia opções baratas para economizar dinheiro." }, { english: "He wore a thick jacket because of the cold wind.", portuguese: "Ele usou uma jaqueta grossa por causa do vento frio." }, { english: "She looked at herself in the mirror before leaving.", portuguese: "Ela olhou para si mesma no espelho antes de sair." } ]
+                  },
+      trueOrFalseLevel2: {
+                    part1: [ { statement: "Clothes means Roupas.", statementPt: "Clothes significa Roupas.", isTrue: true, explanation: "Yes, Clothes means Roupas." }, { statement: "Shoes means a type of car.", statementPt: "Shoes significa um tipo de carro.", isTrue: false, explanation: "No, Shoes means Sapatos." }, { statement: "Size means Tamanho.", statementPt: "Size significa Tamanho.", isTrue: true, explanation: "Yes, Size means Tamanho." }, { statement: "Price means a type of car.", statementPt: "Price significa um tipo de carro.", isTrue: false, explanation: "No, Price means Preço." }, { statement: "Try on means Experimentar.", statementPt: "Try on significa Experimentar.", isTrue: true, explanation: "Yes, Try on means Experimentar." }, { statement: "Store / Shop means a type of car.", statementPt: "Store / Shop significa um tipo de carro.", isTrue: false, explanation: "No, Store / Shop means Loja." }, { statement: "Fitting room means Provador.", statementPt: "Fitting room significa Provador.", isTrue: true, explanation: "Yes, Fitting room means Provador." }, { statement: "Sale means a type of car.", statementPt: "Sale significa um tipo de carro.", isTrue: false, explanation: "No, Sale means Promoção / Liquidação." }, { statement: "Customer means Cliente.", statementPt: "Customer significa Cliente.", isTrue: true, explanation: "Yes, Customer means Cliente." }, { statement: "Expensive means a type of car.", statementPt: "Expensive significa um tipo de carro.", isTrue: false, explanation: "No, Expensive means Caro." } ],
+                    part2: [ { statement: "Cheap means Barato.", statementPt: "Cheap significa Barato.", isTrue: true, explanation: "Yes, Cheap means Barato." }, { statement: "Wallet means a type of car.", statementPt: "Wallet significa um tipo de carro.", isTrue: false, explanation: "No, Wallet means Carteira." }, { statement: "Credit card means Cartão de crédito.", statementPt: "Credit card significa Cartão de crédito.", isTrue: true, explanation: "Yes, Credit card means Cartão de crédito." }, { statement: "Cash means a type of car.", statementPt: "Cash significa um tipo de carro.", isTrue: false, explanation: "No, Cash means Dinheiro (espécie)." }, { statement: "Jacket means Jaqueta.", statementPt: "Jacket significa Jaqueta.", isTrue: true, explanation: "Yes, Jacket means Jaqueta." }, { statement: "Pants means a type of car.", statementPt: "Pants significa um tipo de carro.", isTrue: false, explanation: "No, Pants means Calças." }, { statement: "Dress means Vestido.", statementPt: "Dress significa Vestido.", isTrue: true, explanation: "Yes, Dress means Vestido." }, { statement: "Hat means a type of car.", statementPt: "Hat significa um tipo de carro.", isTrue: false, explanation: "No, Hat means Chapéu / Boné." }, { statement: "Mirror means Espelho.", statementPt: "Mirror significa Espelho.", isTrue: true, explanation: "Yes, Mirror means Espelho." }, { statement: "Gift means a type of car.", statementPt: "Gift significa um tipo de carro.", isTrue: false, explanation: "No, Gift means Presente." } ]
+                  },
+      speakingPracticeLevel2: {
+                    part1: [ { question: "Can you use \"Clothes\" in a sentence in the past simple?", translation: "Você consegue usar \"Clothes\" em uma frase no passado simples?" }, { question: "Can you use \"Shoes\" in a sentence in the past simple?", translation: "Você consegue usar \"Shoes\" em uma frase no passado simples?" }, { question: "Can you use \"Size\" in a sentence in the past simple?", translation: "Você consegue usar \"Size\" em uma frase no passado simples?" }, { question: "Can you use \"Price\" in a sentence in the past simple?", translation: "Você consegue usar \"Price\" em uma frase no passado simples?" }, { question: "Can you use \"Try on\" in a sentence in the past simple?", translation: "Você consegue usar \"Try on\" em uma frase no passado simples?" }, { question: "Can you use \"Store / Shop\" in a sentence in the past simple?", translation: "Você consegue usar \"Store / Shop\" em uma frase no passado simples?" }, { question: "Can you use \"Fitting room\" in a sentence in the past simple?", translation: "Você consegue usar \"Fitting room\" em uma frase no passado simples?" }, { question: "Can you use \"Sale\" in a sentence in the past simple?", translation: "Você consegue usar \"Sale\" em uma frase no passado simples?" }, { question: "Can you use \"Customer\" in a sentence in the past simple?", translation: "Você consegue usar \"Customer\" em uma frase no passado simples?" }, { question: "Can you use \"Expensive\" in a sentence in the past simple?", translation: "Você consegue usar \"Expensive\" em uma frase no passado simples?" } ],
+                    part2: [ { question: "Can you use \"Cheap\" in a sentence in the past simple?", translation: "Você consegue usar \"Cheap\" em uma frase no passado simples?" }, { question: "Can you use \"Wallet\" in a sentence in the past simple?", translation: "Você consegue usar \"Wallet\" em uma frase no passado simples?" }, { question: "Can you use \"Credit card\" in a sentence in the past simple?", translation: "Você consegue usar \"Credit card\" em uma frase no passado simples?" }, { question: "Can you use \"Cash\" in a sentence in the past simple?", translation: "Você consegue usar \"Cash\" em uma frase no passado simples?" }, { question: "Can you use \"Jacket\" in a sentence in the past simple?", translation: "Você consegue usar \"Jacket\" em uma frase no passado simples?" }, { question: "Can you use \"Pants\" in a sentence in the past simple?", translation: "Você consegue usar \"Pants\" em uma frase no passado simples?" }, { question: "Can you use \"Dress\" in a sentence in the past simple?", translation: "Você consegue usar \"Dress\" em uma frase no passado simples?" }, { question: "Can you use \"Hat\" in a sentence in the past simple?", translation: "Você consegue usar \"Hat\" em uma frase no passado simples?" }, { question: "Can you use \"Mirror\" in a sentence in the past simple?", translation: "Você consegue usar \"Mirror\" em uma frase no passado simples?" }, { question: "Can you use \"Gift\" in a sentence in the past simple?", translation: "Você consegue usar \"Gift\" em uma frase no passado simples?" } ]
+                  }
+},
   {
     id: "profissoes",
     title: "Professions",
@@ -123,26 +255,146 @@ export const scenarios2: Scenario[] = [
     color: "indigo",
     available: true,
     vocabulary: [
-      { english: "Doctor", portuguese: "Médico(a)", exampleEn: "The doctor is checking the patient.", examplePt: "O médico está checando o paciente." },
-      { english: "Teacher", portuguese: "Professor(a)", exampleEn: "My teacher is very smart.", examplePt: "Meu professor é muito inteligente." },
-      { english: "Engineer", portuguese: "Engenheiro(a)", exampleEn: "The engineer is building a bridge.", examplePt: "O engenheiro está construindo uma ponte." },
-      { english: "Chef", portuguese: "Chefe de cozinha", exampleEn: "The chef makes delicious food.", examplePt: "O chefe faz comida deliciosa." },
-      { english: "Police officer", portuguese: "Policial", exampleEn: "The police officer helped us.", examplePt: "O policial nos ajudou." },
-      { english: "Work / Job", portuguese: "Trabalho / Emprego", exampleEn: "I love my new job.", examplePt: "Eu amo meu novo emprego." },
-      { english: "Nurse", portuguese: "Enfermeiro(a)", exampleEn: "The nurse is very kind.", examplePt: "A enfermeira é muito gentil." },
-      { english: "Mechanic", portuguese: "Mecânico", exampleEn: "The mechanic fixed my car.", examplePt: "O mecânico consertou meu carro." },
-      { english: "Lawyer", portuguese: "Advogado(a)", exampleEn: "She is a famous lawyer.", examplePt: "Ela é uma advogada famosa." },
-      { english: "Office", portuguese: "Escritório", exampleEn: "I work in an office.", examplePt: "Eu trabalho em um escritório." },
-      { english: "Dentist", portuguese: "Dentista", exampleEn: "The dentist cleaned my teeth.", examplePt: "O dentista limpou meus dentes." },
-      { english: "Firefighter", portuguese: "Bombeiro", exampleEn: "The firefighter saved the cat.", examplePt: "O bombeiro salvou o gato." },
-      { english: "Driver", portuguese: "Motorista", exampleEn: "The bus driver is very polite.", examplePt: "O motorista do ônibus é muito educado." },
-      { english: "Pilot", portuguese: "Piloto", exampleEn: "The pilot flies the airplane.", examplePt: "O piloto voa o avião." },
-      { english: "Artist", portuguese: "Artista", exampleEn: "He is a talented artist.", examplePt: "Ele é um artista talentoso." },
-      { english: "Farmer", portuguese: "Fazendeiro", exampleEn: "The farmer works early in the morning.", examplePt: "O fazendeiro trabalha de manhã cedo." },
-      { english: "Waiter", portuguese: "Garçom", exampleEn: "The waiter brought our food.", examplePt: "O garçom trouxe nossa comida." },
-      { english: "Company", portuguese: "Empresa", exampleEn: "She works for a big company.", examplePt: "Ela trabalha para uma grande empresa." },
-      { english: "Boss", portuguese: "Chefe (trabalho)", exampleEn: "My boss is a fair person.", examplePt: "Meu chefe é uma pessoa justa." },
-      { english: "Salary", portuguese: "Salário", exampleEn: "He gets a good salary.", examplePt: "Ele recebe um bom salário." },
+      { english: "Doctor", portuguese: "Médico(a)",
+          levels: { 
+                        A1: { en: "The doctor is checking the patient.", pt: "O médico está checando o paciente." }, 
+                        A2: { en: "The doctor is checking the patient.", pt: "O médico está checando o paciente." }, 
+                        B1: { en: "The experienced doctor successfully treated the patient.", pt: "O médico experiente tratou o paciente com sucesso." } 
+                      }
+    },
+      { english: "Teacher", portuguese: "Professor(a)",
+          levels: { 
+                        A1: { en: "My teacher is very smart.", pt: "Meu professor é muito inteligente." }, 
+                        A2: { en: "My teacher is very smart.", pt: "Meu professor é muito inteligente." }, 
+                        B1: { en: "The dedicated teacher helped her students after class.", pt: "A professora dedicada ajudou seus alunos depois da aula." } 
+                      }
+    },
+      { english: "Engineer", portuguese: "Engenheiro(a)",
+          levels: { 
+                        A1: { en: "The engineer is building a bridge.", pt: "O engenheiro está construindo uma ponte." }, 
+                        A2: { en: "The engineer is building a bridge.", pt: "O engenheiro está construindo uma ponte." }, 
+                        B1: { en: "The civil engineer designed a robust bridge.", pt: "O engenheiro civil projetou uma ponte robusta." } 
+                      }
+    },
+      { english: "Chef", portuguese: "Chefe de cozinha",
+          levels: { 
+                        A1: { en: "The chef makes delicious food.", pt: "O chefe faz comida deliciosa." }, 
+                        A2: { en: "The chef makes delicious food.", pt: "O chefe faz comida deliciosa." }, 
+                        B1: { en: "The head chef prepared a complex gourmet dish.", pt: "O chef principal preparou um prato gourmet complexo." } 
+                      }
+    },
+      { english: "Police officer", portuguese: "Policial",
+          levels: { 
+                        A1: { en: "The police officer helped us.", pt: "O policial nos ajudou." }, 
+                        A2: { en: "The police officer helped us.", pt: "O policial nos ajudou." }, 
+                        B1: { en: "The brave police officer stopped the thief.", pt: "O policial corajoso parou o ladrão." } 
+                      }
+    },
+      { english: "Work / Job", portuguese: "Trabalho / Emprego",
+          levels: { 
+                        A1: { en: "I love my new job.", pt: "Eu amo meu novo emprego." }, 
+                        A2: { en: "I love my new job.", pt: "Eu amo meu novo emprego." }, 
+                        B1: { en: "She started her new job at the international bank.", pt: "Ela começou seu novo emprego no banco internacional." } 
+                      }
+    },
+      { english: "Nurse", portuguese: "Enfermeiro(a)",
+          levels: { 
+                        A1: { en: "The nurse is very kind.", pt: "A enfermeira é muito gentil." }, 
+                        A2: { en: "The nurse is very kind.", pt: "A enfermeira é muito gentil." }, 
+                        B1: { en: "The nurse checked his blood pressure regularly.", pt: "O enfermeiro verificou a pressão arterial dele regularmente." } 
+                      }
+    },
+      { english: "Mechanic", portuguese: "Mecânico",
+          levels: { 
+                        A1: { en: "The mechanic fixed my car.", pt: "O mecânico consertou meu carro." }, 
+                        A2: { en: "The mechanic fixed my car.", pt: "O mecânico consertou meu carro." }, 
+                        B1: { en: "The mechanic fixed the broken engine quickly.", pt: "O mecânico consertou o motor quebrado rapidamente." } 
+                      }
+    },
+      { english: "Lawyer", portuguese: "Advogado(a)",
+          levels: { 
+                        A1: { en: "She is a famous lawyer.", pt: "Ela é uma advogada famosa." }, 
+                        A2: { en: "She is a famous lawyer.", pt: "Ela é uma advogada famosa." }, 
+                        B1: { en: "The corporate lawyer defended the company in court.", pt: "O advogado corporativo defendeu a empresa no tribunal." } 
+                      }
+    },
+      { english: "Office", portuguese: "Escritório",
+          levels: { 
+                        A1: { en: "I work in an office.", pt: "Eu trabalho em um escritório." }, 
+                        A2: { en: "I work in an office.", pt: "Eu trabalho em um escritório." }, 
+                        B1: { en: "He organized his desk in the modern office.", pt: "Ele organizou sua mesa no escritório moderno." } 
+                      }
+    },
+      { english: "Dentist", portuguese: "Dentista",
+          levels: { 
+                        A1: { en: "The dentist cleaned my teeth.", pt: "O dentista limpou meus dentes." }, 
+                        A2: { en: "The dentist cleaned my teeth.", pt: "O dentista limpou meus dentes." }, 
+                        B1: { en: "The dentist extracted the painful tooth carefully.", pt: "O dentista extraiu o dente dolorido com cuidado." } 
+                      }
+    },
+      { english: "Firefighter", portuguese: "Bombeiro",
+          levels: { 
+                        A1: { en: "The firefighter saved the cat.", pt: "O bombeiro salvou o gato." }, 
+                        A2: { en: "The firefighter saved the cat.", pt: "O bombeiro salvou o gato." }, 
+                        B1: { en: "The courageous firefighter rescued the family from the fire.", pt: "O bombeiro corajoso resgatou a família do incêndio." } 
+                      }
+    },
+      { english: "Driver", portuguese: "Motorista",
+          levels: { 
+                        A1: { en: "The bus driver is very polite.", pt: "O motorista do ônibus é muito educado." }, 
+                        A2: { en: "The bus driver is very polite.", pt: "O motorista do ônibus é muito educado." }, 
+                        B1: { en: "The skilled driver avoided a serious accident.", pt: "O motorista habilidoso evitou um acidente grave." } 
+                      }
+    },
+      { english: "Pilot", portuguese: "Piloto",
+          levels: { 
+                        A1: { en: "The pilot flies the airplane.", pt: "O piloto voa o avião." }, 
+                        A2: { en: "The pilot flies the airplane.", pt: "O piloto voa o avião." }, 
+                        B1: { en: "The commercial pilot landed the airplane safely.", pt: "O piloto comercial pousou o avião com segurança." } 
+                      }
+    },
+      { english: "Artist", portuguese: "Artista",
+          levels: { 
+                        A1: { en: "He is a talented artist.", pt: "Ele é um artista talentoso." }, 
+                        A2: { en: "He is a talented artist.", pt: "Ele é um artista talentoso." }, 
+                        B1: { en: "The famous artist painted a beautiful mural.", pt: "O artista famoso pintou um lindo mural." } 
+                      }
+    },
+      { english: "Farmer", portuguese: "Fazendeiro",
+          levels: { 
+                        A1: { en: "The farmer works early in the morning.", pt: "O fazendeiro trabalha de manhã cedo." }, 
+                        A2: { en: "The farmer works early in the morning.", pt: "O fazendeiro trabalha de manhã cedo." }, 
+                        B1: { en: "The hardworking farmer harvested the crops early in the morning.", pt: "O fazendeiro trabalhador colheu as safras de manhã cedo." } 
+                      }
+    },
+      { english: "Waiter", portuguese: "Garçom",
+          levels: { 
+                        A1: { en: "The waiter brought our food.", pt: "O garçom trouxe nossa comida." }, 
+                        A2: { en: "The waiter brought our food.", pt: "O garçom trouxe nossa comida." }, 
+                        B1: { en: "The polite waiter served the food with a smile.", pt: "O garçom educado serviu a comida com um sorriso." } 
+                      }
+    },
+      { english: "Company", portuguese: "Empresa",
+          levels: { 
+                        A1: { en: "She works for a big company.", pt: "Ela trabalha para uma grande empresa." }, 
+                        A2: { en: "She works for a big company.", pt: "Ela trabalha para uma grande empresa." }, 
+                        B1: { en: "The technology company launched a new software product.", pt: "A empresa de tecnologia lançou um novo produto de software." } 
+                      }
+    },
+      { english: "Boss", portuguese: "Chefe (trabalho)",
+          levels: { 
+                        A1: { en: "My boss is a fair person.", pt: "Meu chefe é uma pessoa justa." }, 
+                        A2: { en: "My boss is a fair person.", pt: "Meu chefe é uma pessoa justa." }, 
+                        B1: { en: "The demanding boss requested a detailed report.", pt: "O chefe exigente solicitou um relatório detalhado." } 
+                      }
+    },
+      { english: "Salary", portuguese: "Salário",
+          levels: { 
+                        A1: { en: "He gets a good salary.", pt: "Ele recebe um bom salário." }, 
+                        A2: { en: "He gets a good salary.", pt: "Ele recebe um bom salário." }, 
+                        B1: { en: "She negotiated a higher salary during the interview.", pt: "Ela negociou um salário mais alto durante a entrevista." } 
+                      }
+    },
     ],
     dialogue: [
       { speaker: "Sarah", english: "What do you do for a living, Paul?", portuguese: "O que você faz da vida, Paul?", isPrimary: false },
@@ -219,8 +471,20 @@ export const scenarios2: Scenario[] = [
         { question: "Would you like to be a pilot?", translation: "Você gostaria de ser um piloto?" },
         { question: "Do you think employees should get a higher salary?", translation: "Você acha que os empregados deveriam receber um salário maior?" }
       ]
-    }
-  },
+    },
+      buildSentence: {
+                    level1: [ { english: "The doctor is checking the patient.", portuguese: "O médico está checando o paciente." }, { english: "The police officer helped us.", portuguese: "O policial nos ajudou." }, { english: "She is a famous lawyer.", portuguese: "Ela é uma advogada famosa." }, { english: "The dentist cleaned my teeth.", portuguese: "O dentista limpou meus dentes." }, { english: "He is a talented artist.", portuguese: "Ele é um artista talentoso." }, { english: "My boss is a fair person.", portuguese: "Meu chefe é uma pessoa justa." } ],
+                    level2: [ { english: "The experienced doctor successfully treated the patient.", portuguese: "O médico experiente tratou o paciente com sucesso." }, { english: "The brave police officer stopped the thief.", portuguese: "O policial corajoso parou o ladrão." }, { english: "The corporate lawyer defended the company in court.", portuguese: "O advogado corporativo defendeu a empresa no tribunal." }, { english: "The dentist extracted the painful tooth carefully.", portuguese: "O dentista extraiu o dente dolorido com cuidado." }, { english: "The famous artist painted a beautiful mural.", portuguese: "O artista famoso pintou um lindo mural." }, { english: "The demanding boss requested a detailed report.", portuguese: "O chefe exigente solicitou um relatório detalhado." } ]
+                  },
+      trueOrFalseLevel2: {
+                    part1: [ { statement: "Doctor means Médico(a).", statementPt: "Doctor significa Médico(a).", isTrue: true, explanation: "Yes, Doctor means Médico(a)." }, { statement: "Teacher means a type of car.", statementPt: "Teacher significa um tipo de carro.", isTrue: false, explanation: "No, Teacher means Professor(a)." }, { statement: "Engineer means Engenheiro(a).", statementPt: "Engineer significa Engenheiro(a).", isTrue: true, explanation: "Yes, Engineer means Engenheiro(a)." }, { statement: "Chef means a type of car.", statementPt: "Chef significa um tipo de carro.", isTrue: false, explanation: "No, Chef means Chefe de cozinha." }, { statement: "Police officer means Policial.", statementPt: "Police officer significa Policial.", isTrue: true, explanation: "Yes, Police officer means Policial." }, { statement: "Work / Job means a type of car.", statementPt: "Work / Job significa um tipo de carro.", isTrue: false, explanation: "No, Work / Job means Trabalho / Emprego." }, { statement: "Nurse means Enfermeiro(a).", statementPt: "Nurse significa Enfermeiro(a).", isTrue: true, explanation: "Yes, Nurse means Enfermeiro(a)." }, { statement: "Mechanic means a type of car.", statementPt: "Mechanic significa um tipo de carro.", isTrue: false, explanation: "No, Mechanic means Mecânico." }, { statement: "Lawyer means Advogado(a).", statementPt: "Lawyer significa Advogado(a).", isTrue: true, explanation: "Yes, Lawyer means Advogado(a)." }, { statement: "Office means a type of car.", statementPt: "Office significa um tipo de carro.", isTrue: false, explanation: "No, Office means Escritório." } ],
+                    part2: [ { statement: "Dentist means Dentista.", statementPt: "Dentist significa Dentista.", isTrue: true, explanation: "Yes, Dentist means Dentista." }, { statement: "Firefighter means a type of car.", statementPt: "Firefighter significa um tipo de carro.", isTrue: false, explanation: "No, Firefighter means Bombeiro." }, { statement: "Driver means Motorista.", statementPt: "Driver significa Motorista.", isTrue: true, explanation: "Yes, Driver means Motorista." }, { statement: "Pilot means a type of car.", statementPt: "Pilot significa um tipo de carro.", isTrue: false, explanation: "No, Pilot means Piloto." }, { statement: "Artist means Artista.", statementPt: "Artist significa Artista.", isTrue: true, explanation: "Yes, Artist means Artista." }, { statement: "Farmer means a type of car.", statementPt: "Farmer significa um tipo de carro.", isTrue: false, explanation: "No, Farmer means Fazendeiro." }, { statement: "Waiter means Garçom.", statementPt: "Waiter significa Garçom.", isTrue: true, explanation: "Yes, Waiter means Garçom." }, { statement: "Company means a type of car.", statementPt: "Company significa um tipo de carro.", isTrue: false, explanation: "No, Company means Empresa." }, { statement: "Boss means Chefe (trabalho).", statementPt: "Boss significa Chefe (trabalho).", isTrue: true, explanation: "Yes, Boss means Chefe (trabalho)." }, { statement: "Salary means a type of car.", statementPt: "Salary significa um tipo de carro.", isTrue: false, explanation: "No, Salary means Salário." } ]
+                  },
+      speakingPracticeLevel2: {
+                    part1: [ { question: "Can you use \"Doctor\" in a sentence in the past simple?", translation: "Você consegue usar \"Doctor\" em uma frase no passado simples?" }, { question: "Can you use \"Teacher\" in a sentence in the past simple?", translation: "Você consegue usar \"Teacher\" em uma frase no passado simples?" }, { question: "Can you use \"Engineer\" in a sentence in the past simple?", translation: "Você consegue usar \"Engineer\" em uma frase no passado simples?" }, { question: "Can you use \"Chef\" in a sentence in the past simple?", translation: "Você consegue usar \"Chef\" em uma frase no passado simples?" }, { question: "Can you use \"Police officer\" in a sentence in the past simple?", translation: "Você consegue usar \"Police officer\" em uma frase no passado simples?" }, { question: "Can you use \"Work / Job\" in a sentence in the past simple?", translation: "Você consegue usar \"Work / Job\" em uma frase no passado simples?" }, { question: "Can you use \"Nurse\" in a sentence in the past simple?", translation: "Você consegue usar \"Nurse\" em uma frase no passado simples?" }, { question: "Can you use \"Mechanic\" in a sentence in the past simple?", translation: "Você consegue usar \"Mechanic\" em uma frase no passado simples?" }, { question: "Can you use \"Lawyer\" in a sentence in the past simple?", translation: "Você consegue usar \"Lawyer\" em uma frase no passado simples?" }, { question: "Can you use \"Office\" in a sentence in the past simple?", translation: "Você consegue usar \"Office\" em uma frase no passado simples?" } ],
+                    part2: [ { question: "Can you use \"Dentist\" in a sentence in the past simple?", translation: "Você consegue usar \"Dentist\" em uma frase no passado simples?" }, { question: "Can you use \"Firefighter\" in a sentence in the past simple?", translation: "Você consegue usar \"Firefighter\" em uma frase no passado simples?" }, { question: "Can you use \"Driver\" in a sentence in the past simple?", translation: "Você consegue usar \"Driver\" em uma frase no passado simples?" }, { question: "Can you use \"Pilot\" in a sentence in the past simple?", translation: "Você consegue usar \"Pilot\" em uma frase no passado simples?" }, { question: "Can you use \"Artist\" in a sentence in the past simple?", translation: "Você consegue usar \"Artist\" em uma frase no passado simples?" }, { question: "Can you use \"Farmer\" in a sentence in the past simple?", translation: "Você consegue usar \"Farmer\" em uma frase no passado simples?" }, { question: "Can you use \"Waiter\" in a sentence in the past simple?", translation: "Você consegue usar \"Waiter\" em uma frase no passado simples?" }, { question: "Can you use \"Company\" in a sentence in the past simple?", translation: "Você consegue usar \"Company\" em uma frase no passado simples?" }, { question: "Can you use \"Boss\" in a sentence in the past simple?", translation: "Você consegue usar \"Boss\" em uma frase no passado simples?" }, { question: "Can you use \"Salary\" in a sentence in the past simple?", translation: "Você consegue usar \"Salary\" em uma frase no passado simples?" } ]
+                  }
+},
   {
     id: "lugares",
     title: "Public Places",
@@ -232,26 +496,146 @@ export const scenarios2: Scenario[] = [
     color: "cyan",
     available: true,
     vocabulary: [
-      { english: "Park", portuguese: "Parque", exampleEn: "Let's walk in the park.", examplePt: "Vamos caminhar no parque." },
-      { english: "Hospital", portuguese: "Hospital", exampleEn: "The hospital is down the street.", examplePt: "O hospital fica no final da rua." },
-      { english: "School", portuguese: "Escola", exampleEn: "My kids are at school.", examplePt: "Meus filhos estão na escola." },
-      { english: "Bus stop", portuguese: "Ponto de ônibus", exampleEn: "Wait at the bus stop.", examplePt: "Espere no ponto de ônibus." },
-      { english: "Street", portuguese: "Rua", exampleEn: "This street is very busy.", examplePt: "Esta rua é muito movimentada." },
-      { english: "Turn left / right", portuguese: "Vire à esquerda / direita", exampleEn: "Turn left at the next corner.", examplePt: "Vire à esquerda na próxima esquina." },
-      { english: "Library", portuguese: "Biblioteca", exampleEn: "I am studying at the library.", examplePt: "Estou estudando na biblioteca." },
-      { english: "Bank", portuguese: "Banco", exampleEn: "I need to go to the bank.", examplePt: "Eu preciso ir ao banco." },
-      { english: "Go straight", portuguese: "Siga em frente", exampleEn: "Go straight for two blocks.", examplePt: "Siga em frente por dois quarteirões." },
-      { english: "Near", portuguese: "Perto", exampleEn: "Is there a pharmacy near here?", examplePt: "Tem alguma farmácia perto daqui?" },
-      { english: "Pharmacy", portuguese: "Farmácia", exampleEn: "I bought medicine at the pharmacy.", examplePt: "Comprei remédio na farmácia." },
-      { english: "Restaurant", portuguese: "Restaurante", exampleEn: "Let's eat at a restaurant tonight.", examplePt: "Vamos comer em um restaurante hoje." },
-      { english: "Airport", portuguese: "Aeroporto", exampleEn: "We arrived at the airport early.", examplePt: "Nós chegamos no aeroporto cedo." },
-      { english: "Station", portuguese: "Estação", exampleEn: "The train station is crowded.", examplePt: "A estação de trem está lotada." },
-      { english: "Museum", portuguese: "Museu", exampleEn: "The museum has old paintings.", examplePt: "O museu tem pinturas antigas." },
-      { english: "Far", portuguese: "Longe", exampleEn: "The airport is far from here.", examplePt: "O aeroporto é longe daqui." },
-      { english: "Corner", portuguese: "Esquina", exampleEn: "Turn right at the corner.", examplePt: "Vire à direita na esquina." },
-      { english: "Block", portuguese: "Quarteirão", exampleEn: "Walk three blocks and stop.", examplePt: "Caminhe três quarteirões e pare." },
-      { english: "Traffic light", portuguese: "Semáforo", exampleEn: "Stop at the red traffic light.", examplePt: "Pare no semáforo vermelho." },
-      { english: "Bridge", portuguese: "Ponte", exampleEn: "Drive over the bridge.", examplePt: "Dirija por cima da ponte." },
+      { english: "Park", portuguese: "Parque",
+          levels: { 
+                        A1: { en: "Lets walk in the park.", pt: "Vamos caminhar no parque." }, 
+                        A2: { en: "Lets walk in the park.", pt: "Vamos caminhar no parque." }, 
+                        B1: { en: "Children played happily in the public park.", pt: "As crianças brincaram alegremente no parque público." } 
+                      }
+    },
+      { english: "Hospital", portuguese: "Hospital",
+          levels: { 
+                        A1: { en: "The hospital is down the street.", pt: "O hospital fica no final da rua." }, 
+                        A2: { en: "The hospital is down the street.", pt: "O hospital fica no final da rua." }, 
+                        B1: { en: "The ambulance arrived at the emergency hospital.", pt: "A ambulância chegou ao hospital de emergência." } 
+                      }
+    },
+      { english: "School", portuguese: "Escola",
+          levels: { 
+                        A1: { en: "My kids are at school.", pt: "Meus filhos estão na escola." }, 
+                        A2: { en: "My kids are at school.", pt: "Meus filhos estão na escola." }, 
+                        B1: { en: "The local school received new computers for the students.", pt: "A escola local recebeu novos computadores para os alunos." } 
+                      }
+    },
+      { english: "Bus stop", portuguese: "Ponto de ônibus",
+          levels: { 
+                        A1: { en: "Wait at the bus stop.", pt: "Espere no ponto de ônibus." }, 
+                        A2: { en: "Wait at the bus stop.", pt: "Espere no ponto de ônibus." }, 
+                        B1: { en: "We waited for the bus at the bus stop for an hour.", pt: "Nós esperamos pelo ônibus no ponto de ônibus por uma hora." } 
+                      }
+    },
+      { english: "Street", portuguese: "Rua",
+          levels: { 
+                        A1: { en: "This street is very busy.", pt: "Esta rua é muito movimentada." }, 
+                        A2: { en: "This street is very busy.", pt: "Esta rua é muito movimentada." }, 
+                        B1: { en: "They walked down the busy street during rush hour.", pt: "Eles andaram pela rua movimentada durante a hora do rush." } 
+                      }
+    },
+      { english: "Turn left / right", portuguese: "Vire à esquerda / direita",
+          levels: { 
+                        A1: { en: "Turn left at the next corner.", pt: "Vire à esquerda na próxima esquina." }, 
+                        A2: { en: "Turn left at the next corner.", pt: "Vire à esquerda na próxima esquina." }, 
+                        B1: { en: "He turned left at the intersection to avoid traffic.", pt: "Ele virou à esquerda no cruzamento para evitar o trânsito." } 
+                      }
+    },
+      { english: "Library", portuguese: "Biblioteca",
+          levels: { 
+                        A1: { en: "I am studying at the library.", pt: "Estou estudando na biblioteca." }, 
+                        A2: { en: "I am studying at the library.", pt: "Estou estudando na biblioteca." }, 
+                        B1: { en: "She borrowed three classic novels from the library.", pt: "Ela pegou três romances clássicos emprestados na biblioteca." } 
+                      }
+    },
+      { english: "Bank", portuguese: "Banco",
+          levels: { 
+                        A1: { en: "I need to go to the bank.", pt: "Eu preciso ir ao banco." }, 
+                        A2: { en: "I need to go to the bank.", pt: "Eu preciso ir ao banco." }, 
+                        B1: { en: "He deposited his entire paycheck at the bank.", pt: "Ele depositou todo o seu pagamento no banco." } 
+                      }
+    },
+      { english: "Go straight", portuguese: "Siga em frente",
+          levels: { 
+                        A1: { en: "Go straight for two blocks.", pt: "Siga em frente por dois quarteirões." }, 
+                        A2: { en: "Go straight for two blocks.", pt: "Siga em frente por dois quarteirões." }, 
+                        B1: { en: "They went straight until they reached the museum.", pt: "Eles seguiram reto até chegarem ao museu." } 
+                      }
+    },
+      { english: "Near", portuguese: "Perto",
+          levels: { 
+                        A1: { en: "Is there a pharmacy near here?", pt: "Tem alguma farmácia perto daqui?" }, 
+                        A2: { en: "Is there a pharmacy near here?", pt: "Tem alguma farmácia perto daqui?" }, 
+                        B1: { en: "They bought a house near the beautiful lake.", pt: "Eles compraram uma casa perto do lindo lago." } 
+                      }
+    },
+      { english: "Pharmacy", portuguese: "Farmácia",
+          levels: { 
+                        A1: { en: "I bought medicine at the pharmacy.", pt: "Comprei remédio na farmácia." }, 
+                        A2: { en: "I bought medicine at the pharmacy.", pt: "Comprei remédio na farmácia." }, 
+                        B1: { en: "He bought essential medicine at the nearby pharmacy.", pt: "Ele comprou remédios essenciais na farmácia próxima." } 
+                      }
+    },
+      { english: "Restaurant", portuguese: "Restaurante",
+          levels: { 
+                        A1: { en: "Lets eat at a restaurant tonight.", pt: "Vamos comer em um restaurante hoje." }, 
+                        A2: { en: "Lets eat at a restaurant tonight.", pt: "Vamos comer em um restaurante hoje." }, 
+                        B1: { en: "We ate a delicious dinner at the Italian restaurant.", pt: "Nós comemos um jantar delicioso no restaurante italiano." } 
+                      }
+    },
+      { english: "Airport", portuguese: "Aeroporto",
+          levels: { 
+                        A1: { en: "We arrived at the airport early.", pt: "Nós chegamos no aeroporto cedo." }, 
+                        A2: { en: "We arrived at the airport early.", pt: "Nós chegamos no aeroporto cedo." }, 
+                        B1: { en: "She arrived at the international airport two hours early.", pt: "Ela chegou ao aeroporto internacional duas horas adiantada." } 
+                      }
+    },
+      { english: "Station", portuguese: "Estação",
+          levels: { 
+                        A1: { en: "The train station is crowded.", pt: "A estação de trem está lotada." }, 
+                        A2: { en: "The train station is crowded.", pt: "A estação de trem está lotada." }, 
+                        B1: { en: "They caught the early train at the central station.", pt: "Eles pegaram o trem cedo na estação central." } 
+                      }
+    },
+      { english: "Museum", portuguese: "Museu",
+          levels: { 
+                        A1: { en: "The museum has old paintings.", pt: "O museu tem pinturas antigas." }, 
+                        A2: { en: "The museum has old paintings.", pt: "O museu tem pinturas antigas." }, 
+                        B1: { en: "The historical museum exhibited ancient artifacts.", pt: "O museu histórico exibiu artefatos antigos." } 
+                      }
+    },
+      { english: "Far", portuguese: "Longe",
+          levels: { 
+                        A1: { en: "The airport is far from here.", pt: "O aeroporto é longe daqui." }, 
+                        A2: { en: "The airport is far from here.", pt: "O aeroporto é longe daqui." }, 
+                        B1: { en: "He drove a far distance to visit his relatives.", pt: "Ele dirigiu uma longa distância para visitar seus parentes." } 
+                      }
+    },
+      { english: "Corner", portuguese: "Esquina",
+          levels: { 
+                        A1: { en: "Turn right at the corner.", pt: "Vire à direita na esquina." }, 
+                        A2: { en: "Turn right at the corner.", pt: "Vire à direita na esquina." }, 
+                        B1: { en: "The coffee shop opened on the corner of the busy street.", pt: "A cafeteria abriu na esquina da rua movimentada." } 
+                      }
+    },
+      { english: "Block", portuguese: "Quarteirão",
+          levels: { 
+                        A1: { en: "Walk three blocks and stop.", pt: "Caminhe três quarteirões e pare." }, 
+                        A2: { en: "Walk three blocks and stop.", pt: "Caminhe três quarteirões e pare." }, 
+                        B1: { en: "She blocked the rude user to protect her privacy.", pt: "Ela bloqueou o usuário rude para proteger sua privacidade." } 
+                      }
+    },
+      { english: "Traffic light", portuguese: "Semáforo",
+          levels: { 
+                        A1: { en: "Stop at the red traffic light.", pt: "Pare no semáforo vermelho." }, 
+                        A2: { en: "Stop at the red traffic light.", pt: "Pare no semáforo vermelho." }, 
+                        B1: { en: "He stopped the car immediately when the traffic light turned red.", pt: "Ele parou o carro imediatamente quando o semáforo ficou vermelho." } 
+                      }
+    },
+      { english: "Bridge", portuguese: "Ponte",
+          levels: { 
+                        A1: { en: "Drive over the bridge.", pt: "Dirija por cima da ponte." }, 
+                        A2: { en: "Drive over the bridge.", pt: "Dirija por cima da ponte." }, 
+                        B1: { en: "The heavy truck crossed the old wooden bridge safely.", pt: "O caminhão pesado cruzou a velha ponte de madeira com segurança." } 
+                      }
+    },
     ],
     dialogue: [
       { speaker: "Tourist", english: "Excuse me, can you help me?", portuguese: "Com licença, você pode me ajudar?", isPrimary: true },
@@ -328,8 +712,20 @@ export const scenarios2: Scenario[] = [
         { question: "Have you ever slept in a hotel at the airport?", translation: "Você já dormiu em um hotel no aeroporto?" },
         { question: "Do you always stop at the red traffic light?", translation: "Você sempre para no semáforo vermelho?" }
       ]
-    }
-  },
+    },
+      buildSentence: {
+                    level1: [ { english: "Lets walk in the park.", portuguese: "Vamos caminhar no parque." }, { english: "This street is very busy.", portuguese: "Esta rua é muito movimentada." }, { english: "Go straight for two blocks.", portuguese: "Siga em frente por dois quarteirões." }, { english: "I bought medicine at the pharmacy.", portuguese: "Comprei remédio na farmácia." }, { english: "The museum has old paintings.", portuguese: "O museu tem pinturas antigas." }, { english: "Stop at the red traffic light.", portuguese: "Pare no semáforo vermelho." } ],
+                    level2: [ { english: "Children played happily in the public park.", portuguese: "As crianças brincaram alegremente no parque público." }, { english: "They walked down the busy street during rush hour.", portuguese: "Eles andaram pela rua movimentada durante a hora do rush." }, { english: "They went straight until they reached the museum.", portuguese: "Eles seguiram reto até chegarem ao museu." }, { english: "He bought essential medicine at the nearby pharmacy.", portuguese: "Ele comprou remédios essenciais na farmácia próxima." }, { english: "The historical museum exhibited ancient artifacts.", portuguese: "O museu histórico exibiu artefatos antigos." }, { english: "He stopped the car immediately when the traffic light turned red.", portuguese: "Ele parou o carro imediatamente quando o semáforo ficou vermelho." } ]
+                  },
+      trueOrFalseLevel2: {
+                    part1: [ { statement: "Park means Parque.", statementPt: "Park significa Parque.", isTrue: true, explanation: "Yes, Park means Parque." }, { statement: "Hospital means a type of car.", statementPt: "Hospital significa um tipo de carro.", isTrue: false, explanation: "No, Hospital means Hospital." }, { statement: "School means Escola.", statementPt: "School significa Escola.", isTrue: true, explanation: "Yes, School means Escola." }, { statement: "Bus stop means a type of car.", statementPt: "Bus stop significa um tipo de carro.", isTrue: false, explanation: "No, Bus stop means Ponto de ônibus." }, { statement: "Street means Rua.", statementPt: "Street significa Rua.", isTrue: true, explanation: "Yes, Street means Rua." }, { statement: "Turn left / right means a type of car.", statementPt: "Turn left / right significa um tipo de carro.", isTrue: false, explanation: "No, Turn left / right means Vire à esquerda / direita." }, { statement: "Library means Biblioteca.", statementPt: "Library significa Biblioteca.", isTrue: true, explanation: "Yes, Library means Biblioteca." }, { statement: "Bank means a type of car.", statementPt: "Bank significa um tipo de carro.", isTrue: false, explanation: "No, Bank means Banco." }, { statement: "Go straight means Siga em frente.", statementPt: "Go straight significa Siga em frente.", isTrue: true, explanation: "Yes, Go straight means Siga em frente." }, { statement: "Near means a type of car.", statementPt: "Near significa um tipo de carro.", isTrue: false, explanation: "No, Near means Perto." } ],
+                    part2: [ { statement: "Pharmacy means Farmácia.", statementPt: "Pharmacy significa Farmácia.", isTrue: true, explanation: "Yes, Pharmacy means Farmácia." }, { statement: "Restaurant means a type of car.", statementPt: "Restaurant significa um tipo de carro.", isTrue: false, explanation: "No, Restaurant means Restaurante." }, { statement: "Airport means Aeroporto.", statementPt: "Airport significa Aeroporto.", isTrue: true, explanation: "Yes, Airport means Aeroporto." }, { statement: "Station means a type of car.", statementPt: "Station significa um tipo de carro.", isTrue: false, explanation: "No, Station means Estação." }, { statement: "Museum means Museu.", statementPt: "Museum significa Museu.", isTrue: true, explanation: "Yes, Museum means Museu." }, { statement: "Far means a type of car.", statementPt: "Far significa um tipo de carro.", isTrue: false, explanation: "No, Far means Longe." }, { statement: "Corner means Esquina.", statementPt: "Corner significa Esquina.", isTrue: true, explanation: "Yes, Corner means Esquina." }, { statement: "Block means a type of car.", statementPt: "Block significa um tipo de carro.", isTrue: false, explanation: "No, Block means Quarteirão." }, { statement: "Traffic light means Semáforo.", statementPt: "Traffic light significa Semáforo.", isTrue: true, explanation: "Yes, Traffic light means Semáforo." }, { statement: "Bridge means a type of car.", statementPt: "Bridge significa um tipo de carro.", isTrue: false, explanation: "No, Bridge means Ponte." } ]
+                  },
+      speakingPracticeLevel2: {
+                    part1: [ { question: "Can you use \"Park\" in a sentence in the past simple?", translation: "Você consegue usar \"Park\" em uma frase no passado simples?" }, { question: "Can you use \"Hospital\" in a sentence in the past simple?", translation: "Você consegue usar \"Hospital\" em uma frase no passado simples?" }, { question: "Can you use \"School\" in a sentence in the past simple?", translation: "Você consegue usar \"School\" em uma frase no passado simples?" }, { question: "Can you use \"Bus stop\" in a sentence in the past simple?", translation: "Você consegue usar \"Bus stop\" em uma frase no passado simples?" }, { question: "Can you use \"Street\" in a sentence in the past simple?", translation: "Você consegue usar \"Street\" em uma frase no passado simples?" }, { question: "Can you use \"Turn left / right\" in a sentence in the past simple?", translation: "Você consegue usar \"Turn left / right\" em uma frase no passado simples?" }, { question: "Can you use \"Library\" in a sentence in the past simple?", translation: "Você consegue usar \"Library\" em uma frase no passado simples?" }, { question: "Can you use \"Bank\" in a sentence in the past simple?", translation: "Você consegue usar \"Bank\" em uma frase no passado simples?" }, { question: "Can you use \"Go straight\" in a sentence in the past simple?", translation: "Você consegue usar \"Go straight\" em uma frase no passado simples?" }, { question: "Can you use \"Near\" in a sentence in the past simple?", translation: "Você consegue usar \"Near\" em uma frase no passado simples?" } ],
+                    part2: [ { question: "Can you use \"Pharmacy\" in a sentence in the past simple?", translation: "Você consegue usar \"Pharmacy\" em uma frase no passado simples?" }, { question: "Can you use \"Restaurant\" in a sentence in the past simple?", translation: "Você consegue usar \"Restaurant\" em uma frase no passado simples?" }, { question: "Can you use \"Airport\" in a sentence in the past simple?", translation: "Você consegue usar \"Airport\" em uma frase no passado simples?" }, { question: "Can you use \"Station\" in a sentence in the past simple?", translation: "Você consegue usar \"Station\" em uma frase no passado simples?" }, { question: "Can you use \"Museum\" in a sentence in the past simple?", translation: "Você consegue usar \"Museum\" em uma frase no passado simples?" }, { question: "Can you use \"Far\" in a sentence in the past simple?", translation: "Você consegue usar \"Far\" em uma frase no passado simples?" }, { question: "Can you use \"Corner\" in a sentence in the past simple?", translation: "Você consegue usar \"Corner\" em uma frase no passado simples?" }, { question: "Can you use \"Block\" in a sentence in the past simple?", translation: "Você consegue usar \"Block\" em uma frase no passado simples?" }, { question: "Can you use \"Traffic light\" in a sentence in the past simple?", translation: "Você consegue usar \"Traffic light\" em uma frase no passado simples?" }, { question: "Can you use \"Bridge\" in a sentence in the past simple?", translation: "Você consegue usar \"Bridge\" em uma frase no passado simples?" } ]
+                  }
+},
   {
     id: "animais",
     title: "Animals",
@@ -341,26 +737,146 @@ export const scenarios2: Scenario[] = [
     color: "stone",
     available: true,
     vocabulary: [
-      { english: "Dog", portuguese: "Cachorro", exampleEn: "My dog loves to run.", examplePt: "Meu cachorro ama correr." },
-      { english: "Cat", portuguese: "Gato", exampleEn: "The cat is sleeping on the bed.", examplePt: "O gato está dormindo na cama." },
-      { english: "Bird", portuguese: "Pássaro", exampleEn: "I heard a bird singing.", examplePt: "Eu ouvi um pássaro cantando." },
-      { english: "Fish", portuguese: "Peixe", exampleEn: "I have a fish tank.", examplePt: "Eu tenho um aquário." },
-      { english: "Pet", portuguese: "Animal de estimação", exampleEn: "Do you have any pets?", examplePt: "Você tem animais de estimação?" },
-      { english: "Walk the dog", portuguese: "Passear com o cachorro", exampleEn: "I need to walk the dog now.", examplePt: "Eu preciso passear com o cachorro agora." },
-      { english: "Feed", portuguese: "Alimentar", exampleEn: "Don't forget to feed the cat.", examplePt: "Não esqueça de alimentar o gato." },
-      { english: "Horse", portuguese: "Cavalo", exampleEn: "She knows how to ride a horse.", examplePt: "Ela sabe andar a cavalo." },
-      { english: "Cow", portuguese: "Vaca", exampleEn: "Cows give us milk.", examplePt: "Vacas nos dão leite." },
-      { english: "Vet", portuguese: "Veterinário(a)", exampleEn: "I am taking my dog to the vet.", examplePt: "Estou levando meu cachorro ao veterinário." },
-      { english: "Pig", portuguese: "Porco", exampleEn: "Pigs live on the farm.", examplePt: "Porcos vivem na fazenda." },
-      { english: "Chicken", portuguese: "Galinha / Frango", exampleEn: "The chicken laid an egg.", examplePt: "A galinha botou um ovo." },
-      { english: "Rabbit", portuguese: "Coelho", exampleEn: "The rabbit is eating a carrot.", examplePt: "O coelho está comendo uma cenoura." },
-      { english: "Lion", portuguese: "Leão", exampleEn: "The lion is the king of the jungle.", examplePt: "O leão é o rei da selva." },
-      { english: "Tiger", portuguese: "Tigre", exampleEn: "I saw a tiger at the zoo.", examplePt: "Eu vi um tigre no zoológico." },
-      { english: "Monkey", portuguese: "Macaco", exampleEn: "The monkey is climbing the tree.", examplePt: "O macaco está subindo na árvore." },
-      { english: "Elephant", portuguese: "Elefante", exampleEn: "Elephants are very large animals.", examplePt: "Elefantes são animais muito grandes." },
-      { english: "Bark", portuguese: "Latir", exampleEn: "The dog barks loudly.", examplePt: "O cachorro late alto." },
-      { english: "Meow", portuguese: "Miar", exampleEn: "The cat meows when it is hungry.", examplePt: "O gato mia quando está com fome." },
-      { english: "Bite", portuguese: "Morder", exampleEn: "Be careful, the dog might bite.", examplePt: "Cuidado, o cachorro pode morder." },
+      { english: "Dog", portuguese: "Cachorro",
+          levels: { 
+                        A1: { en: "My dog loves to run.", pt: "Meu cachorro ama correr." }, 
+                        A2: { en: "My dog loves to run.", pt: "Meu cachorro ama correr." }, 
+                        B1: { en: "The energetic dog fetched the ball multiple times.", pt: "O cachorro enérgico buscou a bola várias vezes." } 
+                      }
+    },
+      { english: "Cat", portuguese: "Gato",
+          levels: { 
+                        A1: { en: "The cat is sleeping on the bed.", pt: "O gato está dormindo na cama." }, 
+                        A2: { en: "The cat is sleeping on the bed.", pt: "O gato está dormindo na cama." }, 
+                        B1: { en: "The stray cat slept peacefully on the porch.", pt: "O gato de rua dormiu pacificamente na varanda." } 
+                      }
+    },
+      { english: "Bird", portuguese: "Pássaro",
+          levels: { 
+                        A1: { en: "I heard a bird singing.", pt: "Eu ouvi um pássaro cantando." }, 
+                        A2: { en: "I heard a bird singing.", pt: "Eu ouvi um pássaro cantando." }, 
+                        B1: { en: "The rare bird flew high above the dense forest.", pt: "O pássaro raro voou alto sobre a floresta densa." } 
+                      }
+    },
+      { english: "Fish", portuguese: "Peixe",
+          levels: { 
+                        A1: { en: "I have a fish tank.", pt: "Eu tenho um aquário." }, 
+                        A2: { en: "I have a fish tank.", pt: "Eu tenho um aquário." }, 
+                        B1: { en: "The colorful fish swam quickly around the large tank.", pt: "O peixe colorido nadou rapidamente ao redor do aquário grande." } 
+                      }
+    },
+      { english: "Pet", portuguese: "Animal de estimação",
+          levels: { 
+                        A1: { en: "Do you have any pets?", pt: "Você tem animais de estimação?" }, 
+                        A2: { en: "Do you have any pets?", pt: "Você tem animais de estimação?" }, 
+                        B1: { en: "She adopted a rescued pet from the local animal shelter.", pt: "Ela adotou um animal de estimação resgatado no abrigo de animais local." } 
+                      }
+    },
+      { english: "Walk the dog", portuguese: "Passear com o cachorro",
+          levels: { 
+                        A1: { en: "I need to walk the dog now.", pt: "Eu preciso passear com o cachorro agora." }, 
+                        A2: { en: "I need to walk the dog now.", pt: "Eu preciso passear com o cachorro agora." }, 
+                        B1: { en: "He walked the dog around the park every evening.", pt: "Ele passeava com o cachorro pelo parque toda noite." } 
+                      }
+    },
+      { english: "Feed", portuguese: "Alimentar",
+          levels: { 
+                        A1: { en: "Dont forget to feed the cat.", pt: "Não esqueça de alimentar o gato." }, 
+                        A2: { en: "Dont forget to feed the cat.", pt: "Não esqueça de alimentar o gato." }, 
+                        B1: { en: "She checked her feed every morning to read the news.", pt: "Ela verificava o seu feed toda manhã para ler as notícias." } 
+                      }
+    },
+      { english: "Horse", portuguese: "Cavalo",
+          levels: { 
+                        A1: { en: "She knows how to ride a horse.", pt: "Ela sabe andar a cavalo." }, 
+                        A2: { en: "She knows how to ride a horse.", pt: "Ela sabe andar a cavalo." }, 
+                        B1: { en: "The majestic horse galloped swiftly across the open field.", pt: "O cavalo majestoso galopou velozmente pelo campo aberto." } 
+                      }
+    },
+      { english: "Cow", portuguese: "Vaca",
+          levels: { 
+                        A1: { en: "Cows give us milk.", pt: "Vacas nos dão leite." }, 
+                        A2: { en: "Cows give us milk.", pt: "Vacas nos dão leite." }, 
+                        B1: { en: "The gentle cow grazed calmly in the green pasture.", pt: "A vaca dócil pastou calmamente no pasto verde." } 
+                      }
+    },
+      { english: "Vet", portuguese: "Veterinário(a)",
+          levels: { 
+                        A1: { en: "I am taking my dog to the vet.", pt: "Estou levando meu cachorro ao veterinário." }, 
+                        A2: { en: "I am taking my dog to the vet.", pt: "Estou levando meu cachorro ao veterinário." }, 
+                        B1: { en: "The dedicated vet examined the injured puppy thoroughly.", pt: "O veterinário dedicado examinou o filhote ferido minuciosamente." } 
+                      }
+    },
+      { english: "Pig", portuguese: "Porco",
+          levels: { 
+                        A1: { en: "Pigs live on the farm.", pt: "Porcos vivem na fazenda." }, 
+                        A2: { en: "Pigs live on the farm.", pt: "Porcos vivem na fazenda." }, 
+                        B1: { en: "The heavy pig rolled around in the wet mud to stay cool.", pt: "O porco pesado rolou na lama molhada para se manter fresco." } 
+                      }
+    },
+      { english: "Chicken", portuguese: "Galinha / Frango",
+          levels: { 
+                        A1: { en: "The chicken laid an egg.", pt: "A galinha botou um ovo." }, 
+                        A2: { en: "The chicken laid an egg.", pt: "A galinha botou um ovo." }, 
+                        B1: { en: "The farmer collected fresh eggs from the chicken coop.", pt: "O fazendeiro colheu ovos frescos do galinheiro." } 
+                      }
+    },
+      { english: "Rabbit", portuguese: "Coelho",
+          levels: { 
+                        A1: { en: "The rabbit is eating a carrot.", pt: "O coelho está comendo uma cenoura." }, 
+                        A2: { en: "The rabbit is eating a carrot.", pt: "O coelho está comendo uma cenoura." }, 
+                        B1: { en: "The fast rabbit hid behind the bushes to avoid predators.", pt: "O coelho veloz se escondeu atrás dos arbustos para evitar predadores." } 
+                      }
+    },
+      { english: "Lion", portuguese: "Leão",
+          levels: { 
+                        A1: { en: "The lion is the king of the jungle.", pt: "O leão é o rei da selva." }, 
+                        A2: { en: "The lion is the king of the jungle.", pt: "O leão é o rei da selva." }, 
+                        B1: { en: "The fierce lion roared loudly, intimidating the other animals.", pt: "O leão feroz rugiu alto, intimidando os outros animais." } 
+                      }
+    },
+      { english: "Tiger", portuguese: "Tigre",
+          levels: { 
+                        A1: { en: "I saw a tiger at the zoo.", pt: "Eu vi um tigre no zoológico." }, 
+                        A2: { en: "I saw a tiger at the zoo.", pt: "Eu vi um tigre no zoológico." }, 
+                        B1: { en: "The wild tiger stalked its prey silently in the jungle.", pt: "O tigre selvagem perseguiu sua presa silenciosamente na selva." } 
+                      }
+    },
+      { english: "Monkey", portuguese: "Macaco",
+          levels: { 
+                        A1: { en: "The monkey is climbing the tree.", pt: "O macaco está subindo na árvore." }, 
+                        A2: { en: "The monkey is climbing the tree.", pt: "O macaco está subindo na árvore." }, 
+                        B1: { en: "The clever monkey swung effortlessly from branch to branch.", pt: "O macaco esperto balançou sem esforço de galho em galho." } 
+                      }
+    },
+      { english: "Elephant", portuguese: "Elefante",
+          levels: { 
+                        A1: { en: "Elephants are very large animals.", pt: "Elefantes são animais muito grandes." }, 
+                        A2: { en: "Elephants are very large animals.", pt: "Elefantes são animais muito grandes." }, 
+                        B1: { en: "The enormous elephant grabbed the peanuts with its long trunk.", pt: "O elefante enorme pegou os amendoins com sua longa tromba." } 
+                      }
+    },
+      { english: "Bark", portuguese: "Latir",
+          levels: { 
+                        A1: { en: "The dog barks loudly.", pt: "O cachorro late alto." }, 
+                        A2: { en: "The dog barks loudly.", pt: "O cachorro late alto." }, 
+                        B1: { en: "The guard dog barked aggressively at the unknown intruder.", pt: "O cão de guarda latiu agressivamente para o intruso desconhecido." } 
+                      }
+    },
+      { english: "Meow", portuguese: "Miar",
+          levels: { 
+                        A1: { en: "The cat meows when it is hungry.", pt: "O gato mia quando está com fome." }, 
+                        A2: { en: "The cat meows when it is hungry.", pt: "O gato mia quando está com fome." }, 
+                        B1: { en: "The tiny kitten meowed constantly until she received her milk.", pt: "O gatinho minúsculo miou constantemente até receber seu leite." } 
+                      }
+    },
+      { english: "Bite", portuguese: "Morder",
+          levels: { 
+                        A1: { en: "Be careful, the dog might bite.", pt: "Cuidado, o cachorro pode morder." }, 
+                        A2: { en: "Be careful, the dog might bite.", pt: "Cuidado, o cachorro pode morder." }, 
+                        B1: { en: "The frightened dog bit the stranger's hand unexpectedly.", pt: "O cachorro assustado mordeu a mão do estranho inesperadamente." } 
+                      }
+    },
     ],
     dialogue: [
       { speaker: "Emma", english: "Oh, what a cute dog! What is his name?", portuguese: "Ah, que cachorro fofo! Qual o nome dele?", isPrimary: false },
@@ -437,8 +953,20 @@ export const scenarios2: Scenario[] = [
         { question: "Have you seen a monkey in the zoo?", translation: "Você já viu um macaco no zoológico?" },
         { question: "Do you kill an insect when you see one?", translation: "Você mata um inseto quando vê um?" }
       ]
-    }
-  },
+    },
+      buildSentence: {
+                    level1: [ { english: "My dog loves to run.", portuguese: "Meu cachorro ama correr." }, { english: "Do you have any pets?", portuguese: "Você tem animais de estimação?" }, { english: "Cows give us milk.", portuguese: "Vacas nos dão leite." }, { english: "Pigs live on the farm.", portuguese: "Porcos vivem na fazenda." }, { english: "I saw a tiger at the zoo.", portuguese: "Eu vi um tigre no zoológico." }, { english: "The cat meows when it is hungry.", portuguese: "O gato mia quando está com fome." } ],
+                    level2: [ { english: "The energetic dog fetched the ball multiple times.", portuguese: "O cachorro enérgico buscou a bola várias vezes." }, { english: "She adopted a rescued pet from the local animal shelter.", portuguese: "Ela adotou um animal de estimação resgatado no abrigo de animais local." }, { english: "The gentle cow grazed calmly in the green pasture.", portuguese: "A vaca dócil pastou calmamente no pasto verde." }, { english: "The heavy pig rolled around in the wet mud to stay cool.", portuguese: "O porco pesado rolou na lama molhada para se manter fresco." }, { english: "The wild tiger stalked its prey silently in the jungle.", portuguese: "O tigre selvagem perseguiu sua presa silenciosamente na selva." }, { english: "The tiny kitten meowed constantly until she received her milk.", portuguese: "O gatinho minúsculo miou constantemente até receber seu leite." } ]
+                  },
+      trueOrFalseLevel2: {
+                    part1: [ { statement: "Dog means Cachorro.", statementPt: "Dog significa Cachorro.", isTrue: true, explanation: "Yes, Dog means Cachorro." }, { statement: "Cat means a type of car.", statementPt: "Cat significa um tipo de carro.", isTrue: false, explanation: "No, Cat means Gato." }, { statement: "Bird means Pássaro.", statementPt: "Bird significa Pássaro.", isTrue: true, explanation: "Yes, Bird means Pássaro." }, { statement: "Fish means a type of car.", statementPt: "Fish significa um tipo de carro.", isTrue: false, explanation: "No, Fish means Peixe." }, { statement: "Pet means Animal de estimação.", statementPt: "Pet significa Animal de estimação.", isTrue: true, explanation: "Yes, Pet means Animal de estimação." }, { statement: "Walk the dog means a type of car.", statementPt: "Walk the dog significa um tipo de carro.", isTrue: false, explanation: "No, Walk the dog means Passear com o cachorro." }, { statement: "Feed means Alimentar.", statementPt: "Feed significa Alimentar.", isTrue: true, explanation: "Yes, Feed means Alimentar." }, { statement: "Horse means a type of car.", statementPt: "Horse significa um tipo de carro.", isTrue: false, explanation: "No, Horse means Cavalo." }, { statement: "Cow means Vaca.", statementPt: "Cow significa Vaca.", isTrue: true, explanation: "Yes, Cow means Vaca." }, { statement: "Vet means a type of car.", statementPt: "Vet significa um tipo de carro.", isTrue: false, explanation: "No, Vet means Veterinário(a)." } ],
+                    part2: [ { statement: "Pig means Porco.", statementPt: "Pig significa Porco.", isTrue: true, explanation: "Yes, Pig means Porco." }, { statement: "Chicken means a type of car.", statementPt: "Chicken significa um tipo de carro.", isTrue: false, explanation: "No, Chicken means Galinha / Frango." }, { statement: "Rabbit means Coelho.", statementPt: "Rabbit significa Coelho.", isTrue: true, explanation: "Yes, Rabbit means Coelho." }, { statement: "Lion means a type of car.", statementPt: "Lion significa um tipo de carro.", isTrue: false, explanation: "No, Lion means Leão." }, { statement: "Tiger means Tigre.", statementPt: "Tiger significa Tigre.", isTrue: true, explanation: "Yes, Tiger means Tigre." }, { statement: "Monkey means a type of car.", statementPt: "Monkey significa um tipo de carro.", isTrue: false, explanation: "No, Monkey means Macaco." }, { statement: "Elephant means Elefante.", statementPt: "Elephant significa Elefante.", isTrue: true, explanation: "Yes, Elephant means Elefante." }, { statement: "Bark means a type of car.", statementPt: "Bark significa um tipo de carro.", isTrue: false, explanation: "No, Bark means Latir." }, { statement: "Meow means Miar.", statementPt: "Meow significa Miar.", isTrue: true, explanation: "Yes, Meow means Miar." }, { statement: "Bite means a type of car.", statementPt: "Bite significa um tipo de carro.", isTrue: false, explanation: "No, Bite means Morder." } ]
+                  },
+      speakingPracticeLevel2: {
+                    part1: [ { question: "Can you use \"Dog\" in a sentence in the past simple?", translation: "Você consegue usar \"Dog\" em uma frase no passado simples?" }, { question: "Can you use \"Cat\" in a sentence in the past simple?", translation: "Você consegue usar \"Cat\" em uma frase no passado simples?" }, { question: "Can you use \"Bird\" in a sentence in the past simple?", translation: "Você consegue usar \"Bird\" em uma frase no passado simples?" }, { question: "Can you use \"Fish\" in a sentence in the past simple?", translation: "Você consegue usar \"Fish\" em uma frase no passado simples?" }, { question: "Can you use \"Pet\" in a sentence in the past simple?", translation: "Você consegue usar \"Pet\" em uma frase no passado simples?" }, { question: "Can you use \"Walk the dog\" in a sentence in the past simple?", translation: "Você consegue usar \"Walk the dog\" em uma frase no passado simples?" }, { question: "Can you use \"Feed\" in a sentence in the past simple?", translation: "Você consegue usar \"Feed\" em uma frase no passado simples?" }, { question: "Can you use \"Horse\" in a sentence in the past simple?", translation: "Você consegue usar \"Horse\" em uma frase no passado simples?" }, { question: "Can you use \"Cow\" in a sentence in the past simple?", translation: "Você consegue usar \"Cow\" em uma frase no passado simples?" }, { question: "Can you use \"Vet\" in a sentence in the past simple?", translation: "Você consegue usar \"Vet\" em uma frase no passado simples?" } ],
+                    part2: [ { question: "Can you use \"Pig\" in a sentence in the past simple?", translation: "Você consegue usar \"Pig\" em uma frase no passado simples?" }, { question: "Can you use \"Chicken\" in a sentence in the past simple?", translation: "Você consegue usar \"Chicken\" em uma frase no passado simples?" }, { question: "Can you use \"Rabbit\" in a sentence in the past simple?", translation: "Você consegue usar \"Rabbit\" em uma frase no passado simples?" }, { question: "Can you use \"Lion\" in a sentence in the past simple?", translation: "Você consegue usar \"Lion\" em uma frase no passado simples?" }, { question: "Can you use \"Tiger\" in a sentence in the past simple?", translation: "Você consegue usar \"Tiger\" em uma frase no passado simples?" }, { question: "Can you use \"Monkey\" in a sentence in the past simple?", translation: "Você consegue usar \"Monkey\" em uma frase no passado simples?" }, { question: "Can you use \"Elephant\" in a sentence in the past simple?", translation: "Você consegue usar \"Elephant\" em uma frase no passado simples?" }, { question: "Can you use \"Bark\" in a sentence in the past simple?", translation: "Você consegue usar \"Bark\" em uma frase no passado simples?" }, { question: "Can you use \"Meow\" in a sentence in the past simple?", translation: "Você consegue usar \"Meow\" em uma frase no passado simples?" }, { question: "Can you use \"Bite\" in a sentence in the past simple?", translation: "Você consegue usar \"Bite\" em uma frase no passado simples?" } ]
+                  }
+},
   {
     id: "culinaria",
     title: "Cooking",
@@ -450,26 +978,146 @@ export const scenarios2: Scenario[] = [
     color: "red",
     available: true,
     vocabulary: [
-      { english: "Cook", portuguese: "Cozinhar", exampleEn: "I love to cook Italian food.", examplePt: "Amo cozinhar comida italiana." },
-      { english: "Bake", portuguese: "Assar (bolos/pães)", exampleEn: "We baked chocolate chip cookies.", examplePt: "Nós assamos cookies de chocolate." },
-      { english: "Recipe", portuguese: "Receita", exampleEn: "This is my grandmother's recipe.", examplePt: "Esta é a receita da minha avó." },
-      { english: "Ingredients", portuguese: "Ingredientes", exampleEn: "We need five ingredients for this.", examplePt: "Precisamos de cinco ingredientes para isto." },
-      { english: "Knife", portuguese: "Faca", exampleEn: "Be careful with that sharp knife.", examplePt: "Cuidado com essa faca afiada." },
-      { english: "Oven", portuguese: "Forno", exampleEn: "Preheat the oven to 180 degrees.", examplePt: "Preaqueça o forno a 180 graus." },
-      { english: "Boil", portuguese: "Ferver", exampleEn: "Boil the water before adding pasta.", examplePt: "Ferva a água antes de adicionar o macarrão." },
-      { english: "Fry", portuguese: "Fritar", exampleEn: "Do you want to fry the eggs?", examplePt: "Você quer fritar os ovos?" },
-      { english: "Chop", portuguese: "Picar / Cortar", exampleEn: "Please chop the onions.", examplePt: "Por favor, pique as cebolas." },
-      { english: "Spoon", portuguese: "Colher", exampleEn: "Use a spoon to mix everything.", examplePt: "Use uma colher para misturar tudo." },
-      { english: "Fork", portuguese: "Garfo", exampleEn: "Eat your salad with a fork.", examplePt: "Coma sua salada com um garfo." },
-      { english: "Plate", portuguese: "Prato", exampleEn: "Put the food on the plate.", examplePt: "Coloque a comida no prato." },
-      { english: "Bowl", portuguese: "Tigela", exampleEn: "I eat soup in a bowl.", examplePt: "Eu tomo sopa em uma tigela." },
-      { english: "Mix", portuguese: "Misturar", exampleEn: "Mix the flour and sugar.", examplePt: "Misture a farinha e o açúcar." },
-      { english: "Pour", portuguese: "Despejar", exampleEn: "Pour the milk into the glass.", examplePt: "Despeje o leite no copo." },
-      { english: "Taste", portuguese: "Provar / Gosto", exampleEn: "Taste the soup to see if it is good.", examplePt: "Prove a sopa para ver se está boa." },
-      { english: "Spicy", portuguese: "Apimentado", exampleEn: "Mexican food is often spicy.", examplePt: "Comida mexicana é frequentemente apimentada." },
-      { english: "Sweet", portuguese: "Doce", exampleEn: "This cake is very sweet.", examplePt: "Este bolo é muito doce." },
-      { english: "Salty", portuguese: "Salgado", exampleEn: "The fries are too salty.", examplePt: "As batatas fritas estão muito salgadas." },
-      { english: "Pan", portuguese: "Panela / Frigideira", exampleEn: "Heat the oil in the pan.", examplePt: "Aqueça o óleo na panela." },
+      { english: "Cook", portuguese: "Cozinhar",
+          levels: { 
+                        A1: { en: "I love to cook Italian food.", pt: "Amo cozinhar comida italiana." }, 
+                        A2: { en: "I love to cook Italian food.", pt: "Amo cozinhar comida italiana." }, 
+                        B1: { en: "She cooked a complex meal for her family yesterday.", pt: "Ela cozinhou uma refeição complexa para a família ontem." } 
+                      }
+    },
+      { english: "Bake", portuguese: "Assar (bolos/pães)",
+          levels: { 
+                        A1: { en: "We baked chocolate chip cookies.", pt: "Nós assamos cookies de chocolate." }, 
+                        A2: { en: "We baked chocolate chip cookies.", pt: "Nós assamos cookies de chocolate." }, 
+                        B1: { en: "He baked a delicious chocolate cake for the party.", pt: "Ele assou um bolo de chocolate delicioso para a festa." } 
+                      }
+    },
+      { english: "Recipe", portuguese: "Receita",
+          levels: { 
+                        A1: { en: "This is my grandmothers recipe.", pt: "Esta é a receita da minha avó." }, 
+                        A2: { en: "This is my grandmothers recipe.", pt: "Esta é a receita da minha avó." }, 
+                        B1: { en: "They followed the traditional recipe step by step.", pt: "Eles seguiram a receita tradicional passo a passo." } 
+                      }
+    },
+      { english: "Ingredients", portuguese: "Ingredientes",
+          levels: { 
+                        A1: { en: "We need five ingredients for this.", pt: "Precisamos de cinco ingredientes para isto." }, 
+                        A2: { en: "We need five ingredients for this.", pt: "Precisamos de cinco ingredientes para isto." }, 
+                        B1: { en: "She bought all the fresh ingredients at the local market.", pt: "Ela comprou todos os ingredientes frescos no mercado local." } 
+                      }
+    },
+      { english: "Knife", portuguese: "Faca",
+          levels: { 
+                        A1: { en: "Be careful with that sharp knife.", pt: "Cuidado com essa faca afiada." }, 
+                        A2: { en: "Be careful with that sharp knife.", pt: "Cuidado com essa faca afiada." }, 
+                        B1: { en: "The chef sharpened his knife before preparing the vegetables.", pt: "O chef afiou a faca antes de preparar os vegetais." } 
+                      }
+    },
+      { english: "Oven", portuguese: "Forno",
+          levels: { 
+                        A1: { en: "Preheat the oven to 180 degrees.", pt: "Preaqueça o forno a 180 graus." }, 
+                        A2: { en: "Preheat the oven to 180 degrees.", pt: "Preaqueça o forno a 180 graus." }, 
+                        B1: { en: "He placed the lasagna in the hot oven for an hour.", pt: "Ele colocou a lasanha no forno quente por uma hora." } 
+                      }
+    },
+      { english: "Boil", portuguese: "Ferver",
+          levels: { 
+                        A1: { en: "Boil the water before adding pasta.", pt: "Ferva a água antes de adicionar o macarrão." }, 
+                        A2: { en: "Boil the water before adding pasta.", pt: "Ferva a água antes de adicionar o macarrão." }, 
+                        B1: { en: "She boiled the water before adding the pasta.", pt: "Ela ferveu a água antes de adicionar o macarrão." } 
+                      }
+    },
+      { english: "Fry", portuguese: "Fritar",
+          levels: { 
+                        A1: { en: "Do you want to fry the eggs?", pt: "Você quer fritar os ovos?" }, 
+                        A2: { en: "Do you want to fry the eggs?", pt: "Você quer fritar os ovos?" }, 
+                        B1: { en: "He fried the potatoes until they were crispy.", pt: "Ele fritou as batatas até ficarem crocantes." } 
+                      }
+    },
+      { english: "Chop", portuguese: "Picar / Cortar",
+          levels: { 
+                        A1: { en: "Please chop the onions.", pt: "Por favor, pique as cebolas." }, 
+                        A2: { en: "Please chop the onions.", pt: "Por favor, pique as cebolas." }, 
+                        B1: { en: "She chopped the onions and garlic very quickly.", pt: "Ela picou as cebolas e o alho muito rápido." } 
+                      }
+    },
+      { english: "Spoon", portuguese: "Colher",
+          levels: { 
+                        A1: { en: "Use a spoon to mix everything.", pt: "Use uma colher para misturar tudo." }, 
+                        A2: { en: "Use a spoon to mix everything.", pt: "Use uma colher para misturar tudo." }, 
+                        B1: { en: "He stirred the soup carefully with a large wooden spoon.", pt: "Ele mexeu a sopa cuidadosamente com uma colher de pau grande." } 
+                      }
+    },
+      { english: "Fork", portuguese: "Garfo",
+          levels: { 
+                        A1: { en: "Eat your salad with a fork.", pt: "Coma sua salada com um garfo." }, 
+                        A2: { en: "Eat your salad with a fork.", pt: "Coma sua salada com um garfo." }, 
+                        B1: { en: "She ate the salad using a silver fork.", pt: "Ela comeu a salada usando um garfo de prata." } 
+                      }
+    },
+      { english: "Plate", portuguese: "Prato",
+          levels: { 
+                        A1: { en: "Put the food on the plate.", pt: "Coloque a comida no prato." }, 
+                        A2: { en: "Put the food on the plate.", pt: "Coloque a comida no prato." }, 
+                        B1: { en: "He arranged the food beautifully on the white plate.", pt: "Ele arrumou a comida lindamente no prato branco." } 
+                      }
+    },
+      { english: "Bowl", portuguese: "Tigela",
+          levels: { 
+                        A1: { en: "I eat soup in a bowl.", pt: "Eu tomo sopa em uma tigela." }, 
+                        A2: { en: "I eat soup in a bowl.", pt: "Eu tomo sopa em uma tigela." }, 
+                        B1: { en: "She mixed the salad dressing in a small bowl.", pt: "Ela misturou o molho de salada em uma tigela pequena." } 
+                      }
+    },
+      { english: "Mix", portuguese: "Misturar",
+          levels: { 
+                        A1: { en: "Mix the flour and sugar.", pt: "Misture a farinha e o açúcar." }, 
+                        A2: { en: "Mix the flour and sugar.", pt: "Misture a farinha e o açúcar." }, 
+                        B1: { en: "He mixed the flour and sugar to create the dough.", pt: "Ele misturou a farinha e o açúcar para criar a massa." } 
+                      }
+    },
+      { english: "Pour", portuguese: "Despejar",
+          levels: { 
+                        A1: { en: "Pour the milk into the glass.", pt: "Despeje o leite no copo." }, 
+                        A2: { en: "Pour the milk into the glass.", pt: "Despeje o leite no copo." }, 
+                        B1: { en: "She poured the hot tea into the delicate cups.", pt: "Ela despejou o chá quente nas xícaras delicadas." } 
+                      }
+    },
+      { english: "Taste", portuguese: "Provar / Gosto",
+          levels: { 
+                        A1: { en: "Taste the soup to see if it is good.", pt: "Prove a sopa para ver se está boa." }, 
+                        A2: { en: "Taste the soup to see if it is good.", pt: "Prove a sopa para ver se está boa." }, 
+                        B1: { en: "The chef tasted the sauce and added more salt.", pt: "O chef provou o molho e adicionou mais sal." } 
+                      }
+    },
+      { english: "Spicy", portuguese: "Apimentado",
+          levels: { 
+                        A1: { en: "Mexican food is often spicy.", pt: "Comida mexicana é frequentemente apimentada." }, 
+                        A2: { en: "Mexican food is often spicy.", pt: "Comida mexicana é frequentemente apimentada." }, 
+                        B1: { en: "He loved the spicy food they served at the Indian restaurant.", pt: "Ele adorava a comida apimentada que serviam no restaurante indiano." } 
+                      }
+    },
+      { english: "Sweet", portuguese: "Doce",
+          levels: { 
+                        A1: { en: "This cake is very sweet.", pt: "Este bolo é muito doce." }, 
+                        A2: { en: "This cake is very sweet.", pt: "Este bolo é muito doce." }, 
+                        B1: { en: "She preferred sweet desserts over salty snacks.", pt: "Ela preferia sobremesas doces a lanches salgados." } 
+                      }
+    },
+      { english: "Salty", portuguese: "Salgado",
+          levels: { 
+                        A1: { en: "The fries are too salty.", pt: "As batatas fritas estão muito salgadas." }, 
+                        A2: { en: "The fries are too salty.", pt: "As batatas fritas estão muito salgadas." }, 
+                        B1: { en: "He complained that the soup tasted too salty.", pt: "Ele reclamou que a sopa estava com gosto muito salgado." } 
+                      }
+    },
+      { english: "Pan", portuguese: "Panela / Frigideira",
+          levels: { 
+                        A1: { en: "Heat the oil in the pan.", pt: "Aqueça o óleo na panela." }, 
+                        A2: { en: "Heat the oil in the pan.", pt: "Aqueça o óleo na panela." }, 
+                        B1: { en: "She heated the oil in the frying pan before adding the eggs.", pt: "Ela aqueceu o óleo na frigideira antes de adicionar os ovos." } 
+                      }
+    },
     ],
     dialogue: [
       { speaker: "Chef", english: "Today we are going to cook a special dinner.", portuguese: "Hoje nós vamos cozinhar um jantar especial.", isPrimary: true },
@@ -546,8 +1194,20 @@ export const scenarios2: Scenario[] = [
         { question: "Can you mix the ingredients quickly?", translation: "Você consegue misturar os ingredientes rapidamente?" },
         { question: "Do you like the smell of food when you bake something?", translation: "Você gosta do cheiro da comida quando assa algo?" }
       ]
-    }
-  },
+    },
+      buildSentence: {
+                    level1: [ { english: "I love to cook Italian food.", portuguese: "Amo cozinhar comida italiana." }, { english: "Be careful with that sharp knife.", portuguese: "Cuidado com essa faca afiada." }, { english: "Please chop the onions.", portuguese: "Por favor, pique as cebolas." }, { english: "Eat your salad with a fork.", portuguese: "Coma sua salada com um garfo." }, { english: "Pour the milk into the glass.", portuguese: "Despeje o leite no copo." }, { english: "The fries are too salty.", portuguese: "As batatas fritas estão muito salgadas." } ],
+                    level2: [ { english: "She cooked a complex meal for her family yesterday.", portuguese: "Ela cozinhou uma refeição complexa para a família ontem." }, { english: "The chef sharpened his knife before preparing the vegetables.", portuguese: "O chef afiou a faca antes de preparar os vegetais." }, { english: "She chopped the onions and garlic very quickly.", portuguese: "Ela picou as cebolas e o alho muito rápido." }, { english: "She ate the salad using a silver fork.", portuguese: "Ela comeu a salada usando um garfo de prata." }, { english: "She poured the hot tea into the delicate cups.", portuguese: "Ela despejou o chá quente nas xícaras delicadas." }, { english: "He complained that the soup tasted too salty.", portuguese: "Ele reclamou que a sopa estava com gosto muito salgado." } ]
+                  },
+      trueOrFalseLevel2: {
+                    part1: [ { statement: "Cook means Cozinhar.", statementPt: "Cook significa Cozinhar.", isTrue: true, explanation: "Yes, Cook means Cozinhar." }, { statement: "Bake means a type of car.", statementPt: "Bake significa um tipo de carro.", isTrue: false, explanation: "No, Bake means Assar (bolos/pães)." }, { statement: "Recipe means Receita.", statementPt: "Recipe significa Receita.", isTrue: true, explanation: "Yes, Recipe means Receita." }, { statement: "Ingredients means a type of car.", statementPt: "Ingredients significa um tipo de carro.", isTrue: false, explanation: "No, Ingredients means Ingredientes." }, { statement: "Knife means Faca.", statementPt: "Knife significa Faca.", isTrue: true, explanation: "Yes, Knife means Faca." }, { statement: "Oven means a type of car.", statementPt: "Oven significa um tipo de carro.", isTrue: false, explanation: "No, Oven means Forno." }, { statement: "Boil means Ferver.", statementPt: "Boil significa Ferver.", isTrue: true, explanation: "Yes, Boil means Ferver." }, { statement: "Fry means a type of car.", statementPt: "Fry significa um tipo de carro.", isTrue: false, explanation: "No, Fry means Fritar." }, { statement: "Chop means Picar / Cortar.", statementPt: "Chop significa Picar / Cortar.", isTrue: true, explanation: "Yes, Chop means Picar / Cortar." }, { statement: "Spoon means a type of car.", statementPt: "Spoon significa um tipo de carro.", isTrue: false, explanation: "No, Spoon means Colher." } ],
+                    part2: [ { statement: "Fork means Garfo.", statementPt: "Fork significa Garfo.", isTrue: true, explanation: "Yes, Fork means Garfo." }, { statement: "Plate means a type of car.", statementPt: "Plate significa um tipo de carro.", isTrue: false, explanation: "No, Plate means Prato." }, { statement: "Bowl means Tigela.", statementPt: "Bowl significa Tigela.", isTrue: true, explanation: "Yes, Bowl means Tigela." }, { statement: "Mix means a type of car.", statementPt: "Mix significa um tipo de carro.", isTrue: false, explanation: "No, Mix means Misturar." }, { statement: "Pour means Despejar.", statementPt: "Pour significa Despejar.", isTrue: true, explanation: "Yes, Pour means Despejar." }, { statement: "Taste means a type of car.", statementPt: "Taste significa um tipo de carro.", isTrue: false, explanation: "No, Taste means Provar / Gosto." }, { statement: "Spicy means Apimentado.", statementPt: "Spicy significa Apimentado.", isTrue: true, explanation: "Yes, Spicy means Apimentado." }, { statement: "Sweet means a type of car.", statementPt: "Sweet significa um tipo de carro.", isTrue: false, explanation: "No, Sweet means Doce." }, { statement: "Salty means Salgado.", statementPt: "Salty significa Salgado.", isTrue: true, explanation: "Yes, Salty means Salgado." }, { statement: "Pan means a type of car.", statementPt: "Pan significa um tipo de carro.", isTrue: false, explanation: "No, Pan means Panela / Frigideira." } ]
+                  },
+      speakingPracticeLevel2: {
+                    part1: [ { question: "Can you use \"Cook\" in a sentence in the past simple?", translation: "Você consegue usar \"Cook\" em uma frase no passado simples?" }, { question: "Can you use \"Bake\" in a sentence in the past simple?", translation: "Você consegue usar \"Bake\" em uma frase no passado simples?" }, { question: "Can you use \"Recipe\" in a sentence in the past simple?", translation: "Você consegue usar \"Recipe\" em uma frase no passado simples?" }, { question: "Can you use \"Ingredients\" in a sentence in the past simple?", translation: "Você consegue usar \"Ingredients\" em uma frase no passado simples?" }, { question: "Can you use \"Knife\" in a sentence in the past simple?", translation: "Você consegue usar \"Knife\" em uma frase no passado simples?" }, { question: "Can you use \"Oven\" in a sentence in the past simple?", translation: "Você consegue usar \"Oven\" em uma frase no passado simples?" }, { question: "Can you use \"Boil\" in a sentence in the past simple?", translation: "Você consegue usar \"Boil\" em uma frase no passado simples?" }, { question: "Can you use \"Fry\" in a sentence in the past simple?", translation: "Você consegue usar \"Fry\" em uma frase no passado simples?" }, { question: "Can you use \"Chop\" in a sentence in the past simple?", translation: "Você consegue usar \"Chop\" em uma frase no passado simples?" }, { question: "Can you use \"Spoon\" in a sentence in the past simple?", translation: "Você consegue usar \"Spoon\" em uma frase no passado simples?" } ],
+                    part2: [ { question: "Can you use \"Fork\" in a sentence in the past simple?", translation: "Você consegue usar \"Fork\" em uma frase no passado simples?" }, { question: "Can you use \"Plate\" in a sentence in the past simple?", translation: "Você consegue usar \"Plate\" em uma frase no passado simples?" }, { question: "Can you use \"Bowl\" in a sentence in the past simple?", translation: "Você consegue usar \"Bowl\" em uma frase no passado simples?" }, { question: "Can you use \"Mix\" in a sentence in the past simple?", translation: "Você consegue usar \"Mix\" em uma frase no passado simples?" }, { question: "Can you use \"Pour\" in a sentence in the past simple?", translation: "Você consegue usar \"Pour\" em uma frase no passado simples?" }, { question: "Can you use \"Taste\" in a sentence in the past simple?", translation: "Você consegue usar \"Taste\" em uma frase no passado simples?" }, { question: "Can you use \"Spicy\" in a sentence in the past simple?", translation: "Você consegue usar \"Spicy\" em uma frase no passado simples?" }, { question: "Can you use \"Sweet\" in a sentence in the past simple?", translation: "Você consegue usar \"Sweet\" em uma frase no passado simples?" }, { question: "Can you use \"Salty\" in a sentence in the past simple?", translation: "Você consegue usar \"Salty\" em uma frase no passado simples?" }, { question: "Can you use \"Pan\" in a sentence in the past simple?", translation: "Você consegue usar \"Pan\" em uma frase no passado simples?" } ]
+                  }
+},
   {
     id: "tecnologia",
     title: "Basic Technology",
@@ -559,26 +1219,146 @@ export const scenarios2: Scenario[] = [
     color: "slate",
     available: true,
     vocabulary: [
-      { english: "Laptop", portuguese: "Notebook / PC", exampleEn: "I use my laptop for work.", examplePt: "Eu uso meu notebook para trabalhar." },
-      { english: "Smartphone", portuguese: "Celular", exampleEn: "Where is my smartphone?", examplePt: "Onde está meu celular?" },
-      { english: "Internet", portuguese: "Internet", exampleEn: "The internet connection is slow.", examplePt: "A conexão de internet está lenta." },
-      { english: "Keyboard", portuguese: "Teclado", exampleEn: "My keyboard is broken.", examplePt: "Meu teclado está quebrado." },
-      { english: "Screen", portuguese: "Tela", exampleEn: "Don't touch the screen.", examplePt: "Não toque na tela." },
-      { english: "Download", portuguese: "Baixar", exampleEn: "I will download the file.", examplePt: "Vou baixar o arquivo." },
-      { english: "Password", portuguese: "Senha", exampleEn: "I forgot my password.", examplePt: "Esqueci minha senha." },
-      { english: "Charger", portuguese: "Carregador", exampleEn: "Do you have a phone charger?", examplePt: "Você tem um carregador de celular?" },
-      { english: "App", portuguese: "Aplicativo", exampleEn: "This app is very useful.", examplePt: "Este aplicativo é muito útil." },
-      { english: "Mouse", portuguese: "Mouse", exampleEn: "Click the left button on the mouse.", examplePt: "Clique no botão esquerdo do mouse." },
-      { english: "Upload", portuguese: "Fazer upload / Enviar", exampleEn: "I need to upload my homework.", examplePt: "Preciso enviar meu dever de casa." },
-      { english: "Battery", portuguese: "Bateria", exampleEn: "My battery is low.", examplePt: "Minha bateria está fraca." },
-      { english: "Email", portuguese: "E-mail", exampleEn: "Send me an email later.", examplePt: "Me envie um e-mail mais tarde." },
-      { english: "Website", portuguese: "Site", exampleEn: "This website has great information.", examplePt: "Este site tem ótimas informações." },
-      { english: "Link", portuguese: "Link", exampleEn: "Click on this link.", examplePt: "Clique neste link." },
-      { english: "Save", portuguese: "Salvar", exampleEn: "Always save your work.", examplePt: "Sempre salve o seu trabalho." },
-      { english: "Delete", portuguese: "Apagar", exampleEn: "Delete that picture, please.", examplePt: "Apague aquela foto, por favor." },
-      { english: "Folder", portuguese: "Pasta (arquivos)", exampleEn: "Put the document in the new folder.", examplePt: "Coloque o documento na pasta nova." },
-      { english: "Headphones", portuguese: "Fones de ouvido", exampleEn: "I am listening to music with headphones.", examplePt: "Estou ouvindo música com fones de ouvido." },
-      { english: "Plug in", portuguese: "Conectar na tomada", exampleEn: "Plug in the charger first.", examplePt: "Conecte o carregador na tomada primeiro." },
+      { english: "Laptop", portuguese: "Notebook / PC",
+          levels: { 
+                        A1: { en: "I use my laptop for work.", pt: "Eu uso meu notebook para trabalhar." }, 
+                        A2: { en: "I use my laptop for work.", pt: "Eu uso meu notebook para trabalhar." }, 
+                        B1: { en: "He connected his laptop to the office network yesterday.", pt: "Ele conectou o laptop dele à rede do escritório ontem." } 
+                      }
+    },
+      { english: "Smartphone", portuguese: "Celular",
+          levels: { 
+                        A1: { en: "Where is my smartphone?", pt: "Onde está meu celular?" }, 
+                        A2: { en: "Where is my smartphone?", pt: "Onde está meu celular?" }, 
+                        B1: { en: "She bought a new smartphone with a better camera.", pt: "Ela comprou um smartphone novo com uma câmera melhor." } 
+                      }
+    },
+      { english: "Internet", portuguese: "Internet",
+          levels: { 
+                        A1: { en: "The internet connection is slow.", pt: "A conexão de internet está lenta." }, 
+                        A2: { en: "The internet connection is slow.", pt: "A conexão de internet está lenta." }, 
+                        B1: { en: "The internet connection dropped several times during the meeting.", pt: "A conexão com a internet caiu várias vezes durante a reunião." } 
+                      }
+    },
+      { english: "Keyboard", portuguese: "Teclado",
+          levels: { 
+                        A1: { en: "My keyboard is broken.", pt: "Meu teclado está quebrado." }, 
+                        A2: { en: "My keyboard is broken.", pt: "Meu teclado está quebrado." }, 
+                        B1: { en: "He typed the long document using a mechanical keyboard.", pt: "Ele digitou o longo documento usando um teclado mecânico." } 
+                      }
+    },
+      { english: "Screen", portuguese: "Tela",
+          levels: { 
+                        A1: { en: "Dont touch the screen.", pt: "Não toque na tela." }, 
+                        A2: { en: "Dont touch the screen.", pt: "Não toque na tela." }, 
+                        B1: { en: "She cracked her phone screen when it fell on the floor.", pt: "Ela rachou a tela do telefone quando ele caiu no chão." } 
+                      }
+    },
+      { english: "Download", portuguese: "Baixar",
+          levels: { 
+                        A1: { en: "I will download the file.", pt: "Vou baixar o arquivo." }, 
+                        A2: { en: "I will download the file.", pt: "Vou baixar o arquivo." }, 
+                        B1: { en: "He downloaded the important files before the flight.", pt: "Ele baixou os arquivos importantes antes do voo." } 
+                      }
+    },
+      { english: "Password", portuguese: "Senha",
+          levels: { 
+                        A1: { en: "I forgot my password.", pt: "Esqueci minha senha." }, 
+                        A2: { en: "I forgot my password.", pt: "Esqueci minha senha." }, 
+                        B1: { en: "She forgot her password and locked her account.", pt: "Ela esqueceu sua senha e bloqueou sua conta." } 
+                      }
+    },
+      { english: "Charger", portuguese: "Carregador",
+          levels: { 
+                        A1: { en: "Do you have a phone charger?", pt: "Você tem um carregador de celular?" }, 
+                        A2: { en: "Do you have a phone charger?", pt: "Você tem um carregador de celular?" }, 
+                        B1: { en: "He plugged his phone into the charger all night.", pt: "Ele conectou o telefone ao carregador a noite toda." } 
+                      }
+    },
+      { english: "App", portuguese: "Aplicativo",
+          levels: { 
+                        A1: { en: "This app is very useful.", pt: "Este aplicativo é muito útil." }, 
+                        A2: { en: "This app is very useful.", pt: "Este aplicativo é muito útil." }, 
+                        B1: { en: "The developer updated the app to fix some bugs.", pt: "O desenvolvedor atualizou o aplicativo para corrigir alguns bugs." } 
+                      }
+    },
+      { english: "Mouse", portuguese: "Mouse",
+          levels: { 
+                        A1: { en: "Click the left button on the mouse.", pt: "Clique no botão esquerdo do mouse." }, 
+                        A2: { en: "Click the left button on the mouse.", pt: "Clique no botão esquerdo do mouse." }, 
+                        B1: { en: "She clicked the mouse twice to open the application.", pt: "Ela clicou no mouse duas vezes para abrir o aplicativo." } 
+                      }
+    },
+      { english: "Upload", portuguese: "Fazer upload / Enviar",
+          levels: { 
+                        A1: { en: "I need to upload my homework.", pt: "Preciso enviar meu dever de casa." }, 
+                        A2: { en: "I need to upload my homework.", pt: "Preciso enviar meu dever de casa." }, 
+                        B1: { en: "He uploaded the heavy video file to the server.", pt: "Ele enviou (fez upload) o arquivo de vídeo pesado para o servidor." } 
+                      }
+    },
+      { english: "Battery", portuguese: "Bateria",
+          levels: { 
+                        A1: { en: "My battery is low.", pt: "Minha bateria está fraca." }, 
+                        A2: { en: "My battery is low.", pt: "Minha bateria está fraca." }, 
+                        B1: { en: "The phone battery died completely during the long trip.", pt: "A bateria do telefone acabou completamente durante a longa viagem." } 
+                      }
+    },
+      { english: "Email", portuguese: "E-mail",
+          levels: { 
+                        A1: { en: "Send me an email later.", pt: "Me envie um e-mail mais tarde." }, 
+                        A2: { en: "Send me an email later.", pt: "Me envie um e-mail mais tarde." }, 
+                        B1: { en: "She received an urgent email from her boss this morning.", pt: "Ela recebeu um email urgente do seu chefe esta manhã." } 
+                      }
+    },
+      { english: "Website", portuguese: "Site",
+          levels: { 
+                        A1: { en: "This website has great information.", pt: "Este site tem ótimas informações." }, 
+                        A2: { en: "This website has great information.", pt: "Este site tem ótimas informações." }, 
+                        B1: { en: "The company launched a new website to attract more clients.", pt: "A empresa lançou um novo site para atrair mais clientes." } 
+                      }
+    },
+      { english: "Link", portuguese: "Link",
+          levels: { 
+                        A1: { en: "Click on this link.", pt: "Clique neste link." }, 
+                        A2: { en: "Click on this link.", pt: "Clique neste link." }, 
+                        B1: { en: "He clicked the secure link to reset his password.", pt: "Ele clicou no link seguro para redefinir sua senha." } 
+                      }
+    },
+      { english: "Save", portuguese: "Salvar",
+          levels: { 
+                        A1: { en: "Always save your work.", pt: "Sempre salve o seu trabalho." }, 
+                        A2: { en: "Always save your work.", pt: "Sempre salve o seu trabalho." }, 
+                        B1: { en: "She saved all her important documents on a portable drive.", pt: "Ela salvou todos os seus documentos importantes num drive portátil." } 
+                      }
+    },
+      { english: "Delete", portuguese: "Apagar",
+          levels: { 
+                        A1: { en: "Delete that picture, please.", pt: "Apague aquela foto, por favor." }, 
+                        A2: { en: "Delete that picture, please.", pt: "Apague aquela foto, por favor." }, 
+                        B1: { en: "He deleted the old files to free up space on his computer.", pt: "Ele apagou os arquivos antigos para liberar espaço no seu computador." } 
+                      }
+    },
+      { english: "Folder", portuguese: "Pasta (arquivos)",
+          levels: { 
+                        A1: { en: "Put the document in the new folder.", pt: "Coloque o documento na pasta nova." }, 
+                        A2: { en: "Put the document in the new folder.", pt: "Coloque o documento na pasta nova." }, 
+                        B1: { en: "She organized her digital photos in a specific folder.", pt: "Ela organizou suas fotos digitais numa pasta específica." } 
+                      }
+    },
+      { english: "Headphones", portuguese: "Fones de ouvido",
+          levels: { 
+                        A1: { en: "I am listening to music with headphones.", pt: "Estou ouvindo música com fones de ouvido." }, 
+                        A2: { en: "I am listening to music with headphones.", pt: "Estou ouvindo música com fones de ouvido." }, 
+                        B1: { en: "He wore noise-canceling headphones to concentrate at work.", pt: "Ele usou fones de ouvido com cancelamento de ruído para se concentrar no trabalho." } 
+                      }
+    },
+      { english: "Plug in", portuguese: "Conectar na tomada",
+          levels: { 
+                        A1: { en: "Plug in the charger first.", pt: "Conecte o carregador na tomada primeiro." }, 
+                        A2: { en: "Plug in the charger first.", pt: "Conecte o carregador na tomada primeiro." }, 
+                        B1: { en: "She plugged in her laptop before starting the presentation.", pt: "Ela conectou (na tomada) o laptop antes de começar a apresentação." } 
+                      }
+    },
     ],
     dialogue: [
       { speaker: "Mark", english: "Hey, can I borrow your phone charger?", portuguese: "Ei, posso pegar seu carregador de celular emprestado?", isPrimary: true },
@@ -655,8 +1435,20 @@ export const scenarios2: Scenario[] = [
         { question: "Do you have a special folder for your documents?", translation: "Você tem uma pasta especial para seus documentos?" },
         { question: "Do you visit many websites every day?", translation: "Você visita muitos sites todos os dias?" }
       ]
-    }
-  },
+    },
+      buildSentence: {
+                    level1: [ { english: "I use my laptop for work.", portuguese: "Eu uso meu notebook para trabalhar." }, { english: "Dont touch the screen.", portuguese: "Não toque na tela." }, { english: "This app is very useful.", portuguese: "Este aplicativo é muito útil." }, { english: "I need to upload my homework.", portuguese: "Preciso enviar meu dever de casa." }, { english: "Click on this link.", portuguese: "Clique neste link." }, { english: "I am listening to music with headphones.", portuguese: "Estou ouvindo música com fones de ouvido." } ],
+                    level2: [ { english: "He connected his laptop to the office network yesterday.", portuguese: "Ele conectou o laptop dele à rede do escritório ontem." }, { english: "She cracked her phone screen when it fell on the floor.", portuguese: "Ela rachou a tela do telefone quando ele caiu no chão." }, { english: "The developer updated the app to fix some bugs.", portuguese: "O desenvolvedor atualizou o aplicativo para corrigir alguns bugs." }, { english: "He uploaded the heavy video file to the server.", portuguese: "Ele enviou (fez upload) o arquivo de vídeo pesado para o servidor." }, { english: "He clicked the secure link to reset his password.", portuguese: "Ele clicou no link seguro para redefinir sua senha." }, { english: "He wore noise-canceling headphones to concentrate at work.", portuguese: "Ele usou fones de ouvido com cancelamento de ruído para se concentrar no trabalho." } ]
+                  },
+      trueOrFalseLevel2: {
+                    part1: [ { statement: "Laptop means Notebook / PC.", statementPt: "Laptop significa Notebook / PC.", isTrue: true, explanation: "Yes, Laptop means Notebook / PC." }, { statement: "Smartphone means a type of car.", statementPt: "Smartphone significa um tipo de carro.", isTrue: false, explanation: "No, Smartphone means Celular." }, { statement: "Internet means Internet.", statementPt: "Internet significa Internet.", isTrue: true, explanation: "Yes, Internet means Internet." }, { statement: "Keyboard means a type of car.", statementPt: "Keyboard significa um tipo de carro.", isTrue: false, explanation: "No, Keyboard means Teclado." }, { statement: "Screen means Tela.", statementPt: "Screen significa Tela.", isTrue: true, explanation: "Yes, Screen means Tela." }, { statement: "Download means a type of car.", statementPt: "Download significa um tipo de carro.", isTrue: false, explanation: "No, Download means Baixar." }, { statement: "Password means Senha.", statementPt: "Password significa Senha.", isTrue: true, explanation: "Yes, Password means Senha." }, { statement: "Charger means a type of car.", statementPt: "Charger significa um tipo de carro.", isTrue: false, explanation: "No, Charger means Carregador." }, { statement: "App means Aplicativo.", statementPt: "App significa Aplicativo.", isTrue: true, explanation: "Yes, App means Aplicativo." }, { statement: "Mouse means a type of car.", statementPt: "Mouse significa um tipo de carro.", isTrue: false, explanation: "No, Mouse means Mouse." } ],
+                    part2: [ { statement: "Upload means Fazer upload / Enviar.", statementPt: "Upload significa Fazer upload / Enviar.", isTrue: true, explanation: "Yes, Upload means Fazer upload / Enviar." }, { statement: "Battery means a type of car.", statementPt: "Battery significa um tipo de carro.", isTrue: false, explanation: "No, Battery means Bateria." }, { statement: "Email means E-mail.", statementPt: "Email significa E-mail.", isTrue: true, explanation: "Yes, Email means E-mail." }, { statement: "Website means a type of car.", statementPt: "Website significa um tipo de carro.", isTrue: false, explanation: "No, Website means Site." }, { statement: "Link means Link.", statementPt: "Link significa Link.", isTrue: true, explanation: "Yes, Link means Link." }, { statement: "Save means a type of car.", statementPt: "Save significa um tipo de carro.", isTrue: false, explanation: "No, Save means Salvar." }, { statement: "Delete means Apagar.", statementPt: "Delete significa Apagar.", isTrue: true, explanation: "Yes, Delete means Apagar." }, { statement: "Folder means a type of car.", statementPt: "Folder significa um tipo de carro.", isTrue: false, explanation: "No, Folder means Pasta (arquivos)." }, { statement: "Headphones means Fones de ouvido.", statementPt: "Headphones significa Fones de ouvido.", isTrue: true, explanation: "Yes, Headphones means Fones de ouvido." }, { statement: "Plug in means a type of car.", statementPt: "Plug in significa um tipo de carro.", isTrue: false, explanation: "No, Plug in means Conectar na tomada." } ]
+                  },
+      speakingPracticeLevel2: {
+                    part1: [ { question: "Can you use \"Laptop\" in a sentence in the past simple?", translation: "Você consegue usar \"Laptop\" em uma frase no passado simples?" }, { question: "Can you use \"Smartphone\" in a sentence in the past simple?", translation: "Você consegue usar \"Smartphone\" em uma frase no passado simples?" }, { question: "Can you use \"Internet\" in a sentence in the past simple?", translation: "Você consegue usar \"Internet\" em uma frase no passado simples?" }, { question: "Can you use \"Keyboard\" in a sentence in the past simple?", translation: "Você consegue usar \"Keyboard\" em uma frase no passado simples?" }, { question: "Can you use \"Screen\" in a sentence in the past simple?", translation: "Você consegue usar \"Screen\" em uma frase no passado simples?" }, { question: "Can you use \"Download\" in a sentence in the past simple?", translation: "Você consegue usar \"Download\" em uma frase no passado simples?" }, { question: "Can you use \"Password\" in a sentence in the past simple?", translation: "Você consegue usar \"Password\" em uma frase no passado simples?" }, { question: "Can you use \"Charger\" in a sentence in the past simple?", translation: "Você consegue usar \"Charger\" em uma frase no passado simples?" }, { question: "Can you use \"App\" in a sentence in the past simple?", translation: "Você consegue usar \"App\" em uma frase no passado simples?" }, { question: "Can you use \"Mouse\" in a sentence in the past simple?", translation: "Você consegue usar \"Mouse\" em uma frase no passado simples?" } ],
+                    part2: [ { question: "Can you use \"Upload\" in a sentence in the past simple?", translation: "Você consegue usar \"Upload\" em uma frase no passado simples?" }, { question: "Can you use \"Battery\" in a sentence in the past simple?", translation: "Você consegue usar \"Battery\" em uma frase no passado simples?" }, { question: "Can you use \"Email\" in a sentence in the past simple?", translation: "Você consegue usar \"Email\" em uma frase no passado simples?" }, { question: "Can you use \"Website\" in a sentence in the past simple?", translation: "Você consegue usar \"Website\" em uma frase no passado simples?" }, { question: "Can you use \"Link\" in a sentence in the past simple?", translation: "Você consegue usar \"Link\" em uma frase no passado simples?" }, { question: "Can you use \"Save\" in a sentence in the past simple?", translation: "Você consegue usar \"Save\" em uma frase no passado simples?" }, { question: "Can you use \"Delete\" in a sentence in the past simple?", translation: "Você consegue usar \"Delete\" em uma frase no passado simples?" }, { question: "Can you use \"Folder\" in a sentence in the past simple?", translation: "Você consegue usar \"Folder\" em uma frase no passado simples?" }, { question: "Can you use \"Headphones\" in a sentence in the past simple?", translation: "Você consegue usar \"Headphones\" em uma frase no passado simples?" }, { question: "Can you use \"Plug in\" in a sentence in the past simple?", translation: "Você consegue usar \"Plug in\" em uma frase no passado simples?" } ]
+                  }
+},
   {
     id: "redes-sociais",
     title: "Social Media",
@@ -668,26 +1460,146 @@ export const scenarios2: Scenario[] = [
     color: "violet",
     available: true,
     vocabulary: [
-      { english: "Like", portuguese: "Curtir", exampleEn: "Did you like my photo?", examplePt: "Você curtiu minha foto?" },
-      { english: "Follow", portuguese: "Seguir", exampleEn: "I follow many famous people.", examplePt: "Eu sigo muitas pessoas famosas." },
-      { english: "Post", portuguese: "Publicar", exampleEn: "I will post a video tomorrow.", examplePt: "Vou publicar um vídeo amanhã." },
-      { english: "Share", portuguese: "Compartilhar", exampleEn: "Share this post with your friends.", examplePt: "Compartilhe esta publicação com seus amigos." },
-      { english: "Profile", portuguese: "Perfil", exampleEn: "Your profile picture is nice.", examplePt: "Sua foto de perfil é bonita." },
-      { english: "Message", portuguese: "Mensagem", exampleEn: "Send me a direct message.", examplePt: "Envie-me uma mensagem direta." },
-      { english: "Comment", portuguese: "Comentar / Comentário", exampleEn: "Leave a comment below.", examplePt: "Deixe um comentário abaixo." },
-      { english: "Hashtag", portuguese: "Hashtag (#)", exampleEn: "Use the hashtag #vacation.", examplePt: "Use a hashtag #vacation." },
-      { english: "Scroll", portuguese: "Rolar (a tela)", exampleEn: "I spend hours scrolling my feed.", examplePt: "Passo horas rolando meu feed." },
-      { english: "Follower", portuguese: "Seguidor", exampleEn: "She has one million followers.", examplePt: "Ela tem um milhão de seguidores." },
-      { english: "Feed", portuguese: "Feed / Linha do tempo", exampleEn: "My feed is full of cats.", examplePt: "Meu feed está cheio de gatos." },
-      { english: "Tag", portuguese: "Marcar (alguém)", exampleEn: "Tag me in the photo.", examplePt: "Me marque na foto." },
-      { english: "Story", portuguese: "Story (história temporária)", exampleEn: "I posted a story at the beach.", examplePt: "Postei um story na praia." },
-      { english: "Influencer", portuguese: "Influenciador", exampleEn: "He is a famous digital influencer.", examplePt: "Ele é um influenciador digital famoso." },
-      { english: "Viral", portuguese: "Viral", exampleEn: "The video went viral.", examplePt: "O vídeo viralizou." },
-      { english: "Meme", portuguese: "Meme", exampleEn: "That meme is very funny.", examplePt: "Aquele meme é muito engraçado." },
-      { english: "Block", portuguese: "Bloquear", exampleEn: "I had to block that user.", examplePt: "Eu tive que bloquear aquele usuário." },
-      { english: "Notification", portuguese: "Notificação", exampleEn: "Turn on the notifications.", examplePt: "Ligue as notificações." },
-      { english: "Update", portuguese: "Atualizar", exampleEn: "I need to update my status.", examplePt: "Preciso atualizar meu status." },
-      { english: "Account", portuguese: "Conta (perfil)", exampleEn: "My account is private.", examplePt: "Minha account é privada." },
+      { english: "Like", portuguese: "Curtir",
+          levels: { 
+                        A1: { en: "Did you like my photo?", pt: "Você curtiu minha foto?" }, 
+                        A2: { en: "Did you like my photo?", pt: "Você curtiu minha foto?" }, 
+                        B1: { en: "Thousands of people liked her post about the trip.", pt: "Milhares de pessoas curtiram a postagem dela sobre a viagem." } 
+                      }
+    },
+      { english: "Follow", portuguese: "Seguir",
+          levels: { 
+                        A1: { en: "I follow many famous people.", pt: "Eu sigo muitas pessoas famosas." }, 
+                        A2: { en: "I follow many famous people.", pt: "Eu sigo muitas pessoas famosas." }, 
+                        B1: { en: "He followed many educational channels to learn new skills.", pt: "Ele seguia muitos canais educacionais para aprender novas habilidades." } 
+                      }
+    },
+      { english: "Post", portuguese: "Publicar",
+          levels: { 
+                        A1: { en: "I will post a video tomorrow.", pt: "Vou publicar um vídeo amanhã." }, 
+                        A2: { en: "I will post a video tomorrow.", pt: "Vou publicar um vídeo amanhã." }, 
+                        B1: { en: "She posted a beautiful picture of the sunset on her profile.", pt: "Ela postou uma foto linda do pôr do sol no seu perfil." } 
+                      }
+    },
+      { english: "Share", portuguese: "Compartilhar",
+          levels: { 
+                        A1: { en: "Share this post with your friends.", pt: "Compartilhe esta publicação com seus amigos." }, 
+                        A2: { en: "Share this post with your friends.", pt: "Compartilhe esta publicação com seus amigos." }, 
+                        B1: { en: "They shared the funny video with all their friends.", pt: "Eles compartilharam o vídeo engraçado com todos os seus amigos." } 
+                      }
+    },
+      { english: "Profile", portuguese: "Perfil",
+          levels: { 
+                        A1: { en: "Your profile picture is nice.", pt: "Sua foto de perfil é bonita." }, 
+                        A2: { en: "Your profile picture is nice.", pt: "Sua foto de perfil é bonita." }, 
+                        B1: { en: "He updated his professional profile to find a better job.", pt: "Ele atualizou seu perfil profissional para encontrar um emprego melhor." } 
+                      }
+    },
+      { english: "Message", portuguese: "Mensagem",
+          levels: { 
+                        A1: { en: "Send me a direct message.", pt: "Envie-me uma mensagem direta." }, 
+                        A2: { en: "Send me a direct message.", pt: "Envie-me uma mensagem direta." }, 
+                        B1: { en: "She sent a direct message to ask about the event details.", pt: "Ela enviou uma mensagem direta para perguntar sobre os detalhes do evento." } 
+                      }
+    },
+      { english: "Comment", portuguese: "Comentar / Comentário",
+          levels: { 
+                        A1: { en: "Leave a comment below.", pt: "Deixe um comentário abaixo." }, 
+                        A2: { en: "Leave a comment below.", pt: "Deixe um comentário abaixo." }, 
+                        B1: { en: "He left a positive comment on her recent photo.", pt: "Ele deixou um comentário positivo na foto recente dela." } 
+                      }
+    },
+      { english: "Hashtag", portuguese: "Hashtag (#)",
+          levels: { 
+                        A1: { en: "Use the hashtag #vacation.", pt: "Use a hashtag #vacation." }, 
+                        A2: { en: "Use the hashtag #vacation.", pt: "Use a hashtag #vacation." }, 
+                        B1: { en: "She used a popular hashtag to make her post visible.", pt: "Ela usou uma hashtag popular para tornar sua postagem visível." } 
+                      }
+    },
+      { english: "Scroll", portuguese: "Rolar (a tela)",
+          levels: { 
+                        A1: { en: "I spend hours scrolling my feed.", pt: "Passo horas rolando meu feed." }, 
+                        A2: { en: "I spend hours scrolling my feed.", pt: "Passo horas rolando meu feed." }, 
+                        B1: { en: "He scrolled through his feed for hours without realizing it.", pt: "Ele rolou a tela pelo seu feed por horas sem perceber." } 
+                      }
+    },
+      { english: "Follower", portuguese: "Seguidor",
+          levels: { 
+                        A1: { en: "She has one million followers.", pt: "Ela tem um milhão de seguidores." }, 
+                        A2: { en: "She has one million followers.", pt: "Ela tem um milhão de seguidores." }, 
+                        B1: { en: "The influencer gained a new follower every minute.", pt: "O influenciador ganhava um novo seguidor a cada minuto." } 
+                      }
+    },
+      { english: "Feed", portuguese: "Feed / Linha do tempo",
+          levels: { 
+                        A1: { en: "My feed is full of cats.", pt: "Meu feed está cheio de gatos." }, 
+                        A2: { en: "My feed is full of cats.", pt: "Meu feed está cheio de gatos." }, 
+                        B1: { en: "She checked her feed every morning to read the news.", pt: "Ela verificava o seu feed toda manhã para ler as notícias." } 
+                      }
+    },
+      { english: "Tag", portuguese: "Marcar (alguém)",
+          levels: { 
+                        A1: { en: "Tag me in the photo.", pt: "Me marque na foto." }, 
+                        A2: { en: "Tag me in the photo.", pt: "Me marque na foto." }, 
+                        B1: { en: "He tagged his best friend in the hilarious meme.", pt: "Ele marcou seu melhor amigo no meme hilário." } 
+                      }
+    },
+      { english: "Story", portuguese: "Story (história temporária)",
+          levels: { 
+                        A1: { en: "I posted a story at the beach.", pt: "Postei um story na praia." }, 
+                        A2: { en: "I posted a story at the beach.", pt: "Postei um story na praia." }, 
+                        B1: { en: "She uploaded a quick update to her story yesterday.", pt: "Ela enviou uma atualização rápida para seu story ontem." } 
+                      }
+    },
+      { english: "Influencer", portuguese: "Influenciador",
+          levels: { 
+                        A1: { en: "He is a famous digital influencer.", pt: "Ele é um influenciador digital famoso." }, 
+                        A2: { en: "He is a famous digital influencer.", pt: "Ele é um influenciador digital famoso." }, 
+                        B1: { en: "The famous influencer promoted a new clothing brand.", pt: "O influenciador famoso promoveu uma nova marca de roupas." } 
+                      }
+    },
+      { english: "Viral", portuguese: "Viral",
+          levels: { 
+                        A1: { en: "The video went viral.", pt: "O vídeo viralizou." }, 
+                        A2: { en: "The video went viral.", pt: "O vídeo viralizou." }, 
+                        B1: { en: "The dancing video went completely viral overnight.", pt: "O vídeo de dança se tornou completamente viral da noite para o dia." } 
+                      }
+    },
+      { english: "Meme", portuguese: "Meme",
+          levels: { 
+                        A1: { en: "That meme is very funny.", pt: "Aquele meme é muito engraçado." }, 
+                        A2: { en: "That meme is very funny.", pt: "Aquele meme é muito engraçado." }, 
+                        B1: { en: "They laughed at the funny meme they saw online.", pt: "Eles riram do meme engraçado que viram online." } 
+                      }
+    },
+      { english: "Block", portuguese: "Bloquear",
+          levels: { 
+                        A1: { en: "I had to block that user.", pt: "Eu tive que bloquear aquele usuário." }, 
+                        A2: { en: "I had to block that user.", pt: "Eu tive que bloquear aquele usuário." }, 
+                        B1: { en: "She blocked the rude user to protect her privacy.", pt: "Ela bloqueou o usuário rude para proteger sua privacidade." } 
+                      }
+    },
+      { english: "Notification", portuguese: "Notificação",
+          levels: { 
+                        A1: { en: "Turn on the notifications.", pt: "Ligue as notificações." }, 
+                        A2: { en: "Turn on the notifications.", pt: "Ligue as notificações." }, 
+                        B1: { en: "He received a notification when someone liked his photo.", pt: "Ele recebeu uma notificação quando alguém curtiu a foto dele." } 
+                      }
+    },
+      { english: "Update", portuguese: "Atualizar",
+          levels: { 
+                        A1: { en: "I need to update my status.", pt: "Preciso atualizar meu status." }, 
+                        A2: { en: "I need to update my status.", pt: "Preciso atualizar meu status." }, 
+                        B1: { en: "The application updated automatically during the night.", pt: "O aplicativo atualizou automaticamente durante a noite." } 
+                      }
+    },
+      { english: "Account", portuguese: "Conta (perfil)",
+          levels: { 
+                        A1: { en: "My account is private.", pt: "Minha account é privada." }, 
+                        A2: { en: "My account is private.", pt: "Minha account é privada." }, 
+                        B1: { en: "He created a new account to keep his personal life private.", pt: "Ele criou uma nova conta para manter sua vida pessoal privada." } 
+                      }
+    },
     ],
     dialogue: [
       { speaker: "John", english: "Hey, did you see the picture I posted today?", portuguese: "Ei, você viu a foto que publiquei hoje?", isPrimary: true },
@@ -764,6 +1676,18 @@ export const scenarios2: Scenario[] = [
         { question: "Do you follow any digital influencer?", translation: "Você segue algum influenciador digital?" },
         { question: "Do you keep your phone on silent to avoid notifications?", translation: "Você deixa seu celular no silencioso para evitar notificações?" }
       ]
-    }
-  },
+    },
+      buildSentence: {
+                    level1: [ { english: "Did you like my photo?", portuguese: "Você curtiu minha foto?" }, { english: "Your profile picture is nice.", portuguese: "Sua foto de perfil é bonita." }, { english: "I spend hours scrolling my feed.", portuguese: "Passo horas rolando meu feed." }, { english: "My feed is full of cats.", portuguese: "Meu feed está cheio de gatos." }, { english: "The video went viral.", portuguese: "O vídeo viralizou." }, { english: "I need to update my status.", portuguese: "Preciso atualizar meu status." } ],
+                    level2: [ { english: "Thousands of people liked her post about the trip.", portuguese: "Milhares de pessoas curtiram a postagem dela sobre a viagem." }, { english: "He updated his professional profile to find a better job.", portuguese: "Ele atualizou seu perfil profissional para encontrar um emprego melhor." }, { english: "He scrolled through his feed for hours without realizing it.", portuguese: "Ele rolou a tela pelo seu feed por horas sem perceber." }, { english: "She checked her feed every morning to read the news.", portuguese: "Ela verificava o seu feed toda manhã para ler as notícias." }, { english: "The dancing video went completely viral overnight.", portuguese: "O vídeo de dança se tornou completamente viral da noite para o dia." }, { english: "The application updated automatically during the night.", portuguese: "O aplicativo atualizou automaticamente durante a noite." } ]
+                  },
+      trueOrFalseLevel2: {
+                    part1: [ { statement: "Like means Curtir.", statementPt: "Like significa Curtir.", isTrue: true, explanation: "Yes, Like means Curtir." }, { statement: "Follow means a type of car.", statementPt: "Follow significa um tipo de carro.", isTrue: false, explanation: "No, Follow means Seguir." }, { statement: "Post means Publicar.", statementPt: "Post significa Publicar.", isTrue: true, explanation: "Yes, Post means Publicar." }, { statement: "Share means a type of car.", statementPt: "Share significa um tipo de carro.", isTrue: false, explanation: "No, Share means Compartilhar." }, { statement: "Profile means Perfil.", statementPt: "Profile significa Perfil.", isTrue: true, explanation: "Yes, Profile means Perfil." }, { statement: "Message means a type of car.", statementPt: "Message significa um tipo de carro.", isTrue: false, explanation: "No, Message means Mensagem." }, { statement: "Comment means Comentar / Comentário.", statementPt: "Comment significa Comentar / Comentário.", isTrue: true, explanation: "Yes, Comment means Comentar / Comentário." }, { statement: "Hashtag means a type of car.", statementPt: "Hashtag significa um tipo de carro.", isTrue: false, explanation: "No, Hashtag means Hashtag (#)." }, { statement: "Scroll means Rolar (a tela).", statementPt: "Scroll significa Rolar (a tela).", isTrue: true, explanation: "Yes, Scroll means Rolar (a tela)." }, { statement: "Follower means a type of car.", statementPt: "Follower significa um tipo de carro.", isTrue: false, explanation: "No, Follower means Seguidor." } ],
+                    part2: [ { statement: "Feed means Feed / Linha do tempo.", statementPt: "Feed significa Feed / Linha do tempo.", isTrue: true, explanation: "Yes, Feed means Feed / Linha do tempo." }, { statement: "Tag means a type of car.", statementPt: "Tag significa um tipo de carro.", isTrue: false, explanation: "No, Tag means Marcar (alguém)." }, { statement: "Story means Story (história temporária).", statementPt: "Story significa Story (história temporária).", isTrue: true, explanation: "Yes, Story means Story (história temporária)." }, { statement: "Influencer means a type of car.", statementPt: "Influencer significa um tipo de carro.", isTrue: false, explanation: "No, Influencer means Influenciador." }, { statement: "Viral means Viral.", statementPt: "Viral significa Viral.", isTrue: true, explanation: "Yes, Viral means Viral." }, { statement: "Meme means a type of car.", statementPt: "Meme significa um tipo de carro.", isTrue: false, explanation: "No, Meme means Meme." }, { statement: "Block means Bloquear.", statementPt: "Block significa Bloquear.", isTrue: true, explanation: "Yes, Block means Bloquear." }, { statement: "Notification means a type of car.", statementPt: "Notification significa um tipo de carro.", isTrue: false, explanation: "No, Notification means Notificação." }, { statement: "Update means Atualizar.", statementPt: "Update significa Atualizar.", isTrue: true, explanation: "Yes, Update means Atualizar." }, { statement: "Account means a type of car.", statementPt: "Account significa um tipo de carro.", isTrue: false, explanation: "No, Account means Conta (perfil)." } ]
+                  },
+      speakingPracticeLevel2: {
+                    part1: [ { question: "Can you use \"Like\" in a sentence in the past simple?", translation: "Você consegue usar \"Like\" em uma frase no passado simples?" }, { question: "Can you use \"Follow\" in a sentence in the past simple?", translation: "Você consegue usar \"Follow\" em uma frase no passado simples?" }, { question: "Can you use \"Post\" in a sentence in the past simple?", translation: "Você consegue usar \"Post\" em uma frase no passado simples?" }, { question: "Can you use \"Share\" in a sentence in the past simple?", translation: "Você consegue usar \"Share\" em uma frase no passado simples?" }, { question: "Can you use \"Profile\" in a sentence in the past simple?", translation: "Você consegue usar \"Profile\" em uma frase no passado simples?" }, { question: "Can you use \"Message\" in a sentence in the past simple?", translation: "Você consegue usar \"Message\" em uma frase no passado simples?" }, { question: "Can you use \"Comment\" in a sentence in the past simple?", translation: "Você consegue usar \"Comment\" em uma frase no passado simples?" }, { question: "Can you use \"Hashtag\" in a sentence in the past simple?", translation: "Você consegue usar \"Hashtag\" em uma frase no passado simples?" }, { question: "Can you use \"Scroll\" in a sentence in the past simple?", translation: "Você consegue usar \"Scroll\" em uma frase no passado simples?" }, { question: "Can you use \"Follower\" in a sentence in the past simple?", translation: "Você consegue usar \"Follower\" em uma frase no passado simples?" } ],
+                    part2: [ { question: "Can you use \"Feed\" in a sentence in the past simple?", translation: "Você consegue usar \"Feed\" em uma frase no passado simples?" }, { question: "Can you use \"Tag\" in a sentence in the past simple?", translation: "Você consegue usar \"Tag\" em uma frase no passado simples?" }, { question: "Can you use \"Story\" in a sentence in the past simple?", translation: "Você consegue usar \"Story\" em uma frase no passado simples?" }, { question: "Can you use \"Influencer\" in a sentence in the past simple?", translation: "Você consegue usar \"Influencer\" em uma frase no passado simples?" }, { question: "Can you use \"Viral\" in a sentence in the past simple?", translation: "Você consegue usar \"Viral\" em uma frase no passado simples?" }, { question: "Can you use \"Meme\" in a sentence in the past simple?", translation: "Você consegue usar \"Meme\" em uma frase no passado simples?" }, { question: "Can you use \"Block\" in a sentence in the past simple?", translation: "Você consegue usar \"Block\" em uma frase no passado simples?" }, { question: "Can you use \"Notification\" in a sentence in the past simple?", translation: "Você consegue usar \"Notification\" em uma frase no passado simples?" }, { question: "Can you use \"Update\" in a sentence in the past simple?", translation: "Você consegue usar \"Update\" em uma frase no passado simples?" }, { question: "Can you use \"Account\" in a sentence in the past simple?", translation: "Você consegue usar \"Account\" em uma frase no passado simples?" } ]
+                  }
+},
 ];

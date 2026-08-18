@@ -1,8 +1,11 @@
 export interface VocabularyItem {
   english: string;
   portuguese: string;
-  exampleEn?: string;
-  examplePt?: string;
+  levels?: {
+    A1?: { en: string; pt: string };
+    A2?: { en: string; pt: string };
+    B1?: { en: string; pt: string };
+  };
 }
 
 export interface UsefulExpression {
@@ -52,6 +55,22 @@ export interface SpeakingPractice {
   part2: SpeakingQuestion[];
 }
 
+export interface BuildSentencePractice {
+  level1: { english: string; portuguese: string; }[];
+  level2: { english: string; portuguese: string; }[];
+}
+
+export interface ReadingLevel {
+  textEn: string;
+  textPt: string;
+  questions: QuizQuestion[];
+}
+
+export interface ReadingPractice {
+  level1: ReadingLevel;
+  level2: ReadingLevel;
+}
+
 export interface Scenario {
   id: string;
   title: string;
@@ -63,10 +82,15 @@ export interface Scenario {
   color: string;
   available: boolean;
   vocabulary: VocabularyItem[];
-  flashcards: FlashcardItem[];
+  flashcards?: FlashcardItem[];
   quiz: QuizQuestion[];
   dialogue?: DialogueLine[];
   trueOrFalse?: TrueOrFalsePractice;
   speakingPractice?: SpeakingPractice;
   usefulExpressions?: UsefulExpression[];
+  quizLevel2?: QuizQuestion[];
+  trueOrFalseLevel2?: TrueOrFalsePractice;
+  speakingPracticeLevel2?: SpeakingPractice;
+  buildSentence?: BuildSentencePractice;
+  reading?: ReadingPractice;
 }
