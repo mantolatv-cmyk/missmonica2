@@ -15,144 +15,152 @@ export const scenarios1: Scenario[] = [
       { english: "Mother / Mom", portuguese: "Mãe",
           levels: { 
                         A1: { en: "My mother makes the best cake.", pt: "Minha mãe faz o melhor bolo." }, 
-                        A2: { en: "My mother makes the best cake.", pt: "Minha mãe faz o melhor bolo." }, 
-                        B1: { en: "I have a Mother / Mom", pt: "Eu tenho um Mãe" } 
+                        A2: { en: "My mother always supported our family during tough times.", pt: "Minha mãe sempre apoiou nossa família durante os momentos difíceis." }
                       }
     },
       { english: "Father / Dad", portuguese: "Pai",
           levels: { 
                         A1: { en: "My father is working today.", pt: "Meu pai está trabalhando hoje." }, 
-                        A2: { en: "My father is working today.", pt: "Meu pai está trabalhando hoje." }, 
-                        B1: { en: "I have a Father / Dad", pt: "Eu tenho um Pai" } 
+                        A2: { en: "My father worked at the same hospital for twenty years.", pt: "Meu pai trabalhou no mesmo hospital por vinte anos." }
                       }
     },
       { english: "Brother", portuguese: "Irmão",
           levels: { 
                         A1: { en: "I share a room with my brother.", pt: "Eu divido o quarto com meu irmão." }, 
-                        A2: { en: "I share a room with my brother.", pt: "Eu divido o quarto com meu irmão." }, 
-                        B1: { en: "My brother fixed my broken laptop yesterday.", pt: "Meu irmão consertou meu notebook quebrado ontem." } 
+                        A2: { en: "My younger brother graduated from university with honors.", pt: "Meu irmão mais novo se formou na universidade com honras." }
                       }
     },
       { english: "Sister", portuguese: "Irmã",
           levels: { 
                         A1: { en: "My sister is older than me.", pt: "Minha irmã é mais velha que eu." }, 
-                        A2: { en: "My sister is older than me.", pt: "Minha irmã é mais velha que eu." }, 
-                        B1: { en: "Her sister currently lives in a small apartment in Paris.", pt: "A irmã dela mora atualmente em um pequeno apartamento em Paris." } 
+                        A2: { en: "My sister studied abroad last semester.", pt: "Minha irmã estudou no exterior no semestre passado." }
                       }
     },
       { english: "Grandmother", portuguese: "Avó",
           levels: { 
                         A1: { en: "We visit my grandmother every Sunday.", pt: "Visitamos minha avó todo domingo." }, 
-                        A2: { en: "We visit my grandmother every Sunday.", pt: "Visitamos minha avó todo domingo." }, 
-                        B1: { en: "My grandmother baked delicious cookies every Sunday.", pt: "Minha avó assava biscoitos deliciosos todo domingo." } 
+                        A2: { en: "We visited my grandmother every Sunday when I was a child.", pt: "Nós visitávamos minha avó todo domingo quando eu era criança." }
                       }
     },
       { english: "Grandfather", portuguese: "Avô",
           levels: { 
                         A1: { en: "My grandfather loves fishing.", pt: "Meu avô adora pescar." }, 
-                        A2: { en: "My grandfather loves fishing.", pt: "Meu avô adora pescar." }, 
-                        B1: { en: "He always listens to his grandfather's fascinating stories.", pt: "Ele sempre ouve as histórias fascinantes do seu avô." } 
+                        A2: { en: "My grandfather collected vintage stamps all his life.", pt: "Meu avô colecionou selos vintage a vida toda." }
                       }
     },
       { english: "Aunt", portuguese: "Tia",
           levels: { 
                         A1: { en: "My aunt lives in another city.", pt: "Minha tia mora em outra cidade." }, 
-                        A2: { en: "My aunt lives in another city.", pt: "Minha tia mora em outra cidade." }, 
-                        B1: { en: "My aunt traveled across Europe last summer.", pt: "Minha tia viajou pela Europa no verão passado." } 
+                        A2: { en: "My aunt lives in another city, so we rarely see her.", pt: "Minha tia mora em outra cidade, então raramente a vemos." }
                       }
     },
       { english: "Uncle", portuguese: "Tio",
           levels: { 
                         A1: { en: "My uncle bought a new car.", pt: "Meu tio comprou um carro novo." }, 
-                        A2: { en: "My uncle bought a new car.", pt: "Meu tio comprou um carro novo." }, 
-                        B1: { en: "His uncle taught him how to play the acoustic guitar.", pt: "O tio dele ensinou ele a tocar violão." } 
+                        A2: { en: "My uncle bought a new car and planned a road trip.", pt: "Meu tio comprou um carro novo e planejou uma viagem." }
                       }
     },
       { english: "Cousin", portuguese: "Primo(a)",
           levels: { 
                         A1: { en: "I played video games with my cousin.", pt: "Joguei videogame com meu primo." }, 
-                        A2: { en: "I played video games with my cousin.", pt: "Joguei videogame com meu primo." }, 
-                        B1: { en: "I visited my cousin during the winter holidays.", pt: "Eu visitei meu primo durante as férias de inverno." } 
+                        A2: { en: "I played video games with my cousin when we were teenagers.", pt: "Eu jogava videogame com meu primo quando éramos adolescentes." }
                       }
     },
       { english: "Parents", portuguese: "Pais",
           levels: { 
                         A1: { en: "My parents are very strict.", pt: "Meus pais são muito rigorosos." }, 
-                        A2: { en: "My parents are very strict.", pt: "Meus pais são muito rigorosos." }, 
-                        B1: { en: "His parents supported his decision to change careers.", pt: "Os pais dele apoiaram a decisão dele de mudar de carreira." } 
+                        A2: { en: "My parents were always very strict regarding my academic performance.", pt: "Meus pais sempre foram muito rigorosos em relação ao meu desempenho acadêmico." }
                       }
     },
       { english: "Nephew", portuguese: "Sobrinho",
           levels: { 
                         A1: { en: "My nephew is three years old.", pt: "Meu sobrinho tem três anos." }, 
-                        A2: { en: "My nephew is three years old.", pt: "Meu sobrinho tem três anos." }, 
-                        B1: { en: "She bought a colorful toy for her young nephew.", pt: "Ela comprou um brinquedo colorido para seu jovem sobrinho." } 
+                        A2: { en: "My nephew grew so much that I hardly recognized him.", pt: "Meu sobrinho cresceu tanto que mal o reconheci." }
                       }
     },
       { english: "Niece", portuguese: "Sobrinha",
           levels: { 
                         A1: { en: "I bought a toy for my niece.", pt: "Comprei um brinquedo para minha sobrinha." }, 
-                        A2: { en: "I bought a toy for my niece.", pt: "Comprei um brinquedo para minha sobrinha." }, 
-                        B1: { en: "His niece started kindergarten two weeks ago.", pt: "A sobrinha dele começou o jardim de infância há duas semanas." } 
+                        A2: { en: "I bought a beautiful educational toy for my niece's birthday.", pt: "Eu comprei um lindo brinquedo educativo para o aniversário da minha sobrinha." }
                       }
     },
       { english: "Grandson", portuguese: "Neto",
           levels: { 
                         A1: { en: "The grandfather is playing with his grandson.", pt: "O avô está brincando com seu neto." }, 
-                        A2: { en: "The grandfather is playing with his grandson.", pt: "O avô está brincando com seu neto." }, 
-                        B1: { en: "I have a Grandson", pt: "Eu tenho um Neto" } 
+                        A2: { en: "The grandfather spent the entire afternoon playing board games with his grandson.", pt: "O avô passou a tarde inteira jogando jogos de tabuleiro com seu neto." }
                       }
     },
       { english: "Granddaughter", portuguese: "Neta",
           levels: { 
                         A1: { en: "She is their first granddaughter.", pt: "Ela é a primeira neta deles." }, 
-                        A2: { en: "She is their first granddaughter.", pt: "Ela é a primeira neta deles." }, 
-                        B1: { en: "I have a Granddaughter", pt: "Eu tenho um Neta" } 
+                        A2: { en: "She became the very first granddaughter in our family.", pt: "Ela se tornou a primeira neta na nossa família." }
                       }
     },
       { english: "Wife", portuguese: "Esposa",
           levels: { 
                         A1: { en: "He bought flowers for his wife.", pt: "Ele comprou flores para a esposa." }, 
-                        A2: { en: "He bought flowers for his wife.", pt: "Ele comprou flores para a esposa." }, 
-                        B1: { en: "His wife works as a senior manager in a tech company.", pt: "A esposa dele trabalha como gerente sênior em uma empresa de tecnologia." } 
+                        A2: { en: "He bought beautiful red flowers for his wife.", pt: "Ele comprou lindas flores vermelhas para sua esposa." }
                       }
     },
       { english: "Husband", portuguese: "Marido",
           levels: { 
                         A1: { en: "Her husband is a doctor.", pt: "O marido dela é médico." }, 
-                        A2: { en: "Her husband is a doctor.", pt: "O marido dela é médico." }, 
-                        B1: { en: "Her husband surprised her with a romantic dinner.", pt: "O marido dela a surpreendeu com um jantar romântico." } 
+                        A2: { en: "Her husband works as a leading doctor at the local clinic.", pt: "O marido dela trabalha como médico chefe na clínica local." }
                       }
     },
       { english: "Mother-in-law", portuguese: "Sogra",
           levels: { 
                         A1: { en: "My mother-in-law makes great food.", pt: "Minha sogra faz uma comida ótima." }, 
-                        A2: { en: "My mother-in-law makes great food.", pt: "Minha sogra faz uma comida ótima." }, 
-                        B1: { en: "I have a Mother-in-law", pt: "Eu tenho um Sogra" } 
+                        A2: { en: "My mother-in-law cooked an incredible feast for our gathering.", pt: "Minha sogra cozinhou um banquete incrível para a nossa reunião." }
                       }
     },
       { english: "Father-in-law", portuguese: "Sogro",
           levels: { 
                         A1: { en: "My father-in-law is very funny.", pt: "Meu sogro é muito engraçado." }, 
-                        A2: { en: "My father-in-law is very funny.", pt: "Meu sogro é muito engraçado." }, 
-                        B1: { en: "I have a Father-in-law", pt: "Eu tenho um Sogro" } 
+                        A2: { en: "My father-in-law always told the funniest jokes at dinners.", pt: "Meu sogro sempre contava as piadas mais engraçadas nos jantares." }
                       }
     },
-      { english: "Stepmother", portuguese: "Madrasta",
+      { english: "Get along", portuguese: "Se dar bem",
           levels: { 
-                        A1: { en: "His stepmother is very kind.", pt: "A madrasta dele é muito gentil." }, 
-                        A2: { en: "His stepmother is very kind.", pt: "A madrasta dele é muito gentil." }, 
-                        B1: { en: "I have a Stepmother", pt: "Eu tenho um Madrasta" } 
+                        B1: { en: "I get along very well with my older brother.", pt: "Eu me dou muito bem com meu irmão mais velho." } 
                       }
     },
-      { english: "Stepfather", portuguese: "Padrasto",
+      { english: "Take after", portuguese: "Puxar a / Parecer com",
           levels: { 
-                        A1: { en: "My stepfather taught me how to drive.", pt: "Meu padrasto me ensinou a dirigir." }, 
-                        A2: { en: "My stepfather taught me how to drive.", pt: "Meu padrasto me ensinou a dirigir." }, 
-                        B1: { en: "I have a Stepfather", pt: "Eu tenho um Padrasto" } 
+                        B1: { en: "She really takes after her mother in personality.", pt: "Ela realmente puxou a mãe em personalidade." } 
                       }
     },
-    ],
+      { english: "Bring up", portuguese: "Criar (um filho)",
+          levels: { 
+                        B1: { en: "His grandparents helped bring him up when he was young.", pt: "Os avós dele ajudaram a criá-lo quando ele era jovem." } 
+                      }
+    },
+      { english: "Close-knit", portuguese: "Unida (família)",
+          levels: { 
+                        B1: { en: "They are a very close-knit family who always support each other.", pt: "Eles são uma família muito unida que sempre se apoia." } 
+                      }
+    },
+      { english: "In-laws", portuguese: "Sogros / Cunhados",
+          levels: { 
+                        B1: { en: "We are visiting my in-laws for dinner this weekend.", pt: "Nós vamos visitar meus sogros para o jantar este fim de semana." } 
+                      }
+    },
+      { english: "Extended family", portuguese: "Família estendida",
+          levels: { 
+                        B1: { en: "We invited our entire extended family to the wedding.", pt: "Nós convidamos toda a nossa família estendida para o casamento." } 
+                      }
+    },
+      { english: "Only child", portuguese: "Filho(a) único(a)",
+          levels: { 
+                        B1: { en: "Being an only child means you never have to share your toys.", pt: "Ser filho único significa que você nunca tem que dividir seus brinquedos." } 
+                      }
+    },
+      { english: "Relative", portuguese: "Parente",
+          levels: { 
+                        B1: { en: "A distant relative left him a small fortune.", pt: "Um parente distante deixou uma pequena fortuna para ele." } 
+                      }
+    }
+      ],
     dialogue: [
       { speaker: "John", english: "Hi Maria! Who is that in the picture?", portuguese: "Oi Maria! Quem é esse na foto?", isPrimary: true },
       { speaker: "Maria", english: "Hi John. This is my older brother, Lucas.", portuguese: "Oi John. Este é meu irmão mais velho, Lucas.", isPrimary: false },
@@ -166,8 +174,7 @@ export const scenarios1: Scenario[] = [
       { speaker: "Maria", english: "I love pie. Are your parents going this year?", portuguese: "Eu amo torta. Seus pais vão este ano?", isPrimary: false },
       { speaker: "John", english: "Yes, and my sister is bringing her new husband.", portuguese: "Sim, e minha irmã vai trazer o novo marido dela.", isPrimary: true },
       { speaker: "Maria", english: "That is exciting! My nephew was born last month, so we will celebrate together.", portuguese: "Isso é empolgante! Meu sobrinho nasceu mês passado, então vamos celebrar juntos.", isPrimary: false },
-      { speaker: "John", english: "A baby in the family brings so much joy. Tell your brother I said congratulations.", portuguese: "Um bebê na família traz tanta alegria. Diga ao seu irmão que mandei parabéns.", isPrimary: true },
-    ],
+      { speaker: "John", english: "A baby in the family brings so much joy. Tell your brother I said congratulations.", portuguese: "Um bebê na família traz tanta alegria. Diga ao seu irmão que mandei parabéns.", isPrimary: true }],
     flashcards: [
       { english: "My mother is very kind.", portuguese: "Minha mãe é muito gentil." },
       { english: "I have two brothers.", portuguese: "Eu tenho dois irmãos." },
@@ -180,8 +187,7 @@ export const scenarios1: Scenario[] = [
       { english: "They are married.", portuguese: "Eles são casados." },
       { english: "We visit our grandparents on weekends.", portuguese: "Nós visitamos nossos avós nos fins de semana." },
       { english: "His uncle is very rich.", portuguese: "O tio dele é muito rico." },
-      { english: "I am an only child.", portuguese: "Eu sou filho(a) único(a)." },
-    ],
+      { english: "I am an only child.", portuguese: "Eu sou filho(a) único(a)." }],
     quiz: [
       { question: 'How do you say "Mãe" in English?', options: ["Sister", "Mother", "Daughter", "Aunt"], correctIndex: 1, explanation: '"Mãe" in English is "Mother".' },
       { question: 'What does "Grandfather" mean?', options: ["Tio", "Primo", "Avô", "Padrinho"], correctIndex: 2, explanation: '"Grandfather" means "Avô".' },
@@ -192,8 +198,7 @@ export const scenarios1: Scenario[] = [
       { question: 'Which word means "Primo(a)"?', options: ["Uncle", "Nephew", "Niece", "Cousin"], correctIndex: 3, explanation: '"Cousin" is used for both male and female cousins.' },
       { question: 'Complete the sentence: "My mother and father are my ______."', options: ["children", "siblings", "parents", "relatives"], correctIndex: 2, explanation: 'Mother and father together are called "parents".' },
       { question: 'What do you call your father\'s brother?', options: ["Grandfather", "Uncle", "Cousin", "Aunt"], correctIndex: 1, explanation: 'Your father\'s brother is your "Uncle" (tio).' },
-      { question: 'How do you say "Irmão mais velho"?', options: ["Big cousin", "Older brother", "New brother", "Tall brother"], correctIndex: 1, explanation: '"Older" means "mais velho".' },
-    ],
+      { question: 'How do you say "Irmão mais velho"?', options: ["Big cousin", "Older brother", "New brother", "Tall brother"], correctIndex: 1, explanation: '"Older" means "mais velho".' }],
     trueOrFalse: {
       part1: [
         { statement: "Your mother's sister is your aunt.", statementPt: "A irmã da sua mãe é sua tia.", isTrue: true, explanation: "Aunt means tia." },
@@ -259,144 +264,164 @@ export const scenarios1: Scenario[] = [
       { english: "Friend", portuguese: "Amigo(a)",
           levels: { 
                         A1: { en: "He is a good friend.", pt: "Ele é um bom amigo." }, 
-                        A2: { en: "He is a good friend.", pt: "Ele é um bom amigo." }, 
-                        B1: { en: "I have a Friend", pt: "Eu tenho um Amigo(a)" } 
+                        A2: { en: "He was a supportive friend who always helped me overcome challenges.", pt: "Ele foi um amigo apoiador que sempre me ajudou a superar desafios." }
                       }
     },
       { english: "Best friend", portuguese: "Melhor amigo(a)",
           levels: { 
                         A1: { en: "She is my best friend since childhood.", pt: "Ela é minha melhor amiga desde a infância." }, 
-                        A2: { en: "She is my best friend since childhood.", pt: "Ela é minha melhor amiga desde a infância." }, 
-                        B1: { en: "I have a Best friend", pt: "Eu tenho um Melhor amigo(a)" } 
+                        A2: { en: "She was my most trusted best friend in elementary school.", pt: "Ela era minha melhor amiga de maior confiança no ensino fundamental." }
                       }
     },
       { english: "Hang out", portuguese: "Sair para passear",
           levels: { 
                         A1: { en: "Lets hang out this weekend.", pt: "Vamos sair neste fim de semana." }, 
-                        A2: { en: "Lets hang out this weekend.", pt: "Vamos sair neste fim de semana." }, 
-                        B1: { en: "I have a Hang out", pt: "Eu tenho um Sair para passear" } 
+                        A2: { en: "We rarely hung out because everyone was busy with work.", pt: "Nós raramente saíamos porque todos estavam ocupados com o trabalho." }
                       }
     },
       { english: "Meet up", portuguese: "Encontrar-se",
           levels: { 
                         A1: { en: "We can meet up at the cafe.", pt: "Podemos nos encontrar no café." }, 
-                        A2: { en: "We can meet up at the cafe.", pt: "Podemos nos encontrar no café." }, 
-                        B1: { en: "I have a Meet up", pt: "Eu tenho um Encontrar-se" } 
+                        A2: { en: "We agreed to meet up at the downtown cafe right after our shift.", pt: "Nós concordamos em nos encontrar no café do centro logo após o nosso turno." }
                       }
     },
       { english: "Chat", portuguese: "Bater papo",
           levels: { 
                         A1: { en: "I like chatting with you.", pt: "Gosto de bater papo com você." }, 
-                        A2: { en: "I like chatting with you.", pt: "Gosto de bater papo com você." }, 
-                        B1: { en: "I have a Chat", pt: "Eu tenho um Bater papo" } 
+                        A2: { en: "I really enjoyed chatting with you about our future plans.", pt: "Eu gostei muito de bater papo com você sobre nossos planos futuros." }
                       }
     },
       { english: "Fun", portuguese: "Diversão / Divertido",
           levels: { 
                         A1: { en: "The party was really fun.", pt: "A festa foi muito divertida." }, 
-                        A2: { en: "The party was really fun.", pt: "A festa foi muito divertida." }, 
-                        B1: { en: "I have a Fun", pt: "Eu tenho um Diversão / Divertido" } 
+                        A2: { en: "The surprise party at your house was the most fun event of the year.", pt: "A festa surpresa na sua casa foi o evento mais divertido do ano." }
                       }
     },
       { english: "Invite", portuguese: "Convidar",
           levels: { 
                         A1: { en: "I will invite them to my house.", pt: "Vou convidá-los para minha casa." }, 
-                        A2: { en: "I will invite them to my house.", pt: "Vou convidá-los para minha casa." }, 
-                        B1: { en: "I have a Invite", pt: "Eu tenho um Convidar" } 
+                        A2: { en: "I invited all my closest friends to celebrate at my house.", pt: "Eu convidei todos os meus amigos mais próximos para celebrar na minha casa." }
                       }
     },
       { english: "Party", portuguese: "Festa",
           levels: { 
                         A1: { en: "Are you going to the party tonight?", pt: "Você vai à festa hoje à noite?" }, 
-                        A2: { en: "Are you going to the party tonight?", pt: "Você vai à festa hoje à noite?" }, 
-                        B1: { en: "I have a Party", pt: "Eu tenho um Festa" } 
+                        A2: { en: "Did you attend the graduation party last night?", pt: "Você compareceu à festa de formatura ontem à noite?" }
                       }
     },
       { english: "Group", portuguese: "Grupo",
           levels: { 
                         A1: { en: "Our friend group is very united.", pt: "Nosso grupo de amigos é muito unido." }, 
-                        A2: { en: "Our friend group is very united.", pt: "Nosso grupo de amigos é muito unido." }, 
-                        B1: { en: "I have a Group", pt: "Eu tenho um Grupo" } 
+                        A2: { en: "Our friend group remained incredibly united despite the distance.", pt: "Nosso grupo de amigos permaneceu incrivelmente unido apesar da distância." }
                       }
     },
       { english: "Share", portuguese: "Compartilhar",
           levels: { 
                         A1: { en: "We share our secrets.", pt: "Nós compartilhamos nossos segredos." }, 
-                        A2: { en: "We share our secrets.", pt: "Nós compartilhamos nossos segredos." }, 
-                        B1: { en: "I have a Share", pt: "Eu tenho um Compartilhar" } 
+                        A2: { en: "They shared the funny video with all their friends.", pt: "Eles compartilharam o vídeo engraçado com todos os seus amigos." }
                       }
     },
       { english: "Trust", portuguese: "Confiar",
           levels: { 
                         A1: { en: "I trust my friends completely.", pt: "Eu confio nos meus amigos completamente." }, 
-                        A2: { en: "I trust my friends completely.", pt: "Eu confio nos meus amigos completamente." }, 
-                        B1: { en: "I have a Trust", pt: "Eu tenho um Confiar" } 
+                        A2: { en: "I trusted my friends completely with this sensitive information.", pt: "Eu confiei nos meus amigos completamente com essa informação delicada." }
                       }
     },
       { english: "Keep a secret", portuguese: "Guardar segredo",
           levels: { 
                         A1: { en: "Can you keep a secret?", pt: "Você consegue guardar segredo?" }, 
-                        A2: { en: "Can you keep a secret?", pt: "Você consegue guardar segredo?" }, 
-                        B1: { en: "I have a Keep a secret", pt: "Eu tenho um Guardar segredo" } 
+                        A2: { en: "Did you keep the major secret about the surprise party?", pt: "Você guardou o grande segredo sobre a festa surpresa?" }
                       }
     },
       { english: "Argue", portuguese: "Discutir",
           levels: { 
                         A1: { en: "Sometimes we argue, but we fix it.", pt: "Às vezes discutimos, mas nos resolvemos." }, 
-                        A2: { en: "Sometimes we argue, but we fix it.", pt: "Às vezes discutimos, mas nos resolvemos." }, 
-                        B1: { en: "I have a Argue", pt: "Eu tenho um Discutir" } 
+                        A2: { en: "We argued a few times in the past, but we fixed things.", pt: "Nós discutimos algumas vezes no passado, mas consertamos as coisas." }
                       }
     },
       { english: "Apologize", portuguese: "Pedir desculpas",
           levels: { 
                         A1: { en: "He apologized for being late.", pt: "Ele pediu desculpas por chegar atrasado." }, 
-                        A2: { en: "He apologized for being late.", pt: "Ele pediu desculpas por chegar atrasado." }, 
-                        B1: { en: "I have a Apologize", pt: "Eu tenho um Pedir desculpas" } 
+                        A2: { en: "He finally apologized for being late to the important meeting.", pt: "Ele finalmente pediu desculpas por se atrasar para a reunião importante." }
                       }
     },
       { english: "Help out", portuguese: "Ajudar",
           levels: { 
                         A1: { en: "Friends always help out when needed.", pt: "Amigos sempre ajudam quando necessário." }, 
-                        A2: { en: "Friends always help out when needed.", pt: "Amigos sempre ajudam quando necessário." }, 
-                        B1: { en: "I have a Help out", pt: "Eu tenho um Ajudar" } 
+                        A2: { en: "True friends always helped out when someone faced a tough phase.", pt: "Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil." }
                       }
     },
       { english: "Joke", portuguese: "Piada / Brincadeira",
           levels: { 
                         A1: { en: "He always tells funny jokes.", pt: "Ele sempre conta piadas engraçadas." }, 
-                        A2: { en: "He always tells funny jokes.", pt: "Ele sempre conta piadas engraçadas." }, 
-                        B1: { en: "I have a Joke", pt: "Eu tenho um Piada / Brincadeira" } 
+                        A2: { en: "He told one of the most hilarious jokes I ever heard.", pt: "Ele contou uma das piadas mais hilárias que já ouvi." }
                       }
     },
       { english: "Support", portuguese: "Apoiar",
           levels: { 
                         A1: { en: "Good friends support you in bad times.", pt: "Bons amigos apoiam você nos momentos difíceis." }, 
-                        A2: { en: "Good friends support you in bad times.", pt: "Bons amigos apoiam você nos momentos difíceis." }, 
-                        B1: { en: "I have a Support", pt: "Eu tenho um Apoiar" } 
+                        A2: { en: "Good friends always supported each other unconditionally during hard times.", pt: "Bons amigos sempre se apoiavam incondicionalmente durante tempos difíceis." }
                       }
     },
       { english: "Advice", portuguese: "Conselho",
           levels: { 
                         A1: { en: "Can you give me some advice?", pt: "Você pode me dar um conselho?" }, 
-                        A2: { en: "Can you give me some advice?", pt: "Você pode me dar um conselho?" }, 
-                        B1: { en: "I have a Advice", pt: "Eu tenho um Conselho" } 
+                        A2: { en: "I asked him to give me some professional advice about my career.", pt: "Eu pedi a ele que me desse um conselho profissional sobre minha carreira." }
                       }
     },
       { english: "Get along", portuguese: "Se dar bem",
           levels: { 
                         A1: { en: "They get along very well.", pt: "Eles se dão muito bem." }, 
-                        A2: { en: "They get along very well.", pt: "Eles se dão muito bem." }, 
-                        B1: { en: "I have a Get along", pt: "Eu tenho um Se dar bem" } 
+                        A2: { en: "They got along surprisingly well on their first day at school.", pt: "Eles se deram surpreendentemente bem no primeiro dia na escola." }
                       }
     },
       { english: "Introductions", portuguese: "Apresentações",
           levels: { 
                         A1: { en: "Let me do the introductions.", pt: "Deixe-me fazer as apresentações." }, 
-                        A2: { en: "Let me do the introductions.", pt: "Deixe-me fazer as apresentações." }, 
-                        B1: { en: "I have a Introductions", pt: "Eu tenho um Apresentações" } 
+                        A2: { en: "I did the introductions so that everyone felt comfortable.", pt: "Eu fiz as apresentações para que todos se sentissem confortáveis." }
                       }
     },
-    ],
+      { english: "Hang out", portuguese: "Passar o tempo (junto)",
+          levels: { 
+                        B1: { en: "We usually hang out at the mall on Saturday afternoons.", pt: "Nós geralmente passamos o tempo no shopping nas tardes de sábado." } 
+                      }
+    },
+      { english: "Keep in touch", portuguese: "Manter contato",
+          levels: { 
+                        B1: { en: "Even though she moved away, we still keep in touch.", pt: "Mesmo que ela tenha se mudado, nós ainda mantemos contato." } 
+                      }
+    },
+      { english: "Fall out", portuguese: "Brigar / Desentender-se",
+          levels: { 
+                        B1: { en: "They fell out over a silly argument and stopped talking.", pt: "Eles brigaram por causa de uma discussão boba e pararam de se falar." } 
+                      }
+    },
+      { english: "Rely on", portuguese: "Contar com / Confiar em",
+          levels: { 
+                        B1: { en: "You can always rely on me if you need any help.", pt: "Você sempre pode contar comigo se precisar de alguma ajuda." } 
+                      }
+    },
+      { english: "Trustworthy", portuguese: "Confiável",
+          levels: { 
+                        B1: { en: "He is a highly trustworthy friend who keeps secrets well.", pt: "Ele é um amigo altamente confiável que guarda bem segredos." } 
+                      }
+    },
+      { english: "Acquaintance", portuguese: "Conhecido(a)",
+          levels: { 
+                        B1: { en: "She is not a close friend, just an acquaintance from work.", pt: "Ela não é uma amiga íntima, apenas uma conhecida do trabalho." } 
+                      }
+    },
+      { english: "Get together", portuguese: "Reunir-se / Encontrar-se",
+          levels: { 
+                        B1: { en: "Let's get together for a coffee sometime next week.", pt: "Vamos nos encontrar para um café em algum momento da próxima semana." } 
+                      }
+    },
+      { english: "Mate", portuguese: "Amigo / Colega (UK)",
+          levels: { 
+                        B1: { en: "He went to the pub to watch the game with his mates.", pt: "Ele foi ao pub para assistir ao jogo com os amigos." } 
+                      }
+    }
+      ],
     dialogue: [
       { speaker: "Anna", english: "Hey Mark! Do you want to hang out this Saturday?", portuguese: "Oi Mark! Você quer sair neste sábado?", isPrimary: false },
       { speaker: "Mark", english: "Sure! What are we doing?", portuguese: "Claro! O que vamos fazer?", isPrimary: true },
@@ -409,8 +434,7 @@ export const scenarios1: Scenario[] = [
       { speaker: "Anna", english: "Just our main group from school. Lucy and Peter.", portuguese: "Apenas nosso grupo principal da escola. Lucy e Peter.", isPrimary: false },
       { speaker: "Mark", english: "Perfect. I haven't seen Peter in weeks.", portuguese: "Perfeito. Eu não vejo o Peter há semanas.", isPrimary: true },
       { speaker: "Anna", english: "He was traveling, but now he is back. It will be a nice reunion.", portuguese: "Ele estava viajando, mas agora ele voltou. Será um bom reencontro.", isPrimary: false },
-      { speaker: "Mark", english: "I can't wait. See you on Saturday, Anna!", portuguese: "Mal posso esperar. Te vejo no sábado, Anna!", isPrimary: true },
-    ],
+      { speaker: "Mark", english: "I can't wait. See you on Saturday, Anna!", portuguese: "Mal posso esperar. Te vejo no sábado, Anna!", isPrimary: true }],
     flashcards: [
       { english: "She is my best friend.", portuguese: "Ela é minha melhor amiga." },
       { english: "Let's hang out this weekend.", portuguese: "Vamos sair este final de semana." },
@@ -423,8 +447,7 @@ export const scenarios1: Scenario[] = [
       { english: "We get along really well.", portuguese: "Nós nos damos super bem." },
       { english: "Thank you for the advice.", portuguese: "Obrigado pelo conselho." },
       { english: "I am sorry, I apologize.", portuguese: "Sinto muito, peço desculpas." },
-      { english: "Friends help each other.", portuguese: "Amigos ajudam uns aos outros." },
-    ],
+      { english: "Friends help each other.", portuguese: "Amigos ajudam uns aos outros." }],
     quiz: [
       { question: 'What does "Hang out" mean?', options: ["Ficar em casa", "Sair para passear", "Dormir", "Estudar"], correctIndex: 1, explanation: '"Hang out" is an informal way to say spend time relaxing or socializing.' },
       { question: 'How do you say "Melhor amigo" in English?', options: ["Good friend", "Old friend", "Best friend", "New friend"], correctIndex: 2, explanation: '"Melhor amigo" is translated to "Best friend".' },
@@ -435,8 +458,7 @@ export const scenarios1: Scenario[] = [
       { question: 'What does "Chat" mean?', options: ["Chorar", "Gritar", "Bater papo", "Cantar"], correctIndex: 2, explanation: '"Chat" is an informal conversation (Bater papo).' },
       { question: 'Which word means "Grupo"?', options: ["Group", "Team", "Band", "Crowd"], correctIndex: 0, explanation: '"Group" translates to grupo.' },
       { question: 'How do you say "A festa é hoje"?', options: ["The party is tomorrow.", "The party is today.", "The party is nice.", "The party is late."], correctIndex: 1, explanation: '"Today" is hoje.' },
-      { question: 'What does "Sure!" mean in a conversation?', options: ["Não!", "Talvez!", "Claro!", "Nunca!"], correctIndex: 2, explanation: '"Sure!" is a friendly way to say yes or agree (Claro!).' },
-    ],
+      { question: 'What does "Sure!" mean in a conversation?', options: ["Não!", "Talvez!", "Claro!", "Nunca!"], correctIndex: 2, explanation: '"Sure!" is a friendly way to say yes or agree (Claro!).' }],
     trueOrFalse: {
       part1: [
         { statement: "When you argue with a friend, you are happy.", statementPt: "Quando você discute com um amigo, você está feliz.", isTrue: false, explanation: "Argue means discutir/brigar, which usually makes people sad or angry." },
@@ -502,144 +524,164 @@ export const scenarios1: Scenario[] = [
       { english: "Head", portuguese: "Cabeça",
           levels: { 
                         A1: { en: "My head hurts.", pt: "Minha cabeça dói." }, 
-                        A2: { en: "My head hurts.", pt: "Minha cabeça dói." }, 
-                        B1: { en: "I have a Head", pt: "Eu tenho um Cabeça" } 
+                        A2: { en: "He bumped his head on the low ceiling yesterday.", pt: "Ele bateu a cabeça no teto baixo ontem." }
                       }
     },
       { english: "Arm", portuguese: "Braço",
           levels: { 
                         A1: { en: "He broke his arm.", pt: "Ele quebrou o braço." }, 
-                        A2: { en: "He broke his arm.", pt: "Ele quebrou o braço." }, 
-                        B1: { en: "I have a Arm", pt: "Eu tenho um Braço" } 
+                        A2: { en: "She broke her arm while playing basketball.", pt: "Ela quebrou o braço enquanto jogava basquete." }
                       }
     },
       { english: "Leg", portuguese: "Perna",
           levels: { 
                         A1: { en: "My legs are tired after the run.", pt: "Minhas pernas estão cansadas após a corrida." }, 
-                        A2: { en: "My legs are tired after the run.", pt: "Minhas pernas estão cansadas após a corrida." }, 
-                        B1: { en: "I have a Leg", pt: "Eu tenho um Perna" } 
+                        A2: { en: "He injured his leg during the marathon.", pt: "Ele machucou a perna durante a maratona." }
                       }
     },
       { english: "Hand", portuguese: "Mão",
           levels: { 
                         A1: { en: "Please, wash your hands.", pt: "Por favor, lave suas mãos." }, 
-                        A2: { en: "Please, wash your hands.", pt: "Por favor, lave suas mãos." }, 
-                        B1: { en: "I have a Hand", pt: "Eu tenho um Mão" } 
+                        A2: { en: "She washed her hands before dinner.", pt: "Ela lavou as mãos antes do jantar." }
                       }
     },
       { english: "Foot / Feet", portuguese: "Pé / Pés",
           levels: { 
                         A1: { en: "My feet are cold.", pt: "Meus pés estão frios." }, 
-                        A2: { en: "My feet are cold.", pt: "Meus pés estão frios." }, 
-                        B1: { en: "I have a Foot / Feet", pt: "Eu tenho um Pé / Pés" } 
+                        A2: { en: "His feet hurt after a long day of walking.", pt: "Os pés dele doíam após um longo dia caminhando." }
                       }
     },
       { english: "Eyes", portuguese: "Olhos",
           levels: { 
                         A1: { en: "She has blue eyes.", pt: "Ela tem olhos azuis." }, 
-                        A2: { en: "She has blue eyes.", pt: "Ela tem olhos azuis." }, 
-                        B1: { en: "I have a Eyes", pt: "Eu tenho um Olhos" } 
+                        A2: { en: "She closed her eyes and fell asleep.", pt: "Ela fechou os olhos e adormeceu." }
                       }
     },
       { english: "Hair", portuguese: "Cabelo",
           levels: { 
                         A1: { en: "Her hair is very long.", pt: "O cabelo dela é muito longo." }, 
-                        A2: { en: "Her hair is very long.", pt: "O cabelo dela é muito longo." }, 
-                        B1: { en: "I have a Hair", pt: "Eu tenho um Cabelo" } 
+                        A2: { en: "He cut his hair very short last week.", pt: "Ele cortou o cabelo bem curto semana passada." }
                       }
     },
       { english: "Mouth", portuguese: "Boca",
           levels: { 
                         A1: { en: "Open your mouth for the dentist.", pt: "Abra sua boca para o dentista." }, 
-                        A2: { en: "Open your mouth for the dentist.", pt: "Abra sua boca para o dentista." }, 
-                        B1: { en: "I have a Mouth", pt: "Eu tenho um Boca" } 
+                        A2: { en: "The dentist asked him to open his mouth.", pt: "O dentista pediu a ele que abrisse a boca." }
                       }
     },
       { english: "Nose", portuguese: "Nariz",
           levels: { 
                         A1: { en: "My nose is bleeding.", pt: "Meu nariz está sangrando." }, 
-                        A2: { en: "My nose is bleeding.", pt: "Meu nariz está sangrando." }, 
-                        B1: { en: "I have a Nose", pt: "Eu tenho um Nariz" } 
+                        A2: { en: "Her nose bled after she fell down.", pt: "O nariz dela sangrou depois que ela caiu." }
                       }
     },
       { english: "Ears", portuguese: "Orelhas",
           levels: { 
                         A1: { en: "Elephants have big ears.", pt: "Elefantes têm orelhas grandes." }, 
-                        A2: { en: "Elephants have big ears.", pt: "Elefantes têm orelhas grandes." }, 
-                        B1: { en: "I have a Ears", pt: "Eu tenho um Orelhas" } 
+                        A2: { en: "He covered his ears because of the loud noise.", pt: "Ele cobriu as orelhas por causa do barulho alto." }
                       }
     },
       { english: "Shoulder", portuguese: "Ombro",
           levels: { 
                         A1: { en: "My shoulder is sore.", pt: "Meu ombro está dolorido." }, 
-                        A2: { en: "My shoulder is sore.", pt: "Meu ombro está dolorido." }, 
-                        B1: { en: "I have a Shoulder", pt: "Eu tenho um Ombro" } 
+                        A2: { en: "She carried the heavy bag on her shoulder.", pt: "Ela carregou a bolsa pesada no ombro." }
                       }
     },
       { english: "Knee", portuguese: "Joelho",
           levels: { 
                         A1: { en: "He fell and scraped his knee.", pt: "Ele caiu e ralou o joelho." }, 
-                        A2: { en: "He fell and scraped his knee.", pt: "Ele caiu e ralou o joelho." }, 
-                        B1: { en: "I have a Knee", pt: "Eu tenho um Joelho" } 
+                        A2: { en: "He scraped his knee when he tripped on the sidewalk.", pt: "Ele ralou o joelho quando tropeçou na calçada." }
                       }
     },
       { english: "Fingers", portuguese: "Dedos da mão",
           levels: { 
                         A1: { en: "Humans have ten fingers.", pt: "Humanos têm dez dedos." }, 
-                        A2: { en: "Humans have ten fingers.", pt: "Humanos têm dez dedos." }, 
-                        B1: { en: "I have a Fingers", pt: "Eu tenho um Dedos da mão" } 
+                        A2: { en: "She burned her fingers on the hot stove.", pt: "Ela queimou os dedos no fogão quente." }
                       }
     },
       { english: "Toes", portuguese: "Dedos do pé",
           levels: { 
                         A1: { en: "I stubbed my toe.", pt: "Bati o dedo do pé." }, 
-                        A2: { en: "I stubbed my toe.", pt: "Bati o dedo do pé." }, 
-                        B1: { en: "I have a Toes", pt: "Eu tenho um Dedos do pé" } 
+                        A2: { en: "He stubbed his toes on the wooden door.", pt: "Ele bateu os dedos dos pés na porta de madeira." }
                       }
     },
       { english: "Stomach", portuguese: "Estômago",
           levels: { 
                         A1: { en: "My stomach is full.", pt: "Meu estômago está cheio." }, 
-                        A2: { en: "My stomach is full.", pt: "Meu estômago está cheio." }, 
-                        B1: { en: "I have a Stomach", pt: "Eu tenho um Estômago" } 
+                        A2: { en: "His stomach ached after he ate too much spicy food.", pt: "O estômago dele doeu depois que ele comeu muita comida apimentada." }
                       }
     },
       { english: "Back", portuguese: "Costas",
           levels: { 
                         A1: { en: "I have a terrible back pain.", pt: "Estou com uma dor terrível nas costas." }, 
-                        A2: { en: "I have a terrible back pain.", pt: "Estou com uma dor terrível nas costas." }, 
-                        B1: { en: "I have a Back", pt: "Eu tenho um Costas" } 
+                        A2: { en: "She injured her back lifting heavy boxes.", pt: "Ela machucou as costas levantando caixas pesadas." }
                       }
     },
       { english: "Neck", portuguese: "Pescoço",
           levels: { 
                         A1: { en: "Wear a scarf around your neck.", pt: "Use um cachecol no pescoço." }, 
-                        A2: { en: "Wear a scarf around your neck.", pt: "Use um cachecol no pescoço." }, 
-                        B1: { en: "I have a Neck", pt: "Eu tenho um Pescoço" } 
+                        A2: { en: "He wore a thick scarf around his neck during winter.", pt: "Ele usou um cachecol grosso no pescoço durante o inverno." }
                       }
     },
       { english: "Teeth", portuguese: "Dentes",
           levels: { 
                         A1: { en: "Brush your teeth every day.", pt: "Escove os dentes todos os dias." }, 
-                        A2: { en: "Brush your teeth every day.", pt: "Escove os dentes todos os dias." }, 
-                        B1: { en: "I have a Teeth", pt: "Eu tenho um Dentes" } 
+                        A2: { en: "She brushed her teeth twice every day.", pt: "Ela escovava os dentes duas vezes todos os dias." }
                       }
     },
       { english: "Tongue", portuguese: "Língua",
           levels: { 
                         A1: { en: "I burnt my tongue with hot tea.", pt: "Queimei a língua com chá quente." }, 
-                        A2: { en: "I burnt my tongue with hot tea.", pt: "Queimei a língua com chá quente." }, 
-                        B1: { en: "I have a Tongue", pt: "Eu tenho um Língua" } 
+                        A2: { en: "He accidentally bit his tongue while chewing.", pt: "Ele acidentalmente mordeu a língua enquanto mastigava." }
                       }
     },
       { english: "Lips", portuguese: "Lábios",
           levels: { 
                         A1: { en: "Her lips are dry.", pt: "Os lábios dela estão secos." }, 
-                        A2: { en: "Her lips are dry.", pt: "Os lábios dela estão secos." }, 
-                        B1: { en: "I have a Lips", pt: "Eu tenho um Lábios" } 
+                        A2: { en: "Her lips felt dry in the cold weather.", pt: "Os lábios dela ficaram secos no clima frio." }
                       }
     },
-    ],
+      { english: "Forehead", portuguese: "Testa",
+          levels: { 
+                        B1: { en: "He wiped the sweat from his forehead after running.", pt: "Ele enxugou o suor da testa depois de correr." } 
+                      }
+    },
+      { english: "Wrist", portuguese: "Pulso",
+          levels: { 
+                        B1: { en: "She wore a silver bracelet around her left wrist.", pt: "Ela usava uma pulseira de prata ao redor do pulso esquerdo." } 
+                      }
+    },
+      { english: "Ankle", portuguese: "Tornozelo",
+          levels: { 
+                        B1: { en: "He twisted his ankle while playing football yesterday.", pt: "Ele torceu o tornozelo enquanto jogava futebol ontem." } 
+                      }
+    },
+      { english: "Thumb", portuguese: "Polegar",
+          levels: { 
+                        B1: { en: "He hit his thumb with the hammer by accident.", pt: "Ele bateu no polegar com o martelo por acidente." } 
+                      }
+    },
+      { english: "Waist", portuguese: "Cintura",
+          levels: { 
+                        B1: { en: "He tied his jacket around his waist because it was warm.", pt: "Ele amarrou a jaqueta na cintura porque estava quente." } 
+                      }
+    },
+      { english: "Heel", portuguese: "Calcanhar",
+          levels: { 
+                        B1: { en: "My new shoes are rubbing against my heel.", pt: "Meus sapatos novos estão esfregando no meu calcanhar." } 
+                      }
+    },
+      { english: "Chest", portuguese: "Peito / Tórax",
+          levels: { 
+                        B1: { en: "He felt a sharp pain in his chest and called a doctor.", pt: "Ele sentiu uma dor aguda no peito e chamou um médico." } 
+                      }
+    },
+      { english: "Jaw", portuguese: "Mandíbula",
+          levels: { 
+                        B1: { en: "The boxer received a heavy punch directly to the jaw.", pt: "O boxeador recebeu um soco pesado direto na mandíbula." } 
+                      }
+    }
+      ],
     dialogue: [
       { speaker: "Doctor", english: "Hello. What seems to be the problem?", portuguese: "Olá. Qual parece ser o problema?", isPrimary: false },
       { speaker: "Patient", english: "My head hurts a lot and my eyes are tired.", portuguese: "Minha cabeça dói muito e meus olhos estão cansados.", isPrimary: true },
@@ -651,8 +693,7 @@ export const scenarios1: Scenario[] = [
       { speaker: "Patient", english: "Should I take any medicine for my stomach?", portuguese: "Devo tomar algum remédio para meu estômago?", isPrimary: true },
       { speaker: "Doctor", english: "Yes, I will give you a prescription for your stomach and your head.", portuguese: "Sim, vou lhe dar uma receita para o seu estômago e sua cabeça.", isPrimary: false },
       { speaker: "Patient", english: "Thank you, doctor. I will go home and sleep.", portuguese: "Obrigado, doutor. Vou para casa dormir.", isPrimary: true },
-      { speaker: "Doctor", english: "Drink plenty of water. Take care of yourself.", portuguese: "Beba muita água. Cuide de si mesmo.", isPrimary: false },
-    ],
+      { speaker: "Doctor", english: "Drink plenty of water. Take care of yourself.", portuguese: "Beba muita água. Cuide de si mesmo.", isPrimary: false }],
     flashcards: [
       { english: "My head hurts.", portuguese: "Minha cabeça dói." },
       { english: "She has blue eyes.", portuguese: "Ela tem olhos azuis." },
@@ -665,8 +706,7 @@ export const scenarios1: Scenario[] = [
       { english: "Touch your toes.", portuguese: "Toque seus dedos dos pés." },
       { english: "He has a long neck.", portuguese: "Ele tem um pescoço longo." },
       { english: "My stomach aches.", portuguese: "Meu estômago dói." },
-      { english: "She hurt her shoulder.", portuguese: "Ela machucou o ombro." },
-    ],
+      { english: "She hurt her shoulder.", portuguese: "Ela machucou o ombro." }],
     quiz: [
       { question: 'What is the plural of "Foot"?', options: ["Foots", "Feet", "Footes", "Feets"], correctIndex: 1, explanation: '"Foot" has an irregular plural form: "Feet".' },
       { question: 'How do you say "Olhos" in English?', options: ["Ears", "Nose", "Mouth", "Eyes"], correctIndex: 3, explanation: '"Olhos" are "Eyes" in English.' },
@@ -677,8 +717,7 @@ export const scenarios1: Scenario[] = [
       { question: 'Complete: "She is listening with her _____."', options: ["eyes", "nose", "ears", "hair"], correctIndex: 2, explanation: 'You listen with your ears.' },
       { question: 'Translate "Braço".', options: ["Leg", "Foot", "Arm", "Hand"], correctIndex: 2, explanation: '"Braço" translates to "Arm".' },
       { question: 'What do you use to eat food?', options: ["Mouth", "Eye", "Nose", "Ear"], correctIndex: 0, explanation: 'You put food in your mouth (boca).' },
-      { question: 'How do you say "Minha cabeça dói"?', options: ["My arm is bad.", "My head hurts.", "My eye is red.", "My leg is broken."], correctIndex: 1, explanation: '"Head" is cabeça, and "hurts" means dói.' },
-    ],
+      { question: 'How do you say "Minha cabeça dói"?', options: ["My arm is bad.", "My head hurts.", "My eye is red.", "My leg is broken."], correctIndex: 1, explanation: '"Head" is cabeça, and "hurts" means dói.' }],
     trueOrFalse: {
       part1: [
         { statement: "You have ten toes in total.", statementPt: "Você tem dez dedos dos pés no total.", isTrue: true, explanation: "Toes are the fingers of your feet, and humans usually have 10." },
@@ -744,144 +783,164 @@ export const scenarios1: Scenario[] = [
       { english: "Living room", portuguese: "Sala de estar",
           levels: { 
                         A1: { en: "The TV is in the living room.", pt: "A TV está na sala de estar." }, 
-                        A2: { en: "The TV is in the living room.", pt: "A TV está na sala de estar." }, 
-                        B1: { en: "We painted the living room walls a bright yellow.", pt: "Nós pintamos as paredes da sala de estar de um amarelo brilhante." } 
+                        A2: { en: "We watched movies in the living room every Friday.", pt: "Nós assistíamos a filmes na sala de estar toda sexta-feira." }
                       }
     },
       { english: "Kitchen", portuguese: "Cozinha",
           levels: { 
                         A1: { en: "I am cooking in the kitchen.", pt: "Estou cozinhando na cozinha." }, 
-                        A2: { en: "I am cooking in the kitchen.", pt: "Estou cozinhando na cozinha." }, 
-                        B1: { en: "She completely renovated her old kitchen last year.", pt: "Ela reformou completamente sua cozinha velha no ano passado." } 
+                        A2: { en: "She cooked a delicious meal in the kitchen.", pt: "Ela cozinhou uma refeição deliciosa na cozinha." }
                       }
     },
       { english: "Bedroom", portuguese: "Quarto",
           levels: { 
                         A1: { en: "My bedroom is very quiet.", pt: "Meu quarto é muito silencioso." }, 
-                        A2: { en: "My bedroom is very quiet.", pt: "Meu quarto é muito silencioso." }, 
-                        B1: { en: "He placed a new carpet in his cozy bedroom.", pt: "Ele colocou um tapete novo em seu quarto aconchegante." } 
+                        A2: { en: "He cleaned his bedroom before guests arrived.", pt: "Ele limpou seu quarto antes de os convidados chegarem." }
                       }
     },
       { english: "Bathroom", portuguese: "Banheiro",
           levels: { 
                         A1: { en: "Where is the bathroom?", pt: "Onde fica o banheiro?" }, 
-                        A2: { en: "Where is the bathroom?", pt: "Onde fica o banheiro?" }, 
-                        B1: { en: "The plumber fixed the leaking pipe in the bathroom.", pt: "O encanador consertou o cano vazando no banheiro." } 
+                        A2: { en: "She took a long shower in the bathroom.", pt: "Ela tomou um banho longo no banheiro." }
                       }
     },
       { english: "Sweep the floor", portuguese: "Varrer o chão",
           levels: { 
                         A1: { en: "Please sweep the floor, its dirty.", pt: "Por favor, varra o chão, está sujo." }, 
-                        A2: { en: "Please sweep the floor, its dirty.", pt: "Por favor, varra o chão, está sujo." }, 
-                        B1: { en: "I have a Sweep the floor", pt: "Eu tenho um Varrer o chão" } 
+                        A2: { en: "He swept the floor after the party ended.", pt: "Ele varreu o chão depois que a festa acabou." }
                       }
     },
       { english: "Do the dishes", portuguese: "Lavar a louça",
           levels: { 
                         A1: { en: "I will do the dishes tonight.", pt: "Eu lavarei a louça esta noite." }, 
-                        A2: { en: "I will do the dishes tonight.", pt: "Eu lavarei a louça esta noite." }, 
-                        B1: { en: "I have a Do the dishes", pt: "Eu tenho um Lavar a louça" } 
+                        A2: { en: "She did the dishes while he dried them.", pt: "Ela lavou a louça enquanto ele as secava." }
                       }
     },
       { english: "Make the bed", portuguese: "Arrumar a cama",
           levels: { 
                         A1: { en: "Always make your bed in the morning.", pt: "Sempre arrume sua cama de manhã." }, 
-                        A2: { en: "Always make your bed in the morning.", pt: "Sempre arrume sua cama de manhã." }, 
-                        B1: { en: "I have a Make the bed", pt: "Eu tenho um Arrumar a cama" } 
+                        A2: { en: "I made the bed as soon as I woke up.", pt: "Eu arrumei a cama assim que acordei." }
                       }
     },
       { english: "Take out the trash", portuguese: "Tirar o lixo",
           levels: { 
                         A1: { en: "Dont forget to take out the trash.", pt: "Não se esqueça de tirar o lixo." }, 
-                        A2: { en: "Dont forget to take out the trash.", pt: "Não se esqueça de tirar o lixo." }, 
-                        B1: { en: "I have a Take out the trash", pt: "Eu tenho um Tirar o lixo" } 
+                        A2: { en: "He took out the trash before going to work.", pt: "Ele tirou o lixo antes de ir para o trabalho." }
                       }
     },
       { english: "Clean", portuguese: "Limpar",
           levels: { 
                         A1: { en: "We need to clean the house.", pt: "Nós precisamos limpar a casa." }, 
-                        A2: { en: "We need to clean the house.", pt: "Nós precisamos limpar a casa." }, 
-                        B1: { en: "I have a Clean", pt: "Eu tenho um Limpar" } 
+                        A2: { en: "They cleaned the entire house on Saturday morning.", pt: "Eles limparam a casa inteira no sábado de manhã." }
                       }
     },
       { english: "Laundry", portuguese: "Lavar roupa",
           levels: { 
                         A1: { en: "I am doing the laundry.", pt: "Estou lavando a roupa." }, 
-                        A2: { en: "I am doing the laundry.", pt: "Estou lavando a roupa." }, 
-                        B1: { en: "I have a Laundry", pt: "Eu tenho um Lavar roupa" } 
+                        A2: { en: "She did the laundry because she needed clean clothes.", pt: "Ela lavou as roupas porque precisava de roupas limpas." }
                       }
     },
       { english: "Iron the clothes", portuguese: "Passar a roupa",
           levels: { 
                         A1: { en: "I need to iron my shirt.", pt: "Preciso passar minha camisa." }, 
-                        A2: { en: "I need to iron my shirt.", pt: "Preciso passar minha camisa." }, 
-                        B1: { en: "I have a Iron the clothes", pt: "Eu tenho um Passar a roupa" } 
+                        A2: { en: "He ironed his clothes for the important meeting.", pt: "Ele passou suas roupas para a reunião importante." }
                       }
     },
       { english: "Dust the furniture", portuguese: "Tirar o pó dos móveis",
           levels: { 
                         A1: { en: "She is dusting the table.", pt: "Ela está tirando o pó da mesa." }, 
-                        A2: { en: "She is dusting the table.", pt: "Ela está tirando o pó da mesa." }, 
-                        B1: { en: "I have a Dust the furniture", pt: "Eu tenho um Tirar o pó dos móveis" } 
+                        A2: { en: "She dusted the furniture to keep the house neat.", pt: "Ela tirou o pó dos móveis para manter a casa arrumada." }
                       }
     },
       { english: "Vacuum", portuguese: "Passar aspirador",
           levels: { 
                         A1: { en: "I will vacuum the carpet.", pt: "Vou passar o aspirador no tapete." }, 
-                        A2: { en: "I will vacuum the carpet.", pt: "Vou passar o aspirador no tapete." }, 
-                        B1: { en: "I have a Vacuum", pt: "Eu tenho um Passar aspirador" } 
+                        A2: { en: "He vacuumed the carpets to remove all the dirt.", pt: "Ele aspirou os tapetes para remover toda a sujeira." }
                       }
     },
       { english: "Garage", portuguese: "Garagem",
           levels: { 
                         A1: { en: "The car is in the garage.", pt: "O carro está na garagem." }, 
-                        A2: { en: "The car is in the garage.", pt: "O carro está na garagem." }, 
-                        B1: { en: "She cleaned out the messy garage on Sunday.", pt: "Ela limpou a garagem bagunçada no domingo." } 
+                        A2: { en: "He parked his new car in the garage.", pt: "Ele estacionou seu carro novo na garagem." }
                       }
     },
       { english: "Garden / Yard", portuguese: "Jardim / Quintal",
           levels: { 
                         A1: { en: "The kids are playing in the yard.", pt: "As crianças estão brincando no quintal." }, 
-                        A2: { en: "The kids are playing in the yard.", pt: "As crianças estão brincando no quintal." }, 
-                        B1: { en: "I have a Garden / Yard", pt: "Eu tenho um Jardim / Quintal" } 
+                        A2: { en: "She planted beautiful roses in the garden last spring.", pt: "Ela plantou lindas rosas no jardim na primavera passada." }
                       }
     },
       { english: "Window", portuguese: "Janela",
           levels: { 
                         A1: { en: "Open the window, please.", pt: "Abra a janela, por favor." }, 
-                        A2: { en: "Open the window, please.", pt: "Abra a janela, por favor." }, 
-                        B1: { en: "The strong wind broke the fragile glass window.", pt: "O vento forte quebrou a frágil janela de vidro." } 
+                        A2: { en: "He opened the window to let fresh air inside.", pt: "Ele abriu a janela para deixar o ar fresco entrar." }
                       }
     },
       { english: "Door", portuguese: "Porta",
           levels: { 
                         A1: { en: "Lock the front door.", pt: "Tranque a porta da frente." }, 
-                        A2: { en: "Lock the front door.", pt: "Tranque a porta da frente." }, 
-                        B1: { en: "He accidentally locked the front door from the inside.", pt: "Ele acidentalmente trancou a porta da frente por dentro." } 
+                        A2: { en: "She locked the front door before going to bed.", pt: "Ela trancou a porta da frente antes de ir para a cama." }
                       }
     },
       { english: "Roof", portuguese: "Telhado",
           levels: { 
                         A1: { en: "The bird is on the roof.", pt: "O pássaro está no telhado." }, 
-                        A2: { en: "The bird is on the roof.", pt: "O pássaro está no telhado." }, 
-                        B1: { en: "The heavy storm destroyed part of the roof.", pt: "A forte tempestade destruiu parte do telhado." } 
+                        A2: { en: "The storm severely damaged the roof of our house.", pt: "A tempestade danificou severamente o telhado da nossa casa." }
                       }
     },
       { english: "Stairs", portuguese: "Escadas",
           levels: { 
                         A1: { en: "Be careful on the stairs.", pt: "Cuidado nas escadas." }, 
-                        A2: { en: "Be careful on the stairs.", pt: "Cuidado nas escadas." }, 
-                        B1: { en: "She took the stairs because the elevator was full.", pt: "Ela foi pelas escadas porque o elevador estava cheio." } 
+                        A2: { en: "He ran up the stairs to grab his forgotten keys.", pt: "Ele correu pelas escadas para pegar as chaves esquecidas." }
                       }
     },
       { english: "Mirror", portuguese: "Espelho",
           levels: { 
                         A1: { en: "Look at yourself in the mirror.", pt: "Olhe para si mesmo no espelho." }, 
-                        A2: { en: "Look at yourself in the mirror.", pt: "Olhe para si mesmo no espelho." }, 
-                        B1: { en: "I have a Mirror", pt: "Eu tenho um Espelho" } 
+                        A2: { en: "She looked at herself in the mirror before leaving.", pt: "Ela olhou para si mesma no espelho antes de sair." }
                       }
     },
-    ],
+      { english: "Landlord", portuguese: "Senhorio / Dono (do imóvel)",
+          levels: { 
+                        B1: { en: "Our landlord increases the rent a little bit every year.", pt: "Nosso senhorio aumenta o aluguel um pouquinho todo ano." } 
+                      }
+    },
+      { english: "Rent", portuguese: "Alugar / Aluguel",
+          levels: { 
+                        B1: { en: "They can barely afford to pay the rent this month.", pt: "Eles mal conseguem pagar o aluguel este mês." } 
+                      }
+    },
+      { english: "Furniture", portuguese: "Móveis / Mobília",
+          levels: { 
+                        B1: { en: "They bought beautiful wooden furniture for the living room.", pt: "Eles compraram móveis de madeira lindos para a sala de estar." } 
+                      }
+    },
+      { english: "Appliance", portuguese: "Eletrodoméstico",
+          levels: { 
+                        B1: { en: "The kitchen is equipped with modern stainless steel appliances.", pt: "A cozinha está equipada com eletrodomésticos modernos de aço inoxidável." } 
+                      }
+    },
+      { english: "Cozy", portuguese: "Aconchegante",
+          levels: { 
+                        B1: { en: "It is a small but very cozy apartment in the city center.", pt: "É um apartamento pequeno, mas muito aconchegante no centro da cidade." } 
+                      }
+    },
+      { english: "Spacious", portuguese: "Espaçoso",
+          levels: { 
+                        B1: { en: "The new house is much more spacious than our old flat.", pt: "A casa nova é muito mais espaçosa que nosso apartamento antigo." } 
+                      }
+    },
+      { english: "Move in", portuguese: "Mudar-se (para dentro)",
+          levels: { 
+                        B1: { en: "We signed the contract and we will move in on Friday.", pt: "Nós assinamos o contrato e vamos nos mudar na sexta-feira." } 
+                      }
+    },
+      { english: "Neighborhood", portuguese: "Vizinhança / Bairro",
+          levels: { 
+                        B1: { en: "They live in a quiet and safe neighborhood near the school.", pt: "Eles moram em uma vizinhança tranquila e segura perto da escola." } 
+                      }
+    }
+      ],
     dialogue: [
       { speaker: "Mom", english: "Tom, can you help me clean the house?", portuguese: "Tom, você pode me ajudar a limpar a casa?", isPrimary: false },
       { speaker: "Tom", english: "Sure, Mom. What should I do?", portuguese: "Claro, mãe. O que devo fazer?", isPrimary: true },
@@ -893,8 +952,7 @@ export const scenarios1: Scenario[] = [
       { speaker: "Tom", english: "The windows in the living room?", portuguese: "As janelas da sala de estar?", isPrimary: true },
       { speaker: "Mom", english: "Yes, and close the front door when you finish.", portuguese: "Sim, e feche a porta da frente quando você terminar.", isPrimary: false },
       { speaker: "Tom", english: "Got it. I will start right now.", portuguese: "Entendi. Vou começar agora mesmo.", isPrimary: true },
-      { speaker: "Mom", english: "Perfect. We want the house clean for our guests tonight.", portuguese: "Perfeito. Queremos a casa limpa para nossos convidados hoje à noite.", isPrimary: false },
-    ],
+      { speaker: "Mom", english: "Perfect. We want the house clean for our guests tonight.", portuguese: "Perfeito. Queremos a casa limpa para nossos convidados hoje à noite.", isPrimary: false }],
     flashcards: [
       { english: "I am in the living room.", portuguese: "Eu estou na sala de estar." },
       { english: "Can you do the dishes?", portuguese: "Você pode lavar a louça?" },
@@ -907,8 +965,7 @@ export const scenarios1: Scenario[] = [
       { english: "The car is in the garage.", portuguese: "O carro está na garagem." },
       { english: "Close the window, it is cold.", portuguese: "Feche a janela, está frio." },
       { english: "They are playing in the garden.", portuguese: "Eles estão brincando no jardim." },
-      { english: "Look in the mirror.", portuguese: "Olhe no espelho." },
-    ],
+      { english: "Look in the mirror.", portuguese: "Olhe no espelho." }],
     quiz: [
       { question: 'What does "Do the dishes" mean?', options: ["Cozinhar", "Lavar a louça", "Comer", "Fazer pratos"], correctIndex: 1, explanation: 'It is a common expression for washing the dirty plates and utensils.' },
       { question: 'Where do you usually sleep?', options: ["Kitchen", "Bathroom", "Living room", "Bedroom"], correctIndex: 3, explanation: 'You sleep in the "Bedroom" (Quarto).' },
@@ -919,8 +976,7 @@ export const scenarios1: Scenario[] = [
       { question: 'Complete: "I need to do the _____ because my clothes are dirty."', options: ["dishes", "laundry", "trash", "bed"], correctIndex: 1, explanation: '"Laundry" refers to clothes that need to be washed.' },
       { question: 'How do you say "Arrumar a cama"?', options: ["Clean the bed", "Fix the bed", "Make the bed", "Do the bed"], correctIndex: 2, explanation: 'In English, we say "Make the bed".' },
       { question: 'Translate "Sala de estar".', options: ["Living room", "Dining room", "Rest room", "Bed room"], correctIndex: 0, explanation: '"Living room" is where people sit and relax.' },
-      { question: 'What does "Clean" mean?', options: ["Sujo", "Cozinhar", "Limpar", "Dormir"], correctIndex: 2, explanation: '"Clean" can be a verb meaning limpar or an adjective meaning limpo.' },
-    ],
+      { question: 'What does "Clean" mean?', options: ["Sujo", "Cozinhar", "Limpar", "Dormir"], correctIndex: 2, explanation: '"Clean" can be a verb meaning limpar or an adjective meaning limpo.' }],
     trueOrFalse: {
       part1: [
         { statement: "You sleep in the kitchen.", statementPt: "Você dorme na cozinha.", isTrue: false, explanation: "You sleep in the bedroom. The kitchen is for cooking." },
@@ -986,144 +1042,164 @@ export const scenarios1: Scenario[] = [
       { english: "Mop the floor", portuguese: "Passar pano no chão",
           levels: { 
                         A1: { en: "I need to mop the floor.", pt: "Eu preciso passar pano no chão." }, 
-                        A2: { en: "I need to mop the floor.", pt: "Eu preciso passar pano no chão." }, 
-                        B1: { en: "I have a Mop the floor", pt: "Eu tenho um Passar pano no chão" } 
+                        A2: { en: "He mopped the floor because he spilled coffee.", pt: "Ele passou pano no chão porque derramou café." }
                       }
     },
       { english: "Fold the laundry", portuguese: "Dobrar a roupa",
           levels: { 
                         A1: { en: "Please fold the laundry.", pt: "Por favor, dobre a roupa." }, 
-                        A2: { en: "Please fold the laundry.", pt: "Por favor, dobre a roupa." }, 
-                        B1: { en: "I have a Fold the laundry", pt: "Eu tenho um Dobrar a roupa" } 
+                        A2: { en: "She folded the laundry while watching television.", pt: "Ela dobrou a roupa enquanto assistia televisão." }
                       }
     },
       { english: "Dining room", portuguese: "Sala de jantar",
           levels: { 
                         A1: { en: "We eat in the dining room.", pt: "Nós comemos na sala de jantar." }, 
-                        A2: { en: "We eat in the dining room.", pt: "Nós comemos na sala de jantar." }, 
-                        B1: { en: "They hosted a fancy dinner party in the dining room.", pt: "Eles deram um jantar chique na sala de jantar." } 
+                        A2: { en: "We ate a huge dinner in the dining room.", pt: "Nós comemos um jantar enorme na sala de jantar." }
                       }
     },
       { english: "Hallway", portuguese: "Corredor",
           levels: { 
                         A1: { en: "The bathroom is down the hallway.", pt: "O banheiro fica no fim do corredor." }, 
-                        A2: { en: "The bathroom is down the hallway.", pt: "O banheiro fica no fim do corredor." }, 
-                        B1: { en: "I have a Hallway", pt: "Eu tenho um Corredor" } 
+                        A2: { en: "The long hallway connects all the bedrooms.", pt: "O longo corredor conecta todos os quartos." }
                       }
     },
       { english: "Ceiling", portuguese: "Teto",
           levels: { 
                         A1: { en: "Look up at the ceiling.", pt: "Olhe para cima para o teto." }, 
-                        A2: { en: "Look up at the ceiling.", pt: "Olhe para cima para o teto." }, 
-                        B1: { en: "The water leaked through the damaged ceiling.", pt: "A água vazou pelo teto danificado." } 
+                        A2: { en: "They painted the ceiling white to brighten the room.", pt: "Eles pintaram o teto de branco para iluminar o cômodo." }
                       }
     },
       { english: "Wall", portuguese: "Parede",
           levels: { 
                         A1: { en: "The walls are painted blue.", pt: "As paredes são pintadas de azul." }, 
-                        A2: { en: "The walls are painted blue.", pt: "As paredes são pintadas de azul." }, 
-                        B1: { en: "She hung colorful paintings on the blank white wall.", pt: "Ela pendurou pinturas coloridas na parede branca vazia." } 
+                        A2: { en: "He hung a beautiful painting on the empty wall.", pt: "Ele pendurou um lindo quadro na parede vazia." }
                       }
     },
       { english: "Balcony", portuguese: "Varanda / Sacada",
           levels: { 
                         A1: { en: "She is standing on the balcony.", pt: "Ela está de pé na sacada." }, 
-                        A2: { en: "She is standing on the balcony.", pt: "Ela está de pé na sacada." }, 
-                        B1: { en: "I have a Balcony", pt: "Eu tenho um Varanda / Sacada" } 
+                        A2: { en: "We stood on the balcony and watched the sunset.", pt: "Nós ficamos na varanda e assistimos ao pôr do sol." }
                       }
     },
       { english: "Basement", portuguese: "Porão",
           levels: { 
                         A1: { en: "We keep old boxes in the basement.", pt: "Nós guardamos caixas velhas no porão." }, 
-                        A2: { en: "We keep old boxes in the basement.", pt: "Nós guardamos caixas velhas no porão." }, 
-                        B1: { en: "I have a Basement", pt: "Eu tenho um Porão" } 
+                        A2: { en: "They stored their old boxes in the dark basement.", pt: "Eles guardaram suas caixas antigas no porão escuro." }
                       }
     },
       { english: "Attic", portuguese: "Sótão",
           levels: { 
                         A1: { en: "The attic is very dusty.", pt: "O sótão está muito empoeirado." }, 
-                        A2: { en: "The attic is very dusty.", pt: "O sótão está muito empoeirado." }, 
-                        B1: { en: "I have a Attic", pt: "Eu tenho um Sótão" } 
+                        A2: { en: "He found an old photograph hidden in the attic.", pt: "Ele encontrou uma fotografia antiga escondida no sótão." }
                       }
     },
       { english: "Furniture", portuguese: "Móveis",
           levels: { 
                         A1: { en: "They bought new furniture.", pt: "Eles compraram móveis novos." }, 
-                        A2: { en: "They bought new furniture.", pt: "Eles compraram móveis novos." }, 
-                        B1: { en: "They bought expensive antique furniture for their new house.", pt: "Eles compraram móveis antigos caros para a casa nova deles." } 
+                        A2: { en: "She bought elegant furniture for her new apartment.", pt: "Ela comprou móveis elegantes para o seu novo apartamento." }
                       }
     },
       { english: "Couch / Sofa", portuguese: "Sofá",
           levels: { 
                         A1: { en: "I fell asleep on the couch.", pt: "Eu adormeci no sofá." }, 
-                        A2: { en: "I fell asleep on the couch.", pt: "Eu adormeci no sofá." }, 
-                        B1: { en: "I have a Couch / Sofa", pt: "Eu tenho um Sofá" } 
+                        A2: { en: "He fell asleep on the comfortable couch.", pt: "Ele adormeceu no sofá confortável." }
                       }
     },
       { english: "Wash the windows", portuguese: "Lavar as janelas",
           levels: { 
                         A1: { en: "We should wash the windows today.", pt: "Nós deveríamos lavar as janelas hoje." }, 
-                        A2: { en: "We should wash the windows today.", pt: "Nós deveríamos lavar as janelas hoje." }, 
-                        B1: { en: "I have a Wash the windows", pt: "Eu tenho um Lavar as janelas" } 
+                        A2: { en: "They washed the windows to see the garden clearly.", pt: "Eles lavaram as janelas para ver o jardim com clareza." }
                       }
     },
       { english: "Mow the lawn", portuguese: "Cortar a grama",
           levels: { 
                         A1: { en: "My father is mowing the lawn.", pt: "Meu pai está cortando a grama." }, 
-                        A2: { en: "My father is mowing the lawn.", pt: "Meu pai está cortando a grama." }, 
-                        B1: { en: "I have a Mow the lawn", pt: "Eu tenho um Cortar a grama" } 
+                        A2: { en: "He mowed the lawn on Saturday morning.", pt: "Ele cortou a grama no sábado de manhã." }
                       }
     },
       { english: "Water the plants", portuguese: "Regar as plantas",
           levels: { 
                         A1: { en: "Dont forget to water the plants.", pt: "Não se esqueça de regar as plantas." }, 
-                        A2: { en: "Dont forget to water the plants.", pt: "Não se esqueça de regar as plantas." }, 
-                        B1: { en: "I have a Water the plants", pt: "Eu tenho um Regar as plantas" } 
+                        A2: { en: "She watered the plants because it didn't rain.", pt: "Ela regou as plantas porque não choveu." }
                       }
     },
       { english: "Set the table", portuguese: "Arrumar a mesa",
           levels: { 
                         A1: { en: "Can you set the table for dinner?", pt: "Você pode arrumar a mesa para o jantar?" }, 
-                        A2: { en: "Can you set the table for dinner?", pt: "Você pode arrumar a mesa para o jantar?" }, 
-                        B1: { en: "I have a Set the table", pt: "Eu tenho um Arrumar a mesa" } 
+                        A2: { en: "The children set the table before dinner.", pt: "As crianças arrumaram a mesa antes do jantar." }
                       }
     },
       { english: "Clear the table", portuguese: "Tirar a mesa",
           levels: { 
                         A1: { en: "I will clear the table after we eat.", pt: "Eu vou tirar a mesa depois de comermos." }, 
-                        A2: { en: "I will clear the table after we eat.", pt: "Eu vou tirar a mesa depois de comermos." }, 
-                        B1: { en: "I have a Clear the table", pt: "Eu tenho um Tirar a mesa" } 
+                        A2: { en: "He cleared the table quickly after they finished eating.", pt: "Ele limpou a mesa rapidamente depois que terminaram de comer." }
                       }
     },
       { english: "Sink", portuguese: "Pia",
           levels: { 
                         A1: { en: "The sink is full of dishes.", pt: "A pia está cheia de louça." }, 
-                        A2: { en: "The sink is full of dishes.", pt: "A pia está cheia de louça." }, 
-                        B1: { en: "I have a Sink", pt: "Eu tenho um Pia" } 
+                        A2: { en: "She washed her hands in the kitchen sink.", pt: "Ela lavou as mãos na pia da cozinha." }
                       }
     },
       { english: "Faucet", portuguese: "Torneira",
           levels: { 
                         A1: { en: "Turn off the faucet to save water.", pt: "Feche a torneira para economizar água." }, 
-                        A2: { en: "Turn off the faucet to save water.", pt: "Feche a torneira para economizar água." }, 
-                        B1: { en: "I have a Faucet", pt: "Eu tenho um Torneira" } 
+                        A2: { en: "The broken faucet leaked water all night.", pt: "A torneira quebrada vazou água a noite toda." }
                       }
     },
       { english: "Closet", portuguese: "Guarda-roupa",
           levels: { 
                         A1: { en: "Hang your shirt in the closet.", pt: "Pendure sua camisa no guarda-roupa." }, 
-                        A2: { en: "Hang your shirt in the closet.", pt: "Pendure sua camisa no guarda-roupa." }, 
-                        B1: { en: "I have a Closet", pt: "Eu tenho um Guarda-roupa" } 
+                        A2: { en: "He organized all his winter clothes in the closet.", pt: "Ele organizou todas as suas roupas de inverno no guarda-roupa." }
                       }
     },
       { english: "Wipe the counter", portuguese: "Limpar a bancada",
           levels: { 
                         A1: { en: "Please wipe the counter after cooking.", pt: "Por favor, limpe a bancada após cozinhar." }, 
-                        A2: { en: "Please wipe the counter after cooking.", pt: "Por favor, limpe a bancada após cozinhar." }, 
-                        B1: { en: "I have a Wipe the counter", pt: "Eu tenho um Limpar a bancada" } 
+                        A2: { en: "She wiped the counter after preparing the meal.", pt: "Ela limpou o balcão depois de preparar a refeição." }
                       }
     },
-    ],
+      { english: "Vacuum", portuguese: "Passar aspirador",
+          levels: { 
+                        B1: { en: "I need to vacuum the carpets before the guests arrive.", pt: "Eu preciso passar aspirador nos tapetes antes que os convidados cheguem." } 
+                      }
+    },
+      { english: "Do the laundry", portuguese: "Lavar a roupa",
+          levels: { 
+                        B1: { en: "She usually does the laundry on Sunday mornings.", pt: "Ela geralmente lava a roupa nos domingos de manhã." } 
+                      }
+    },
+      { english: "Take out the trash", portuguese: "Levar o lixo para fora",
+          levels: { 
+                        B1: { en: "It is your turn to take out the trash tonight.", pt: "É a sua vez de levar o lixo para fora hoje à noite." } 
+                      }
+    },
+      { english: "Wipe", portuguese: "Limpar / Passar um pano",
+          levels: { 
+                        B1: { en: "Could you wipe the kitchen table with a damp cloth?", pt: "Você poderia passar um pano na mesa da cozinha com um pano úmido?" } 
+                      }
+    },
+      { english: "Dust", portuguese: "Tirar o pó",
+          levels: { 
+                        B1: { en: "He forgot to dust the bookshelves while cleaning the room.", pt: "Ele esqueceu de tirar o pó das prateleiras de livros ao limpar a sala." } 
+                      }
+    },
+      { english: "Mop", portuguese: "Passar esfregão",
+          levels: { 
+                        B1: { en: "Someone spilled juice, so I had to mop the floor.", pt: "Alguém derramou suco, então eu tive que passar esfregão no chão." } 
+                      }
+    },
+      { english: "Tidy up", portuguese: "Arrumar / Organizar",
+          levels: { 
+                        B1: { en: "Please tidy up your bedroom before going out to play.", pt: "Por favor, arrume seu quarto antes de sair para brincar." } 
+                      }
+    },
+      { english: "Chores", portuguese: "Tarefas domésticas",
+          levels: { 
+                        B1: { en: "We share the household chores equally between everyone.", pt: "Nós dividimos as tarefas domésticas igualmente entre todos." } 
+                      }
+    }
+      ],
     dialogue: [
       { speaker: "John", english: "Hey Sarah, the house is a mess. We need to clean.", portuguese: "Ei Sarah, a casa está uma bagunça. Nós precisamos limpar.", isPrimary: true },
       { speaker: "Sarah", english: "You are right. I will start by folding the laundry.", portuguese: "Você tem razão. Eu vou começar dobrando a roupa.", isPrimary: false },
@@ -1134,8 +1210,7 @@ export const scenarios1: Scenario[] = [
       { speaker: "John", english: "Okay. Later, I need to go to the basement to find some tools.", portuguese: "Ok. Mais tarde, preciso ir ao porão para achar ferramentas.", isPrimary: true },
       { speaker: "Sarah", english: "Are you going to fix the leaky faucet in the bathroom?", portuguese: "Você vai consertar a torneira pingando no banheiro?", isPrimary: false },
       { speaker: "John", english: "Yes, it is driving me crazy! Then I will rest on the couch.", portuguese: "Sim, está me deixando louco! Depois eu vou descansar no sofá.", isPrimary: true },
-      { speaker: "Sarah", english: "Deal! Let's get to work.", portuguese: "Fechado! Mãos à obra.", isPrimary: false },
-    ],
+      { speaker: "Sarah", english: "Deal! Let's get to work.", portuguese: "Fechado! Mãos à obra.", isPrimary: false }],
     flashcards: [
       { english: "I need to mop the floor.", portuguese: "Eu preciso passar pano no chão." },
       { english: "She is folding the laundry.", portuguese: "Ela está dobrando a roupa." },
@@ -1148,8 +1223,7 @@ export const scenarios1: Scenario[] = [
       { english: "Can you set the table?", portuguese: "Você pode arrumar a mesa?" },
       { english: "The sink is broken.", portuguese: "A pia está quebrada." },
       { english: "Turn off the faucet.", portuguese: "Feche a torneira." },
-      { english: "My closet is full.", portuguese: "Meu guarda-roupa está cheio." },
-    ],
+      { english: "My closet is full.", portuguese: "Meu guarda-roupa está cheio." }],
     quiz: [
       { question: 'What does "Mop the floor" mean?', options: ["Varrer o chão", "Passar pano no chão", "Lavar o tapete", "Limpar a parede"], correctIndex: 1, explanation: '"Mop" is the tool (esfregão) and the action of cleaning the floor with water.' },
       { question: 'Where do you usually eat formal meals?', options: ["Kitchen", "Hallway", "Dining room", "Basement"], correctIndex: 2, explanation: '"Dining room" is the sala de jantar.' },
@@ -1160,8 +1234,7 @@ export const scenarios1: Scenario[] = [
       { question: 'Translate "Regar as plantas".', options: ["Wash the plants", "Water the plants", "Give plants", "Clean the plants"], correctIndex: 1, explanation: '"Water" can be a verb meaning regar.' },
       { question: 'What does "Set the table" mean?', options: ["Comprar a mesa", "Tirar a mesa", "Arrumar a mesa", "Limpar a mesa"], correctIndex: 2, explanation: 'It means preparing the table with plates and utensils for a meal.' },
       { question: 'Where do you hang your clothes?', options: ["In the closet", "In the sink", "In the attic", "In the hallway"], correctIndex: 0, explanation: 'You hang clothes in a "Closet" (guarda-roupa/armário).' },
-      { question: 'What do you use to wash dishes?', options: ["The ceiling", "The couch", "The sink", "The wall"], correctIndex: 2, explanation: 'You wash dishes in the "Sink" (pia).' },
-    ],
+      { question: 'What do you use to wash dishes?', options: ["The ceiling", "The couch", "The sink", "The wall"], correctIndex: 2, explanation: 'You wash dishes in the "Sink" (pia).' }],
     trueOrFalse: {
       part1: [
         { statement: "The ceiling is below your feet.", statementPt: "O teto fica abaixo dos seus pés.", isTrue: false, explanation: "The ceiling (teto) is above your head. The floor is below your feet." },
@@ -1227,144 +1300,164 @@ export const scenarios1: Scenario[] = [
       { english: "Read a book", portuguese: "Ler um livro",
           levels: { 
                         A1: { en: "I read a book every night.", pt: "Eu leio um livro toda noite." }, 
-                        A2: { en: "I read a book every night.", pt: "Eu leio um livro toda noite." }, 
-                        B1: { en: "She read an inspiring book during her vacation.", pt: "Ela leu um livro inspirador durante suas férias." } 
+                        A2: { en: "He read an interesting book about ancient history.", pt: "Ele leu um livro interessante sobre história antiga." }
                       }
     },
       { english: "Play guitar", portuguese: "Tocar violão",
           levels: { 
                         A1: { en: "He plays guitar in a band.", pt: "Ele toca violão em uma banda." }, 
-                        A2: { en: "He plays guitar in a band.", pt: "Ele toca violão em uma banda." }, 
-                        B1: { en: "I have a Play guitar", pt: "Eu tenho um Tocar violão" } 
+                        A2: { en: "She played the guitar beautifully at the concert.", pt: "Ela tocou violão lindamente no show." }
                       }
     },
       { english: "Listen to music", portuguese: "Ouvir música",
           levels: { 
                         A1: { en: "I listen to music while running.", pt: "Eu ouço música enquanto corro." }, 
-                        A2: { en: "I listen to music while running.", pt: "Eu ouço música enquanto corro." }, 
-                        B1: { en: "He listened to classical music while studying for his exams.", pt: "Ele ouvia música clássica enquanto estudava para os exames." } 
+                        A2: { en: "I listened to classical music to relax.", pt: "Eu escutei música clássica para relaxar." }
                       }
     },
       { english: "Watch movies", portuguese: "Assistir a filmes",
           levels: { 
                         A1: { en: "Lets watch movies on Netflix.", pt: "Vamos assistir a filmes na Netflix." }, 
-                        A2: { en: "Lets watch movies on Netflix.", pt: "Vamos assistir a filmes na Netflix." }, 
-                        B1: { en: "They watched classic movies on a vintage projector.", pt: "Eles assistiram a filmes clássicos em um projetor vintage." } 
+                        A2: { en: "We watched scary movies on Halloween.", pt: "Nós assistimos a filmes de terror no Halloween." }
                       }
     },
       { english: "Draw / Paint", portuguese: "Desenhar / Pintar",
           levels: { 
                         A1: { en: "She likes to paint landscapes.", pt: "Ela gosta de pintar paisagens." }, 
-                        A2: { en: "She likes to paint landscapes.", pt: "Ela gosta de pintar paisagens." }, 
-                        B1: { en: "He painted a stunning landscape using watercolors.", pt: "Ele pintou uma paisagem deslumbrante usando aquarelas." } 
+                        A2: { en: "He painted a stunning landscape using watercolors.", pt: "Ele pintou uma paisagem deslumbrante usando aquarelas." }
                       }
     },
       { english: "Travel", portuguese: "Viajar",
           levels: { 
                         A1: { en: "Traveling is my favorite hobby.", pt: "Viajar é meu hobby favorito." }, 
-                        A2: { en: "Traveling is my favorite hobby.", pt: "Viajar é meu hobby favorito." }, 
-                        B1: { en: "They traveled to Europe during their summer vacation.", pt: "Eles viajaram para a Europa durante as férias de verão." } 
+                        A2: { en: "They traveled to Europe during their summer vacation.", pt: "Eles viajaram para a Europa durante as férias de verão." }
                       }
     },
       { english: "Play video games", portuguese: "Jogar videogame",
           levels: { 
                         A1: { en: "Kids love playing video games.", pt: "As crianças adoram jogar videogame." }, 
-                        A2: { en: "Kids love playing video games.", pt: "As crianças adoram jogar videogame." }, 
-                        B1: { en: "He played video games with his friends all night.", pt: "Ele jogou videogames com seus amigos a noite toda." } 
+                        A2: { en: "He played video games with his friends all night.", pt: "Ele jogou videogames com seus amigos a noite toda." }
                       }
     },
       { english: "Take photos", portuguese: "Tirar fotos",
           levels: { 
                         A1: { en: "I take photos with my camera.", pt: "Eu tiro fotos com minha câmera." }, 
-                        A2: { en: "I take photos with my camera.", pt: "Eu tiro fotos com minha câmera." }, 
-                        B1: { en: "She took amazing photos of the mountains.", pt: "Ela tirou fotos incríveis das montanhas." } 
+                        A2: { en: "She took amazing photos of the mountains.", pt: "Ela tirou fotos incríveis das montanhas." }
                       }
     },
       { english: "Dance", portuguese: "Dançar",
           levels: { 
                         A1: { en: "We go out to dance on Fridays.", pt: "Nós saímos para dançar às sextas." }, 
-                        A2: { en: "We go out to dance on Fridays.", pt: "Nós saímos para dançar às sextas." }, 
-                        B1: { en: "We danced all night at the wedding reception.", pt: "Nós dançamos a noite toda na festa de casamento." } 
+                        A2: { en: "We danced all night at the wedding reception.", pt: "Nós dançamos a noite toda na festa de casamento." }
                       }
     },
       { english: "Sing", portuguese: "Cantar",
           levels: { 
                         A1: { en: "She sings in the shower.", pt: "Ela canta no chuveiro." }, 
-                        A2: { en: "She sings in the shower.", pt: "Ela canta no chuveiro." }, 
-                        B1: { en: "He sang his favorite song in the shower.", pt: "Ele cantou sua música favorita no chuveiro." } 
+                        A2: { en: "He sang his favorite song in the shower.", pt: "Ele cantou sua música favorita no chuveiro." }
                       }
     },
       { english: "Cook", portuguese: "Cozinhar",
           levels: { 
                         A1: { en: "Cooking new recipes is fun.", pt: "Cozinhar novas receitas é divertido." }, 
-                        A2: { en: "Cooking new recipes is fun.", pt: "Cozinhar novas receitas é divertido." }, 
-                        B1: { en: "She cooked a special dinner for her anniversary.", pt: "Ela cozinhou um jantar especial para o seu aniversário." } 
+                        A2: { en: "She cooked a complex meal for her family yesterday.", pt: "Ela cozinhou uma refeição complexa para a família ontem." }
                       }
     },
       { english: "Go hiking", portuguese: "Fazer trilha",
           levels: { 
                         A1: { en: "We go hiking in the mountains.", pt: "Nós fazemos trilha nas montanhas." }, 
-                        A2: { en: "We go hiking in the mountains.", pt: "Nós fazemos trilha nas montanhas." }, 
-                        B1: { en: "They went hiking in the national park yesterday.", pt: "Eles fizeram trilha no parque nacional ontem." } 
+                        A2: { en: "They went hiking in the national park yesterday.", pt: "Eles fizeram trilha no parque nacional ontem." }
                       }
     },
       { english: "Camp", portuguese: "Acampar",
           levels: { 
                         A1: { en: "They camp in the forest every summer.", pt: "Eles acampam na floresta todo verão." }, 
-                        A2: { en: "They camp in the forest every summer.", pt: "Eles acampam na floresta todo verão." }, 
-                        B1: { en: "We camped near a beautiful lake last weekend.", pt: "Nós acampamos perto de um lago lindo no final de semana passado." } 
+                        A2: { en: "We camped near a beautiful lake last weekend.", pt: "Nós acampamos perto de um lago lindo no final de semana passado." }
                       }
     },
       { english: "Knit", portuguese: "Tricotar",
           levels: { 
                         A1: { en: "My grandmother likes to knit.", pt: "Minha avó gosta de tricotar." }, 
-                        A2: { en: "My grandmother likes to knit.", pt: "Minha avó gosta de tricotar." }, 
-                        B1: { en: "My grandmother knitted a warm sweater for me.", pt: "Minha avó tricotou um suéter quente para mim." } 
+                        A2: { en: "My grandmother knitted a warm sweater for me.", pt: "Minha avó tricotou um suéter quente para mim." }
                       }
     },
       { english: "Collect", portuguese: "Colecionar",
           levels: { 
                         A1: { en: "He collects old coins.", pt: "Ele coleciona moedas antigas." }, 
-                        A2: { en: "He collects old coins.", pt: "Ele coleciona moedas antigas." }, 
-                        B1: { en: "He collected rare coins from different countries.", pt: "Ele colecionava moedas raras de diferentes países." } 
+                        A2: { en: "He collected rare coins from different countries.", pt: "Ele colecionava moedas raras de diferentes países." }
                       }
     },
       { english: "Write", portuguese: "Escrever",
           levels: { 
                         A1: { en: "I write poems in my free time.", pt: "Eu escrevo poemas no meu tempo livre." }, 
-                        A2: { en: "I write poems in my free time.", pt: "Eu escrevo poemas no meu tempo livre." }, 
-                        B1: { en: "She wrote a long letter to her best friend.", pt: "Ela escreveu uma longa carta para sua melhor amiga." } 
+                        A2: { en: "She wrote a long letter to her best friend.", pt: "Ela escreveu uma longa carta para sua melhor amiga." }
                       }
     },
       { english: "Garden", portuguese: "Jardinar",
           levels: { 
                         A1: { en: "She loves gardening in the spring.", pt: "Ela adora jardinar na primavera." }, 
-                        A2: { en: "She loves gardening in the spring.", pt: "Ela adora jardinar na primavera." }, 
-                        B1: { en: "He spent his weekend gardening in the backyard.", pt: "Ele passou o fim de semana trabalhando no jardim no quintal." } 
+                        A2: { en: "He spent his weekend gardening in the backyard.", pt: "Ele passou o fim de semana trabalhando no jardim no quintal." }
                       }
     },
       { english: "Surf the internet", portuguese: "Navegar na internet",
           levels: { 
                         A1: { en: "I surf the internet to read news.", pt: "Navego na internet para ler notícias." }, 
-                        A2: { en: "I surf the internet to read news.", pt: "Navego na internet para ler notícias." }, 
-                        B1: { en: "I surfed the internet looking for interesting articles.", pt: "Eu naveguei na internet procurando artigos interessantes." } 
+                        A2: { en: "I surfed the internet looking for interesting articles.", pt: "Eu naveguei na internet procurando artigos interessantes." }
                       }
     },
       { english: "Workout", portuguese: "Malhar",
           levels: { 
                         A1: { en: "I workout at the gym daily.", pt: "Eu malho na academia diariamente." }, 
-                        A2: { en: "I workout at the gym daily.", pt: "Eu malho na academia diariamente." }, 
-                        B1: { en: "She worked out at the gym every morning.", pt: "Ela malhava na academia toda manhã." } 
+                        A2: { en: "She worked out at the gym every morning.", pt: "Ela malhava na academia toda manhã." }
                       }
     },
       { english: "Play board games", portuguese: "Jogar jogos de tabuleiro",
           levels: { 
                         A1: { en: "We play board games on Sundays.", pt: "Jogamos jogos de tabuleiro aos domingos." }, 
-                        A2: { en: "We play board games on Sundays.", pt: "Jogamos jogos de tabuleiro aos domingos." }, 
-                        B1: { en: "We played strategic board games on Saturday.", pt: "Nós jogamos jogos de tabuleiro estratégicos no sábado." } 
+                        A2: { en: "We played strategic board games on Saturday.", pt: "Nós jogamos jogos de tabuleiro estratégicos no sábado." }
                       }
     },
-    ],
+      { english: "Keen on", portuguese: "Interessado em / Gostar muito",
+          levels: { 
+                        B1: { en: "He is really keen on playing the guitar recently.", pt: "Ele está realmente interessado em tocar violão recentemente." } 
+                      }
+    },
+      { english: "Take up", portuguese: "Começar (um hobby/atividade)",
+          levels: { 
+                        B1: { en: "She decided to take up yoga to reduce stress.", pt: "Ela decidiu começar a fazer yoga para reduzir o estresse." } 
+                      }
+    },
+      { english: "Give up", portuguese: "Desistir / Parar de fazer",
+          levels: { 
+                        B1: { en: "He had to give up playing football after his knee injury.", pt: "Ele teve que parar de jogar futebol depois da lesão no joelho." } 
+                      }
+    },
+      { english: "Into", portuguese: "Gostar muito de algo",
+          levels: { 
+                        B1: { en: "I am really into science fiction movies right now.", pt: "Eu estou gostando muito de filmes de ficção científica agora." } 
+                      }
+    },
+      { english: "Leisure", portuguese: "Lazer / Tempo livre",
+          levels: { 
+                        B1: { en: "What do you normally do in your leisure time?", pt: "O que você normalmente faz no seu tempo de lazer?" } 
+                      }
+    },
+      { english: "Outdoors", portuguese: "Ao ar livre",
+          levels: { 
+                        B1: { en: "They love spending their weekends outdoors, hiking and camping.", pt: "Eles adoram passar os fins de semana ao ar livre, fazendo trilhas e acampando." } 
+                      }
+    },
+      { english: "Join", portuguese: "Juntar-se / Inscrever-se",
+          levels: { 
+                        B1: { en: "I want to join the local chess club this year.", pt: "Eu quero me inscrever no clube de xadrez local este ano." } 
+                      }
+    },
+      { english: "Skill", portuguese: "Habilidade",
+          levels: { 
+                        B1: { en: "Learning a new language is a very useful skill.", pt: "Aprender um novo idioma é uma habilidade muito útil." } 
+                      }
+    }
+      ],
     dialogue: [
       { speaker: "Lisa", english: "What do you do in your free time, David?", portuguese: "O que você faz no seu tempo livre, David?", isPrimary: false },
       { speaker: "David", english: "I love to play the guitar and listen to music. What about you?", portuguese: "Eu amo tocar violão e ouvir música. E você?", isPrimary: true },
@@ -1375,8 +1468,7 @@ export const scenarios1: Scenario[] = [
       { speaker: "Lisa", english: "I would love that. Do you like chess or monopoly?", portuguese: "Eu adoraria. Você gosta de xadrez ou banco imobiliário?", isPrimary: false },
       { speaker: "David", english: "Chess is great. It makes you think.", portuguese: "Xadrez é ótimo. Faz você pensar.", isPrimary: true },
       { speaker: "Lisa", english: "Agreed. Let's do it this Sunday afternoon.", portuguese: "Concordo. Vamos fazer isso neste domingo à tarde.", isPrimary: false },
-      { speaker: "David", english: "Sunday is perfect. I will bring the chess board.", portuguese: "Domingo é perfeito. Eu levo o tabuleiro de xadrez.", isPrimary: true },
-    ],
+      { speaker: "David", english: "Sunday is perfect. I will bring the chess board.", portuguese: "Domingo é perfeito. Eu levo o tabuleiro de xadrez.", isPrimary: true }],
     flashcards: [
       { english: "I love reading books.", portuguese: "Eu amo ler livros." },
       { english: "He plays the guitar well.", portuguese: "Ele toca violão bem." },
@@ -1389,8 +1481,7 @@ export const scenarios1: Scenario[] = [
       { english: "She writes poems.", portuguese: "Ela escreve poemas." },
       { english: "They collect stamps.", portuguese: "Eles colecionam selos." },
       { english: "I workout every day.", portuguese: "Eu malho todos os dias." },
-      { english: "Gardening is relaxing.", portuguese: "Jardinar é relaxante." },
-    ],
+      { english: "Gardening is relaxing.", portuguese: "Jardinar é relaxante." }],
     quiz: [
       { question: 'How do you say "Tocar violão" in English?', options: ["Play the piano", "Play the guitar", "Play the violin", "Play music"], correctIndex: 1, explanation: 'In English, "violão" and "guitarra elétrica" are both called "guitar".' },
       { question: 'Complete: "I like to _____ to music."', options: ["hear", "listen", "play", "make"], correctIndex: 1, explanation: 'We use "listen to" when paying attention to sounds like music.' },
@@ -1401,8 +1492,7 @@ export const scenarios1: Scenario[] = [
       { question: 'Which word means "Cantar"?', options: ["Dance", "Draw", "Sing", "Read"], correctIndex: 2, explanation: '"Sing" translates to Cantar.' },
       { question: 'What are you doing when you are using a PlayStation?', options: ["Watching movies", "Playing video games", "Listening to music", "Reading"], correctIndex: 1, explanation: 'You are playing video games.' },
       { question: 'How do you say "Tempo livre"?', options: ["Free time", "Good time", "Play time", "Rest time"], correctIndex: 0, explanation: '"Tempo livre" is "Free time".' },
-      { question: 'Complete: "Let\'s _____ a movie tonight."', options: ["see", "look", "watch", "read"], correctIndex: 2, explanation: 'We use "watch" for movies and TV.' },
-    ],
+      { question: 'Complete: "Let\'s _____ a movie tonight."', options: ["see", "look", "watch", "read"], correctIndex: 2, explanation: 'We use "watch" for movies and TV.' }],
     trueOrFalse: {
       part1: [
         { statement: "When you listen to music, you use a book.", statementPt: "Quando você ouve música, você usa um livro.", isTrue: false, explanation: "You use a book to read, not to listen to music." },
@@ -1468,144 +1558,146 @@ export const scenarios1: Scenario[] = [
       { english: "Soccer / Football", portuguese: "Futebol",
           levels: { 
                         A1: { en: "Brazil loves soccer.", pt: "O Brasil ama futebol." }, 
-                        A2: { en: "Brazil loves soccer.", pt: "O Brasil ama futebol." }, 
-                        B1: { en: "He played professional soccer for ten years.", pt: "Ele jogou futebol profissional por dez anos." } 
+                        A2: { en: "He played professional soccer for ten years.", pt: "Ele jogou futebol profissional por dez anos." }
                       }
     },
       { english: "Basketball", portuguese: "Basquete",
           levels: { 
                         A1: { en: "Michael Jordan played basketball.", pt: "Michael Jordan jogou basquete." }, 
-                        A2: { en: "Michael Jordan played basketball.", pt: "Michael Jordan jogou basquete." }, 
-                        B1: { en: "They practiced basketball every day after school.", pt: "Eles praticavam basquete todo dia depois da escola." } 
+                        A2: { en: "They practiced basketball every day after school.", pt: "Eles praticavam basquete todo dia depois da escola." }
                       }
     },
       { english: "Swim", portuguese: "Nadar / Natação",
           levels: { 
                         A1: { en: "I swim in the ocean.", pt: "Eu nado no oceano." }, 
-                        A2: { en: "I swim in the ocean.", pt: "Eu nado no oceano." }, 
-                        B1: { en: "She swam in the ocean during her vacation.", pt: "Ela nadou no oceano durante suas férias." } 
+                        A2: { en: "She swam in the ocean during her vacation.", pt: "Ela nadou no oceano durante suas férias." }
                       }
     },
       { english: "Run", portuguese: "Correr",
           levels: { 
                         A1: { en: "He runs 5km every morning.", pt: "Ele corre 5km toda manhã." }, 
-                        A2: { en: "He runs 5km every morning.", pt: "Ele corre 5km toda manhã." }, 
-                        B1: { en: "He ran a marathon in under four hours.", pt: "Ele correu uma maratona em menos de quatro horas." } 
+                        A2: { en: "He ran a marathon in under four hours.", pt: "Ele correu uma maratona em menos de quatro horas." }
                       }
     },
       { english: "Team", portuguese: "Time / Equipe",
           levels: { 
                         A1: { en: "Our team is the best.", pt: "Nosso time é o melhor." }, 
-                        A2: { en: "Our team is the best.", pt: "Nosso time é o melhor." }, 
-                        B1: { en: "Our team won the championship last year.", pt: "Nosso time venceu o campeonato no ano passado." } 
+                        A2: { en: "Our team won the championship last year.", pt: "Nosso time venceu o campeonato no ano passado." }
                       }
     },
       { english: "Match / Game", portuguese: "Partida / Jogo",
           levels: { 
                         A1: { en: "Did you watch the match?", pt: "Você assistiu à partida?" }, 
-                        A2: { en: "Did you watch the match?", pt: "Você assistiu à partida?" }, 
-                        B1: { en: "The intense match ended in a tie.", pt: "A partida intensa terminou em empate." } 
+                        A2: { en: "The intense match ended in a tie.", pt: "A partida intensa terminou em empate." }
                       }
     },
       { english: "Win", portuguese: "Vencer / Ganhar",
           levels: { 
                         A1: { en: "We want to win the cup.", pt: "Nós queremos vencer a copa." }, 
-                        A2: { en: "We want to win the cup.", pt: "Nós queremos vencer a copa." }, 
-                        B1: { en: "They won the gold medal at the Olympics.", pt: "Eles venceram a medalha de ouro nas Olimpíadas." } 
+                        A2: { en: "They won the gold medal at the Olympics.", pt: "Eles venceram a medalha de ouro nas Olimpíadas." }
                       }
     },
       { english: "Lose", portuguese: "Perder",
           levels: { 
                         A1: { en: "Dont be sad if we lose.", pt: "Não fique triste se nós perdermos." }, 
-                        A2: { en: "Dont be sad if we lose.", pt: "Não fique triste se nós perdermos." }, 
-                        B1: { en: "Unfortunately, he lost the important tennis match.", pt: "Infelizmente, ele perdeu a importante partida de tênis." } 
+                        A2: { en: "Unfortunately, he lost the important tennis match.", pt: "Infelizmente, ele perdeu a importante partida de tênis." }
                       }
     },
       { english: "Ball", portuguese: "Bola",
           levels: { 
                         A1: { en: "Pass the ball to me!", pt: "Passe a bola para mim!" }, 
-                        A2: { en: "Pass the ball to me!", pt: "Passe a bola para mim!" }, 
-                        B1: { en: "He threw the ball accurately across the field.", pt: "Ele jogou a bola com precisão pelo campo." } 
+                        A2: { en: "He threw the ball accurately across the field.", pt: "Ele jogou a bola com precisão pelo campo." }
                       }
     },
       { english: "Stadium", portuguese: "Estádio",
           levels: { 
                         A1: { en: "The stadium is full of fans.", pt: "O estádio está cheio de fãs." }, 
-                        A2: { en: "The stadium is full of fans.", pt: "O estádio está cheio de fãs." }, 
-                        B1: { en: "Thousands of fans cheered in the crowded stadium.", pt: "Milhares de torcedores comemoraram no estádio lotado." } 
+                        A2: { en: "Thousands of fans cheered in the crowded stadium.", pt: "Milhares de torcedores comemoraram no estádio lotado." }
                       }
     },
       { english: "Tennis", portuguese: "Tênis",
           levels: { 
                         A1: { en: "She plays tennis on weekends.", pt: "Ela joga tênis nos fins de semana." }, 
-                        A2: { en: "She plays tennis on weekends.", pt: "Ela joga tênis nos fins de semana." }, 
-                        B1: { en: "She played tennis with her brother yesterday.", pt: "Ela jogou tênis com seu irmão ontem." } 
+                        A2: { en: "She played tennis with her brother yesterday.", pt: "Ela jogou tênis com seu irmão ontem." }
                       }
     },
       { english: "Volleyball", portuguese: "Vôlei",
           levels: { 
                         A1: { en: "They are playing volleyball on the beach.", pt: "Eles estão jogando vôlei na praia." }, 
-                        A2: { en: "They are playing volleyball on the beach.", pt: "Eles estão jogando vôlei na praia." }, 
-                        B1: { en: "We played volleyball on the beach until sunset.", pt: "Nós jogamos vôlei na praia até o pôr do sol." } 
+                        A2: { en: "We played volleyball on the beach until sunset.", pt: "Nós jogamos vôlei na praia até o pôr do sol." }
                       }
     },
       { english: "Cycling", portuguese: "Ciclismo",
           levels: { 
                         A1: { en: "Cycling is good for your health.", pt: "O ciclismo é bom para a sua saúde." }, 
-                        A2: { en: "Cycling is good for your health.", pt: "O ciclismo é bom para a sua saúde." }, 
-                        B1: { en: "He participated in a cycling race across the mountains.", pt: "Ele participou de uma corrida de ciclismo pelas montanhas." } 
+                        A2: { en: "He participated in a cycling race across the mountains.", pt: "Ele participou de uma corrida de ciclismo pelas montanhas." }
                       }
     },
       { english: "Gym", portuguese: "Academia",
           levels: { 
                         A1: { en: "I go to the gym to get stronger.", pt: "Eu vou à academia para ficar mais forte." }, 
-                        A2: { en: "I go to the gym to get stronger.", pt: "Eu vou à academia para ficar mais forte." }, 
-                        B1: { en: "She went to the gym to lift heavy weights.", pt: "Ela foi à academia para levantar pesos pesados." } 
+                        A2: { en: "She went to the gym to lift heavy weights.", pt: "Ela foi à academia para levantar pesos pesados." }
                       }
     },
       { english: "Coach", portuguese: "Treinador",
           levels: { 
                         A1: { en: "The coach is yelling at the players.", pt: "O treinador está gritando com os jogadores." }, 
-                        A2: { en: "The coach is yelling at the players.", pt: "O treinador está gritando com os jogadores." }, 
-                        B1: { en: "The coach pushed the athletes to their limits.", pt: "O treinador levou os atletas aos seus limites." } 
+                        A2: { en: "The coach pushed the athletes to their limits.", pt: "O treinador levou os atletas aos seus limites." }
                       }
     },
       { english: "Referee", portuguese: "Juiz / Árbitro",
           levels: { 
                         A1: { en: "The referee blew the whistle.", pt: "O árbitro soprou o apito." }, 
-                        A2: { en: "The referee blew the whistle.", pt: "O árbitro soprou o apito." }, 
-                        B1: { en: "The referee penalized the player for aggressive behavior.", pt: "O árbitro penalizou o jogador por comportamento agressivo." } 
+                        A2: { en: "The referee penalized the player for aggressive behavior.", pt: "O árbitro penalizou o jogador por comportamento agressivo." }
                       }
     },
       { english: "Score", portuguese: "Placar / Marcar ponto",
           levels: { 
                         A1: { en: "He scored a beautiful goal.", pt: "Ele marcou um gol lindo." }, 
-                        A2: { en: "He scored a beautiful goal.", pt: "Ele marcou um gol lindo." }, 
-                        B1: { en: "They checked the score at the end of the game.", pt: "Eles verificaram o placar no final do jogo." } 
+                        A2: { en: "They checked the score at the end of the game.", pt: "Eles verificaram o placar no final do jogo." }
                       }
     },
-      { english: "Tournament", portuguese: "Torneio",
+      { english: "Work out", portuguese: "Malhar / Fazer exercício",
           levels: { 
-                        A1: { en: "We are in the final tournament.", pt: "Nós estamos no torneio final." }, 
-                        A2: { en: "We are in the final tournament.", pt: "Nós estamos no torneio final." }, 
-                        B1: { en: "She entered a prestigious chess tournament last month.", pt: "Ela entrou em um torneio de xadrez de prestígio no mês passado." } 
+                        B1: { en: "He goes to the gym to work out three times a week.", pt: "Ele vai à academia para malhar três vezes na semana." } 
                       }
     },
-      { english: "Medal", portuguese: "Medalha",
+      { english: "Compete", portuguese: "Competir",
           levels: { 
-                        A1: { en: "She won a gold medal.", pt: "Ela ganhou uma medalha de ouro." }, 
-                        A2: { en: "She won a gold medal.", pt: "Ela ganhou uma medalha de ouro." }, 
-                        B1: { en: "He proudly displayed his silver medal.", pt: "Ele exibiu orgulhosamente sua medalha de prata." } 
+                        B1: { en: "Over fifty athletes will compete in the final race.", pt: "Mais de cinquenta atletas vão competir na corrida final." } 
                       }
     },
-      { english: "Player", portuguese: "Jogador(a)",
+      { english: "Referee", portuguese: "Árbitro / Juiz",
           levels: { 
-                        A1: { en: "He is the best player on the team.", pt: "Ele é o melhor jogador do time." }, 
-                        A2: { en: "He is the best player on the team.", pt: "Ele é o melhor jogador do time." }, 
-                        B1: { en: "The professional player signed a new contract.", pt: "O jogador profissional assinou um novo contrato." } 
+                        B1: { en: "The referee blew the whistle to start the second half.", pt: "O árbitro apitou para começar o segundo tempo." } 
                       }
     },
-    ],
+      { english: "Score", portuguese: "Marcar ponto / Placar",
+          levels: { 
+                        B1: { en: "The final score of the match was two to zero.", pt: "O placar final da partida foi dois a zero." } 
+                      }
+    },
+      { english: "Match", portuguese: "Partida / Jogo",
+          levels: { 
+                        B1: { en: "We watched an exciting football match on television tonight.", pt: "Nós assistimos a uma partida de futebol emocionante na televisão hoje à noite." } 
+                      }
+    },
+      { english: "Coach", portuguese: "Treinador(a)",
+          levels: { 
+                        B1: { en: "The coach shouted instructions to the players on the field.", pt: "A treinadora gritou instruções para as jogadoras no campo." } 
+                      }
+    },
+      { english: "Spectator", portuguese: "Espectador(a)",
+          levels: { 
+                        B1: { en: "The stadium was packed with thousands of enthusiastic spectators.", pt: "O estádio estava lotado com milhares de espectadores entusiasmados." } 
+                      }
+    },
+      { english: "Cheer", portuguese: "Torcer / Animar",
+          levels: { 
+                        B1: { en: "The crowd started to cheer loudly when their team scored.", pt: "A multidão começou a torcer alto quando o time deles marcou." } 
+                      }
+    }
+      ],
     dialogue: [
       { speaker: "Alex", english: "Did you watch the soccer game last night?", portuguese: "Você assistiu ao jogo de futebol ontem à noite?", isPrimary: true },
       { speaker: "Ben", english: "Yes! It was a great match. Our team played well.", portuguese: "Sim! Foi uma ótima partida. Nosso time jogou bem.", isPrimary: false },
@@ -1616,8 +1708,7 @@ export const scenarios1: Scenario[] = [
       { speaker: "Alex", english: "Ah, swimming is a great exercise. Where do you swim?", portuguese: "Ah, nadar é um ótimo exercício. Onde você nada?", isPrimary: true },
       { speaker: "Ben", english: "At the new gym downtown. They have an Olympic pool.", portuguese: "Na nova academia no centro. Eles têm uma piscina olímpica.", isPrimary: false },
       { speaker: "Alex", english: "Wow, that is nice. Maybe I will join you next week.", portuguese: "Uau, isso é legal. Talvez eu me junte a você na próxima semana.", isPrimary: true },
-      { speaker: "Ben", english: "You should! Swimming is very relaxing after a long day.", portuguese: "Você deveria! Nadar é muito relaxante depois de um longo dia.", isPrimary: false },
-    ],
+      { speaker: "Ben", english: "You should! Swimming is very relaxing after a long day.", portuguese: "Você deveria! Nadar é muito relaxante depois de um longo dia.", isPrimary: false }],
     flashcards: [
       { english: "I play soccer every week.", portuguese: "Eu jogo futebol toda semana." },
       { english: "She is a fast runner.", portuguese: "Ela é uma corredora rápida." },
@@ -1630,8 +1721,7 @@ export const scenarios1: Scenario[] = [
       { english: "They won the gold medal.", portuguese: "Eles ganharam a medalha de ouro." },
       { english: "I need to go to the gym.", portuguese: "Eu preciso ir para a academia." },
       { english: "The referee stopped the game.", portuguese: "O árbitro parou o jogo." },
-      { english: "She is the team coach.", portuguese: "Ela é a treinadora do time." },
-    ],
+      { english: "She is the team coach.", portuguese: "Ela é a treinadora do time." }],
     quiz: [
       { question: 'What is the American English word for "Futebol"?', options: ["Football", "Soccer", "Rugby", "Handball"], correctIndex: 1, explanation: 'In the US, it is called "Soccer", while in the UK it is "Football".' },
       { question: 'Translate "Nosso time".', options: ["Our game", "Our player", "Our team", "Our match"], correctIndex: 2, explanation: '"Time" is "Team" in English.' },
@@ -1642,8 +1732,7 @@ export const scenarios1: Scenario[] = [
       { question: 'Complete: "He likes to _____ 10 kilometers every day."', options: ["swim", "run", "play", "win"], correctIndex: 1, explanation: 'You run (correr) distances like kilometers.' },
       { question: 'Which word means "Partida"?', options: ["Match", "Team", "Player", "Score"], correctIndex: 0, explanation: '"Match" or "Game" mean Partida/Jogo.' },
       { question: 'How do you ask "Você ganhou?"', options: ["Did you lose?", "Did you play?", "Did you win?", "Did you run?"], correctIndex: 2, explanation: '"Win" means ganhar/vencer.' },
-      { question: 'What sport uses a large orange ball and a hoop?', options: ["Soccer", "Tennis", "Basketball", "Golf"], correctIndex: 2, explanation: 'Basketball uses an orange ball thrown into a hoop.' },
-    ],
+      { question: 'What sport uses a large orange ball and a hoop?', options: ["Soccer", "Tennis", "Basketball", "Golf"], correctIndex: 2, explanation: 'Basketball uses an orange ball thrown into a hoop.' }],
     trueOrFalse: {
       part1: [
         { statement: "You need a ball to play swimming.", statementPt: "Você precisa de uma bola para jogar natação.", isTrue: false, explanation: "Swimming (natação) is done in the water without a ball." },
@@ -1709,144 +1798,56 @@ export const scenarios1: Scenario[] = [
       { english: "Shopping cart", portuguese: "Carrinho de compras",
           levels: { 
                         A1: { en: "Get a shopping cart, please.", pt: "Pegue um carrinho, por favor." }, 
-                        A2: { en: "Get a shopping cart, please.", pt: "Pegue um carrinho, por favor." }, 
-                        B1: { en: "He pushed the heavy shopping cart down the aisle.", pt: "Ele empurrou o carrinho de compras pesado pelo corredor." } 
+                        A2: { en: "He pushed the heavy shopping cart down the aisle.", pt: "Ele empurrou o carrinho de compras pesado pelo corredor." }
                       }
     },
       { english: "Cashier", portuguese: "Caixa (pessoa)",
           levels: { 
                         A1: { en: "The cashier is very friendly.", pt: "O(a) caixa é muito amigável." }, 
-                        A2: { en: "The cashier is very friendly.", pt: "O(a) caixa é muito amigável." }, 
-                        B1: { en: "The friendly cashier scanned all the items quickly.", pt: "O caixa amigável escaneou todos os itens rapidamente." } 
+                        A2: { en: "The friendly cashier scanned all the items quickly.", pt: "O caixa amigável escaneou todos os itens rapidamente." }
                       }
     },
-      { english: "Aisle", portuguese: "Corredor",
+      { english: "Grocery", portuguese: "Compras de mercado / Mantimentos",
           levels: { 
-                        A1: { en: "Milk is in aisle four.", pt: "O leite está no corredor quatro." }, 
-                        A2: { en: "Milk is in aisle four.", pt: "O leite está no corredor quatro." }, 
-                        B1: { en: "She walked down the dairy aisle to find milk.", pt: "Ela andou pelo corredor de laticínios para encontrar leite." } 
+                        B1: { en: "I need to go to the store to get some groceries.", pt: "Eu preciso ir à loja para fazer algumas compras de mercado." } 
+                      }
+    },
+      { english: "Aisle", portuguese: "Corredor (de supermercado)",
+          levels: { 
+                        B1: { en: "You will find the cereal in the second aisle on the right.", pt: "Você encontrará o cereal no segundo corredor à direita." } 
+                      }
+    },
+      { english: "Cashier", portuguese: "Caixa (pessoa)",
+          levels: { 
+                        B1: { en: "The friendly cashier scanned all my items very quickly.", pt: "A caixa amigável escaneou todos os meus itens muito rapidamente." } 
                       }
     },
       { english: "Receipt", portuguese: "Recibo / Nota fiscal",
           levels: { 
-                        A1: { en: "Do you need the receipt?", pt: "Você precisa da nota fiscal?" }, 
-                        A2: { en: "Do you need the receipt?", pt: "Você precisa da nota fiscal?" }, 
-                        B1: { en: "He kept the receipt to track his expenses.", pt: "Ele guardou o recibo para rastrear suas despesas." } 
-                      }
-    },
-      { english: "Grocery list", portuguese: "Lista de compras",
-          levels: { 
-                        A1: { en: "I forgot my grocery list.", pt: "Esqueci minha lista de compras." }, 
-                        A2: { en: "I forgot my grocery list.", pt: "Esqueci minha lista de compras." }, 
-                        B1: { en: "I wrote a grocery list before I went shopping.", pt: "Eu escrevi uma lista de compras antes de ir às compras." } 
-                      }
-    },
-      { english: "Checkout", portuguese: "Caixa (pagamento)",
-          levels: { 
-                        A1: { en: "Lets go to the checkout.", pt: "Vamos para o caixa." }, 
-                        A2: { en: "Lets go to the checkout.", pt: "Vamos para o caixa." }, 
-                        B1: { en: "She paid for her groceries at the checkout.", pt: "Ela pagou por suas compras no caixa (checkout)." } 
-                      }
-    },
-      { english: "Bag", portuguese: "Sacola",
-          levels: { 
-                        A1: { en: "I brought my own bags.", pt: "Eu trouxe minhas próprias sacolas." }, 
-                        A2: { en: "I brought my own bags.", pt: "Eu trouxe minhas próprias sacolas." }, 
-                        B1: { en: "He carried the heavy bag of apples to the car.", pt: "Ele carregou a sacola pesada de maçãs até o carro." } 
-                      }
-    },
-      { english: "Price", portuguese: "Preço",
-          levels: { 
-                        A1: { en: "What is the price of this?", pt: "Qual é o preço disso?" }, 
-                        A2: { en: "What is the price of this?", pt: "Qual é o preço disso?" }, 
-                        B1: { en: "She checked the price before adding the item to her cart.", pt: "Ela verificou o preço antes de adicionar o item ao seu carrinho." } 
+                        B1: { en: "Make sure you keep the receipt in case you need a refund.", pt: "Certifique-se de guardar o recibo caso você precise de um reembolso." } 
                       }
     },
       { english: "Discount", portuguese: "Desconto",
           levels: { 
-                        A1: { en: "There is a 50% discount.", pt: "Há um desconto de 50%." }, 
-                        A2: { en: "There is a 50% discount.", pt: "Há um desconto de 50%." }, 
-                        B1: { en: "They offered a huge discount on fresh vegetables.", pt: "Eles ofereceram um enorme desconto em vegetais frescos." } 
+                        B1: { en: "They offered a twenty percent discount on all dairy products.", pt: "Eles ofereceram vinte por cento de desconto em todos os laticínios." } 
                       }
     },
-      { english: "Pay", portuguese: "Pagar",
+      { english: "Trolley", portuguese: "Carrinho de compras (UK)",
           levels: { 
-                        A1: { en: "I will pay with cash.", pt: "Vou pagar em dinheiro." }, 
-                        A2: { en: "I will pay with cash.", pt: "Vou pagar em dinheiro." }, 
-                        B1: { en: "He paid the cashier and left the store.", pt: "Ele pagou ao caixa e saiu da loja." } 
+                        B1: { en: "He put the heavy bags into the shopping trolley.", pt: "Ele colocou as sacolas pesadas no carrinho de compras." } 
                       }
     },
-      { english: "Credit card", portuguese: "Cartão de crédito",
+      { english: "Affordable", portuguese: "Acessível (preço) / Barato",
           levels: { 
-                        A1: { en: "Do you accept credit cards?", pt: "Vocês aceitam cartões de crédito?" }, 
-                        A2: { en: "Do you accept credit cards?", pt: "Vocês aceitam cartões de crédito?" }, 
-                        B1: { en: "She used her credit card to buy expensive groceries.", pt: "Ela usou seu cartão de crédito para comprar mantimentos caros." } 
+                        B1: { en: "This supermarket has very affordable prices for fresh food.", pt: "Este supermercado tem preços muito acessíveis para comida fresca." } 
                       }
     },
-      { english: "Cash", portuguese: "Dinheiro (espécie)",
+      { english: "Queue", portuguese: "Fila (UK)",
           levels: { 
-                        A1: { en: "I dont have enough cash.", pt: "Eu não tenho dinheiro suficiente." }, 
-                        A2: { en: "I dont have enough cash.", pt: "Eu não tenho dinheiro suficiente." }, 
-                        B1: { en: "He always paid in cash to control his budget.", pt: "Ele sempre pagava em dinheiro para controlar seu orçamento." } 
+                        B1: { en: "We had to wait in a long queue to pay for our food.", pt: "Nós tivemos que esperar em uma longa fila para pagar nossa comida." } 
                       }
-    },
-      { english: "Change", portuguese: "Troco",
-          levels: { 
-                        A1: { en: "Keep the change.", pt: "Fique com o troco." }, 
-                        A2: { en: "Keep the change.", pt: "Fique com o troco." }, 
-                        B1: { en: "The cashier gave him the correct change.", pt: "O caixa deu a ele o troco correto." } 
-                      }
-    },
-      { english: "Customer", portuguese: "Cliente",
-          levels: { 
-                        A1: { en: "There is a customer waiting.", pt: "Há um cliente esperando." }, 
-                        A2: { en: "There is a customer waiting.", pt: "Há um cliente esperando." }, 
-                        B1: { en: "The demanding customer asked to speak with the manager.", pt: "O cliente exigente pediu para falar com o gerente." } 
-                      }
-    },
-      { english: "Shelf", portuguese: "Prateleira",
-          levels: { 
-                        A1: { en: "The sugar is on the top shelf.", pt: "O açúcar está na prateleira de cima." }, 
-                        A2: { en: "The sugar is on the top shelf.", pt: "O açúcar está na prateleira de cima." }, 
-                        B1: { en: "He grabbed the last box of cereal from the top shelf.", pt: "Ele pegou a última caixa de cereal da prateleira de cima." } 
-                      }
-    },
-      { english: "Basket", portuguese: "Cesta de compras",
-          levels: { 
-                        A1: { en: "I only need a basket, not a cart.", pt: "Só preciso de uma cesta, não um carrinho." }, 
-                        A2: { en: "I only need a basket, not a cart.", pt: "Só preciso de uma cesta, não um carrinho." }, 
-                        B1: { en: "She carried a small basket because she only needed bread.", pt: "Ela carregou uma cesta pequena porque só precisava de pão." } 
-                      }
-    },
-      { english: "Fresh", portuguese: "Fresco",
-          levels: { 
-                        A1: { en: "Are these vegetables fresh?", pt: "Estes vegetais estão frescos?" }, 
-                        A2: { en: "Are these vegetables fresh?", pt: "Estes vegetais estão frescos?" }, 
-                        B1: { en: "They bought fresh strawberries from the local market.", pt: "Eles compraram morangos frescos no mercado local." } 
-                      }
-    },
-      { english: "Frozen", portuguese: "Congelado",
-          levels: { 
-                        A1: { en: "The frozen pizza is in aisle two.", pt: "A pizza congelada está no corredor dois." }, 
-                        A2: { en: "The frozen pizza is in aisle two.", pt: "A pizza congelada está no corredor dois." }, 
-                        B1: { en: "He bought frozen pizza for a quick dinner.", pt: "Ele comprou pizza congelada para um jantar rápido." } 
-                      }
-    },
-      { english: "Bakery", portuguese: "Padaria (seção)",
-          levels: { 
-                        A1: { en: "I smell fresh bread from the bakery.", pt: "Sinto o cheiro de pão fresco da padaria." }, 
-                        A2: { en: "I smell fresh bread from the bakery.", pt: "Sinto o cheiro de pão fresco da padaria." }, 
-                        B1: { en: "The bakery sold delicious chocolate cakes yesterday.", pt: "A padaria vendeu bolos de chocolate deliciosos ontem." } 
-                      }
-    },
-      { english: "Scale", portuguese: "Balança",
-          levels: { 
-                        A1: { en: "We need to weigh the fruits on the scale.", pt: "Precisamos pesar as frutas na balança." }, 
-                        A2: { en: "We need to weigh the fruits on the scale.", pt: "Precisamos pesar as frutas na balança." }, 
-                        B1: { en: "She weighed the bananas on the electronic scale.", pt: "Ela pesou as bananas na balança eletrônica." } 
-                      }
-    },
-    ],
+    }
+      ],
     dialogue: [
       { speaker: "Customer", english: "Excuse me, where can I find the milk?", portuguese: "Com licença, onde posso encontrar o leite?", isPrimary: true },
       { speaker: "Employee", english: "It's in aisle four, next to the eggs.", portuguese: "Fica no corredor quatro, perto dos ovos.", isPrimary: false },
@@ -1859,8 +1860,7 @@ export const scenarios1: Scenario[] = [
       { speaker: "Customer", english: "Wait, one more question. Do you have fresh bread?", portuguese: "Espere, mais uma pergunta. Vocês têm pão fresco?", isPrimary: true },
       { speaker: "Employee", english: "Yes, our bakery is just around the corner.", portuguese: "Sim, nossa padaria é logo ali na esquina.", isPrimary: false },
       { speaker: "Customer", english: "Awesome! I will grab some bread before paying.", portuguese: "Incrível! Vou pegar um pão antes de pagar.", isPrimary: true },
-      { speaker: "Employee", english: "Take your time! Let me know if you need help.", portuguese: "Vá no seu tempo! Me avise se precisar de ajuda.", isPrimary: false },
-    ],
+      { speaker: "Employee", english: "Take your time! Let me know if you need help.", portuguese: "Vá no seu tempo! Me avise se precisar de ajuda.", isPrimary: false }],
     flashcards: [
       { english: "Where is the dairy aisle?", portuguese: "Onde é o corredor de laticínios?" },
       { english: "I need a shopping cart.", portuguese: "Eu preciso de um carrinho." },
@@ -1873,8 +1873,7 @@ export const scenarios1: Scenario[] = [
       { english: "Here is your change.", portuguese: "Aqui está o seu troco." },
       { english: "Put the items in the basket.", portuguese: "Coloque os itens na cesta." },
       { english: "I am buying frozen food.", portuguese: "Estou comprando comida congelada." },
-      { english: "It is on the bottom shelf.", portuguese: "Fica na prateleira de baixo." },
-    ],
+      { english: "It is on the bottom shelf.", portuguese: "Fica na prateleira de baixo." }],
     quiz: [
       { question: 'What does "Shopping cart" mean?', options: ["Lista de compras", "Carrinho de compras", "Sacola", "Centro de compras"], correctIndex: 1, explanation: '"Shopping cart" means "Carrinho de compras".' },
       { question: 'How do you say "Corredor" in English?', options: ["Hall", "Aisle", "Lane", "Path"], correctIndex: 1, explanation: '"Corredor" in a supermarket is called "Aisle".' },
@@ -1885,8 +1884,7 @@ export const scenarios1: Scenario[] = [
       { question: 'Translate: "Onde está a lista de compras?"', options: ["Where is the receipt?", "Where is the grocery list?", "Where is the checkout?", "Where is the cart?"], correctIndex: 1, explanation: '"Lista de compras" is "Grocery list".' },
       { question: 'How do you say "Eu vou pagar em dinheiro"?', options: ["I will pay with card.", "I will pay with cash.", "I will pay with paper.", "I will pay now."], correctIndex: 1, explanation: '"Dinheiro (em espécie)" is "Cash".' },
       { question: 'What does the "Cashier" do?', options: ["Cleans the floor", "Cooks food", "Receives the payment", "Drives the bus"], correctIndex: 2, explanation: 'The cashier is the person who receives your payment at the checkout.' },
-      { question: 'Complete: "How much does it _____?"', options: ["price", "cost", "pay", "money"], correctIndex: 1, explanation: '"How much does it cost?" is the standard way to ask for the price.' },
-    ],
+      { question: 'Complete: "How much does it _____?"', options: ["price", "cost", "pay", "money"], correctIndex: 1, explanation: '"How much does it cost?" is the standard way to ask for the price.' }],
     trueOrFalse: {
       part1: [
         { statement: "You put your groceries in a shopping cart.", statementPt: "Você coloca suas compras em um carrinho de compras.", isTrue: true, explanation: "Shopping cart means carrinho de compras." },
@@ -1937,5 +1935,4 @@ export const scenarios1: Scenario[] = [
                     part1: [ { question: "Can you use \"Shopping cart\" in a sentence in the past simple?", translation: "Você consegue usar \"Shopping cart\" em uma frase no passado simples?" }, { question: "Can you use \"Cashier\" in a sentence in the past simple?", translation: "Você consegue usar \"Cashier\" em uma frase no passado simples?" }, { question: "Can you use \"Aisle\" in a sentence in the past simple?", translation: "Você consegue usar \"Aisle\" em uma frase no passado simples?" }, { question: "Can you use \"Receipt\" in a sentence in the past simple?", translation: "Você consegue usar \"Receipt\" em uma frase no passado simples?" }, { question: "Can you use \"Grocery list\" in a sentence in the past simple?", translation: "Você consegue usar \"Grocery list\" em uma frase no passado simples?" }, { question: "Can you use \"Checkout\" in a sentence in the past simple?", translation: "Você consegue usar \"Checkout\" em uma frase no passado simples?" }, { question: "Can you use \"Bag\" in a sentence in the past simple?", translation: "Você consegue usar \"Bag\" em uma frase no passado simples?" }, { question: "Can you use \"Price\" in a sentence in the past simple?", translation: "Você consegue usar \"Price\" em uma frase no passado simples?" }, { question: "Can you use \"Discount\" in a sentence in the past simple?", translation: "Você consegue usar \"Discount\" em uma frase no passado simples?" }, { question: "Can you use \"Pay\" in a sentence in the past simple?", translation: "Você consegue usar \"Pay\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Credit card\" in a sentence in the past simple?", translation: "Você consegue usar \"Credit card\" em uma frase no passado simples?" }, { question: "Can you use \"Cash\" in a sentence in the past simple?", translation: "Você consegue usar \"Cash\" em uma frase no passado simples?" }, { question: "Can you use \"Change\" in a sentence in the past simple?", translation: "Você consegue usar \"Change\" em uma frase no passado simples?" }, { question: "Can you use \"Customer\" in a sentence in the past simple?", translation: "Você consegue usar \"Customer\" em uma frase no passado simples?" }, { question: "Can you use \"Shelf\" in a sentence in the past simple?", translation: "Você consegue usar \"Shelf\" em uma frase no passado simples?" }, { question: "Can you use \"Basket\" in a sentence in the past simple?", translation: "Você consegue usar \"Basket\" em uma frase no passado simples?" }, { question: "Can you use \"Fresh\" in a sentence in the past simple?", translation: "Você consegue usar \"Fresh\" em uma frase no passado simples?" }, { question: "Can you use \"Frozen\" in a sentence in the past simple?", translation: "Você consegue usar \"Frozen\" em uma frase no passado simples?" }, { question: "Can you use \"Bakery\" in a sentence in the past simple?", translation: "Você consegue usar \"Bakery\" em uma frase no passado simples?" }, { question: "Can you use \"Scale\" in a sentence in the past simple?", translation: "Você consegue usar \"Scale\" em uma frase no passado simples?" } ]
                   }
-},
-];
+}];
