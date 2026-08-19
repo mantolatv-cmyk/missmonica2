@@ -48,7 +48,7 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
       </div>
       <div className="vocabulary-list">
         {items
-          .filter(item => item.levels?.[level])
+          .filter(item => !item.levels || item.levels[level])
           .map((item, filteredIndex) => {
           const isRevealed = revealed[filteredIndex];
           const currentLevelData = item.levels?.[level];
