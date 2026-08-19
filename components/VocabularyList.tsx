@@ -47,17 +47,19 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
         </div>
       </div>
       <div className="vocabulary-list">
-        {items.map((item, index) => {
-          const isRevealed = revealed[index];
+        {items
+          .filter(item => item.levels?.[level])
+          .map((item, filteredIndex) => {
+          const isRevealed = revealed[filteredIndex];
           const currentLevelData = item.levels?.[level];
           
           return (
             <div
-              key={index}
+              key={filteredIndex}
               className="vocabulary-list-item"
-              style={{ animationDelay: `${index * 0.08}s` }}
+              style={{ animationDelay: `${filteredIndex * 0.08}s` }}
             >
-              <div className="vocab-index">{index + 1}</div>
+              <div className="vocab-index">{filteredIndex + 1}</div>
               <div className="vocab-content w-full">
                 <div className="vocab-header flex justify-between items-center">
                   <p className="vocab-english" style={{ fontSize: "1.1rem", fontWeight: 600, color: "var(--text-primary)" }}>
@@ -65,7 +67,7 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
                   </p>
                   
                   <button 
-                    onClick={() => toggleReveal(index)}
+                    onClick={() => toggleReveal(filteredIndex)}
                     className="flex items-center gap-2 px-3 py-1.5 text-sm rounded-full transition-all duration-300 shadow-sm"
                     style={{ 
                       backgroundColor: isRevealed ? "var(--bg-accent)" : "var(--primary-color)", 
