@@ -75,6 +75,18 @@ export const reviewScenarios: Scenario[] = [
       { english: "The kitchen smells like fresh bread.", portuguese: "A cozinha cheira a pão fresco." },
       { english: "We bought a new comfortable sofa.", portuguese: "Nós compramos um novo sofá confortável." }
     ],
+
+    flashcardsA2: [
+      { english: "A2 Example Card 1", portuguese: "Exemplo A2 1", example: "This is an A2 level example." },
+      { english: "A2 Example Card 2", portuguese: "Exemplo A2 2", example: "Keep practicing at A2 level." },
+      { english: "A2 Example Card 3", portuguese: "Exemplo A2 3", example: "You are doing great." }
+    ],
+
+    flashcardsB1: [
+      { english: "B1 Example Card 1", portuguese: "Exemplo B1 1", example: "This is a B1 level example, representing intermediate proficiency." },
+      { english: "B1 Example Card 2", portuguese: "Exemplo B1 2", example: "Furthermore, B1 requires more complex vocabulary." },
+      { english: "B1 Example Card 3", portuguese: "Exemplo B1 3", example: "Therefore, keep up the excellent work." }
+    ],
     dialogue: [
       { speaker: "A", english: "Mom, where is my friend?", portuguese: "Mãe, onde está meu amigo?", isPrimary: true },
       { speaker: "B", english: "He is in the living room, sitting on the sofa.", portuguese: "Ele está na sala de estar, sentado no sofá.", isPrimary: false },
@@ -197,6 +209,16 @@ export const reviewScenarios: Scenario[] = [
       { english: "Rip off", portuguese: "Exploração / Preço abusivo", levels: { B1: { en: "Twenty dollars for a small bottle of water is a complete rip-off.", pt: "Vinte dólares por uma pequena garrafa de água é uma verdadeira exploração." } } },
       { english: "Skill", portuguese: "Habilidade", levels: { B1: { en: "Learning a new language is a very useful skill.", pt: "Aprender um novo idioma é uma habilidade muito útil." } } }
     ],
+
+    quizA2: [
+      { question: "A2 Dummy Question 1?", options: ["Option A", "Option B", "Option C"], correctIndex: 0, explanation: "A2 Explanation 1" },
+      { question: "A2 Dummy Question 2?", options: ["Option A", "Option B", "Option C"], correctIndex: 1, explanation: "A2 Explanation 2" }
+    ],
+
+    quizB1: [
+      { question: "B1 Dummy Question 1 (Intermediate)?", options: ["Option A", "Option B", "Option C"], correctIndex: 0, explanation: "B1 Explanation 1" },
+      { question: "B1 Dummy Question 2 (Intermediate)?", options: ["Option A", "Option B", "Option C"], correctIndex: 1, explanation: "B1 Explanation 2" }
+    ],
     flashcards: [
       { english: "Reading a good book relaxes my mind.", portuguese: "Ler um bom livro relaxa minha mente." },
       { english: "Our team won the championship this year.", portuguese: "Nosso time ganhou o campeonato este ano." },
@@ -218,6 +240,18 @@ export const reviewScenarios: Scenario[] = [
       { english: "I put the frozen pizza in the oven.", portuguese: "Eu coloquei a pizza congelada no forno." },
       { english: "Those shoes are on sale right now.", portuguese: "Aqueles sapatos estão na promoção agora mesmo." },
       { english: "The meeting will start in ten minutes.", portuguese: "A reunião vai começar em dez minutos." }
+    ],
+
+    flashcardsA2: [
+      { english: "A2 Example Card 1", portuguese: "Exemplo A2 1", example: "This is an A2 level example." },
+      { english: "A2 Example Card 2", portuguese: "Exemplo A2 2", example: "Keep practicing at A2 level." },
+      { english: "A2 Example Card 3", portuguese: "Exemplo A2 3", example: "You are doing great." }
+    ],
+
+    flashcardsB1: [
+      { english: "B1 Example Card 1", portuguese: "Exemplo B1 1", example: "This is a B1 level example, representing intermediate proficiency." },
+      { english: "B1 Example Card 2", portuguese: "Exemplo B1 2", example: "Furthermore, B1 requires more complex vocabulary." },
+      { english: "B1 Example Card 3", portuguese: "Exemplo B1 3", example: "Therefore, keep up the excellent work." }
     ],
     dialogue: [
       { speaker: "A", english: "Are you ready for the meeting with the engineer?", portuguese: "Você está pronto para a reunião com o engenheiro?", isPrimary: true },
@@ -341,6 +375,16 @@ export const reviewScenarios: Scenario[] = [
       { english: "Smartphone", portuguese: "Celular", levels: { A1: { en: "Where is my smartphone?", pt: "Onde está meu celular?" }, A2: { en: "She bought a new smartphone with a better camera.", pt: "Ela comprou um smartphone novo com uma câmera melhor." } } },
       { english: "Log in", portuguese: "Fazer login / Entrar", levels: { B1: { en: "You must log in with your email and password to access the platform.", pt: "Você deve fazer login com seu e-mail e senha para acessar a plataforma." } } }
     ],
+
+    quizA2: [
+      { question: "A2 Dummy Question 1?", options: ["Option A", "Option B", "Option C"], correctIndex: 0, explanation: "A2 Explanation 1" },
+      { question: "A2 Dummy Question 2?", options: ["Option A", "Option B", "Option C"], correctIndex: 1, explanation: "A2 Explanation 2" }
+    ],
+
+    quizB1: [
+      { question: "B1 Dummy Question 1 (Intermediate)?", options: ["Option A", "Option B", "Option C"], correctIndex: 0, explanation: "B1 Explanation 1" },
+      { question: "B1 Dummy Question 2 (Intermediate)?", options: ["Option A", "Option B", "Option C"], correctIndex: 1, explanation: "B1 Explanation 2" }
+    ],
     flashcards: [
       { english: "This city never sleeps at night.", portuguese: "Esta cidade nunca dorme à noite." },
       { english: "The dog barked loudly at the stranger.", portuguese: "O cachorro latiu alto para o estranho." },
@@ -362,6 +406,18 @@ export const reviewScenarios: Scenario[] = [
       { english: "I am going to bake some chocolate cookies.", portuguese: "Eu vou assar alguns biscoitos de chocolate." },
       { english: "Please delete those old files from your computer.", portuguese: "Por favor, apague aqueles arquivos velhos do seu computador." },
       { english: "I got a notification about the meeting.", portuguese: "Eu recebi uma notificação sobre a reunião." }
+    ],
+
+    flashcardsA2: [
+      { english: "A2 Example Card 1", portuguese: "Exemplo A2 1", example: "This is an A2 level example." },
+      { english: "A2 Example Card 2", portuguese: "Exemplo A2 2", example: "Keep practicing at A2 level." },
+      { english: "A2 Example Card 3", portuguese: "Exemplo A2 3", example: "You are doing great." }
+    ],
+
+    flashcardsB1: [
+      { english: "B1 Example Card 1", portuguese: "Exemplo B1 1", example: "This is a B1 level example, representing intermediate proficiency." },
+      { english: "B1 Example Card 2", portuguese: "Exemplo B1 2", example: "Furthermore, B1 requires more complex vocabulary." },
+      { english: "B1 Example Card 3", portuguese: "Exemplo B1 3", example: "Therefore, keep up the excellent work." }
     ],
     dialogue: [
       { speaker: "A", english: "Did you see that influencer's new video on the internet?", portuguese: "Você viu o novo vídeo daquele influenciador na internet?", isPrimary: true },

@@ -83,7 +83,11 @@ export interface Scenario {
   available: boolean;
   vocabulary: VocabularyItem[];
   flashcards?: FlashcardItem[];
+  flashcardsA2?: FlashcardItem[];
+  flashcardsB1?: FlashcardItem[];
   quiz: QuizQuestion[];
+  quizA2?: QuizQuestion[];
+  quizB1?: QuizQuestion[];
   dialogue?: DialogueLine[];
   trueOrFalse?: TrueOrFalsePractice;
   speakingPractice?: SpeakingPractice;

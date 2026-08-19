@@ -6,13 +6,17 @@ import type { FlashcardItem } from "@/data/scenarios";
 
 interface FlashcardProps {
   items: FlashcardItem[];
+  itemsA2?: FlashcardItem[];
+  itemsB1?: FlashcardItem[];
 }
 
-export default function Flashcard({ items }: FlashcardProps) {
+export default function Flashcard({ items, itemsA2, itemsB1 }: FlashcardProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [level, setLevel] = useState<'A1' | 'A2' | 'B1'>('A1');
 
-  const current = items[currentIndex];
+  const activeItems = level === 'A1' ? items : level === 'A2' && itemsA2 && itemsA2.length > 0 ? itemsA2 : level === 'B1' && itemsB1 && itemsB1.length > 0 ? itemsB1 : items;
+  const current = activeItems[currentIndex] || items[0];
 
   function handleFlip() {
     setIsFlipped(!isFlipped);
@@ -35,11 +39,39 @@ export default function Flashcard({ items }: FlashcardProps) {
 
   return (
     <div className="flashcard-section">
-      <h2 className="section-title">
-        <span className="section-title-icon"><Layers size={22} /></span>
-        Flashcards
-        <span className="section-subtitle">Click the card to flip</span>
-      </h2>
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+        <h2 className="section-title !mb-0">
+          <span className="section-title-icon"><Layers size={22} /></span>
+          Flashcards
+          <span className="section-subtitle">Click the card to flip</span>
+        </h2>
+        {(itemsA2 || itemsB1) && (
+          <div className="flex bg-gray-100 p-1 rounded-lg mt-4 sm:mt-0 overflow-x-auto">
+            <button 
+              onClick={() => { setLevel('A1'); handleReset(); }}
+              className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'A1' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+            >
+              Nível A1
+            </button>
+            {itemsA2 && itemsA2.length > 0 && (
+              <button 
+                onClick={() => { setLevel('A2'); handleReset(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'A2' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível A2
+              </button>
+            )}
+            {itemsB1 && itemsB1.length > 0 && (
+              <button 
+                onClick={() => { setLevel('B1'); handleReset(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'B1' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível B1
+              </button>
+            )}
+          </div>
+        )}
+      </div>
 
       <div className="flashcard-container">
         <button className="flashcard-nav-btn" onClick={handlePrev} aria-label="Previous card">

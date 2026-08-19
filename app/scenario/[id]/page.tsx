@@ -162,10 +162,10 @@ export default function ScenarioPage({ params }: ScenarioPageProps) {
         <Dialogue lines={scenario.dialogue} />
       )}
       {activeTab === "flashcards" && (
-        <Flashcard items={scenario.flashcards || []} />
+        <Flashcard items={scenario.flashcards || []} itemsA2={scenario.flashcardsA2} itemsB1={scenario.flashcardsB1} />
       )}
       {activeTab === "quiz" && (
-        <Quiz questions={scenario.quiz} questionsLevel2={scenario.quizLevel2} />
+        <Quiz questions={scenario.quiz} questionsA2={scenario.quizA2} questionsB1={scenario.quizB1} />
       )}
       {activeTab === "truefalse" && scenario.trueOrFalse && (
         <TrueOrFalse items={scenario.trueOrFalse} itemsLevel2={scenario.trueOrFalseLevel2} />

@@ -6,18 +6,19 @@ import type { QuizQuestion } from "@/data/scenarios";
 
 interface QuizProps {
   questions: QuizQuestion[];
-  questionsLevel2?: QuizQuestion[];
+  questionsA2?: QuizQuestion[];
+  questionsB1?: QuizQuestion[];
 }
 
-export default function Quiz({ questions, questionsLevel2 }: QuizProps) {
+export default function Quiz({ questions, questionsA2, questionsB1 }: QuizProps) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const [level, setLevel] = useState<1 | 2>(1);
+  const [level, setLevel] = useState<'A1' | 'A2' | 'B1'>('A1');
 
-  const activeQuestions = level === 1 ? questions : (questionsLevel2 || questions);
+  const activeQuestions = level === 'A1' ? questions : level === 'A2' && questionsA2 && questionsA2.length > 0 ? questionsA2 : level === 'B1' && questionsB1 && questionsB1.length > 0 ? questionsB1 : questions;
   const current = activeQuestions[currentQuestion];
   const isCorrect = selectedAnswer === current.correctIndex;
 
@@ -97,20 +98,30 @@ export default function Quiz({ questions, questionsLevel2 }: QuizProps) {
           Quiz
           <span className="section-subtitle">Test your knowledge</span>
         </h2>
-        {questionsLevel2 && questionsLevel2.length > 0 && (
+        {(questionsA2 || questionsB1) && (
           <div className="flex bg-gray-100 p-1 rounded-lg mt-4 sm:mt-0 overflow-x-auto">
             <button 
-              onClick={() => { setLevel(1); handleRestart(); }}
-              className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 1 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              onClick={() => { setLevel('A1'); handleRestart(); }}
+              className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'A1' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
             >
-              Nível 1
+              Nível A1
             </button>
-            <button 
-              onClick={() => { setLevel(2); handleRestart(); }}
-              className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 2 ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
-            >
-              Nível 2
-            </button>
+            {questionsA2 && questionsA2.length > 0 && (
+              <button 
+                onClick={() => { setLevel('A2'); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'A2' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível A2
+              </button>
+            )}
+            {questionsB1 && questionsB1.length > 0 && (
+              <button 
+                onClick={() => { setLevel('B1'); handleRestart(); }}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-all whitespace-nowrap ${level === 'B1' ? 'bg-white shadow text-blue-600' : 'text-gray-500 hover:text-gray-700'}`}
+              >
+                Nível B1
+              </button>
+            )}
           </div>
         )}
       </div>
