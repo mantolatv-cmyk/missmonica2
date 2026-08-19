@@ -55,14 +55,54 @@ export const reviewScenarios: Scenario[] = [
     ],
       flashcardsA2: [
           {
-              "english": "She was my most trusted best friend in elementary school.",
-              "portuguese": "Ela era minha melhor amiga de maior confiança no ensino fundamental.",
-              "example": "Palavra-chave: Best friend"
+              "english": "His feet hurt after a long day of walking.",
+              "portuguese": "Os pés dele doíam após um longo dia caminhando.",
+              "example": "Palavra-chave: Foot / Feet"
+          },
+          {
+              "english": "She folded the laundry while watching television.",
+              "portuguese": "Ela dobrou a roupa enquanto assistia televisão.",
+              "example": "Palavra-chave: Fold the laundry"
+          },
+          {
+              "english": "True friends always helped out when someone faced a tough phase.",
+              "portuguese": "Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil.",
+              "example": "Palavra-chave: Help out"
+          },
+          {
+              "english": "He cut his hair very short last week.",
+              "portuguese": "Ele cortou o cabelo bem curto semana passada.",
+              "example": "Palavra-chave: Hair"
+          },
+          {
+              "english": "She carried the heavy bag on her shoulder.",
+              "portuguese": "Ela carregou a bolsa pesada no ombro.",
+              "example": "Palavra-chave: Shoulder"
           },
           {
               "english": "She washed her hands in the kitchen sink.",
               "portuguese": "Ela lavou as mãos na pia da cozinha.",
               "example": "Palavra-chave: Sink"
+          },
+          {
+              "english": "He opened the window to let fresh air inside.",
+              "portuguese": "Ele abriu a janela para deixar o ar fresco entrar.",
+              "example": "Palavra-chave: Window"
+          },
+          {
+              "english": "He wore a thick scarf around his neck during winter.",
+              "portuguese": "Ele usou um cachecol grosso no pescoço durante o inverno.",
+              "example": "Palavra-chave: Neck"
+          },
+          {
+              "english": "The broken faucet leaked water all night.",
+              "portuguese": "A torneira quebrada vazou água a noite toda.",
+              "example": "Palavra-chave: Faucet"
+          },
+          {
+              "english": "She cooked a delicious meal in the kitchen.",
+              "portuguese": "Ela cozinhou uma refeição deliciosa na cozinha.",
+              "example": "Palavra-chave: Kitchen"
           },
           {
               "english": "My youngest son started elementary school this year.",
@@ -75,14 +115,34 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Chat"
           },
           {
-              "english": "She folded the laundry while watching television.",
-              "portuguese": "Ela dobrou a roupa enquanto assistia televisão.",
-              "example": "Palavra-chave: Fold the laundry"
+              "english": "She was my most trusted best friend in elementary school.",
+              "portuguese": "Ela era minha melhor amiga de maior confiança no ensino fundamental.",
+              "example": "Palavra-chave: Best friend"
+          },
+          {
+              "english": "He found an old photograph hidden in the attic.",
+              "portuguese": "Ele encontrou uma fotografia antiga escondida no sótão.",
+              "example": "Palavra-chave: Attic"
           },
           {
               "english": "My grandfather collected vintage stamps all his life.",
               "portuguese": "Meu avô colecionou selos vintage a vida toda.",
               "example": "Palavra-chave: Grandfather"
+          },
+          {
+              "english": "His oldest daughter learned how to ride a bicycle.",
+              "portuguese": "A filha mais velha dele aprendeu a andar de bicicleta.",
+              "example": "Palavra-chave: Daughter"
+          },
+          {
+              "english": "My father worked at the same hospital for twenty years.",
+              "portuguese": "Meu pai trabalhou no mesmo hospital por vinte anos.",
+              "example": "Palavra-chave: Father / Dad"
+          },
+          {
+              "english": "She locked the front door before going to bed.",
+              "portuguese": "Ela trancou a porta da frente antes de ir para a cama.",
+              "example": "Palavra-chave: Door"
           },
           {
               "english": "She planted beautiful roses in the garden last spring.",
@@ -93,73 +153,23 @@ export const reviewScenarios: Scenario[] = [
               "english": "He told one of the most hilarious jokes I ever heard.",
               "portuguese": "Ele contou uma das piadas mais hilárias que já ouvi.",
               "example": "Palavra-chave: Joke"
-          },
-          {
-              "english": "She cooked a delicious meal in the kitchen.",
-              "portuguese": "Ela cozinhou uma refeição deliciosa na cozinha.",
-              "example": "Palavra-chave: Kitchen"
-          },
-          {
-              "english": "His oldest daughter learned how to ride a bicycle.",
-              "portuguese": "A filha mais velha dele aprendeu a andar de bicicleta.",
-              "example": "Palavra-chave: Daughter"
-          },
-          {
-              "english": "He found an old photograph hidden in the attic.",
-              "portuguese": "Ele encontrou uma fotografia antiga escondida no sótão.",
-              "example": "Palavra-chave: Attic"
-          },
-          {
-              "english": "His feet hurt after a long day of walking.",
-              "portuguese": "Os pés dele doíam após um longo dia caminhando.",
-              "example": "Palavra-chave: Foot / Feet"
-          },
-          {
-              "english": "He wore a thick scarf around his neck during winter.",
-              "portuguese": "Ele usou um cachecol grosso no pescoço durante o inverno.",
-              "example": "Palavra-chave: Neck"
-          },
-          {
-              "english": "She locked the front door before going to bed.",
-              "portuguese": "Ela trancou a porta da frente antes de ir para a cama.",
-              "example": "Palavra-chave: Door"
-          },
-          {
-              "english": "He opened the window to let fresh air inside.",
-              "portuguese": "Ele abriu a janela para deixar o ar fresco entrar.",
-              "example": "Palavra-chave: Window"
-          },
-          {
-              "english": "My father worked at the same hospital for twenty years.",
-              "portuguese": "Meu pai trabalhou no mesmo hospital por vinte anos.",
-              "example": "Palavra-chave: Father / Dad"
-          },
-          {
-              "english": "True friends always helped out when someone faced a tough phase.",
-              "portuguese": "Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil.",
-              "example": "Palavra-chave: Help out"
-          },
-          {
-              "english": "The broken faucet leaked water all night.",
-              "portuguese": "A torneira quebrada vazou água a noite toda.",
-              "example": "Palavra-chave: Faucet"
-          },
-          {
-              "english": "She carried the heavy bag on her shoulder.",
-              "portuguese": "Ela carregou a bolsa pesada no ombro.",
-              "example": "Palavra-chave: Shoulder"
-          },
-          {
-              "english": "He cut his hair very short last week.",
-              "portuguese": "Ele cortou o cabelo bem curto semana passada.",
-              "example": "Palavra-chave: Hair"
           }
       ],
       flashcardsB1: [
           {
-              "english": "Our landlord increases the rent a little bit every year.",
-              "portuguese": "Nosso senhorio aumenta o aluguel um pouquinho todo ano.",
-              "example": "Palavra-chave: Landlord"
+              "english": "It is important to apologize and make up after a family fight.",
+              "portuguese": "É importante pedir desculpas e fazer as pazes depois de uma briga de família.",
+              "example": "Palavra-chave: Make up"
+          },
+          {
+              "english": "The boxer received a heavy punch directly to the jaw.",
+              "portuguese": "O boxeador recebeu um soco pesado direto na mandíbula.",
+              "example": "Palavra-chave: Jaw"
+          },
+          {
+              "english": "Could you wipe the kitchen table with a damp cloth?",
+              "portuguese": "Você poderia passar um pano na mesa da cozinha com um pano úmido?",
+              "example": "Palavra-chave: Wipe"
           },
           {
               "english": "Being an only child means you never have to share your toys.",
@@ -167,9 +177,29 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Only child"
           },
           {
-              "english": "He forgot to dust the bookshelves while cleaning the room.",
-              "portuguese": "Ele esqueceu de tirar o pó das prateleiras de livros ao limpar a sala.",
-              "example": "Palavra-chave: Dust"
+              "english": "The new house is much more spacious than our old flat.",
+              "portuguese": "A casa nova é muito mais espaçosa que nosso apartamento antigo.",
+              "example": "Palavra-chave: Spacious"
+          },
+          {
+              "english": "Our landlord increases the rent a little bit every year.",
+              "portuguese": "Nosso senhorio aumenta o aluguel um pouquinho todo ano.",
+              "example": "Palavra-chave: Landlord"
+          },
+          {
+              "english": "Can you turn up the heating? It is getting quite cold in here.",
+              "portuguese": "Você pode aumentar o aquecedor? Está ficando bem frio aqui dentro.",
+              "example": "Palavra-chave: Turn up"
+          },
+          {
+              "english": "We are going to move in to our new apartment next Saturday.",
+              "portuguese": "Nós vamos nos mudar para o nosso apartamento novo no próximo sábado.",
+              "example": "Palavra-chave: Move in"
+          },
+          {
+              "english": "They fell out over a misunderstanding and haven't spoken since.",
+              "portuguese": "Eles se desentenderam por um mal-entendido e não se falam desde então.",
+              "example": "Palavra-chave: Fall out"
           },
           {
               "english": "Even though she moved away, we still keep in touch.",
@@ -182,24 +212,9 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Swallow"
           },
           {
-              "english": "The new house is much more spacious than our old flat.",
-              "portuguese": "A casa nova é muito mais espaçosa que nosso apartamento antigo.",
-              "example": "Palavra-chave: Spacious"
-          },
-          {
-              "english": "He bought an old car and spent the summer trying to fix it up.",
-              "portuguese": "Ele comprou um carro velho e passou o verão tentando consertá-lo.",
-              "example": "Palavra-chave: Fix up"
-          },
-          {
-              "english": "It is important to apologize and make up after a family fight.",
-              "portuguese": "É importante pedir desculpas e fazer as pazes depois de uma briga de família.",
-              "example": "Palavra-chave: Make up"
-          },
-          {
-              "english": "We are going to move in to our new apartment next Saturday.",
-              "portuguese": "Nós vamos nos mudar para o nosso apartamento novo no próximo sábado.",
-              "example": "Palavra-chave: Move in"
+              "english": "He is a highly trustworthy friend who keeps secrets well.",
+              "portuguese": "Ele é um amigo altamente confiável que guarda bem segredos.",
+              "example": "Palavra-chave: Trustworthy"
           },
           {
               "english": "They fell out over a silly argument and stopped talking.",
@@ -207,24 +222,19 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Fall out"
           },
           {
-              "english": "They fell out over a misunderstanding and haven't spoken since.",
-              "portuguese": "Eles se desentenderam por um mal-entendido e não se falam desde então.",
-              "example": "Palavra-chave: Fall out"
+              "english": "He forgot to dust the bookshelves while cleaning the room.",
+              "portuguese": "Ele esqueceu de tirar o pó das prateleiras de livros ao limpar a sala.",
+              "example": "Palavra-chave: Dust"
           },
           {
-              "english": "The boxer received a heavy punch directly to the jaw.",
-              "portuguese": "O boxeador recebeu um soco pesado direto na mandíbula.",
-              "example": "Palavra-chave: Jaw"
+              "english": "He ate some bad seafood and threw up all night.",
+              "portuguese": "Ele comeu frutos do mar estragados e vomitou a noite toda.",
+              "example": "Palavra-chave: Throw up"
           },
           {
-              "english": "He is a highly trustworthy friend who keeps secrets well.",
-              "portuguese": "Ele é um amigo altamente confiável que guarda bem segredos.",
-              "example": "Palavra-chave: Trustworthy"
-          },
-          {
-              "english": "Always unplug the iron when you are finished using it.",
-              "portuguese": "Sempre tire o ferro da tomada quando terminar de usá-lo.",
-              "example": "Palavra-chave: Unplug"
+              "english": "He bought an old car and spent the summer trying to fix it up.",
+              "portuguese": "Ele comprou um carro velho e passou o verão tentando consertá-lo.",
+              "example": "Palavra-chave: Fix up"
           },
           {
               "english": "He twisted his ankle while playing football yesterday.",
@@ -232,24 +242,14 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Ankle"
           },
           {
-              "english": "Can you turn up the heating? It is getting quite cold in here.",
-              "portuguese": "Você pode aumentar o aquecedor? Está ficando bem frio aqui dentro.",
-              "example": "Palavra-chave: Turn up"
+              "english": "Always unplug the iron when you are finished using it.",
+              "portuguese": "Sempre tire o ferro da tomada quando terminar de usá-lo.",
+              "example": "Palavra-chave: Unplug"
           },
           {
               "english": "You can always rely on me if you need any help.",
               "portuguese": "Você sempre pode contar comigo se precisar de alguma ajuda.",
               "example": "Palavra-chave: Rely on"
-          },
-          {
-              "english": "Could you wipe the kitchen table with a damp cloth?",
-              "portuguese": "Você poderia passar um pano na mesa da cozinha com um pano úmido?",
-              "example": "Palavra-chave: Wipe"
-          },
-          {
-              "english": "He ate some bad seafood and threw up all night.",
-              "portuguese": "Ele comeu frutos do mar estragados e vomitou a noite toda.",
-              "example": "Palavra-chave: Throw up"
           },
           {
               "english": "We invited our entire extended family to the wedding.",
@@ -259,229 +259,229 @@ export const reviewScenarios: Scenario[] = [
       ],
       quizA2: [
           {
-              "question": "Complete a frase: \"He found an old photograph hidden in the ______.\"",
+              "question": "Traduza a frase: \"Ela dobrou a roupa enquanto assistia televisão.\"",
               "options": [
-                  "Rely on",
-                  "Turn up",
-                  "Door",
-                  "Attic"
-              ],
-              "correctIndex": 3,
-              "explanation": "A frase correta é \"He found an old photograph hidden in the attic.\", que significa \"Ele encontrou uma fotografia antiga escondida no sótão.\"."
-          },
-          {
-              "question": "Complete a frase: \"He opened the ______ to let fresh air inside.\"",
-              "options": [
-                  "Swallow",
-                  "Wipe",
-                  "Fall out",
-                  "Window"
-              ],
-              "correctIndex": 3,
-              "explanation": "A frase correta é \"He opened the window to let fresh air inside.\", que significa \"Ele abriu a janela para deixar o ar fresco entrar.\"."
-          },
-          {
-              "question": "Traduza a frase: \"Ela plantou lindas rosas no jardim na primavera passada.\"",
-              "options": [
-                  "I really enjoyed chatting with you about our future plans.",
-                  "My grandfather collected vintage stamps all his life.",
                   "She planted beautiful roses in the garden last spring.",
-                  "He found an old photograph hidden in the attic."
-              ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"She planted beautiful roses in the garden last spring.\", que significa \"Ela plantou lindas rosas no jardim na primavera passada.\"."
-          },
-          {
-              "question": "Traduza a frase: \"Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil.\"",
-              "options": [
-                  "She cooked a delicious meal in the kitchen.",
-                  "She locked the front door before going to bed.",
-                  "He opened the window to let fresh air inside.",
-                  "True friends always helped out when someone faced a tough phase."
-              ],
-              "correctIndex": 3,
-              "explanation": "A frase correta é \"True friends always helped out when someone faced a tough phase.\", que significa \"Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil.\"."
-          },
-          {
-              "question": "Complete a frase: \"She carried the heavy bag on her ______.\"",
-              "options": [
-                  "Shoulder",
-                  "Only child",
-                  "Window",
-                  "Son"
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"She carried the heavy bag on her shoulder.\", que significa \"Ela carregou a bolsa pesada no ombro.\"."
-          },
-          {
-              "question": "Complete a frase: \"The broken ______ leaked water all night.\"",
-              "options": [
-                  "Extended family",
-                  "Faucet",
-                  "Chat",
-                  "Keep in touch"
+                  "She folded the laundry while watching television.",
+                  "The broken faucet leaked water all night.",
+                  "She locked the front door before going to bed."
               ],
               "correctIndex": 1,
-              "explanation": "A frase correta é \"The broken faucet leaked water all night.\", que significa \"A torneira quebrada vazou água a noite toda.\"."
+              "explanation": "A frase correta é \"She folded the laundry while watching television.\", que significa \"Ela dobrou a roupa enquanto assistia televisão.\"."
           },
           {
-              "question": "Traduza a frase: \"Ela cozinhou uma refeição deliciosa na cozinha.\"",
+              "question": "Complete a frase: \"She cooked a delicious meal in the ______.\"",
               "options": [
-                  "He wore a thick scarf around his neck during winter.",
-                  "I really enjoyed chatting with you about our future plans.",
-                  "The broken faucet leaked water all night.",
-                  "She cooked a delicious meal in the kitchen."
+                  "Kitchen",
+                  "Faucet",
+                  "Shoulder",
+                  "Jaw"
               ],
-              "correctIndex": 3,
+              "correctIndex": 0,
               "explanation": "A frase correta é \"She cooked a delicious meal in the kitchen.\", que significa \"Ela cozinhou uma refeição deliciosa na cozinha.\"."
           },
           {
-              "question": "Traduza a frase: \"Eu gostei muito de bater papo com você sobre nossos planos futuros.\"",
+              "question": "O que significa a frase: \"True friends always helped out when someone faced a tough phase.\"?",
+              "options": [
+                  "Ele abriu a janela para deixar o ar fresco entrar.",
+                  "Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil.",
+                  "Ela lavou as mãos na pia da cozinha.",
+                  "A torneira quebrada vazou água a noite toda."
+              ],
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"True friends always helped out when someone faced a tough phase.\", que significa \"Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil.\"."
+          },
+          {
+              "question": "Complete a frase: \"She was my most trusted ______ in elementary school.\"",
+              "options": [
+                  "Grandfather",
+                  "Joke",
+                  "Best friend",
+                  "Extended family"
+              ],
+              "correctIndex": 2,
+              "explanation": "A frase correta é \"She was my most trusted best friend in elementary school.\", que significa \"Ela era minha melhor amiga de maior confiança no ensino fundamental.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Ela trancou a porta da frente antes de ir para a cama.\"",
               "options": [
                   "She locked the front door before going to bed.",
-                  "She carried the heavy bag on her shoulder.",
-                  "I really enjoyed chatting with you about our future plans.",
-                  "He opened the window to let fresh air inside."
+                  "His oldest daughter learned how to ride a bicycle.",
+                  "She cooked a delicious meal in the kitchen.",
+                  "I really enjoyed chatting with you about our future plans."
+              ],
+              "correctIndex": 0,
+              "explanation": "A frase correta é \"She locked the front door before going to bed.\", que significa \"Ela trancou a porta da frente antes de ir para a cama.\"."
+          },
+          {
+              "question": "Complete a frase: \"My ______ worked at the same hospital for twenty years.\"",
+              "options": [
+                  "Father / Dad",
+                  "Make up",
+                  "Move in",
+                  "Sink"
+              ],
+              "correctIndex": 0,
+              "explanation": "A frase correta é \"My father worked at the same hospital for twenty years.\", que significa \"Meu pai trabalhou no mesmo hospital por vinte anos.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Ela lavou as mãos na pia da cozinha.\"",
+              "options": [
+                  "He wore a thick scarf around his neck during winter.",
+                  "She washed her hands in the kitchen sink.",
+                  "She cooked a delicious meal in the kitchen.",
+                  "She folded the laundry while watching television."
+              ],
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"She washed her hands in the kitchen sink.\", que significa \"Ela lavou as mãos na pia da cozinha.\"."
+          },
+          {
+              "question": "O que significa a frase: \"I really enjoyed chatting with you about our future plans.\"?",
+              "options": [
+                  "Meu filho mais novo começou o ensino fundamental este ano.",
+                  "Ela lavou as mãos na pia da cozinha.",
+                  "Eu gostei muito de bater papo com você sobre nossos planos futuros.",
+                  "Ela cozinhou uma refeição deliciosa na cozinha."
               ],
               "correctIndex": 2,
               "explanation": "A frase correta é \"I really enjoyed chatting with you about our future plans.\", que significa \"Eu gostei muito de bater papo com você sobre nossos planos futuros.\"."
           },
           {
-              "question": "O que significa a frase: \"She folded the laundry while watching television.\"?",
+              "question": "Complete a frase: \"He found an old photograph hidden in the ______.\"",
               "options": [
-                  "Ela dobrou a roupa enquanto assistia televisão.",
-                  "A filha mais velha dele aprendeu a andar de bicicleta.",
-                  "Eu gostei muito de bater papo com você sobre nossos planos futuros.",
-                  "A torneira quebrada vazou água a noite toda."
+                  "Turn up",
+                  "Attic",
+                  "Garden / Yard",
+                  "Fold the laundry"
               ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"She folded the laundry while watching television.\", que significa \"Ela dobrou a roupa enquanto assistia televisão.\"."
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"He found an old photograph hidden in the attic.\", que significa \"Ele encontrou uma fotografia antiga escondida no sótão.\"."
           },
           {
-              "question": "Traduza a frase: \"Ela trancou a porta da frente antes de ir para a cama.\"",
+              "question": "Complete a frase: \"He cut his ______ very short last week.\"",
               "options": [
-                  "My youngest son started elementary school this year.",
-                  "She folded the laundry while watching television.",
-                  "She locked the front door before going to bed.",
-                  "She planted beautiful roses in the garden last spring."
+                  "Fix up",
+                  "Best friend",
+                  "Landlord",
+                  "Hair"
               ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"She locked the front door before going to bed.\", que significa \"Ela trancou a porta da frente antes de ir para a cama.\"."
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"He cut his hair very short last week.\", que significa \"Ele cortou o cabelo bem curto semana passada.\"."
           }
       ],
       quizB1: [
           {
-              "question": "Complete a frase: \"You can always ______ me if you need any help.\"",
+              "question": "Complete a frase: \"Being an ______ means you never have to share your toys.\"",
               "options": [
-                  "Rely on",
-                  "Spacious",
-                  "Kitchen",
+                  "Joke",
+                  "Window",
+                  "Keep in touch",
                   "Only child"
               ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"You can always rely on me if you need any help.\", que significa \"Você sempre pode contar comigo se precisar de alguma ajuda.\"."
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"Being an only child means you never have to share your toys.\", que significa \"Ser filho único significa que você nunca tem que dividir seus brinquedos.\"."
           },
           {
-              "question": "Traduza a frase: \"Você poderia passar um pano na mesa da cozinha com um pano úmido?\"",
+              "question": "O que significa a frase: \"They fell out over a silly argument and stopped talking.\"?",
               "options": [
-                  "Being an only child means you never have to share your toys.",
-                  "Could you wipe the kitchen table with a damp cloth?",
-                  "Can you turn up the heating? It is getting quite cold in here.",
-                  "Always unplug the iron when you are finished using it."
+                  "A casa nova é muito mais espaçosa que nosso apartamento antigo.",
+                  "Mesmo que ela tenha se mudado, nós ainda mantemos contato.",
+                  "Ele comprou um carro velho e passou o verão tentando consertá-lo.",
+                  "Eles brigaram por causa de uma discussão boba e pararam de se falar."
               ],
-              "correctIndex": 1,
-              "explanation": "A frase correta é \"Could you wipe the kitchen table with a damp cloth?\", que significa \"Você poderia passar um pano na mesa da cozinha com um pano úmido?\"."
-          },
-          {
-              "question": "Traduza a frase: \"Ele torceu o tornozelo enquanto jogava futebol ontem.\"",
-              "options": [
-                  "He twisted his ankle while playing football yesterday.",
-                  "It is important to apologize and make up after a family fight.",
-                  "Always unplug the iron when you are finished using it.",
-                  "Even though she moved away, we still keep in touch."
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"He twisted his ankle while playing football yesterday.\", que significa \"Ele torceu o tornozelo enquanto jogava futebol ontem.\"."
-          },
-          {
-              "question": "Complete a frase: \"Our ______ increases the rent a little bit every year.\"",
-              "options": [
-                  "Move in",
-                  "Attic",
-                  "Landlord",
-                  "Throw up"
-              ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"Our landlord increases the rent a little bit every year.\", que significa \"Nosso senhorio aumenta o aluguel um pouquinho todo ano.\"."
-          },
-          {
-              "question": "Complete a frase: \"We are going to ______ to our new apartment next Saturday.\"",
-              "options": [
-                  "Foot / Feet",
-                  "Move in",
-                  "Jaw",
-                  "Rely on"
-              ],
-              "correctIndex": 1,
-              "explanation": "A frase correta é \"We are going to move in to our new apartment next Saturday.\", que significa \"Nós vamos nos mudar para o nosso apartamento novo no próximo sábado.\"."
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"They fell out over a silly argument and stopped talking.\", que significa \"Eles brigaram por causa de uma discussão boba e pararam de se falar.\"."
           },
           {
               "question": "Traduza a frase: \"É importante pedir desculpas e fazer as pazes depois de uma briga de família.\"",
               "options": [
-                  "Being an only child means you never have to share your toys.",
-                  "He is a highly trustworthy friend who keeps secrets well.",
                   "It is important to apologize and make up after a family fight.",
-                  "He forgot to dust the bookshelves while cleaning the room."
+                  "He forgot to dust the bookshelves while cleaning the room.",
+                  "He is a highly trustworthy friend who keeps secrets well.",
+                  "We are going to move in to our new apartment next Saturday."
               ],
-              "correctIndex": 2,
+              "correctIndex": 0,
               "explanation": "A frase correta é \"It is important to apologize and make up after a family fight.\", que significa \"É importante pedir desculpas e fazer as pazes depois de uma briga de família.\"."
           },
           {
-              "question": "Complete a frase: \"Even though she moved away, we still ______.\"",
+              "question": "Complete a frase: \"He forgot to ______ the bookshelves while cleaning the room.\"",
               "options": [
-                  "Door",
-                  "Turn up",
-                  "Keep in touch",
-                  "Son"
+                  "Jaw",
+                  "Son",
+                  "Dust",
+                  "Only child"
               ],
               "correctIndex": 2,
-              "explanation": "A frase correta é \"Even though she moved away, we still keep in touch.\", que significa \"Mesmo que ela tenha se mudado, nós ainda mantemos contato.\"."
+              "explanation": "A frase correta é \"He forgot to dust the bookshelves while cleaning the room.\", que significa \"Ele esqueceu de tirar o pó das prateleiras de livros ao limpar a sala.\"."
           },
           {
-              "question": "Traduza a frase: \"A casa nova é muito mais espaçosa que nosso apartamento antigo.\"",
+              "question": "Traduza a frase: \"Nós convidamos toda a nossa família estendida para o casamento.\"",
               "options": [
+                  "We invited our entire extended family to the wedding.",
                   "The new house is much more spacious than our old flat.",
-                  "They fell out over a silly argument and stopped talking.",
-                  "We are going to move in to our new apartment next Saturday.",
-                  "He bought an old car and spent the summer trying to fix it up."
+                  "He ate some bad seafood and threw up all night.",
+                  "Being an only child means you never have to share your toys."
               ],
               "correctIndex": 0,
-              "explanation": "A frase correta é \"The new house is much more spacious than our old flat.\", que significa \"A casa nova é muito mais espaçosa que nosso apartamento antigo.\"."
+              "explanation": "A frase correta é \"We invited our entire extended family to the wedding.\", que significa \"Nós convidamos toda a nossa família estendida para o casamento.\"."
           },
           {
               "question": "Traduza a frase: \"Ele comprou um carro velho e passou o verão tentando consertá-lo.\"",
               "options": [
                   "He bought an old car and spent the summer trying to fix it up.",
-                  "Even though she moved away, we still keep in touch.",
-                  "You can always rely on me if you need any help.",
-                  "He twisted his ankle while playing football yesterday."
+                  "We invited our entire extended family to the wedding.",
+                  "They fell out over a misunderstanding and haven't spoken since.",
+                  "The boxer received a heavy punch directly to the jaw."
               ],
               "correctIndex": 0,
               "explanation": "A frase correta é \"He bought an old car and spent the summer trying to fix it up.\", que significa \"Ele comprou um carro velho e passou o verão tentando consertá-lo.\"."
           },
           {
-              "question": "Traduza a frase: \"Ele comeu frutos do mar estragados e vomitou a noite toda.\"",
+              "question": "Traduza a frase: \"Você pode aumentar o aquecedor? Está ficando bem frio aqui dentro.\"",
+              "options": [
+                  "Can you turn up the heating? It is getting quite cold in here.",
+                  "We are going to move in to our new apartment next Saturday.",
+                  "Could you wipe the kitchen table with a damp cloth?",
+                  "My throat hurts so much that it is painful to swallow water."
+              ],
+              "correctIndex": 0,
+              "explanation": "A frase correta é \"Can you turn up the heating? It is getting quite cold in here.\", que significa \"Você pode aumentar o aquecedor? Está ficando bem frio aqui dentro.\"."
+          },
+          {
+              "question": "Complete a frase: \"Always ______ the iron when you are finished using it.\"",
+              "options": [
+                  "Unplug",
+                  "Spacious",
+                  "Only child",
+                  "Fold the laundry"
+              ],
+              "correctIndex": 0,
+              "explanation": "A frase correta é \"Always unplug the iron when you are finished using it.\", que significa \"Sempre tire o ferro da tomada quando terminar de usá-lo.\"."
+          },
+          {
+              "question": "Traduza a frase: \"O boxeador recebeu um soco pesado direto na mandíbula.\"",
               "options": [
                   "Being an only child means you never have to share your toys.",
-                  "My throat hurts so much that it is painful to swallow water.",
-                  "He is a highly trustworthy friend who keeps secrets well.",
-                  "He ate some bad seafood and threw up all night."
+                  "He ate some bad seafood and threw up all night.",
+                  "He forgot to dust the bookshelves while cleaning the room.",
+                  "The boxer received a heavy punch directly to the jaw."
               ],
               "correctIndex": 3,
-              "explanation": "A frase correta é \"He ate some bad seafood and threw up all night.\", que significa \"Ele comeu frutos do mar estragados e vomitou a noite toda.\"."
+              "explanation": "A frase correta é \"The boxer received a heavy punch directly to the jaw.\", que significa \"O boxeador recebeu um soco pesado direto na mandíbula.\"."
+          },
+          {
+              "question": "Complete a frase: \"You can always ______ me if you need any help.\"",
+              "options": [
+                  "Unplug",
+                  "Rely on",
+                  "Landlord",
+                  "Joke"
+              ],
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"You can always rely on me if you need any help.\", que significa \"Você sempre pode contar comigo se precisar de alguma ajuda.\"."
           }
       ],
-                        
+                                                
     flashcards: [
       { english: "My mom bakes a cake for me every year.", portuguese: "Minha mãe assa um bolo para mim todos os anos." },
       { english: "A true friend is hard to find.", portuguese: "Um verdadeiro amigo é difícil de encontrar." },
@@ -630,54 +630,14 @@ export const reviewScenarios: Scenario[] = [
     ],
       flashcardsA2: [
           {
+              "english": "They went hiking in the national park yesterday.",
+              "portuguese": "Eles fizeram trilha no parque nacional ontem.",
+              "example": "Palavra-chave: Go hiking"
+          },
+          {
               "english": "We danced all night at the wedding reception.",
               "portuguese": "Nós dançamos a noite toda na festa de casamento.",
               "example": "Palavra-chave: Dance"
-          },
-          {
-              "english": "She played the guitar beautifully at the concert.",
-              "portuguese": "Ela tocou violão lindamente no show.",
-              "example": "Palavra-chave: Play guitar"
-          },
-          {
-              "english": "The polite waiter served the food with a smile.",
-              "portuguese": "O garçom educado serviu a comida com um sorriso.",
-              "example": "Palavra-chave: Waiter"
-          },
-          {
-              "english": "My grandmother knitted a warm sweater for me.",
-              "portuguese": "Minha avó tricotou um suéter quente para mim.",
-              "example": "Palavra-chave: Knit"
-          },
-          {
-              "english": "They bought a special gift for their parents.",
-              "portuguese": "Eles compraram um presente especial para os pais deles.",
-              "example": "Palavra-chave: Gift"
-          },
-          {
-              "english": "I didn't have enough cash, so I used my credit card.",
-              "portuguese": "Eu não tinha dinheiro em espécie suficiente, então usei meu cartão de crédito.",
-              "example": "Palavra-chave: Cash"
-          },
-          {
-              "english": "The experienced doctor successfully treated the patient.",
-              "portuguese": "O médico experiente tratou o paciente com sucesso.",
-              "example": "Palavra-chave: Doctor"
-          },
-          {
-              "english": "The supermarket introduced a new product in the dairy section.",
-              "portuguese": "O supermercado lançou um produto novo na seção de laticínios.",
-              "example": "Palavra-chave: Product"
-          },
-          {
-              "english": "The technology company launched a new software product.",
-              "portuguese": "A empresa de tecnologia lançou um novo produto de software.",
-              "example": "Palavra-chave: Company"
-          },
-          {
-              "english": "They practiced basketball every day after school.",
-              "portuguese": "Eles praticavam basquete todo dia depois da escola.",
-              "example": "Palavra-chave: Basketball"
           },
           {
               "english": "She played tennis with her brother yesterday.",
@@ -685,39 +645,29 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Tennis"
           },
           {
-              "english": "The cashier gave me the receipt and a friendly smile.",
-              "portuguese": "A caixa me deu o recibo e um sorriso amigável.",
-              "example": "Palavra-chave: Receipt"
+              "english": "The polite waiter served the food with a smile.",
+              "portuguese": "O garçom educado serviu a comida com um sorriso.",
+              "example": "Palavra-chave: Waiter"
           },
           {
-              "english": "He waited outside the fitting room for ten minutes.",
-              "portuguese": "Ele esperou do lado de fora do provador por dez minutos.",
-              "example": "Palavra-chave: Fitting room"
+              "english": "The technology company launched a new software product.",
+              "portuguese": "A empresa de tecnologia lançou um novo produto de software.",
+              "example": "Palavra-chave: Company"
           },
           {
-              "english": "They went hiking in the national park yesterday.",
-              "portuguese": "Eles fizeram trilha no parque nacional ontem.",
-              "example": "Palavra-chave: Go hiking"
+              "english": "The experienced doctor successfully treated the patient.",
+              "portuguese": "O médico experiente tratou o paciente com sucesso.",
+              "example": "Palavra-chave: Doctor"
           },
           {
-              "english": "They won the gold medal at the Olympics.",
-              "portuguese": "Eles venceram a medalha de ouro nas Olimpíadas.",
-              "example": "Palavra-chave: Win"
+              "english": "They practiced basketball every day after school.",
+              "portuguese": "Eles praticavam basquete todo dia depois da escola.",
+              "example": "Palavra-chave: Basketball"
           },
           {
-              "english": "The brave police officer stopped the thief.",
-              "portuguese": "O policial corajoso parou o ladrão.",
-              "example": "Palavra-chave: Police officer"
-          },
-          {
-              "english": "He pushed the heavy shopping cart down the aisle.",
-              "portuguese": "Ele empurrou o carrinho de compras pesado pelo corredor.",
-              "example": "Palavra-chave: Shopping cart"
-          },
-          {
-              "english": "She wore a stunning red dress to the party.",
-              "portuguese": "Ela usou um vestido vermelho deslumbrante na festa.",
-              "example": "Palavra-chave: Dress"
+              "english": "She played the guitar beautifully at the concert.",
+              "portuguese": "Ela tocou violão lindamente no show.",
+              "example": "Palavra-chave: Play guitar"
           },
           {
               "english": "The price is too high.",
@@ -725,36 +675,66 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Price"
           },
           {
+              "english": "The supermarket introduced a new product in the dairy section.",
+              "portuguese": "O supermercado lançou um produto novo na seção de laticínios.",
+              "example": "Palavra-chave: Product"
+          },
+          {
+              "english": "He pushed the heavy shopping cart down the aisle.",
+              "portuguese": "Ele empurrou o carrinho de compras pesado pelo corredor.",
+              "example": "Palavra-chave: Shopping cart"
+          },
+          {
+              "english": "He waited outside the fitting room for ten minutes.",
+              "portuguese": "Ele esperou do lado de fora do provador por dez minutos.",
+              "example": "Palavra-chave: Fitting room"
+          },
+          {
               "english": "The referee explained a new rule before the match started.",
               "portuguese": "O árbitro explicou uma regra nova antes de a partida começar.",
               "example": "Palavra-chave: Rule"
+          },
+          {
+              "english": "She wore a stunning red dress to the party.",
+              "portuguese": "Ela usou um vestido vermelho deslumbrante na festa.",
+              "example": "Palavra-chave: Dress"
+          },
+          {
+              "english": "I didn't have enough cash, so I used my credit card.",
+              "portuguese": "Eu não tinha dinheiro em espécie suficiente, então usei meu cartão de crédito.",
+              "example": "Palavra-chave: Cash"
+          },
+          {
+              "english": "They won the gold medal at the Olympics.",
+              "portuguese": "Eles venceram a medalha de ouro nas Olimpíadas.",
+              "example": "Palavra-chave: Win"
+          },
+          {
+              "english": "The cashier gave me the receipt and a friendly smile.",
+              "portuguese": "A caixa me deu o recibo e um sorriso amigável.",
+              "example": "Palavra-chave: Receipt"
+          },
+          {
+              "english": "The brave police officer stopped the thief.",
+              "portuguese": "O policial corajoso parou o ladrão.",
+              "example": "Palavra-chave: Police officer"
+          },
+          {
+              "english": "They bought a special gift for their parents.",
+              "portuguese": "Eles compraram um presente especial para os pais deles.",
+              "example": "Palavra-chave: Gift"
+          },
+          {
+              "english": "My grandmother knitted a warm sweater for me.",
+              "portuguese": "Minha avó tricotou um suéter quente para mim.",
+              "example": "Palavra-chave: Knit"
           }
       ],
       flashcardsB1: [
           {
-              "english": "Could you please wrap this up as a birthday gift?",
-              "portuguese": "Você poderia embrulhar isso como um presente de aniversário, por favor?",
-              "example": "Palavra-chave: Wrap up"
-          },
-          {
-              "english": "I want the premium brand, but I can only afford the generic one right now.",
-              "portuguese": "Eu quero a marca premium, mas só tenho condições de pagar a genérica agora.",
-              "example": "Palavra-chave: Afford"
-          },
-          {
-              "english": "She decided to apply for the manager position in the company.",
-              "portuguese": "Ela decidiu se candidatar à vaga de gerente na empresa.",
-              "example": "Palavra-chave: Apply for"
-          },
-          {
-              "english": "The crowd started to cheer loudly when their team scored.",
-              "portuguese": "A multidão começou a torcer alto quando o time deles marcou.",
-              "example": "Palavra-chave: Cheer"
-          },
-          {
-              "english": "Learning a new language is a very useful skill.",
-              "portuguese": "Aprender um novo idioma é uma habilidade muito útil.",
-              "example": "Palavra-chave: Skill"
+              "english": "This jacket doesn't fit me anymore; it's too tight.",
+              "portuguese": "Esta jaqueta não me serve mais; está muito apertada.",
+              "example": "Palavra-chave: Fit"
           },
           {
               "english": "Her dream is to perform on a Broadway stage one day.",
@@ -762,19 +742,9 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Perform"
           },
           {
-              "english": "Even though they were losing by three goals, the team refused to give up.",
-              "portuguese": "Mesmo perdendo por três gols, a equipe se recusou a desistir.",
-              "example": "Palavra-chave: Give up"
-          },
-          {
-              "english": "That blue dress really suits you perfectly.",
-              "portuguese": "Aquele vestido azul realmente te cai perfeitamente.",
-              "example": "Palavra-chave: Suit"
-          },
-          {
-              "english": "I'm sorry, but that specific model is currently out of stock.",
-              "portuguese": "Sinto muito, mas aquele modelo específico está atualmente esgotado.",
-              "example": "Palavra-chave: Out of stock"
+              "english": "Twenty dollars for a small bottle of water is a complete rip-off.",
+              "portuguese": "Vinte dólares por uma pequena garrafa de água é uma verdadeira exploração.",
+              "example": "Palavra-chave: Rip off"
           },
           {
               "english": "She checked the price before adding the item to her cart.",
@@ -782,29 +752,9 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Price"
           },
           {
-              "english": "He used to play the guitar, but he gave it up when he started university.",
-              "portuguese": "Ele costumava tocar violão, mas parou quando começou a universidade.",
-              "example": "Palavra-chave: Give up"
-          },
-          {
-              "english": "Twenty dollars for a small bottle of water is a complete rip-off.",
-              "portuguese": "Vinte dólares por uma pequena garrafa de água é uma verdadeira exploração.",
-              "example": "Palavra-chave: Rip off"
-          },
-          {
-              "english": "They had to fire him because he was consistently late for work.",
-              "portuguese": "Eles tiveram que demiti-lo porque ele estava consistentemente atrasado para o trabalho.",
-              "example": "Palavra-chave: Fire"
-          },
-          {
-              "english": "Over fifty athletes will compete in the final race.",
-              "portuguese": "Mais de cinquenta atletas vão competir na corrida final.",
-              "example": "Palavra-chave: Compete"
-          },
-          {
-              "english": "The product was expired, so I went back to the store to ask for a refund.",
-              "portuguese": "O produto estava vencido, então voltei à loja para pedir um reembolso.",
-              "example": "Palavra-chave: Refund"
+              "english": "I want the premium brand, but I can only afford the generic one right now.",
+              "portuguese": "Eu quero a marca premium, mas só tenho condições de pagar a genérica agora.",
+              "example": "Palavra-chave: Afford"
           },
           {
               "english": "I am really into science fiction movies right now.",
@@ -812,9 +762,14 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Into"
           },
           {
-              "english": "This jacket doesn't fit me anymore; it's too tight.",
-              "portuguese": "Esta jaqueta não me serve mais; está muito apertada.",
-              "example": "Palavra-chave: Fit"
+              "english": "She decided to apply for the manager position in the company.",
+              "portuguese": "Ela decidiu se candidatar à vaga de gerente na empresa.",
+              "example": "Palavra-chave: Apply for"
+          },
+          {
+              "english": "Even though they were losing by three goals, the team refused to give up.",
+              "portuguese": "Mesmo perdendo por três gols, a equipe se recusou a desistir.",
+              "example": "Palavra-chave: Give up"
           },
           {
               "english": "He goes to the gym to work out three times a week.",
@@ -822,9 +777,54 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Work out"
           },
           {
+              "english": "The product was expired, so I went back to the store to ask for a refund.",
+              "portuguese": "O produto estava vencido, então voltei à loja para pedir um reembolso.",
+              "example": "Palavra-chave: Refund"
+          },
+          {
               "english": "They offered a twenty percent discount on all dairy products.",
               "portuguese": "Eles ofereceram vinte por cento de desconto em todos os laticínios.",
               "example": "Palavra-chave: Discount"
+          },
+          {
+              "english": "Could you please wrap this up as a birthday gift?",
+              "portuguese": "Você poderia embrulhar isso como um presente de aniversário, por favor?",
+              "example": "Palavra-chave: Wrap up"
+          },
+          {
+              "english": "He used to play the guitar, but he gave it up when he started university.",
+              "portuguese": "Ele costumava tocar violão, mas parou quando começou a universidade.",
+              "example": "Palavra-chave: Give up"
+          },
+          {
+              "english": "After three years of hard work, he was finally promoted to supervisor.",
+              "portuguese": "Depois de três anos de trabalho duro, ele finalmente foi promovido a supervisor.",
+              "example": "Palavra-chave: Promote"
+          },
+          {
+              "english": "The crowd started to cheer loudly when their team scored.",
+              "portuguese": "A multidão começou a torcer alto quando o time deles marcou.",
+              "example": "Palavra-chave: Cheer"
+          },
+          {
+              "english": "That blue dress really suits you perfectly.",
+              "portuguese": "Aquele vestido azul realmente te cai perfeitamente.",
+              "example": "Palavra-chave: Suit"
+          },
+          {
+              "english": "Over fifty athletes will compete in the final race.",
+              "portuguese": "Mais de cinquenta atletas vão competir na corrida final.",
+              "example": "Palavra-chave: Compete"
+          },
+          {
+              "english": "I'm sorry, but that specific model is currently out of stock.",
+              "portuguese": "Sinto muito, mas aquele modelo específico está atualmente esgotado.",
+              "example": "Palavra-chave: Out of stock"
+          },
+          {
+              "english": "They had to fire him because he was consistently late for work.",
+              "portuguese": "Eles tiveram que demiti-lo porque ele estava consistentemente atrasado para o trabalho.",
+              "example": "Palavra-chave: Fire"
           },
           {
               "english": "They want to hire five new developers by the end of the year.",
@@ -834,168 +834,212 @@ export const reviewScenarios: Scenario[] = [
       ],
       quizA2: [
           {
-              "question": "O que significa a frase: \"My grandmother knitted a warm sweater for me.\"?",
+              "question": "O que significa a frase: \"We danced all night at the wedding reception.\"?",
               "options": [
-                  "O policial corajoso parou o ladrão.",
-                  "O médico experiente tratou o paciente com sucesso.",
-                  "Minha avó tricotou um suéter quente para mim.",
-                  "Eles compraram um presente especial para os pais deles."
+                  "Ela jogou tênis com seu irmão ontem.",
+                  "Nós dançamos a noite toda na festa de casamento.",
+                  "O preço está muito alto.",
+                  "Minha avó tricotou um suéter quente para mim."
               ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"My grandmother knitted a warm sweater for me.\", que significa \"Minha avó tricotou um suéter quente para mim.\"."
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"We danced all night at the wedding reception.\", que significa \"Nós dançamos a noite toda na festa de casamento.\"."
           },
           {
-              "question": "Complete a frase: \"The experienced ______ successfully treated the patient.\"",
+              "question": "Traduza a frase: \"O supermercado lançou um produto novo na seção de laticínios.\"",
               "options": [
-                  "Doctor",
-                  "Go hiking",
-                  "Suit",
-                  "Police officer"
+                  "The supermarket introduced a new product in the dairy section.",
+                  "My grandmother knitted a warm sweater for me.",
+                  "I didn't have enough cash, so I used my credit card.",
+                  "He pushed the heavy shopping cart down the aisle."
               ],
               "correctIndex": 0,
-              "explanation": "A frase correta é \"The experienced doctor successfully treated the patient.\", que significa \"O médico experiente tratou o paciente com sucesso.\"."
+              "explanation": "A frase correta é \"The supermarket introduced a new product in the dairy section.\", que significa \"O supermercado lançou um produto novo na seção de laticínios.\"."
           },
           {
-              "question": "Complete a frase: \"The ______ is too high.\"",
+              "question": "Complete a frase: \"She played ______ with her brother yesterday.\"",
               "options": [
-                  "Doctor",
+                  "Into",
                   "Police officer",
-                  "Price",
-                  "Shopping cart"
+                  "Tennis",
+                  "Company"
               ],
               "correctIndex": 2,
-              "explanation": "A frase correta é \"The price is too high.\", que significa \"O preço está muito alto.\"."
+              "explanation": "A frase correta é \"She played tennis with her brother yesterday.\", que significa \"Ela jogou tênis com seu irmão ontem.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Eu não tinha dinheiro em espécie suficiente, então usei meu cartão de crédito.\"",
+              "options": [
+                  "I didn't have enough cash, so I used my credit card.",
+                  "She played tennis with her brother yesterday.",
+                  "The supermarket introduced a new product in the dairy section.",
+                  "The technology company launched a new software product."
+              ],
+              "correctIndex": 0,
+              "explanation": "A frase correta é \"I didn't have enough cash, so I used my credit card.\", que significa \"Eu não tinha dinheiro em espécie suficiente, então usei meu cartão de crédito.\"."
           },
           {
               "question": "O que significa a frase: \"They went hiking in the national park yesterday.\"?",
               "options": [
-                  "Ela tocou violão lindamente no show.",
-                  "O árbitro explicou uma regra nova antes de a partida começar.",
-                  "O preço está muito alto.",
+                  "Ela usou um vestido vermelho deslumbrante na festa.",
+                  "Eu não tinha dinheiro em espécie suficiente, então usei meu cartão de crédito.",
+                  "Ela jogou tênis com seu irmão ontem.",
                   "Eles fizeram trilha no parque nacional ontem."
               ],
               "correctIndex": 3,
               "explanation": "A frase correta é \"They went hiking in the national park yesterday.\", que significa \"Eles fizeram trilha no parque nacional ontem.\"."
           },
           {
-              "question": "Traduza a frase: \"A empresa de tecnologia lançou um novo produto de software.\"",
+              "question": "Traduza a frase: \"Ele empurrou o carrinho de compras pesado pelo corredor.\"",
               "options": [
-                  "My grandmother knitted a warm sweater for me.",
-                  "She played the guitar beautifully at the concert.",
-                  "They won the gold medal at the Olympics.",
-                  "The technology company launched a new software product."
-              ],
-              "correctIndex": 3,
-              "explanation": "A frase correta é \"The technology company launched a new software product.\", que significa \"A empresa de tecnologia lançou um novo produto de software.\"."
-          },
-          {
-              "question": "Complete a frase: \"They bought a special ______ for their parents.\"",
-              "options": [
-                  "Price",
-                  "Gift",
-                  "Fit",
-                  "Discount"
+                  "They bought a special gift for their parents.",
+                  "He pushed the heavy shopping cart down the aisle.",
+                  "The experienced doctor successfully treated the patient.",
+                  "I didn't have enough cash, so I used my credit card."
               ],
               "correctIndex": 1,
-              "explanation": "A frase correta é \"They bought a special gift for their parents.\", que significa \"Eles compraram um presente especial para os pais deles.\"."
+              "explanation": "A frase correta é \"He pushed the heavy shopping cart down the aisle.\", que significa \"Ele empurrou o carrinho de compras pesado pelo corredor.\"."
           },
           {
-              "question": "Traduza a frase: \"Eles venceram a medalha de ouro nas Olimpíadas.\"",
+              "question": "O que significa a frase: \"She played the guitar beautifully at the concert.\"?",
               "options": [
+                  "Ela usou um vestido vermelho deslumbrante na festa.",
+                  "Ela tocou violão lindamente no show.",
+                  "A caixa me deu o recibo e um sorriso amigável.",
+                  "Eles venceram a medalha de ouro nas Olimpíadas."
+              ],
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"She played the guitar beautifully at the concert.\", que significa \"Ela tocou violão lindamente no show.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Ele esperou do lado de fora do provador por dez minutos.\"",
+              "options": [
+                  "The referee explained a new rule before the match started.",
+                  "I didn't have enough cash, so I used my credit card.",
                   "He waited outside the fitting room for ten minutes.",
-                  "The brave police officer stopped the thief.",
-                  "They won the gold medal at the Olympics.",
-                  "She played the guitar beautifully at the concert."
+                  "The supermarket introduced a new product in the dairy section."
               ],
               "correctIndex": 2,
-              "explanation": "A frase correta é \"They won the gold medal at the Olympics.\", que significa \"Eles venceram a medalha de ouro nas Olimpíadas.\"."
-          },
-          {
-              "question": "Complete a frase: \"I didn't have enough ______, so I used my credit card.\"",
-              "options": [
-                  "Rule",
-                  "Fit",
-                  "Cash",
-                  "Apply for"
-              ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"I didn't have enough cash, so I used my credit card.\", que significa \"Eu não tinha dinheiro em espécie suficiente, então usei meu cartão de crédito.\"."
-          },
-          {
-              "question": "Complete a frase: \"He waited outside the ______ for ten minutes.\"",
-              "options": [
-                  "Company",
-                  "Fitting room",
-                  "Price",
-                  "Apply for"
-              ],
-              "correctIndex": 1,
               "explanation": "A frase correta é \"He waited outside the fitting room for ten minutes.\", que significa \"Ele esperou do lado de fora do provador por dez minutos.\"."
           },
           {
-              "question": "Complete a frase: \"The polite ______ served the food with a smile.\"",
+              "question": "Traduza a frase: \"Minha avó tricotou um suéter quente para mim.\"",
               "options": [
-                  "Waiter",
-                  "Rule",
-                  "Wrap up",
-                  "Apply for"
+                  "She played tennis with her brother yesterday.",
+                  "They went hiking in the national park yesterday.",
+                  "My grandmother knitted a warm sweater for me.",
+                  "The supermarket introduced a new product in the dairy section."
               ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"The polite waiter served the food with a smile.\", que significa \"O garçom educado serviu a comida com um sorriso.\"."
+              "correctIndex": 2,
+              "explanation": "A frase correta é \"My grandmother knitted a warm sweater for me.\", que significa \"Minha avó tricotou um suéter quente para mim.\"."
+          },
+          {
+              "question": "Traduza a frase: \"A empresa de tecnologia lançou um novo produto de software.\"",
+              "options": [
+                  "The cashier gave me the receipt and a friendly smile.",
+                  "They won the gold medal at the Olympics.",
+                  "The technology company launched a new software product.",
+                  "He pushed the heavy shopping cart down the aisle."
+              ],
+              "correctIndex": 2,
+              "explanation": "A frase correta é \"The technology company launched a new software product.\", que significa \"A empresa de tecnologia lançou um novo produto de software.\"."
           }
       ],
       quizB1: [
           {
-              "question": "Complete a frase: \"I want the premium brand, but I can only ______ the generic one right now.\"",
+              "question": "Traduza a frase: \"Ela verificou o preço antes de adicionar o item ao seu carrinho.\"",
               "options": [
-                  "Afford",
-                  "Price",
-                  "Fitting room",
-                  "Doctor"
+                  "The crowd started to cheer loudly when their team scored.",
+                  "Learning a new language is a very useful skill.",
+                  "They had to fire him because he was consistently late for work.",
+                  "She checked the price before adding the item to her cart."
+              ],
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"She checked the price before adding the item to her cart.\", que significa \"Ela verificou o preço antes de adicionar o item ao seu carrinho.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Eu quero a marca premium, mas só tenho condições de pagar a genérica agora.\"",
+              "options": [
+                  "I want the premium brand, but I can only afford the generic one right now.",
+                  "They had to fire him because he was consistently late for work.",
+                  "I am really into science fiction movies right now.",
+                  "Her dream is to perform on a Broadway stage one day."
               ],
               "correctIndex": 0,
               "explanation": "A frase correta é \"I want the premium brand, but I can only afford the generic one right now.\", que significa \"Eu quero a marca premium, mas só tenho condições de pagar a genérica agora.\"."
           },
           {
-              "question": "Complete a frase: \"I am really ______ science fiction movies right now.\"",
+              "question": "Traduza a frase: \"Esta jaqueta não me serve mais; está muito apertada.\"",
               "options": [
-                  "Gift",
-                  "Knit",
-                  "Into",
-                  "Price"
-              ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"I am really into science fiction movies right now.\", que significa \"Eu estou gostando muito de filmes de ficção científica agora.\"."
-          },
-          {
-              "question": "Complete a frase: \"They had to ______ him because he was consistently late for work.\"",
-              "options": [
-                  "Knit",
-                  "Product",
-                  "Fire",
-                  "Company"
-              ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"They had to fire him because he was consistently late for work.\", que significa \"Eles tiveram que demiti-lo porque ele estava consistentemente atrasado para o trabalho.\"."
-          },
-          {
-              "question": "Traduza a frase: \"Aquele vestido azul realmente te cai perfeitamente.\"",
-              "options": [
-                  "They had to fire him because he was consistently late for work.",
-                  "Over fifty athletes will compete in the final race.",
+                  "They want to hire five new developers by the end of the year.",
                   "I am really into science fiction movies right now.",
-                  "That blue dress really suits you perfectly."
+                  "They had to fire him because he was consistently late for work.",
+                  "This jacket doesn't fit me anymore; it's too tight."
               ],
               "correctIndex": 3,
-              "explanation": "A frase correta é \"That blue dress really suits you perfectly.\", que significa \"Aquele vestido azul realmente te cai perfeitamente.\"."
+              "explanation": "A frase correta é \"This jacket doesn't fit me anymore; it's too tight.\", que significa \"Esta jaqueta não me serve mais; está muito apertada.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Sinto muito, mas aquele modelo específico está atualmente esgotado.\"",
+              "options": [
+                  "The crowd started to cheer loudly when their team scored.",
+                  "They want to hire five new developers by the end of the year.",
+                  "Could you please wrap this up as a birthday gift?",
+                  "I'm sorry, but that specific model is currently out of stock."
+              ],
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"I'm sorry, but that specific model is currently out of stock.\", que significa \"Sinto muito, mas aquele modelo específico está atualmente esgotado.\"."
+          },
+          {
+              "question": "Complete a frase: \"Learning a new language is a very useful ______.\"",
+              "options": [
+                  "Into",
+                  "Skill",
+                  "Compete",
+                  "Win"
+              ],
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"Learning a new language is a very useful skill.\", que significa \"Aprender um novo idioma é uma habilidade muito útil.\"."
+          },
+          {
+              "question": "Complete a frase: \"Her dream is to ______ on a Broadway stage one day.\"",
+              "options": [
+                  "Dress",
+                  "Dance",
+                  "Perform",
+                  "Cash"
+              ],
+              "correctIndex": 2,
+              "explanation": "A frase correta é \"Her dream is to perform on a Broadway stage one day.\", que significa \"O sonho dela é se apresentar em um palco da Broadway um dia.\"."
+          },
+          {
+              "question": "Traduza a frase: \"O produto estava vencido, então voltei à loja para pedir um reembolso.\"",
+              "options": [
+                  "Could you please wrap this up as a birthday gift?",
+                  "I'm sorry, but that specific model is currently out of stock.",
+                  "She checked the price before adding the item to her cart.",
+                  "The product was expired, so I went back to the store to ask for a refund."
+              ],
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"The product was expired, so I went back to the store to ask for a refund.\", que significa \"O produto estava vencido, então voltei à loja para pedir um reembolso.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Mais de cinquenta atletas vão competir na corrida final.\"",
+              "options": [
+                  "Over fifty athletes will compete in the final race.",
+                  "The crowd started to cheer loudly when their team scored.",
+                  "The product was expired, so I went back to the store to ask for a refund.",
+                  "I am really into science fiction movies right now."
+              ],
+              "correctIndex": 0,
+              "explanation": "A frase correta é \"Over fifty athletes will compete in the final race.\", que significa \"Mais de cinquenta atletas vão competir na corrida final.\"."
           },
           {
               "question": "Complete a frase: \"She decided to ______ the manager position in the company.\"",
               "options": [
-                  "Discount",
+                  "Perform",
                   "Apply for",
-                  "Fire",
-                  "Price"
+                  "Skill",
+                  "Product"
               ],
               "correctIndex": 1,
               "explanation": "A frase correta é \"She decided to apply for the manager position in the company.\", que significa \"Ela decidiu se candidatar à vaga de gerente na empresa.\"."
@@ -1003,60 +1047,16 @@ export const reviewScenarios: Scenario[] = [
           {
               "question": "O que significa a frase: \"Could you please wrap this up as a birthday gift?\"?",
               "options": [
+                  "A multidão começou a torcer alto quando o time deles marcou.",
+                  "O produto estava vencido, então voltei à loja para pedir um reembolso.",
                   "Você poderia embrulhar isso como um presente de aniversário, por favor?",
-                  "Ela verificou o preço antes de adicionar o item ao seu carrinho.",
-                  "Mais de cinquenta atletas vão competir na corrida final.",
-                  "O sonho dela é se apresentar em um palco da Broadway um dia."
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"Could you please wrap this up as a birthday gift?\", que significa \"Você poderia embrulhar isso como um presente de aniversário, por favor?\"."
-          },
-          {
-              "question": "Traduza a frase: \"Esta jaqueta não me serve mais; está muito apertada.\"",
-              "options": [
-                  "This jacket doesn't fit me anymore; it's too tight.",
-                  "That blue dress really suits you perfectly.",
-                  "Could you please wrap this up as a birthday gift?",
-                  "Over fifty athletes will compete in the final race."
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"This jacket doesn't fit me anymore; it's too tight.\", que significa \"Esta jaqueta não me serve mais; está muito apertada.\"."
-          },
-          {
-              "question": "Complete a frase: \"The product was expired, so I went back to the store to ask for a ______.\"",
-              "options": [
-                  "Wrap up",
-                  "Refund",
-                  "Receipt",
-                  "Give up"
-              ],
-              "correctIndex": 1,
-              "explanation": "A frase correta é \"The product was expired, so I went back to the store to ask for a refund.\", que significa \"O produto estava vencido, então voltei à loja para pedir um reembolso.\"."
-          },
-          {
-              "question": "Complete a frase: \"He goes to the gym to ______ three times a week.\"",
-              "options": [
-                  "Basketball",
-                  "Police officer",
-                  "Work out",
-                  "Dress"
+                  "Eu quero a marca premium, mas só tenho condições de pagar a genérica agora."
               ],
               "correctIndex": 2,
-              "explanation": "A frase correta é \"He goes to the gym to work out three times a week.\", que significa \"Ele vai à academia para malhar três vezes na semana.\"."
-          },
-          {
-              "question": "Traduza a frase: \"Ele costumava tocar violão, mas parou quando começou a universidade.\"",
-              "options": [
-                  "He used to play the guitar, but he gave it up when he started university.",
-                  "The product was expired, so I went back to the store to ask for a refund.",
-                  "She checked the price before adding the item to her cart.",
-                  "Her dream is to perform on a Broadway stage one day."
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"He used to play the guitar, but he gave it up when he started university.\", que significa \"Ele costumava tocar violão, mas parou quando começou a universidade.\"."
+              "explanation": "A frase correta é \"Could you please wrap this up as a birthday gift?\", que significa \"Você poderia embrulhar isso como um presente de aniversário, por favor?\"."
           }
       ],
-                                
+                                                        
     flashcards: [
       { english: "Reading a good book relaxes my mind.", portuguese: "Ler um bom livro relaxa minha mente." },
       { english: "Our team won the championship this year.", portuguese: "Nosso time ganhou o campeonato este ano." },
@@ -1205,28 +1205,48 @@ export const reviewScenarios: Scenario[] = [
     ],
       flashcardsA2: [
           {
-              "english": "He baked a delicious chocolate cake for the party.",
-              "portuguese": "Ele assou um bolo de chocolate delicioso para a festa.",
-              "example": "Palavra-chave: Bake"
+              "english": "He walked the dog around the park every evening.",
+              "portuguese": "Ele passeava com o cachorro pelo parque toda noite.",
+              "example": "Palavra-chave: Walk the dog"
           },
           {
-              "english": "She cooked a complex meal for her family yesterday.",
-              "portuguese": "Ela cozinhou uma refeição complexa para a família ontem.",
-              "example": "Palavra-chave: Cook"
+              "english": "The frightened dog bit the stranger's hand unexpectedly.",
+              "portuguese": "O cachorro assustado mordeu a mão do estranho inesperadamente.",
+              "example": "Palavra-chave: Bite"
           },
           {
-              "english": "She forgot her password and locked her account.",
-              "portuguese": "Ela esqueceu sua senha e bloqueou sua conta.",
-              "example": "Palavra-chave: Password"
+              "english": "She clicked the mouse twice to open the application.",
+              "portuguese": "Ela clicou no mouse duas vezes para abrir o aplicativo.",
+              "example": "Palavra-chave: Mouse"
           },
           {
-              "english": "She bought a new smartphone with a better camera.",
-              "portuguese": "Ela comprou um smartphone novo com uma câmera melhor.",
-              "example": "Palavra-chave: Smartphone"
+              "english": "He tried to log in, but he couldn't remember his email.",
+              "portuguese": "Ele tentou fazer login, mas não conseguiu lembrar do seu e-mail.",
+              "example": "Palavra-chave: Log in"
+          },
+          {
+              "english": "He loved the spicy food they served at the Indian restaurant.",
+              "portuguese": "Ele adorava a comida apimentada que serviam no restaurante indiano.",
+              "example": "Palavra-chave: Spicy"
+          },
+          {
+              "english": "He drove a far distance to visit his relatives.",
+              "portuguese": "Ele dirigiu uma longa distância para visitar seus parentes.",
+              "example": "Palavra-chave: Far"
           },
           {
               "english": "You should create a strong password to protect your account.",
               "portuguese": "Você deve criar uma senha forte para proteger sua conta.",
+              "example": "Palavra-chave: Password"
+          },
+          {
+              "english": "He left a positive comment on her recent photo.",
+              "portuguese": "Ele deixou um comentário positivo na foto recente dela.",
+              "example": "Palavra-chave: Comment"
+          },
+          {
+              "english": "She forgot her password and locked her account.",
+              "portuguese": "Ela esqueceu sua senha e bloqueou sua conta.",
               "example": "Palavra-chave: Password"
           },
           {
@@ -1235,34 +1255,14 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Monkey"
           },
           {
-              "english": "He tried to log in, but he couldn't remember his email.",
-              "portuguese": "Ele tentou fazer login, mas não conseguiu lembrar do seu e-mail.",
-              "example": "Palavra-chave: Log in"
+              "english": "They walked down the busy street during rush hour.",
+              "portuguese": "Eles andaram pela rua movimentada durante a hora do rush.",
+              "example": "Palavra-chave: Street"
           },
           {
-              "english": "He drove a far distance to visit his relatives.",
-              "portuguese": "Ele dirigiu uma longa distância para visitar seus parentes.",
-              "example": "Palavra-chave: Far"
-          },
-          {
-              "english": "She clicked the mouse twice to open the application.",
-              "portuguese": "Ela clicou no mouse duas vezes para abrir o aplicativo.",
-              "example": "Palavra-chave: Mouse"
-          },
-          {
-              "english": "He loved the spicy food they served at the Indian restaurant.",
-              "portuguese": "Ele adorava a comida apimentada que serviam no restaurante indiano.",
-              "example": "Palavra-chave: Spicy"
-          },
-          {
-              "english": "He walked the dog around the park every evening.",
-              "portuguese": "Ele passeava com o cachorro pelo parque toda noite.",
-              "example": "Palavra-chave: Walk the dog"
-          },
-          {
-              "english": "He tagged his best friend in the hilarious meme.",
-              "portuguese": "Ele marcou seu melhor amigo no meme hilário.",
-              "example": "Palavra-chave: Tag"
+              "english": "The local school received new computers for the students.",
+              "portuguese": "A escola local recebeu novos computadores para os alunos.",
+              "example": "Palavra-chave: School"
           },
           {
               "english": "The rare bird flew high above the dense forest.",
@@ -1270,19 +1270,24 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Bird"
           },
           {
-              "english": "They walked down the busy street during rush hour.",
-              "portuguese": "Eles andaram pela rua movimentada durante a hora do rush.",
-              "example": "Palavra-chave: Street"
-          },
-          {
               "english": "They followed the traditional recipe step by step.",
               "portuguese": "Eles seguiram a receita tradicional passo a passo.",
               "example": "Palavra-chave: Recipe"
           },
           {
-              "english": "He left a positive comment on her recent photo.",
-              "portuguese": "Ele deixou um comentário positivo na foto recente dela.",
-              "example": "Palavra-chave: Comment"
+              "english": "He baked a delicious chocolate cake for the party.",
+              "portuguese": "Ele assou um bolo de chocolate delicioso para a festa.",
+              "example": "Palavra-chave: Bake"
+          },
+          {
+              "english": "He tagged his best friend in the hilarious meme.",
+              "portuguese": "Ele marcou seu melhor amigo no meme hilário.",
+              "example": "Palavra-chave: Tag"
+          },
+          {
+              "english": "She cooked a complex meal for her family yesterday.",
+              "portuguese": "Ela cozinhou uma refeição complexa para a família ontem.",
+              "example": "Palavra-chave: Cook"
           },
           {
               "english": "The coffee shop opened on the corner of the busy street.",
@@ -1295,106 +1300,21 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Download"
           },
           {
-              "english": "The frightened dog bit the stranger's hand unexpectedly.",
-              "portuguese": "O cachorro assustado mordeu a mão do estranho inesperadamente.",
-              "example": "Palavra-chave: Bite"
-          },
-          {
-              "english": "The local school received new computers for the students.",
-              "portuguese": "A escola local recebeu novos computadores para os alunos.",
-              "example": "Palavra-chave: School"
+              "english": "She bought a new smartphone with a better camera.",
+              "portuguese": "Ela comprou um smartphone novo com uma câmera melhor.",
+              "example": "Palavra-chave: Smartphone"
           }
       ],
       flashcardsB1: [
-          {
-              "english": "Cybercriminals managed to hack into the bank's secure database.",
-              "portuguese": "Cibercriminosos conseguiram hackear o banco de dados seguro do banco.",
-              "example": "Palavra-chave: Hack into"
-          },
-          {
-              "english": "Could you please drop me off at the airport at six o'clock?",
-              "portuguese": "Você poderia por favor me deixar no aeroporto às seis horas?",
-              "example": "Palavra-chave: Drop off"
-          },
-          {
-              "english": "We decided to adopt a rescue dog instead of buying a puppy from a store.",
-              "portuguese": "Nós decidimos adotar um cachorro resgatado em vez de comprar um filhote de uma loja.",
-              "example": "Palavra-chave: Adopt"
-          },
-          {
-              "english": "I spent the morning scrolling through my feed to catch up on the news.",
-              "portuguese": "Passei a manhã rolando o meu feed para me atualizar sobre as notícias.",
-              "example": "Palavra-chave: Catch up on"
-          },
-          {
-              "english": "We arrived at the hotel and immediately went to the reception to check in.",
-              "portuguese": "Chegamos ao hotel e fomos imediatamente para a recepção fazer o check-in.",
-              "example": "Palavra-chave: Check in"
-          },
-          {
-              "english": "They crossed the border between France and Spain by train.",
-              "portuguese": "Eles cruzaram a fronteira entre a França e a Espanha de trem.",
-              "example": "Palavra-chave: Border"
-          },
-          {
-              "english": "Press the red button on the remote control to turn on the television.",
-              "portuguese": "Pressione o botão vermelho no controle remoto para ligar a televisão.",
-              "example": "Palavra-chave: Turn on"
-          },
-          {
-              "english": "We are too tired to cook tonight, so let's eat out at a restaurant.",
-              "portuguese": "Estamos muito cansados para cozinhar hoje, então vamos comer fora num restaurante.",
-              "example": "Palavra-chave: Eat out"
-          },
-          {
-              "english": "The system tends to crash if you open too many programs.",
-              "portuguese": "O sistema tende a travar se você abrir programas demais.",
-              "example": "Palavra-chave: Crash"
-          },
-          {
-              "english": "You must log in with your email and password to access the platform.",
-              "portuguese": "Você deve fazer login com seu e-mail e senha para acessar a plataforma.",
-              "example": "Palavra-chave: Log in"
-          },
-          {
-              "english": "We should grill some chicken and vegetables on the barbecue tonight.",
-              "portuguese": "Nós deveríamos grelhar um pouco de frango e vegetais na churrasqueira hoje à noite.",
-              "example": "Palavra-chave: Grill"
-          },
-          {
-              "english": "After checking my messages, I usually log off to focus on work.",
-              "portuguese": "Depois de verificar minhas mensagens, eu geralmente me desconecto para focar no trabalho.",
-              "example": "Palavra-chave: Log off"
-          },
-          {
-              "english": "Don't forget to feed the fish twice a day with these special flakes.",
-              "portuguese": "Não se esqueça de alimentar os peixes duas vezes ao dia com estes flocos especiais.",
-              "example": "Palavra-chave: Feed"
-          },
-          {
-              "english": "Please share this important message with your friends.",
-              "portuguese": "Por favor, compartilhe esta mensagem importante com seus amigos.",
-              "example": "Palavra-chave: Share"
-          },
-          {
-              "english": "The Eiffel Tower is the most famous landmark in Paris.",
-              "portuguese": "A Torre Eiffel é o ponto de referência mais famoso de Paris.",
-              "example": "Palavra-chave: Landmark"
-          },
           {
               "english": "The documentary showed incredible footage of African wildlife.",
               "portuguese": "O documentário mostrou imagens incríveis da vida selvagem africana.",
               "example": "Palavra-chave: Wildlife"
           },
           {
-              "english": "Make sure you have all the ingredients before you start cooking.",
-              "portuguese": "Certifique-se de ter todos os ingredientes antes de começar a cozinhar.",
-              "example": "Palavra-chave: Ingredients"
-          },
-          {
-              "english": "You can change your privacy preferences in the settings menu.",
-              "portuguese": "Você pode alterar suas preferências de privacidade no menu de configurações.",
-              "example": "Palavra-chave: Settings"
+              "english": "Cybercriminals managed to hack into the bank's secure database.",
+              "portuguese": "Cibercriminosos conseguiram hackear o banco de dados seguro do banco.",
+              "example": "Palavra-chave: Hack into"
           },
           {
               "english": "My grandmother gave me her secret recipe for chocolate cake.",
@@ -1402,236 +1322,316 @@ export const reviewScenarios: Scenario[] = [
               "example": "Palavra-chave: Recipe"
           },
           {
+              "english": "Please share this important message with your friends.",
+              "portuguese": "Por favor, compartilhe esta mensagem importante com seus amigos.",
+              "example": "Palavra-chave: Share"
+          },
+          {
+              "english": "You must log in with your email and password to access the platform.",
+              "portuguese": "Você deve fazer login com seu e-mail e senha para acessar a plataforma.",
+              "example": "Palavra-chave: Log in"
+          },
+          {
+              "english": "Could you please drop me off at the airport at six o'clock?",
+              "portuguese": "Você poderia por favor me deixar no aeroporto às seis horas?",
+              "example": "Palavra-chave: Drop off"
+          },
+          {
+              "english": "We should grill some chicken and vegetables on the barbecue tonight.",
+              "portuguese": "Nós deveríamos grelhar um pouco de frango e vegetais na churrasqueira hoje à noite.",
+              "example": "Palavra-chave: Grill"
+          },
+          {
+              "english": "They crossed the border between France and Spain by train.",
+              "portuguese": "Eles cruzaram a fronteira entre a França e a Espanha de trem.",
+              "example": "Palavra-chave: Border"
+          },
+          {
+              "english": "Don't forget to feed the fish twice a day with these special flakes.",
+              "portuguese": "Não se esqueça de alimentar os peixes duas vezes ao dia com estes flocos especiais.",
+              "example": "Palavra-chave: Feed"
+          },
+          {
               "english": "Be careful with that wild animal, it might bite you if you get too close.",
               "portuguese": "Cuidado com esse animal selvagem, ele pode te morder se você chegar muito perto.",
               "example": "Palavra-chave: Bite"
+          },
+          {
+              "english": "We are too tired to cook tonight, so let's eat out at a restaurant.",
+              "portuguese": "Estamos muito cansados para cozinhar hoje, então vamos comer fora num restaurante.",
+              "example": "Palavra-chave: Eat out"
+          },
+          {
+              "english": "The Eiffel Tower is the most famous landmark in Paris.",
+              "portuguese": "A Torre Eiffel é o ponto de referência mais famoso de Paris.",
+              "example": "Palavra-chave: Landmark"
+          },
+          {
+              "english": "Press the red button on the remote control to turn on the television.",
+              "portuguese": "Pressione o botão vermelho no controle remoto para ligar a televisão.",
+              "example": "Palavra-chave: Turn on"
+          },
+          {
+              "english": "After checking my messages, I usually log off to focus on work.",
+              "portuguese": "Depois de verificar minhas mensagens, eu geralmente me desconecto para focar no trabalho.",
+              "example": "Palavra-chave: Log off"
+          },
+          {
+              "english": "The system tends to crash if you open too many programs.",
+              "portuguese": "O sistema tende a travar se você abrir programas demais.",
+              "example": "Palavra-chave: Crash"
+          },
+          {
+              "english": "We arrived at the hotel and immediately went to the reception to check in.",
+              "portuguese": "Chegamos ao hotel e fomos imediatamente para a recepção fazer o check-in.",
+              "example": "Palavra-chave: Check in"
+          },
+          {
+              "english": "We decided to adopt a rescue dog instead of buying a puppy from a store.",
+              "portuguese": "Nós decidimos adotar um cachorro resgatado em vez de comprar um filhote de uma loja.",
+              "example": "Palavra-chave: Adopt"
+          },
+          {
+              "english": "You can change your privacy preferences in the settings menu.",
+              "portuguese": "Você pode alterar suas preferências de privacidade no menu de configurações.",
+              "example": "Palavra-chave: Settings"
+          },
+          {
+              "english": "I spent the morning scrolling through my feed to catch up on the news.",
+              "portuguese": "Passei a manhã rolando o meu feed para me atualizar sobre as notícias.",
+              "example": "Palavra-chave: Catch up on"
+          },
+          {
+              "english": "Make sure you have all the ingredients before you start cooking.",
+              "portuguese": "Certifique-se de ter todos os ingredientes antes de começar a cozinhar.",
+              "example": "Palavra-chave: Ingredients"
           }
       ],
       quizA2: [
           {
-              "question": "Complete a frase: \"She forgot her ______ and locked her account.\"",
+              "question": "Traduza a frase: \"Ela comprou um smartphone novo com uma câmera melhor.\"",
               "options": [
-                  "Recipe",
-                  "Bird",
-                  "Password",
-                  "Grill"
+                  "He tagged his best friend in the hilarious meme.",
+                  "She bought a new smartphone with a better camera.",
+                  "The local school received new computers for the students.",
+                  "The coffee shop opened on the corner of the busy street."
               ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"She forgot her password and locked her account.\", que significa \"Ela esqueceu sua senha e bloqueou sua conta.\"."
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"She bought a new smartphone with a better camera.\", que significa \"Ela comprou um smartphone novo com uma câmera melhor.\"."
           },
           {
               "question": "Traduza a frase: \"O cachorro assustado mordeu a mão do estranho inesperadamente.\"",
               "options": [
-                  "He tried to log in, but he couldn't remember his email.",
+                  "He downloaded the important files before the flight.",
                   "The rare bird flew high above the dense forest.",
-                  "The frightened dog bit the stranger's hand unexpectedly.",
+                  "You should create a strong password to protect your account.",
+                  "The frightened dog bit the stranger's hand unexpectedly."
+              ],
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"The frightened dog bit the stranger's hand unexpectedly.\", que significa \"O cachorro assustado mordeu a mão do estranho inesperadamente.\"."
+          },
+          {
+              "question": "Complete a frase: \"The clever ______ swung effortlessly from branch to branch.\"",
+              "options": [
+                  "Cook",
+                  "Monkey",
+                  "Far",
+                  "Download"
+              ],
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"The clever monkey swung effortlessly from branch to branch.\", que significa \"O macaco esperto balançou sem esforço de galho em galho.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Ele passeava com o cachorro pelo parque toda noite.\"",
+              "options": [
+                  "He tagged his best friend in the hilarious meme.",
+                  "He left a positive comment on her recent photo.",
+                  "He walked the dog around the park every evening.",
+                  "The rare bird flew high above the dense forest."
+              ],
+              "correctIndex": 2,
+              "explanation": "A frase correta é \"He walked the dog around the park every evening.\", que significa \"Ele passeava com o cachorro pelo parque toda noite.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Ele baixou os arquivos importantes antes do voo.\"",
+              "options": [
+                  "She cooked a complex meal for her family yesterday.",
+                  "He left a positive comment on her recent photo.",
+                  "He downloaded the important files before the flight.",
                   "He drove a far distance to visit his relatives."
               ],
               "correctIndex": 2,
-              "explanation": "A frase correta é \"The frightened dog bit the stranger's hand unexpectedly.\", que significa \"O cachorro assustado mordeu a mão do estranho inesperadamente.\"."
+              "explanation": "A frase correta é \"He downloaded the important files before the flight.\", que significa \"Ele baixou os arquivos importantes antes do voo.\"."
+          },
+          {
+              "question": "O que significa a frase: \"He tagged his best friend in the hilarious meme.\"?",
+              "options": [
+                  "Ele deixou um comentário positivo na foto recente dela.",
+                  "Ele marcou seu melhor amigo no meme hilário.",
+                  "O pássaro raro voou alto sobre a floresta densa.",
+                  "A escola local recebeu novos computadores para os alunos."
+              ],
+              "correctIndex": 1,
+              "explanation": "A frase correta é \"He tagged his best friend in the hilarious meme.\", que significa \"Ele marcou seu melhor amigo no meme hilário.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Ela clicou no mouse duas vezes para abrir o aplicativo.\"",
+              "options": [
+                  "The local school received new computers for the students.",
+                  "He baked a delicious chocolate cake for the party.",
+                  "She clicked the mouse twice to open the application.",
+                  "The clever monkey swung effortlessly from branch to branch."
+              ],
+              "correctIndex": 2,
+              "explanation": "A frase correta é \"She clicked the mouse twice to open the application.\", que significa \"Ela clicou no mouse duas vezes para abrir o aplicativo.\"."
           },
           {
               "question": "Complete a frase: \"They followed the traditional ______ step by step.\"",
               "options": [
-                  "Turn on",
+                  "Eat out",
+                  "Recipe",
                   "Corner",
-                  "Ingredients",
-                  "Recipe"
+                  "Landmark"
               ],
-              "correctIndex": 3,
+              "correctIndex": 1,
               "explanation": "A frase correta é \"They followed the traditional recipe step by step.\", que significa \"Eles seguiram a receita tradicional passo a passo.\"."
           },
           {
-              "question": "O que significa a frase: \"He baked a delicious chocolate cake for the party.\"?",
+              "question": "Complete a frase: \"She forgot her ______ and locked her account.\"",
               "options": [
-                  "Ele passeava com o cachorro pelo parque toda noite.",
-                  "Ele dirigiu uma longa distância para visitar seus parentes.",
-                  "Ele deixou um comentário positivo na foto recente dela.",
-                  "Ele assou um bolo de chocolate delicioso para a festa."
+                  "Wildlife",
+                  "Walk the dog",
+                  "Hack into",
+                  "Password"
               ],
               "correctIndex": 3,
-              "explanation": "A frase correta é \"He baked a delicious chocolate cake for the party.\", que significa \"Ele assou um bolo de chocolate delicioso para a festa.\"."
+              "explanation": "A frase correta é \"She forgot her password and locked her account.\", que significa \"Ela esqueceu sua senha e bloqueou sua conta.\"."
           },
           {
-              "question": "Traduza a frase: \"Eles andaram pela rua movimentada durante a hora do rush.\"",
+              "question": "Complete a frase: \"He drove a ______ distance to visit his relatives.\"",
               "options": [
-                  "The rare bird flew high above the dense forest.",
-                  "She forgot her password and locked her account.",
-                  "They walked down the busy street during rush hour.",
-                  "He left a positive comment on her recent photo."
-              ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"They walked down the busy street during rush hour.\", que significa \"Eles andaram pela rua movimentada durante a hora do rush.\"."
-          },
-          {
-              "question": "O que significa a frase: \"He walked the dog around the park every evening.\"?",
-              "options": [
-                  "O pássaro raro voou alto sobre a floresta densa.",
-                  "A escola local recebeu novos computadores para os alunos.",
-                  "Ela comprou um smartphone novo com uma câmera melhor.",
-                  "Ele passeava com o cachorro pelo parque toda noite."
-              ],
-              "correctIndex": 3,
-              "explanation": "A frase correta é \"He walked the dog around the park every evening.\", que significa \"Ele passeava com o cachorro pelo parque toda noite.\"."
-          },
-          {
-              "question": "Traduza a frase: \"Você deve criar uma senha forte para proteger sua conta.\"",
-              "options": [
-                  "You should create a strong password to protect your account.",
-                  "He tagged his best friend in the hilarious meme.",
-                  "The coffee shop opened on the corner of the busy street.",
-                  "They followed the traditional recipe step by step."
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"You should create a strong password to protect your account.\", que significa \"Você deve criar uma senha forte para proteger sua conta.\"."
-          },
-          {
-              "question": "Complete a frase: \"The coffee shop opened on the ______ of the busy street.\"",
-              "options": [
-                  "Mouse",
                   "Recipe",
-                  "Corner",
-                  "Log in"
-              ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"The coffee shop opened on the corner of the busy street.\", que significa \"A cafeteria abriu na esquina da rua movimentada.\"."
-          },
-          {
-              "question": "Complete a frase: \"He tried to ______, but he couldn't remember his email.\"",
-              "options": [
                   "Log in",
-                  "Mouse",
-                  "Recipe",
-                  "Walk the dog"
+                  "Comment",
+                  "Far"
               ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"He tried to log in, but he couldn't remember his email.\", que significa \"Ele tentou fazer login, mas não conseguiu lembrar do seu e-mail.\"."
-          },
-          {
-              "question": "Traduza a frase: \"O pássaro raro voou alto sobre a floresta densa.\"",
-              "options": [
-                  "He baked a delicious chocolate cake for the party.",
-                  "The rare bird flew high above the dense forest.",
-                  "He loved the spicy food they served at the Indian restaurant.",
-                  "He tagged his best friend in the hilarious meme."
-              ],
-              "correctIndex": 1,
-              "explanation": "A frase correta é \"The rare bird flew high above the dense forest.\", que significa \"O pássaro raro voou alto sobre a floresta densa.\"."
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"He drove a far distance to visit his relatives.\", que significa \"Ele dirigiu uma longa distância para visitar seus parentes.\"."
           }
       ],
       quizB1: [
           {
               "question": "Complete a frase: \"The Eiffel Tower is the most famous ______ in Paris.\"",
               "options": [
-                  "Share",
-                  "Password",
                   "Landmark",
-                  "Spicy"
+                  "Share",
+                  "Tag",
+                  "Ingredients"
               ],
-              "correctIndex": 2,
+              "correctIndex": 0,
               "explanation": "A frase correta é \"The Eiffel Tower is the most famous landmark in Paris.\", que significa \"A Torre Eiffel é o ponto de referência mais famoso de Paris.\"."
           },
           {
-              "question": "Complete a frase: \"Press the red button on the remote control to ______ the television.\"",
+              "question": "Complete a frase: \"My grandmother gave me her secret ______ for chocolate cake.\"",
               "options": [
-                  "Turn on",
-                  "Ingredients",
-                  "Catch up on",
-                  "Monkey"
+                  "Recipe",
+                  "Log in",
+                  "Drop off",
+                  "Turn on"
               ],
               "correctIndex": 0,
+              "explanation": "A frase correta é \"My grandmother gave me her secret recipe for chocolate cake.\", que significa \"Minha avó me deu a receita secreta dela de bolo de chocolate.\"."
+          },
+          {
+              "question": "Complete a frase: \"The documentary showed incredible footage of African ______.\"",
+              "options": [
+                  "Download",
+                  "Comment",
+                  "Border",
+                  "Wildlife"
+              ],
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"The documentary showed incredible footage of African wildlife.\", que significa \"O documentário mostrou imagens incríveis da vida selvagem africana.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Pressione o botão vermelho no controle remoto para ligar a televisão.\"",
+              "options": [
+                  "Make sure you have all the ingredients before you start cooking.",
+                  "The system tends to crash if you open too many programs.",
+                  "Press the red button on the remote control to turn on the television.",
+                  "We are too tired to cook tonight, so let's eat out at a restaurant."
+              ],
+              "correctIndex": 2,
               "explanation": "A frase correta é \"Press the red button on the remote control to turn on the television.\", que significa \"Pressione o botão vermelho no controle remoto para ligar a televisão.\"."
           },
           {
-              "question": "Traduza a frase: \"Cibercriminosos conseguiram hackear o banco de dados seguro do banco.\"",
+              "question": "Complete a frase: \"We decided to ______ a rescue dog instead of buying a puppy from a store.\"",
               "options": [
-                  "The system tends to crash if you open too many programs.",
-                  "We should grill some chicken and vegetables on the barbecue tonight.",
-                  "Cybercriminals managed to hack into the bank's secure database.",
-                  "Make sure you have all the ingredients before you start cooking."
-              ],
-              "correctIndex": 2,
-              "explanation": "A frase correta é \"Cybercriminals managed to hack into the bank's secure database.\", que significa \"Cibercriminosos conseguiram hackear o banco de dados seguro do banco.\"."
-          },
-          {
-              "question": "Traduza a frase: \"Nós decidimos adotar um cachorro resgatado em vez de comprar um filhote de uma loja.\"",
-              "options": [
-                  "The system tends to crash if you open too many programs.",
-                  "We are too tired to cook tonight, so let's eat out at a restaurant.",
-                  "Make sure you have all the ingredients before you start cooking.",
-                  "We decided to adopt a rescue dog instead of buying a puppy from a store."
+                  "Monkey",
+                  "Bite",
+                  "Password",
+                  "Adopt"
               ],
               "correctIndex": 3,
               "explanation": "A frase correta é \"We decided to adopt a rescue dog instead of buying a puppy from a store.\", que significa \"Nós decidimos adotar um cachorro resgatado em vez de comprar um filhote de uma loja.\"."
           },
           {
-              "question": "Traduza a frase: \"Você pode alterar suas preferências de privacidade no menu de configurações.\"",
+              "question": "Traduza a frase: \"Você poderia por favor me deixar no aeroporto às seis horas?\"",
               "options": [
-                  "Cybercriminals managed to hack into the bank's secure database.",
-                  "You must log in with your email and password to access the platform.",
-                  "The system tends to crash if you open too many programs.",
-                  "You can change your privacy preferences in the settings menu."
+                  "You can change your privacy preferences in the settings menu.",
+                  "Press the red button on the remote control to turn on the television.",
+                  "We should grill some chicken and vegetables on the barbecue tonight.",
+                  "Could you please drop me off at the airport at six o'clock?"
               ],
               "correctIndex": 3,
-              "explanation": "A frase correta é \"You can change your privacy preferences in the settings menu.\", que significa \"Você pode alterar suas preferências de privacidade no menu de configurações.\"."
-          },
-          {
-              "question": "Traduza a frase: \"Chegamos ao hotel e fomos imediatamente para a recepção fazer o check-in.\"",
-              "options": [
-                  "We arrived at the hotel and immediately went to the reception to check in.",
-                  "Don't forget to feed the fish twice a day with these special flakes.",
-                  "You can change your privacy preferences in the settings menu.",
-                  "We decided to adopt a rescue dog instead of buying a puppy from a store."
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"We arrived at the hotel and immediately went to the reception to check in.\", que significa \"Chegamos ao hotel e fomos imediatamente para a recepção fazer o check-in.\"."
-          },
-          {
-              "question": "Complete a frase: \"I spent the morning scrolling through my feed to ______ the news.\"",
-              "options": [
-                  "Catch up on",
-                  "Bake",
-                  "Mouse",
-                  "Feed"
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"I spent the morning scrolling through my feed to catch up on the news.\", que significa \"Passei a manhã rolando o meu feed para me atualizar sobre as notícias.\"."
-          },
-          {
-              "question": "Complete a frase: \"We are too tired to cook tonight, so let's ______ at a restaurant.\"",
-              "options": [
-                  "Eat out",
-                  "Log in",
-                  "Bake",
-                  "Log in"
-              ],
-              "correctIndex": 0,
-              "explanation": "A frase correta é \"We are too tired to cook tonight, so let's eat out at a restaurant.\", que significa \"Estamos muito cansados para cozinhar hoje, então vamos comer fora num restaurante.\"."
-          },
-          {
-              "question": "O que significa a frase: \"Could you please drop me off at the airport at six o'clock?\"?",
-              "options": [
-                  "Cuidado com esse animal selvagem, ele pode te morder se você chegar muito perto.",
-                  "Você poderia por favor me deixar no aeroporto às seis horas?",
-                  "A Torre Eiffel é o ponto de referência mais famoso de Paris.",
-                  "Pressione o botão vermelho no controle remoto para ligar a televisão."
-              ],
-              "correctIndex": 1,
               "explanation": "A frase correta é \"Could you please drop me off at the airport at six o'clock?\", que significa \"Você poderia por favor me deixar no aeroporto às seis horas?\"."
           },
           {
-              "question": "Complete a frase: \"The documentary showed incredible footage of African ______.\"",
+              "question": "Complete a frase: \"You can change your privacy preferences in the ______ menu.\"",
               "options": [
-                  "Check in",
-                  "Download",
-                  "Wildlife",
-                  "Corner"
+                  "Settings",
+                  "Log in",
+                  "Far",
+                  "Bite"
+              ],
+              "correctIndex": 0,
+              "explanation": "A frase correta é \"You can change your privacy preferences in the settings menu.\", que significa \"Você pode alterar suas preferências de privacidade no menu de configurações.\"."
+          },
+          {
+              "question": "Complete a frase: \"We arrived at the hotel and immediately went to the reception to ______.\"",
+              "options": [
+                  "Drop off",
+                  "Bite",
+                  "Eat out",
+                  "Check in"
+              ],
+              "correctIndex": 3,
+              "explanation": "A frase correta é \"We arrived at the hotel and immediately went to the reception to check in.\", que significa \"Chegamos ao hotel e fomos imediatamente para a recepção fazer o check-in.\"."
+          },
+          {
+              "question": "Traduza a frase: \"Nós deveríamos grelhar um pouco de frango e vegetais na churrasqueira hoje à noite.\"",
+              "options": [
+                  "The documentary showed incredible footage of African wildlife.",
+                  "The Eiffel Tower is the most famous landmark in Paris.",
+                  "We should grill some chicken and vegetables on the barbecue tonight.",
+                  "Don't forget to feed the fish twice a day with these special flakes."
               ],
               "correctIndex": 2,
-              "explanation": "A frase correta é \"The documentary showed incredible footage of African wildlife.\", que significa \"O documentário mostrou imagens incríveis da vida selvagem africana.\"."
+              "explanation": "A frase correta é \"We should grill some chicken and vegetables on the barbecue tonight.\", que significa \"Nós deveríamos grelhar um pouco de frango e vegetais na churrasqueira hoje à noite.\"."
+          },
+          {
+              "question": "Complete a frase: \"Don't forget to ______ the fish twice a day with these special flakes.\"",
+              "options": [
+                  "Feed",
+                  "Smartphone",
+                  "Bird",
+                  "Settings"
+              ],
+              "correctIndex": 0,
+              "explanation": "A frase correta é \"Don't forget to feed the fish twice a day with these special flakes.\", que significa \"Não se esqueça de alimentar os peixes duas vezes ao dia com estes flocos especiais.\"."
           }
       ],
-                                
+                                                        
     flashcards: [
       { english: "This city never sleeps at night.", portuguese: "Esta cidade nunca dorme à noite." },
       { english: "The dog barked loudly at the stranger.", portuguese: "O cachorro latiu alto para o estranho." },
