@@ -107,7 +107,7 @@ export default function Flashcard({ items, itemsA2, itemsB1 }: FlashcardProps) {
 
       <div className="flashcard-controls">
         <span className="flashcard-counter">
-          {currentIndex + 1} de {items.length}
+          {currentIndex + 1} de {activeItems.length}
         </span>
         <button className="flashcard-reset-btn" onClick={handleReset}>
           <RotateCcw size={16} />
@@ -115,9 +115,18 @@ export default function Flashcard({ items, itemsA2, itemsB1 }: FlashcardProps) {
         </button>
       </div>
 
+      <div className="mt-6 mb-4">
+        <textarea 
+          key={`flashcard-note-${level}-${currentIndex}`}
+          className="w-full p-3 border border-gray-200 rounded-lg text-sm text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-100 resize-none shadow-sm"
+          rows={2}
+          placeholder="Suas anotações ou tradução..."
+        ></textarea>
+      </div>
+
       {/* Dots indicator */}
       <div className="flashcard-dots">
-        {items.map((_, i) => (
+        {activeItems.map((_, i) => (
           <button
             key={i}
             className={`flashcard-dot ${i === currentIndex ? "flashcard-dot-active" : ""}`}

@@ -234,6 +234,15 @@ export default function SpeakingPractice({ data, dataLevel2 }: SpeakingPracticeP
           )}
         </div>
 
+        <div className="mt-2 mb-6">
+          <textarea 
+            key={`speaking-note-${activePart}-${currentIndex}`}
+            className="w-full p-3 border border-gray-200 rounded-lg text-sm text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-100 resize-none shadow-sm"
+            rows={2}
+            placeholder="Digite a sua resposta aqui (opcional)..."
+          ></textarea>
+        </div>
+
         <button className="quiz-next-btn" onClick={handleNext}>
           {currentIndex < currentQuestions.length - 1 ? (
             <>Próxima Pergunta <ArrowRight size={18} /></>
