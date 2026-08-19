@@ -87,7 +87,7 @@ export default function VocabularyList({ items, isReverse = false }: VocabularyL
                   </div>
                 )}
                 
-                {currentLevelData && currentLevelData.en && (
+                {currentLevelData && currentLevelData.en && (!isReverse || isRevealed) && (
                   <div className="vocab-examples mt-3">
                     <p className="vocab-example-en italic text-gray-700">"{currentLevelData.en}"</p>
                     {isRevealed && currentLevelData.pt && <p className="text-gray-500 text-sm mt-1">{currentLevelData.pt}</p>}
