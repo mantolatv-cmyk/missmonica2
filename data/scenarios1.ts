@@ -20,7 +20,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Father / Dad", portuguese: "Pai",
           levels: { 
-                        A1: { en: "My father is working today.", pt: "Meu pai está trabalhando hoje." }, 
+                        A1: { en: "My father works every day.", pt: "Meu pai trabalha todos os dias." }, 
                         A2: { en: "My father worked at the same hospital for twenty years.", pt: "Meu pai trabalhou no mesmo hospital por vinte anos." }
                       }
     },
@@ -56,13 +56,13 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Uncle", portuguese: "Tio",
           levels: { 
-                        A1: { en: "My uncle bought a new car.", pt: "Meu tio comprou um carro novo." }, 
+                        A1: { en: "My uncle buys a new car.", pt: "Meu tio compra um carro novo." }, 
                         A2: { en: "My uncle bought a new car and planned a road trip.", pt: "Meu tio comprou um carro novo e planejou uma viagem." }
                       }
     },
       { english: "Cousin", portuguese: "Primo(a)",
           levels: { 
-                        A1: { en: "I played video games with my cousin.", pt: "Joguei videogame com meu primo." }, 
+                        A1: { en: "I play video games with my cousin.", pt: "Eu jogo videogame com meu primo." }, 
                         A2: { en: "I played video games with my cousin when we were teenagers.", pt: "Eu jogava videogame com meu primo quando éramos adolescentes." }
                       }
     },
@@ -80,13 +80,13 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Niece", portuguese: "Sobrinha",
           levels: { 
-                        A1: { en: "I bought a toy for my niece.", pt: "Comprei um brinquedo para minha sobrinha." }, 
+                        A1: { en: "I buy toys for my niece.", pt: "Eu compro brinquedos para minha sobrinha." }, 
                         A2: { en: "I bought a beautiful educational toy for my niece's birthday.", pt: "Eu comprei um lindo brinquedo educativo para o aniversário da minha sobrinha." }
                       }
     },
       { english: "Grandson", portuguese: "Neto",
           levels: { 
-                        A1: { en: "The grandfather is playing with his grandson.", pt: "O avô está brincando com seu neto." }, 
+                        A1: { en: "The grandfather plays with his grandson.", pt: "O avô brinca com seu neto." }, 
                         A2: { en: "The grandfather spent the entire afternoon playing board games with his grandson.", pt: "O avô passou a tarde inteira jogando jogos de tabuleiro com seu neto." }
                       }
     },
@@ -98,7 +98,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Wife", portuguese: "Esposa",
           levels: { 
-                        A1: { en: "He bought flowers for his wife.", pt: "Ele comprou flores para a esposa." }, 
+                        A1: { en: "He buys flowers for his wife.", pt: "Ele compra flores para a esposa." }, 
                         A2: { en: "He bought beautiful red flowers for his wife.", pt: "Ele comprou lindas flores vermelhas para sua esposa." }
                       }
     },
@@ -162,7 +162,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Son", portuguese: "Filho",
           levels: { 
-                        A1: { en: "My son is playing in the yard.", pt: "Meu filho está brincando no quintal." }, 
+                        A1: { en: "My son plays in the yard.", pt: "Meu filho brinca no quintal." }, 
                         A2: { en: "My youngest son started elementary school this year.", pt: "Meu filho mais novo começou o ensino fundamental este ano." }
                       }
     },
@@ -371,19 +371,19 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Invite", portuguese: "Convidar",
           levels: { 
-                        A1: { en: "I will invite them to my house.", pt: "Vou convidá-los para minha casa." }, 
+                        A1: { en: "I invite them to my house.", pt: "Eu os convido para minha casa." }, 
                         A2: { en: "I invited all my closest friends to celebrate at my house.", pt: "Eu convidei todos os meus amigos mais próximos para celebrar na minha casa." }
                       }
     },
       { english: "Party", portuguese: "Festa",
           levels: { 
-                        A1: { en: "Are you going to the party tonight?", pt: "Você vai à festa hoje à noite?" }, 
+                        A1: { en: "Do you go to parties?", pt: "Você vai a festas?" }, 
                         A2: { en: "Did you attend the graduation party last night?", pt: "Você compareceu à festa de formatura ontem à noite?" }
                       }
     },
       { english: "Group", portuguese: "Grupo",
           levels: { 
-                        A1: { en: "Our friend group is very united.", pt: "Nosso grupo de amigos é muito unido." }, 
+                        A1: { en: "Our friend group stays together.", pt: "Nosso grupo de amigos fica junto." }, 
                         A2: { en: "Our friend group remained incredibly united despite the distance.", pt: "Nosso grupo de amigos permaneceu incrivelmente unido apesar da distância." }
                       }
     },
@@ -413,13 +413,13 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Apologize", portuguese: "Pedir desculpas",
           levels: { 
-                        A1: { en: "He apologized for being late.", pt: "Ele pediu desculpas por chegar atrasado." }, 
+                        A1: { en: "He apologizes for the delay.", pt: "Ele pede desculpas pelo atraso." }, 
                         A2: { en: "He finally apologized for being late to the important meeting.", pt: "Ele finalmente pediu desculpas por se atrasar para a reunião importante." }
                       }
     },
       { english: "Help out", portuguese: "Ajudar",
           levels: { 
-                        A1: { en: "Friends always help out when needed.", pt: "Amigos sempre ajudam quando necessário." }, 
+                        A1: { en: "Friends always help out.", pt: "Amigos sempre ajudam." }, 
                         A2: { en: "True friends always helped out when someone faced a tough phase.", pt: "Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil." }
                       }
     },
@@ -449,7 +449,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Introductions", portuguese: "Apresentações",
           levels: { 
-                        A1: { en: "Let me do the introductions.", pt: "Deixe-me fazer as apresentações." }, 
+                        A1: { en: "I do the introductions.", pt: "Eu faço as apresentações." }, 
                         A2: { en: "I did the introductions so that everyone felt comfortable.", pt: "Eu fiz as apresentações para que todos se sentissem confortáveis." }
                       }
     },
@@ -661,7 +661,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Arm", portuguese: "Braço",
           levels: { 
-                        A1: { en: "He broke his arm.", pt: "Ele quebrou o braço." }, 
+                        A1: { en: "He has a broken arm.", pt: "Ele tem um braço quebrado." }, 
                         A2: { en: "She broke her arm while playing basketball.", pt: "Ela quebrou o braço enquanto jogava basquete." }
                       }
     },
@@ -703,7 +703,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Nose", portuguese: "Nariz",
           levels: { 
-                        A1: { en: "My nose is bleeding.", pt: "Meu nariz está sangrando." }, 
+                        A1: { en: "My nose bleeds sometimes.", pt: "Meu nariz sangra às vezes." }, 
                         A2: { en: "Her nose bled after she fell down.", pt: "O nariz dela sangrou depois que ela caiu." }
                       }
     },
@@ -721,7 +721,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Knee", portuguese: "Joelho",
           levels: { 
-                        A1: { en: "He fell and scraped his knee.", pt: "Ele caiu e ralou o joelho." }, 
+                        A1: { en: "He falls and scrapes his knee.", pt: "Ele cai e rala o joelho." }, 
                         A2: { en: "He scraped his knee when he tripped on the sidewalk.", pt: "Ele ralou o joelho quando tropeçou na calçada." }
                       }
     },
@@ -733,7 +733,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Toes", portuguese: "Dedos do pé",
           levels: { 
-                        A1: { en: "I stubbed my toe.", pt: "Bati o dedo do pé." }, 
+                        A1: { en: "I hurt my toe.", pt: "Eu machuco meu dedo do pé." }, 
                         A2: { en: "He stubbed his toes on the wooden door.", pt: "Ele bateu os dedos dos pés na porta de madeira." }
                       }
     },
@@ -980,7 +980,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Kitchen", portuguese: "Cozinha",
           levels: { 
-                        A1: { en: "I am cooking in the kitchen.", pt: "Estou cozinhando na cozinha." }, 
+                        A1: { en: "I cook in the kitchen.", pt: "Eu cozinho na cozinha." }, 
                         A2: { en: "She cooked a delicious meal in the kitchen.", pt: "Ela cozinhou uma refeição deliciosa na cozinha." }
                       }
     },
@@ -1004,7 +1004,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Do the dishes", portuguese: "Lavar a louça",
           levels: { 
-                        A1: { en: "I will do the dishes tonight.", pt: "Eu lavarei a louça esta noite." }, 
+                        A1: { en: "I do the dishes every night.", pt: "Eu lavo a louça toda noite." }, 
                         A2: { en: "She did the dishes while he dried them.", pt: "Ela lavou a louça enquanto ele as secava." }
                       }
     },
@@ -1028,7 +1028,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Laundry", portuguese: "Lavar roupa",
           levels: { 
-                        A1: { en: "I am doing the laundry.", pt: "Estou lavando a roupa." }, 
+                        A1: { en: "I do the laundry.", pt: "Eu lavo a roupa." }, 
                         A2: { en: "She did the laundry because she needed clean clothes.", pt: "Ela lavou as roupas porque precisava de roupas limpas." }
                       }
     },
@@ -1040,13 +1040,13 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Dust the furniture", portuguese: "Tirar o pó dos móveis",
           levels: { 
-                        A1: { en: "She is dusting the table.", pt: "Ela está tirando o pó da mesa." }, 
+                        A1: { en: "She dusts the table.", pt: "Ela tira o pó da mesa." }, 
                         A2: { en: "She dusted the furniture to keep the house neat.", pt: "Ela tirou o pó dos móveis para manter a casa arrumada." }
                       }
     },
       { english: "Vacuum", portuguese: "Passar aspirador",
           levels: { 
-                        A1: { en: "I will vacuum the carpet.", pt: "Vou passar o aspirador no tapete." }, 
+                        A1: { en: "I vacuum the carpet.", pt: "Eu passo o aspirador no tapete." }, 
                         A2: { en: "He vacuumed the carpets to remove all the dirt.", pt: "Ele aspirou os tapetes para remover toda a sujeira." }
                       }
     },
@@ -1058,7 +1058,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Garden / Yard", portuguese: "Jardim / Quintal",
           levels: { 
-                        A1: { en: "The kids are playing in the yard.", pt: "As crianças estão brincando no quintal." }, 
+                        A1: { en: "The kids play in the yard.", pt: "As crianças brincam no quintal." }, 
                         A2: { en: "She planted beautiful roses in the garden last spring.", pt: "Ela plantou lindas rosas no jardim na primavera passada." }
                       }
     },
@@ -1323,13 +1323,13 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Wall", portuguese: "Parede",
           levels: { 
-                        A1: { en: "The walls are painted blue.", pt: "As paredes são pintadas de azul." }, 
+                        A1: { en: "The walls look blue.", pt: "As paredes parecem azuis." }, 
                         A2: { en: "He hung a beautiful painting on the empty wall.", pt: "Ele pendurou um lindo quadro na parede vazia." }
                       }
     },
       { english: "Balcony", portuguese: "Varanda / Sacada",
           levels: { 
-                        A1: { en: "She is standing on the balcony.", pt: "Ela está de pé na sacada." }, 
+                        A1: { en: "She stands on the balcony.", pt: "Ela fica na sacada." }, 
                         A2: { en: "We stood on the balcony and watched the sunset.", pt: "Nós ficamos na varanda e assistimos ao pôr do sol." }
                       }
     },
@@ -1347,25 +1347,25 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Furniture", portuguese: "Móveis",
           levels: { 
-                        A1: { en: "They bought new furniture.", pt: "Eles compraram móveis novos." }, 
+                        A1: { en: "They buy new furniture.", pt: "Eles compram móveis novos." }, 
                         A2: { en: "She bought elegant furniture for her new apartment.", pt: "Ela comprou móveis elegantes para o seu novo apartamento." }
                       }
     },
       { english: "Couch / Sofa", portuguese: "Sofá",
           levels: { 
-                        A1: { en: "I fell asleep on the couch.", pt: "Eu adormeci no sofá." }, 
+                        A1: { en: "I fall asleep on the couch.", pt: "Eu adormeço no sofá." }, 
                         A2: { en: "He fell asleep on the comfortable couch.", pt: "Ele adormeceu no sofá confortável." }
                       }
     },
       { english: "Wash the windows", portuguese: "Lavar as janelas",
           levels: { 
-                        A1: { en: "We should wash the windows today.", pt: "Nós deveríamos lavar as janelas hoje." }, 
+                        A1: { en: "We wash the windows.", pt: "Nós lavamos as janelas." }, 
                         A2: { en: "They washed the windows to see the garden clearly.", pt: "Eles lavaram as janelas para ver o jardim com clareza." }
                       }
     },
       { english: "Mow the lawn", portuguese: "Cortar a grama",
           levels: { 
-                        A1: { en: "My father is mowing the lawn.", pt: "Meu pai está cortando a grama." }, 
+                        A1: { en: "My father mows the lawn.", pt: "Meu pai corta a grama." }, 
                         A2: { en: "He mowed the lawn on Saturday morning.", pt: "Ele cortou a grama no sábado de manhã." }
                       }
     },
@@ -1377,13 +1377,13 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Set the table", portuguese: "Arrumar a mesa",
           levels: { 
-                        A1: { en: "Can you set the table for dinner?", pt: "Você pode arrumar a mesa para o jantar?" }, 
+                        A1: { en: "Do you set the table for dinner?", pt: "Você arruma a mesa para o jantar?" }, 
                         A2: { en: "The children set the table before dinner.", pt: "As crianças arrumaram a mesa antes do jantar." }
                       }
     },
       { english: "Clear the table", portuguese: "Tirar a mesa",
           levels: { 
-                        A1: { en: "I will clear the table after we eat.", pt: "Eu vou tirar a mesa depois de comermos." }, 
+                        A1: { en: "I clear the table after dinner.", pt: "Eu tiro a mesa depois do jantar." }, 
                         A2: { en: "He cleared the table quickly after they finished eating.", pt: "Ele limpou a mesa rapidamente depois que terminaram de comer." }
                       }
     },
@@ -1935,7 +1935,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Basketball", portuguese: "Basquete",
           levels: { 
-                        A1: { en: "Michael Jordan played basketball.", pt: "Michael Jordan jogou basquete." }, 
+                        A1: { en: "He plays basketball.", pt: "Ele joga basquete." }, 
                         A2: { en: "They practiced basketball every day after school.", pt: "Eles praticavam basquete todo dia depois da escola." }
                       }
     },
@@ -1959,7 +1959,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Match / Game", portuguese: "Partida / Jogo",
           levels: { 
-                        A1: { en: "Did you watch the match?", pt: "Você assistiu à partida?" }, 
+                        A1: { en: "Do you watch the match?", pt: "Você assiste à partida?" }, 
                         A2: { en: "The intense match ended in a tie.", pt: "A partida intensa terminou em empate." }
                       }
     },
@@ -1995,7 +1995,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Volleyball", portuguese: "Vôlei",
           levels: { 
-                        A1: { en: "They are playing volleyball on the beach.", pt: "Eles estão jogando vôlei na praia." }, 
+                        A1: { en: "They play volleyball on the beach.", pt: "Eles jogam vôlei na praia." }, 
                         A2: { en: "We played volleyball on the beach until sunset.", pt: "Nós jogamos vôlei na praia até o pôr do sol." }
                       }
     },
@@ -2013,7 +2013,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Coach", portuguese: "Treinador",
           levels: { 
-                        A1: { en: "The coach is yelling at the players.", pt: "O treinador está gritando com os jogadores." }, 
+                        A1: { en: "The coach yells at the players.", pt: "O treinador grita com os jogadores." }, 
                         A2: { en: "The coach pushed the athletes to their limits.", pt: "O treinador levou os atletas aos seus limites." }
                       }
     },
@@ -2025,7 +2025,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Score", portuguese: "Placar / Marcar ponto",
           levels: { 
-                        A1: { en: "He scored a beautiful goal.", pt: "Ele marcou um gol lindo." }, 
+                        A1: { en: "He scores a beautiful goal.", pt: "Ele marca um gol lindo." }, 
                         A2: { en: "They checked the score at the end of the game.", pt: "Eles verificaram o placar no final do jogo." }
                       }
     },
@@ -2317,7 +2317,7 @@ export const scenarios1: Scenario[] = [
     },
       { english: "Cash", portuguese: "Dinheiro (em espécie)",
           levels: { 
-                        A1: { en: "I will pay with cash.", pt: "Vou pagar em dinheiro." }, 
+                        A1: { en: "I pay with cash.", pt: "Eu pago em dinheiro." }, 
                         A2: { en: "I didn't have enough cash, so I used my credit card.", pt: "Eu não tinha dinheiro em espécie suficiente, então usei meu cartão de crédito." }
                       }
     },

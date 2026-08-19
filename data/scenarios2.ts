@@ -76,13 +76,13 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Cheap", portuguese: "Barato",
           levels: { 
-                        A1: { en: "I found a very cheap shirt.", pt: "Encontrei uma camisa muito barata." }, 
+                        A1: { en: "I find a very cheap shirt.", pt: "Eu encontro uma camisa muito barata." }, 
                         A2: { en: "He preferred cheap options to save money.", pt: "Ele preferia opções baratas para economizar dinheiro." }
                       }
     },
       { english: "Wallet", portuguese: "Carteira",
           levels: { 
-                        A1: { en: "I left my wallet at home.", pt: "Deixei minha carteira em casa." }, 
+                        A1: { en: "I leave my wallet at home.", pt: "Eu deixo minha carteira em casa." }, 
                         A2: { en: "She lost her leather wallet yesterday.", pt: "Ela perdeu sua carteira de couro ontem." }
                       }
     },
@@ -108,7 +108,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Pants", portuguese: "Calças",
           levels: { 
-                        A1: { en: "I am looking for black pants.", pt: "Estou procurando calças pretas." }, 
+                        A1: { en: "I look for black pants.", pt: "Eu procuro por calças pretas." }, 
                         A2: { en: "She bought comfortable pants for the trip.", pt: "Ela comprou calças confortáveis para a viagem." }
                       }
     },
@@ -314,7 +314,7 @@ export const scenarios2: Scenario[] = [
     vocabulary: [
       { english: "Doctor", portuguese: "Médico(a)",
           levels: { 
-                        A1: { en: "The doctor is checking the patient.", pt: "O médico está checando o paciente." }, 
+                        A1: { en: "The doctor checks the patient.", pt: "O médico checa o paciente." }, 
                         A2: { en: "The experienced doctor successfully treated the patient.", pt: "O médico experiente tratou o paciente com sucesso." }
                       }
     },
@@ -326,7 +326,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Engineer", portuguese: "Engenheiro(a)",
           levels: { 
-                        A1: { en: "The engineer is building a bridge.", pt: "O engenheiro está construindo uma ponte." }, 
+                        A1: { en: "The engineer builds a bridge.", pt: "O engenheiro constrói uma ponte." }, 
                         A2: { en: "The civil engineer designed a robust bridge.", pt: "O engenheiro civil projetou uma ponte robusta." }
                       }
     },
@@ -338,7 +338,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Police officer", portuguese: "Policial",
           levels: { 
-                        A1: { en: "The police officer helped us.", pt: "O policial nos ajudou." }, 
+                        A1: { en: "The police officer helps us.", pt: "O policial nos ajuda." }, 
                         A2: { en: "The brave police officer stopped the thief.", pt: "O policial corajoso parou o ladrão." }
                       }
     },
@@ -356,7 +356,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Mechanic", portuguese: "Mecânico",
           levels: { 
-                        A1: { en: "The mechanic fixed my car.", pt: "O mecânico consertou meu carro." }, 
+                        A1: { en: "The mechanic fixes my car.", pt: "O mecânico conserta meu carro." }, 
                         A2: { en: "The mechanic fixed the broken engine quickly.", pt: "O mecânico consertou o motor quebrado rapidamente." }
                       }
     },
@@ -374,13 +374,13 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Dentist", portuguese: "Dentista",
           levels: { 
-                        A1: { en: "The dentist cleaned my teeth.", pt: "O dentista limpou meus dentes." }, 
+                        A1: { en: "The dentist cleans my teeth.", pt: "O dentista limpa meus dentes." }, 
                         A2: { en: "The dentist extracted the painful tooth carefully.", pt: "O dentista extraiu o dente dolorido com cuidado." }
                       }
     },
       { english: "Firefighter", portuguese: "Bombeiro",
           levels: { 
-                        A1: { en: "The firefighter saved the cat.", pt: "O bombeiro salvou o gato." }, 
+                        A1: { en: "The firefighter saves the cat.", pt: "O bombeiro salva o gato." }, 
                         A2: { en: "The courageous firefighter rescued the family from the fire.", pt: "O bombeiro corajoso resgatou a família do incêndio." }
                       }
     },
@@ -410,7 +410,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Waiter", portuguese: "Garçom",
           levels: { 
-                        A1: { en: "The waiter brought our food.", pt: "O garçom trouxe nossa comida." }, 
+                        A1: { en: "The waiter brings our food.", pt: "O garçom traz nossa comida." }, 
                         A2: { en: "The polite waiter served the food with a smile.", pt: "O garçom educado serviu a comida com um sorriso." }
                       }
     },
@@ -668,7 +668,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Library", portuguese: "Biblioteca",
           levels: { 
-                        A1: { en: "I am studying at the library.", pt: "Estou estudando na biblioteca." }, 
+                        A1: { en: "I study at the library.", pt: "Eu estudo na biblioteca." }, 
                         A2: { en: "She borrowed three classic novels from the library.", pt: "Ela pegou três romances clássicos emprestados na biblioteca." }
                       }
     },
@@ -692,7 +692,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Pharmacy", portuguese: "Farmácia",
           levels: { 
-                        A1: { en: "I bought medicine at the pharmacy.", pt: "Comprei remédio na farmácia." }, 
+                        A1: { en: "I buy medicine at the pharmacy.", pt: "Eu compro remédio na farmácia." }, 
                         A2: { en: "He bought essential medicine at the nearby pharmacy.", pt: "Ele comprou remédios essenciais na farmácia próxima." }
                       }
     },
@@ -704,7 +704,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Airport", portuguese: "Aeroporto",
           levels: { 
-                        A1: { en: "We arrived at the airport early.", pt: "Nós chegamos no aeroporto cedo." }, 
+                        A1: { en: "We arrive at the airport early.", pt: "Nós chegamos no aeroporto cedo." }, 
                         A2: { en: "She arrived at the international airport two hours early.", pt: "Ela chegou ao aeroporto internacional duas horas adiantada." }
                       }
     },
@@ -956,13 +956,13 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Cat", portuguese: "Gato",
           levels: { 
-                        A1: { en: "The cat is sleeping on the bed.", pt: "O gato está dormindo na cama." }, 
+                        A1: { en: "The cat sleeps on the bed.", pt: "O gato dorme na cama." }, 
                         A2: { en: "The stray cat slept peacefully on the porch.", pt: "O gato de rua dormiu pacificamente na varanda." }
                       }
     },
       { english: "Bird", portuguese: "Pássaro",
           levels: { 
-                        A1: { en: "I heard a bird singing.", pt: "Eu ouvi um pássaro cantando." }, 
+                        A1: { en: "I hear a bird.", pt: "Eu ouço um pássaro." }, 
                         A2: { en: "The rare bird flew high above the dense forest.", pt: "O pássaro raro voou alto sobre a floresta densa." }
                       }
     },
@@ -1004,7 +1004,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Vet", portuguese: "Veterinário(a)",
           levels: { 
-                        A1: { en: "I am taking my dog to the vet.", pt: "Estou levando meu cachorro ao veterinário." }, 
+                        A1: { en: "I take my dog to the vet.", pt: "Eu levo meu cachorro ao veterinário." }, 
                         A2: { en: "The dedicated vet examined the injured puppy thoroughly.", pt: "O veterinário dedicado examinou o filhote ferido minuciosamente." }
                       }
     },
@@ -1022,7 +1022,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Rabbit", portuguese: "Coelho",
           levels: { 
-                        A1: { en: "The rabbit is eating a carrot.", pt: "O coelho está comendo uma cenoura." }, 
+                        A1: { en: "The rabbit eats a carrot.", pt: "O coelho come uma cenoura." }, 
                         A2: { en: "The fast rabbit hid behind the bushes to avoid predators.", pt: "O coelho veloz se escondeu atrás dos arbustos para evitar predadores." }
                       }
     },
@@ -1034,13 +1034,13 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Tiger", portuguese: "Tigre",
           levels: { 
-                        A1: { en: "I saw a tiger at the zoo.", pt: "Eu vi um tigre no zoológico." }, 
+                        A1: { en: "I see a tiger at the zoo.", pt: "Eu vejo um tigre no zoológico." }, 
                         A2: { en: "The wild tiger stalked its prey silently in the jungle.", pt: "O tigre selvagem perseguiu sua presa silenciosamente na selva." }
                       }
     },
       { english: "Monkey", portuguese: "Macaco",
           levels: { 
-                        A1: { en: "The monkey is climbing the tree.", pt: "O macaco está subindo na árvore." }, 
+                        A1: { en: "The monkey climbs the tree.", pt: "O macaco sobe na árvore." }, 
                         A2: { en: "The clever monkey swung effortlessly from branch to branch.", pt: "O macaco esperto balançou sem esforço de galho em galho." }
                       }
     },
@@ -1274,7 +1274,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Bake", portuguese: "Assar (bolos/pães)",
           levels: { 
-                        A1: { en: "We baked chocolate chip cookies.", pt: "Nós assamos cookies de chocolate." }, 
+                        A1: { en: "We bake chocolate chip cookies.", pt: "Nós assamos cookies de chocolate." }, 
                         A2: { en: "He baked a delicious chocolate cake for the party.", pt: "Ele assou um bolo de chocolate delicioso para a festa." }
                       }
     },
@@ -1616,7 +1616,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Download", portuguese: "Baixar",
           levels: { 
-                        A1: { en: "I will download the file.", pt: "Vou baixar o arquivo." }, 
+                        A1: { en: "I download the file.", pt: "Eu baixo o arquivo." }, 
                         A2: { en: "He downloaded the important files before the flight.", pt: "Ele baixou os arquivos importantes antes do voo." }
                       }
     },
@@ -1694,7 +1694,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Headphones", portuguese: "Fones de ouvido",
           levels: { 
-                        A1: { en: "I am listening to music with headphones.", pt: "Estou ouvindo música com fones de ouvido." }, 
+                        A1: { en: "I listen to music with headphones.", pt: "Eu ouço música com fones de ouvido." }, 
                         A2: { en: "He wore noise-canceling headphones to concentrate at work.", pt: "Ele usou fones de ouvido com cancelamento de ruído para se concentrar no trabalho." }
                       }
     },
@@ -1904,7 +1904,7 @@ export const scenarios2: Scenario[] = [
     vocabulary: [
       { english: "Like", portuguese: "Curtir",
           levels: { 
-                        A1: { en: "Did you like my photo?", pt: "Você curtiu minha foto?" }, 
+                        A1: { en: "Do you like my photo?", pt: "Você curte minha foto?" }, 
                         A2: { en: "Thousands of people liked her post about the trip.", pt: "Milhares de pessoas curtiram a postagem dela sobre a viagem." }
                       }
     },
@@ -1916,7 +1916,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Post", portuguese: "Publicar",
           levels: { 
-                        A1: { en: "I will post a video tomorrow.", pt: "Vou publicar um vídeo amanhã." }, 
+                        A1: { en: "I post a video every week.", pt: "Eu publico um vídeo toda semana." }, 
                         A2: { en: "She posted a beautiful picture of the sunset on her profile.", pt: "Ela postou uma foto linda do pôr do sol no seu perfil." }
                       }
     },
@@ -1976,7 +1976,7 @@ export const scenarios2: Scenario[] = [
     },
       { english: "Story", portuguese: "Story (história temporária)",
           levels: { 
-                        A1: { en: "I posted a story at the beach.", pt: "Postei um story na praia." }, 
+                        A1: { en: "I post a story at the beach.", pt: "Posto um story na praia." }, 
                         A2: { en: "She uploaded a quick update to her story yesterday.", pt: "Ela enviou uma atualização rápida para seu story ontem." }
                       }
     },
