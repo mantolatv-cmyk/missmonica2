@@ -53,6 +53,434 @@ export const reviewScenarios: Scenario[] = [
       { english: "Father / Dad", portuguese: "Pai", levels: { A1: { en: "My father works every day.", pt: "Meu pai trabalha todos os dias." }, A2: { en: "My father worked at the same hospital for twenty years.", pt: "Meu pai trabalhou no mesmo hospital por vinte anos." } } },
       { english: "Kitchen", portuguese: "Cozinha", levels: { A1: { en: "I cook in the kitchen.", pt: "Eu cozinho na cozinha." }, A2: { en: "She cooked a delicious meal in the kitchen.", pt: "Ela cozinhou uma refeição deliciosa na cozinha." } } }
     ],
+      flashcardsA2: [
+          {
+              "english": "Kitchen",
+              "portuguese": "Cozinha",
+              "example": "She cooked a delicious meal in the kitchen."
+          },
+          {
+              "english": "Help out",
+              "portuguese": "Ajudar",
+              "example": "True friends always helped out when someone faced a tough phase."
+          },
+          {
+              "english": "Son",
+              "portuguese": "Filho",
+              "example": "My youngest son started elementary school this year."
+          },
+          {
+              "english": "Foot / Feet",
+              "portuguese": "Pé / Pés",
+              "example": "His feet hurt after a long day of walking."
+          },
+          {
+              "english": "Door",
+              "portuguese": "Porta",
+              "example": "She locked the front door before going to bed."
+          },
+          {
+              "english": "Fold the laundry",
+              "portuguese": "Dobrar a roupa",
+              "example": "She folded the laundry while watching television."
+          },
+          {
+              "english": "Faucet",
+              "portuguese": "Torneira",
+              "example": "The broken faucet leaked water all night."
+          },
+          {
+              "english": "Neck",
+              "portuguese": "Pescoço",
+              "example": "He wore a thick scarf around his neck during winter."
+          },
+          {
+              "english": "Hair",
+              "portuguese": "Cabelo",
+              "example": "He cut his hair very short last week."
+          },
+          {
+              "english": "Sink",
+              "portuguese": "Pia",
+              "example": "She washed her hands in the kitchen sink."
+          },
+          {
+              "english": "Garden / Yard",
+              "portuguese": "Jardim / Quintal",
+              "example": "She planted beautiful roses in the garden last spring."
+          },
+          {
+              "english": "Window",
+              "portuguese": "Janela",
+              "example": "He opened the window to let fresh air inside."
+          },
+          {
+              "english": "Chat",
+              "portuguese": "Bater papo",
+              "example": "I really enjoyed chatting with you about our future plans."
+          },
+          {
+              "english": "Shoulder",
+              "portuguese": "Ombro",
+              "example": "She carried the heavy bag on her shoulder."
+          },
+          {
+              "english": "Attic",
+              "portuguese": "Sótão",
+              "example": "He found an old photograph hidden in the attic."
+          },
+          {
+              "english": "Father / Dad",
+              "portuguese": "Pai",
+              "example": "My father worked at the same hospital for twenty years."
+          },
+          {
+              "english": "Joke",
+              "portuguese": "Piada / Brincadeira",
+              "example": "He told one of the most hilarious jokes I ever heard."
+          },
+          {
+              "english": "Best friend",
+              "portuguese": "Melhor amigo(a)",
+              "example": "She was my most trusted best friend in elementary school."
+          },
+          {
+              "english": "Grandfather",
+              "portuguese": "Avô",
+              "example": "My grandfather collected vintage stamps all his life."
+          },
+          {
+              "english": "Daughter",
+              "portuguese": "Filha",
+              "example": "His oldest daughter learned how to ride a bicycle."
+          }
+      ],
+      flashcardsB1: [
+          {
+              "english": "Fall out",
+              "portuguese": "Brigar / Desentender-se",
+              "example": "They fell out over a silly argument and stopped talking."
+          },
+          {
+              "english": "Only child",
+              "portuguese": "Filho(a) único(a)",
+              "example": "Being an only child means you never have to share your toys."
+          },
+          {
+              "english": "Wipe",
+              "portuguese": "Limpar / Passar um pano",
+              "example": "Could you wipe the kitchen table with a damp cloth?"
+          },
+          {
+              "english": "Keep in touch",
+              "portuguese": "Manter contato",
+              "example": "Even though she moved away, we still keep in touch."
+          },
+          {
+              "english": "Landlord",
+              "portuguese": "Senhorio / Dono (do imóvel)",
+              "example": "Our landlord increases the rent a little bit every year."
+          },
+          {
+              "english": "Rely on",
+              "portuguese": "Contar com / Confiar em",
+              "example": "You can always rely on me if you need any help."
+          },
+          {
+              "english": "Make up",
+              "portuguese": "Fazer as pazes",
+              "example": "It is important to apologize and make up after a family fight."
+          },
+          {
+              "english": "Ankle",
+              "portuguese": "Tornozelo",
+              "example": "He twisted his ankle while playing football yesterday."
+          },
+          {
+              "english": "Extended family",
+              "portuguese": "Família estendida",
+              "example": "We invited our entire extended family to the wedding."
+          },
+          {
+              "english": "Trustworthy",
+              "portuguese": "Confiável",
+              "example": "He is a highly trustworthy friend who keeps secrets well."
+          },
+          {
+              "english": "Jaw",
+              "portuguese": "Mandíbula",
+              "example": "The boxer received a heavy punch directly to the jaw."
+          },
+          {
+              "english": "Spacious",
+              "portuguese": "Espaçoso",
+              "example": "The new house is much more spacious than our old flat."
+          },
+          {
+              "english": "Swallow",
+              "portuguese": "Engolir",
+              "example": "My throat hurts so much that it is painful to swallow water."
+          },
+          {
+              "english": "Fall out",
+              "portuguese": "Desentender-se",
+              "example": "They fell out over a misunderstanding and haven't spoken since."
+          },
+          {
+              "english": "Unplug",
+              "portuguese": "Tirar da tomada",
+              "example": "Always unplug the iron when you are finished using it."
+          },
+          {
+              "english": "Dust",
+              "portuguese": "Tirar o pó",
+              "example": "He forgot to dust the bookshelves while cleaning the room."
+          },
+          {
+              "english": "Move in",
+              "portuguese": "Mudar-se (para dentro)",
+              "example": "We are going to move in to our new apartment next Saturday."
+          },
+          {
+              "english": "Turn up",
+              "portuguese": "Aumentar (volume/temperatura)",
+              "example": "Can you turn up the heating? It is getting quite cold in here."
+          },
+          {
+              "english": "Throw up",
+              "portuguese": "Vomitar",
+              "example": "He ate some bad seafood and threw up all night."
+          },
+          {
+              "english": "Fix up",
+              "portuguese": "Consertar / Restaurar",
+              "example": "He bought an old car and spent the summer trying to fix it up."
+          }
+      ],
+      quizA2: [
+          {
+              "question": "Como se diz \"Pai\" em inglês?",
+              "options": [
+                  "Throw up",
+                  "Father / Dad",
+                  "Chat",
+                  "Turn up"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Father / Dad\" significa \"Pai\". Exemplo: My father worked at the same hospital for twenty years."
+          },
+          {
+              "question": "Como se diz \"Dobrar a roupa\" em inglês?",
+              "options": [
+                  "Daughter",
+                  "Fix up",
+                  "Hair",
+                  "Fold the laundry"
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Fold the laundry\" significa \"Dobrar a roupa\". Exemplo: She folded the laundry while watching television."
+          },
+          {
+              "question": "Traduza esta frase de nível A2: \"He opened the window to let fresh air inside.\"",
+              "options": [
+                  "Ele abriu a janela para deixar o ar fresco entrar.",
+                  "Ela carregou a bolsa pesada no ombro.",
+                  "Ele usou um cachecol grosso no pescoço durante o inverno.",
+                  "Desentender-se"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Window\" significa \"Janela\". Exemplo: He opened the window to let fresh air inside."
+          },
+          {
+              "question": "Como se diz \"Sótão\" em inglês?",
+              "options": [
+                  "Garden / Yard",
+                  "Attic",
+                  "Spacious",
+                  "Chat"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Attic\" significa \"Sótão\". Exemplo: He found an old photograph hidden in the attic."
+          },
+          {
+              "question": "Traduza esta frase de nível A2: \"My youngest son started elementary school this year.\"",
+              "options": [
+                  "Filho(a) único(a)",
+                  "Meu avô colecionou selos vintage a vida toda.",
+                  "Manter contato",
+                  "Meu filho mais novo começou o ensino fundamental este ano."
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Son\" significa \"Filho\". Exemplo: My youngest son started elementary school this year."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Kitchen\"?",
+              "options": [
+                  "Senhorio / Dono (do imóvel)",
+                  "Manter contato",
+                  "Cozinha",
+                  "Tirar o pó"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Kitchen\" significa \"Cozinha\". Exemplo: She cooked a delicious meal in the kitchen."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Best friend\"?",
+              "options": [
+                  "Brigar / Desentender-se",
+                  "Mudar-se (para dentro)",
+                  "Melhor amigo(a)",
+                  "Ajudar"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Best friend\" significa \"Melhor amigo(a)\". Exemplo: She was my most trusted best friend in elementary school."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Sink\"?",
+              "options": [
+                  "Pescoço",
+                  "Pia",
+                  "Tirar o pó",
+                  "Consertar / Restaurar"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Sink\" significa \"Pia\". Exemplo: She washed her hands in the kitchen sink."
+          },
+          {
+              "question": "Como se diz \"Jardim / Quintal\" em inglês?",
+              "options": [
+                  "Garden / Yard",
+                  "Grandfather",
+                  "Father / Dad",
+                  "Neck"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Garden / Yard\" significa \"Jardim / Quintal\". Exemplo: She planted beautiful roses in the garden last spring."
+          },
+          {
+              "question": "Como se diz \"Avô\" em inglês?",
+              "options": [
+                  "Father / Dad",
+                  "Landlord",
+                  "Grandfather",
+                  "Son"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Grandfather\" significa \"Avô\". Exemplo: My grandfather collected vintage stamps all his life."
+          }
+      ],
+      quizB1: [
+          {
+              "question": "Como se diz \"Confiável\" em inglês?",
+              "options": [
+                  "Extended family",
+                  "Door",
+                  "Fall out",
+                  "Trustworthy"
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Trustworthy\" significa \"Confiável\". Exemplo: He is a highly trustworthy friend who keeps secrets well."
+          },
+          {
+              "question": "Como se diz \"Tornozelo\" em inglês?",
+              "options": [
+                  "Ankle",
+                  "Sink",
+                  "Move in",
+                  "Extended family"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Ankle\" significa \"Tornozelo\". Exemplo: He twisted his ankle while playing football yesterday."
+          },
+          {
+              "question": "Como se diz \"Contar com / Confiar em\" em inglês?",
+              "options": [
+                  "Rely on",
+                  "Fall out",
+                  "Keep in touch",
+                  "Swallow"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Rely on\" significa \"Contar com / Confiar em\". Exemplo: You can always rely on me if you need any help."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Swallow\"?",
+              "options": [
+                  "Pescoço",
+                  "Confiável",
+                  "Piada / Brincadeira",
+                  "Engolir"
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Swallow\" significa \"Engolir\". Exemplo: My throat hurts so much that it is painful to swallow water."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Make up\"?",
+              "options": [
+                  "Filho",
+                  "Ajudar",
+                  "Fazer as pazes",
+                  "Piada / Brincadeira"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Make up\" significa \"Fazer as pazes\". Exemplo: It is important to apologize and make up after a family fight."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Landlord\"?",
+              "options": [
+                  "Senhorio / Dono (do imóvel)",
+                  "Engolir",
+                  "Pé / Pés",
+                  "Mudar-se (para dentro)"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Landlord\" significa \"Senhorio / Dono (do imóvel)\". Exemplo: Our landlord increases the rent a little bit every year."
+          },
+          {
+              "question": "Como se diz \"Mudar-se (para dentro)\" em inglês?",
+              "options": [
+                  "Landlord",
+                  "Sink",
+                  "Move in",
+                  "Chat"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Move in\" significa \"Mudar-se (para dentro)\". Exemplo: We are going to move in to our new apartment next Saturday."
+          },
+          {
+              "question": "Como se diz \"Brigar / Desentender-se\" em inglês?",
+              "options": [
+                  "Help out",
+                  "Move in",
+                  "Fall out",
+                  "Daughter"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Fall out\" significa \"Brigar / Desentender-se\". Exemplo: They fell out over a silly argument and stopped talking."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Dust\"?",
+              "options": [
+                  "Fazer as pazes",
+                  "Tirar o pó",
+                  "Cozinha",
+                  "Filho"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Dust\" significa \"Tirar o pó\". Exemplo: He forgot to dust the bookshelves while cleaning the room."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Jaw\"?",
+              "options": [
+                  "Mandíbula",
+                  "Pé / Pés",
+                  "Tirar o pó",
+                  "Tirar da tomada"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Jaw\" significa \"Mandíbula\". Exemplo: The boxer received a heavy punch directly to the jaw."
+          }
+      ],
     flashcards: [
       { english: "My mom bakes a cake for me every year.", portuguese: "Minha mãe assa um bolo para mim todos os anos." },
       { english: "A true friend is hard to find.", portuguese: "Um verdadeiro amigo é difícil de encontrar." },
@@ -76,17 +504,7 @@ export const reviewScenarios: Scenario[] = [
       { english: "We bought a new comfortable sofa.", portuguese: "Nós compramos um novo sofá confortável." }
     ],
 
-    flashcardsA2: [
-      { english: "A2 Example Card 1", portuguese: "Exemplo A2 1", example: "This is an A2 level example." },
-      { english: "A2 Example Card 2", portuguese: "Exemplo A2 2", example: "Keep practicing at A2 level." },
-      { english: "A2 Example Card 3", portuguese: "Exemplo A2 3", example: "You are doing great." }
-    ],
-
-    flashcardsB1: [
-      { english: "B1 Example Card 1", portuguese: "Exemplo B1 1", example: "This is a B1 level example, representing intermediate proficiency." },
-      { english: "B1 Example Card 2", portuguese: "Exemplo B1 2", example: "Furthermore, B1 requires more complex vocabulary." },
-      { english: "B1 Example Card 3", portuguese: "Exemplo B1 3", example: "Therefore, keep up the excellent work." }
-    ],
+        
     dialogue: [
       { speaker: "A", english: "Mom, where is my friend?", portuguese: "Mãe, onde está meu amigo?", isPrimary: true },
       { speaker: "B", english: "He is in the living room, sitting on the sofa.", portuguese: "Ele está na sala de estar, sentado no sofá.", isPrimary: false },
@@ -209,16 +627,436 @@ export const reviewScenarios: Scenario[] = [
       { english: "Rip off", portuguese: "Exploração / Preço abusivo", levels: { B1: { en: "Twenty dollars for a small bottle of water is a complete rip-off.", pt: "Vinte dólares por uma pequena garrafa de água é uma verdadeira exploração." } } },
       { english: "Skill", portuguese: "Habilidade", levels: { B1: { en: "Learning a new language is a very useful skill.", pt: "Aprender um novo idioma é uma habilidade muito útil." } } }
     ],
+      flashcardsA2: [
+          {
+              "english": "Price",
+              "portuguese": "Preço",
+              "example": "The price is too high."
+          },
+          {
+              "english": "Fitting room",
+              "portuguese": "Provador",
+              "example": "He waited outside the fitting room for ten minutes."
+          },
+          {
+              "english": "Rule",
+              "portuguese": "Regra",
+              "example": "The referee explained a new rule before the match started."
+          },
+          {
+              "english": "Play guitar",
+              "portuguese": "Tocar violão",
+              "example": "She played the guitar beautifully at the concert."
+          },
+          {
+              "english": "Knit",
+              "portuguese": "Tricotar",
+              "example": "My grandmother knitted a warm sweater for me."
+          },
+          {
+              "english": "Cash",
+              "portuguese": "Dinheiro (em espécie)",
+              "example": "I didn't have enough cash, so I used my credit card."
+          },
+          {
+              "english": "Tennis",
+              "portuguese": "Tênis",
+              "example": "She played tennis with her brother yesterday."
+          },
+          {
+              "english": "Basketball",
+              "portuguese": "Basquete",
+              "example": "They practiced basketball every day after school."
+          },
+          {
+              "english": "Doctor",
+              "portuguese": "Médico(a)",
+              "example": "The experienced doctor successfully treated the patient."
+          },
+          {
+              "english": "Product",
+              "portuguese": "Produto",
+              "example": "The supermarket introduced a new product in the dairy section."
+          },
+          {
+              "english": "Gift",
+              "portuguese": "Presente",
+              "example": "They bought a special gift for their parents."
+          },
+          {
+              "english": "Win",
+              "portuguese": "Vencer / Ganhar",
+              "example": "They won the gold medal at the Olympics."
+          },
+          {
+              "english": "Shopping cart",
+              "portuguese": "Carrinho de compras",
+              "example": "He pushed the heavy shopping cart down the aisle."
+          },
+          {
+              "english": "Dance",
+              "portuguese": "Dançar",
+              "example": "We danced all night at the wedding reception."
+          },
+          {
+              "english": "Police officer",
+              "portuguese": "Policial",
+              "example": "The brave police officer stopped the thief."
+          },
+          {
+              "english": "Receipt",
+              "portuguese": "Recibo / Nota fiscal",
+              "example": "The cashier gave me the receipt and a friendly smile."
+          },
+          {
+              "english": "Dress",
+              "portuguese": "Vestido",
+              "example": "She wore a stunning red dress to the party."
+          },
+          {
+              "english": "Company",
+              "portuguese": "Empresa",
+              "example": "The technology company launched a new software product."
+          },
+          {
+              "english": "Waiter",
+              "portuguese": "Garçom",
+              "example": "The polite waiter served the food with a smile."
+          },
+          {
+              "english": "Go hiking",
+              "portuguese": "Fazer trilha",
+              "example": "They went hiking in the national park yesterday."
+          }
+      ],
+      flashcardsB1: [
+          {
+              "english": "Apply for",
+              "portuguese": "Candidatar-se a",
+              "example": "She decided to apply for the manager position in the company."
+          },
+          {
+              "english": "Suit",
+              "portuguese": "Cair bem / Combinar (estilo)",
+              "example": "That blue dress really suits you perfectly."
+          },
+          {
+              "english": "Hire",
+              "portuguese": "Contratar",
+              "example": "They want to hire five new developers by the end of the year."
+          },
+          {
+              "english": "Out of stock",
+              "portuguese": "Esgotado / Sem estoque",
+              "example": "I'm sorry, but that specific model is currently out of stock."
+          },
+          {
+              "english": "Refund",
+              "portuguese": "Reembolso",
+              "example": "The product was expired, so I went back to the store to ask for a refund."
+          },
+          {
+              "english": "Perform",
+              "portuguese": "Apresentar-se / Atuar",
+              "example": "Her dream is to perform on a Broadway stage one day."
+          },
+          {
+              "english": "Fire",
+              "portuguese": "Demitir",
+              "example": "They had to fire him because he was consistently late for work."
+          },
+          {
+              "english": "Promote",
+              "portuguese": "Promover",
+              "example": "After three years of hard work, he was finally promoted to supervisor."
+          },
+          {
+              "english": "Fit",
+              "portuguese": "Servir / Caber (tamanho)",
+              "example": "This jacket doesn't fit me anymore; it's too tight."
+          },
+          {
+              "english": "Give up",
+              "portuguese": "Desistir / Parar de fazer",
+              "example": "He used to play the guitar, but he gave it up when he started university."
+          },
+          {
+              "english": "Into",
+              "portuguese": "Gostar muito de algo",
+              "example": "I am really into science fiction movies right now."
+          },
+          {
+              "english": "Price",
+              "portuguese": "Preço",
+              "example": "She checked the price before adding the item to her cart."
+          },
+          {
+              "english": "Compete",
+              "portuguese": "Competir",
+              "example": "Over fifty athletes will compete in the final race."
+          },
+          {
+              "english": "Rip off",
+              "portuguese": "Exploração / Preço abusivo",
+              "example": "Twenty dollars for a small bottle of water is a complete rip-off."
+          },
+          {
+              "english": "Discount",
+              "portuguese": "Desconto",
+              "example": "They offered a twenty percent discount on all dairy products."
+          },
+          {
+              "english": "Wrap up",
+              "portuguese": "Embrulhar",
+              "example": "Could you please wrap this up as a birthday gift?"
+          },
+          {
+              "english": "Afford",
+              "portuguese": "Ter condições de pagar",
+              "example": "I want the premium brand, but I can only afford the generic one right now."
+          },
+          {
+              "english": "Give up",
+              "portuguese": "Desistir",
+              "example": "Even though they were losing by three goals, the team refused to give up."
+          },
+          {
+              "english": "Cheer",
+              "portuguese": "Torcer / Animar",
+              "example": "The crowd started to cheer loudly when their team scored."
+          },
+          {
+              "english": "Work out",
+              "portuguese": "Malhar / Fazer exercício",
+              "example": "He goes to the gym to work out three times a week."
+          }
+      ],
+      quizA2: [
+          {
+              "question": "Como se diz \"Fazer trilha\" em inglês?",
+              "options": [
+                  "Doctor",
+                  "Afford",
+                  "Fitting room",
+                  "Go hiking"
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Go hiking\" significa \"Fazer trilha\". Exemplo: They went hiking in the national park yesterday."
+          },
+          {
+              "question": "Traduza esta frase de nível A2: \"They practiced basketball every day after school.\"",
+              "options": [
+                  "Embrulhar",
+                  "O garçom educado serviu a comida com um sorriso.",
+                  "Eles praticavam basquete todo dia depois da escola.",
+                  "O árbitro explicou uma regra nova antes de a partida começar."
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Basketball\" significa \"Basquete\". Exemplo: They practiced basketball every day after school."
+          },
+          {
+              "question": "Como se diz \"Preço\" em inglês?",
+              "options": [
+                  "Dress",
+                  "Price",
+                  "Into",
+                  "Perform"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Price\" significa \"Preço\". Exemplo: The price is too high."
+          },
+          {
+              "question": "Traduza esta frase de nível A2: \"She played tennis with her brother yesterday.\"",
+              "options": [
+                  "Malhar / Fazer exercício",
+                  "Ter condições de pagar",
+                  "O supermercado lançou um produto novo na seção de laticínios.",
+                  "Ela jogou tênis com seu irmão ontem."
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Tennis\" significa \"Tênis\". Exemplo: She played tennis with her brother yesterday."
+          },
+          {
+              "question": "Como se diz \"Tricotar\" em inglês?",
+              "options": [
+                  "Suit",
+                  "Knit",
+                  "Hire",
+                  "Police officer"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Knit\" significa \"Tricotar\". Exemplo: My grandmother knitted a warm sweater for me."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Win\"?",
+              "options": [
+                  "Dançar",
+                  "Fazer trilha",
+                  "Vencer / Ganhar",
+                  "Torcer / Animar"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Win\" significa \"Vencer / Ganhar\". Exemplo: They won the gold medal at the Olympics."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Waiter\"?",
+              "options": [
+                  "Garçom",
+                  "Competir",
+                  "Empresa",
+                  "Preço"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Waiter\" significa \"Garçom\". Exemplo: The polite waiter served the food with a smile."
+          },
+          {
+              "question": "Traduza esta frase de nível A2: \"She played the guitar beautifully at the concert.\"",
+              "options": [
+                  "Servir / Caber (tamanho)",
+                  "O policial corajoso parou o ladrão.",
+                  "Eles praticavam basquete todo dia depois da escola.",
+                  "Ela tocou violão lindamente no show."
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Play guitar\" significa \"Tocar violão\". Exemplo: She played the guitar beautifully at the concert."
+          },
+          {
+              "question": "Traduza esta frase de nível A2: \"The technology company launched a new software product.\"",
+              "options": [
+                  "Eles compraram um presente especial para os pais deles.",
+                  "A empresa de tecnologia lançou um novo produto de software.",
+                  "Desistir / Parar de fazer",
+                  "Ela jogou tênis com seu irmão ontem."
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Company\" significa \"Empresa\". Exemplo: The technology company launched a new software product."
+          },
+          {
+              "question": "Como se diz \"Presente\" em inglês?",
+              "options": [
+                  "Gift",
+                  "Out of stock",
+                  "Give up",
+                  "Knit"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Gift\" significa \"Presente\". Exemplo: They bought a special gift for their parents."
+          }
+      ],
+      quizB1: [
+          {
+              "question": "Como se diz \"Contratar\" em inglês?",
+              "options": [
+                  "Hire",
+                  "Dance",
+                  "Afford",
+                  "Tennis"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Hire\" significa \"Contratar\". Exemplo: They want to hire five new developers by the end of the year."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Out of stock\"?",
+              "options": [
+                  "Esgotado / Sem estoque",
+                  "Desistir / Parar de fazer",
+                  "Fazer trilha",
+                  "Tricotar"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Out of stock\" significa \"Esgotado / Sem estoque\". Exemplo: I'm sorry, but that specific model is currently out of stock."
+          },
+          {
+              "question": "Como se diz \"Desconto\" em inglês?",
+              "options": [
+                  "Receipt",
+                  "Discount",
+                  "Wrap up",
+                  "Give up"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Discount\" significa \"Desconto\". Exemplo: They offered a twenty percent discount on all dairy products."
+          },
+          {
+              "question": "Como se diz \"Desistir / Parar de fazer\" em inglês?",
+              "options": [
+                  "Give up",
+                  "Work out",
+                  "Refund",
+                  "Waiter"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Give up\" significa \"Desistir / Parar de fazer\". Exemplo: He used to play the guitar, but he gave it up when he started university."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Into\"?",
+              "options": [
+                  "Gostar muito de algo",
+                  "Desistir / Parar de fazer",
+                  "Esgotado / Sem estoque",
+                  "Promover"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Into\" significa \"Gostar muito de algo\". Exemplo: I am really into science fiction movies right now."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Compete\"?",
+              "options": [
+                  "Empresa",
+                  "Fazer trilha",
+                  "Torcer / Animar",
+                  "Competir"
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Compete\" significa \"Competir\". Exemplo: Over fifty athletes will compete in the final race."
+          },
+          {
+              "question": "Como se diz \"Malhar / Fazer exercício\" em inglês?",
+              "options": [
+                  "Work out",
+                  "Play guitar",
+                  "Fitting room",
+                  "Wrap up"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Work out\" significa \"Malhar / Fazer exercício\". Exemplo: He goes to the gym to work out three times a week."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Fire\"?",
+              "options": [
+                  "Policial",
+                  "Demitir",
+                  "Promover",
+                  "Garçom"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Fire\" significa \"Demitir\". Exemplo: They had to fire him because he was consistently late for work."
+          },
+          {
+              "question": "Como se diz \"Exploração / Preço abusivo\" em inglês?",
+              "options": [
+                  "Rip off",
+                  "Gift",
+                  "Waiter",
+                  "Work out"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Rip off\" significa \"Exploração / Preço abusivo\". Exemplo: Twenty dollars for a small bottle of water is a complete rip-off."
+          },
+          {
+              "question": "Traduza esta frase de nível B1: \"After three years of hard work, he was finally promoted to supervisor.\"",
+              "options": [
+                  "Mais de cinquenta atletas vão competir na corrida final.",
+                  "Eles tiveram que demiti-lo porque ele estava consistentemente atrasado para o trabalho.",
+                  "Depois de três anos de trabalho duro, ele finalmente foi promovido a supervisor.",
+                  "Produto"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Promote\" significa \"Promover\". Exemplo: After three years of hard work, he was finally promoted to supervisor."
+          }
+      ],
 
-    quizA2: [
-      { question: "A2 Dummy Question 1?", options: ["Option A", "Option B", "Option C"], correctIndex: 0, explanation: "A2 Explanation 1" },
-      { question: "A2 Dummy Question 2?", options: ["Option A", "Option B", "Option C"], correctIndex: 1, explanation: "A2 Explanation 2" }
-    ],
-
-    quizB1: [
-      { question: "B1 Dummy Question 1 (Intermediate)?", options: ["Option A", "Option B", "Option C"], correctIndex: 0, explanation: "B1 Explanation 1" },
-      { question: "B1 Dummy Question 2 (Intermediate)?", options: ["Option A", "Option B", "Option C"], correctIndex: 1, explanation: "B1 Explanation 2" }
-    ],
+        
     flashcards: [
       { english: "Reading a good book relaxes my mind.", portuguese: "Ler um bom livro relaxa minha mente." },
       { english: "Our team won the championship this year.", portuguese: "Nosso time ganhou o campeonato este ano." },
@@ -242,17 +1080,7 @@ export const reviewScenarios: Scenario[] = [
       { english: "The meeting will start in ten minutes.", portuguese: "A reunião vai começar em dez minutos." }
     ],
 
-    flashcardsA2: [
-      { english: "A2 Example Card 1", portuguese: "Exemplo A2 1", example: "This is an A2 level example." },
-      { english: "A2 Example Card 2", portuguese: "Exemplo A2 2", example: "Keep practicing at A2 level." },
-      { english: "A2 Example Card 3", portuguese: "Exemplo A2 3", example: "You are doing great." }
-    ],
-
-    flashcardsB1: [
-      { english: "B1 Example Card 1", portuguese: "Exemplo B1 1", example: "This is a B1 level example, representing intermediate proficiency." },
-      { english: "B1 Example Card 2", portuguese: "Exemplo B1 2", example: "Furthermore, B1 requires more complex vocabulary." },
-      { english: "B1 Example Card 3", portuguese: "Exemplo B1 3", example: "Therefore, keep up the excellent work." }
-    ],
+        
     dialogue: [
       { speaker: "A", english: "Are you ready for the meeting with the engineer?", portuguese: "Você está pronto para a reunião com o engenheiro?", isPrimary: true },
       { speaker: "B", english: "Yes, but I need to go to the store first. I left my wallet in the car.", portuguese: "Sim, mas eu preciso ir na loja primeiro. Deixei minha carteira no carro.", isPrimary: false },
@@ -375,16 +1203,436 @@ export const reviewScenarios: Scenario[] = [
       { english: "Smartphone", portuguese: "Celular", levels: { A1: { en: "Where is my smartphone?", pt: "Onde está meu celular?" }, A2: { en: "She bought a new smartphone with a better camera.", pt: "Ela comprou um smartphone novo com uma câmera melhor." } } },
       { english: "Log in", portuguese: "Fazer login / Entrar", levels: { B1: { en: "You must log in with your email and password to access the platform.", pt: "Você deve fazer login com seu e-mail e senha para acessar a plataforma." } } }
     ],
+      flashcardsA2: [
+          {
+              "english": "Comment",
+              "portuguese": "Comentar / Comentário",
+              "example": "He left a positive comment on her recent photo."
+          },
+          {
+              "english": "Recipe",
+              "portuguese": "Receita",
+              "example": "They followed the traditional recipe step by step."
+          },
+          {
+              "english": "Spicy",
+              "portuguese": "Apimentado",
+              "example": "He loved the spicy food they served at the Indian restaurant."
+          },
+          {
+              "english": "Smartphone",
+              "portuguese": "Celular",
+              "example": "She bought a new smartphone with a better camera."
+          },
+          {
+              "english": "Password",
+              "portuguese": "Senha",
+              "example": "She forgot her password and locked her account."
+          },
+          {
+              "english": "Bird",
+              "portuguese": "Pássaro",
+              "example": "The rare bird flew high above the dense forest."
+          },
+          {
+              "english": "Far",
+              "portuguese": "Longe",
+              "example": "He drove a far distance to visit his relatives."
+          },
+          {
+              "english": "Bake",
+              "portuguese": "Assar (bolos/pães)",
+              "example": "He baked a delicious chocolate cake for the party."
+          },
+          {
+              "english": "Corner",
+              "portuguese": "Esquina",
+              "example": "The coffee shop opened on the corner of the busy street."
+          },
+          {
+              "english": "School",
+              "portuguese": "Escola",
+              "example": "The local school received new computers for the students."
+          },
+          {
+              "english": "Walk the dog",
+              "portuguese": "Passear com o cachorro",
+              "example": "He walked the dog around the park every evening."
+          },
+          {
+              "english": "Cook",
+              "portuguese": "Cozinhar",
+              "example": "She cooked a complex meal for her family yesterday."
+          },
+          {
+              "english": "Mouse",
+              "portuguese": "Mouse",
+              "example": "She clicked the mouse twice to open the application."
+          },
+          {
+              "english": "Street",
+              "portuguese": "Rua",
+              "example": "They walked down the busy street during rush hour."
+          },
+          {
+              "english": "Monkey",
+              "portuguese": "Macaco",
+              "example": "The clever monkey swung effortlessly from branch to branch."
+          },
+          {
+              "english": "Log in",
+              "portuguese": "Entrar / Fazer login",
+              "example": "He tried to log in, but he couldn't remember his email."
+          },
+          {
+              "english": "Password",
+              "portuguese": "Senha",
+              "example": "You should create a strong password to protect your account."
+          },
+          {
+              "english": "Tag",
+              "portuguese": "Marcar (alguém)",
+              "example": "He tagged his best friend in the hilarious meme."
+          },
+          {
+              "english": "Download",
+              "portuguese": "Baixar",
+              "example": "He downloaded the important files before the flight."
+          },
+          {
+              "english": "Bite",
+              "portuguese": "Morder",
+              "example": "The frightened dog bit the stranger's hand unexpectedly."
+          }
+      ],
+      flashcardsB1: [
+          {
+              "english": "Hack into",
+              "portuguese": "Hackear / Invadir (sistema)",
+              "example": "Cybercriminals managed to hack into the bank's secure database."
+          },
+          {
+              "english": "Ingredients",
+              "portuguese": "Ingredientes",
+              "example": "Make sure you have all the ingredients before you start cooking."
+          },
+          {
+              "english": "Settings",
+              "portuguese": "Configurações",
+              "example": "You can change your privacy preferences in the settings menu."
+          },
+          {
+              "english": "Log off",
+              "portuguese": "Sair / Desconectar-se",
+              "example": "After checking my messages, I usually log off to focus on work."
+          },
+          {
+              "english": "Feed",
+              "portuguese": "Alimentar",
+              "example": "Don't forget to feed the fish twice a day with these special flakes."
+          },
+          {
+              "english": "Turn on",
+              "portuguese": "Ligar (aparelho)",
+              "example": "Press the red button on the remote control to turn on the television."
+          },
+          {
+              "english": "Eat out",
+              "portuguese": "Comer fora",
+              "example": "We are too tired to cook tonight, so let's eat out at a restaurant."
+          },
+          {
+              "english": "Share",
+              "portuguese": "Compartilhar",
+              "example": "Please share this important message with your friends."
+          },
+          {
+              "english": "Catch up on",
+              "portuguese": "Atualizar-se sobre",
+              "example": "I spent the morning scrolling through my feed to catch up on the news."
+          },
+          {
+              "english": "Check in",
+              "portuguese": "Fazer check-in",
+              "example": "We arrived at the hotel and immediately went to the reception to check in."
+          },
+          {
+              "english": "Grill",
+              "portuguese": "Grelhar",
+              "example": "We should grill some chicken and vegetables on the barbecue tonight."
+          },
+          {
+              "english": "Landmark",
+              "portuguese": "Ponto de referência histórico",
+              "example": "The Eiffel Tower is the most famous landmark in Paris."
+          },
+          {
+              "english": "Bite",
+              "portuguese": "Morder",
+              "example": "Be careful with that wild animal, it might bite you if you get too close."
+          },
+          {
+              "english": "Recipe",
+              "portuguese": "Receita (culinária)",
+              "example": "My grandmother gave me her secret recipe for chocolate cake."
+          },
+          {
+              "english": "Drop off",
+              "portuguese": "Deixar (alguém/algo) em algum lugar",
+              "example": "Could you please drop me off at the airport at six o'clock?"
+          },
+          {
+              "english": "Log in",
+              "portuguese": "Fazer login / Entrar",
+              "example": "You must log in with your email and password to access the platform."
+          },
+          {
+              "english": "Adopt",
+              "portuguese": "Adotar",
+              "example": "We decided to adopt a rescue dog instead of buying a puppy from a store."
+          },
+          {
+              "english": "Crash",
+              "portuguese": "Travar (sistema)",
+              "example": "The system tends to crash if you open too many programs."
+          },
+          {
+              "english": "Border",
+              "portuguese": "Fronteira",
+              "example": "They crossed the border between France and Spain by train."
+          },
+          {
+              "english": "Wildlife",
+              "portuguese": "Vida selvagem",
+              "example": "The documentary showed incredible footage of African wildlife."
+          }
+      ],
+      quizA2: [
+          {
+              "question": "O que significa a expressão/palavra \"Bird\"?",
+              "options": [
+                  "Receita",
+                  "Pássaro",
+                  "Receita (culinária)",
+                  "Celular"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Bird\" significa \"Pássaro\". Exemplo: The rare bird flew high above the dense forest."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Smartphone\"?",
+              "options": [
+                  "Passear com o cachorro",
+                  "Esquina",
+                  "Longe",
+                  "Celular"
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Smartphone\" significa \"Celular\". Exemplo: She bought a new smartphone with a better camera."
+          },
+          {
+              "question": "Como se diz \"Entrar / Fazer login\" em inglês?",
+              "options": [
+                  "Log in",
+                  "Share",
+                  "Download",
+                  "Crash"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Log in\" significa \"Entrar / Fazer login\". Exemplo: He tried to log in, but he couldn't remember his email."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Corner\"?",
+              "options": [
+                  "Ligar (aparelho)",
+                  "Esquina",
+                  "Fronteira",
+                  "Entrar / Fazer login"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Corner\" significa \"Esquina\". Exemplo: The coffee shop opened on the corner of the busy street."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Spicy\"?",
+              "options": [
+                  "Travar (sistema)",
+                  "Deixar (alguém/algo) em algum lugar",
+                  "Apimentado",
+                  "Alimentar"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Spicy\" significa \"Apimentado\". Exemplo: He loved the spicy food they served at the Indian restaurant."
+          },
+          {
+              "question": "Traduza esta frase de nível A2: \"The local school received new computers for the students.\"",
+              "options": [
+                  "O macaco esperto balançou sem esforço de galho em galho.",
+                  "A escola local recebeu novos computadores para os alunos.",
+                  "Eles andaram pela rua movimentada durante a hora do rush.",
+                  "Fazer check-in"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"School\" significa \"Escola\". Exemplo: The local school received new computers for the students."
+          },
+          {
+              "question": "Como se diz \"Rua\" em inglês?",
+              "options": [
+                  "Password",
+                  "Monkey",
+                  "Street",
+                  "Share"
+              ],
+              "correctIndex": 2,
+              "explanation": "\"Street\" significa \"Rua\". Exemplo: They walked down the busy street during rush hour."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Tag\"?",
+              "options": [
+                  "Compartilhar",
+                  "Marcar (alguém)",
+                  "Fronteira",
+                  "Deixar (alguém/algo) em algum lugar"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Tag\" significa \"Marcar (alguém)\". Exemplo: He tagged his best friend in the hilarious meme."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Monkey\"?",
+              "options": [
+                  "Macaco",
+                  "Atualizar-se sobre",
+                  "Apimentado",
+                  "Ingredientes"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Monkey\" significa \"Macaco\". Exemplo: The clever monkey swung effortlessly from branch to branch."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Bite\"?",
+              "options": [
+                  "Vida selvagem",
+                  "Morder",
+                  "Configurações",
+                  "Alimentar"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Bite\" significa \"Morder\". Exemplo: The frightened dog bit the stranger's hand unexpectedly."
+          }
+      ],
+      quizB1: [
+          {
+              "question": "Traduza esta frase de nível B1: \"Press the red button on the remote control to turn on the television.\"",
+              "options": [
+                  "Pressione o botão vermelho no controle remoto para ligar a televisão.",
+                  "Assar (bolos/pães)",
+                  "Você pode alterar suas preferências de privacidade no menu de configurações.",
+                  "Cuidado com esse animal selvagem, ele pode te morder se você chegar muito perto."
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Turn on\" significa \"Ligar (aparelho)\". Exemplo: Press the red button on the remote control to turn on the television."
+          },
+          {
+              "question": "Traduza esta frase de nível B1: \"I spent the morning scrolling through my feed to catch up on the news.\"",
+              "options": [
+                  "Não se esqueça de alimentar os peixes duas vezes ao dia com estes flocos especiais.",
+                  "Passei a manhã rolando o meu feed para me atualizar sobre as notícias.",
+                  "Chegamos ao hotel e fomos imediatamente para a recepção fazer o check-in.",
+                  "Apimentado"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Catch up on\" significa \"Atualizar-se sobre\". Exemplo: I spent the morning scrolling through my feed to catch up on the news."
+          },
+          {
+              "question": "Traduza esta frase de nível B1: \"The documentary showed incredible footage of African wildlife.\"",
+              "options": [
+                  "Chegamos ao hotel e fomos imediatamente para a recepção fazer o check-in.",
+                  "Morder",
+                  "Longe",
+                  "O documentário mostrou imagens incríveis da vida selvagem africana."
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Wildlife\" significa \"Vida selvagem\". Exemplo: The documentary showed incredible footage of African wildlife."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Settings\"?",
+              "options": [
+                  "Configurações",
+                  "Fronteira",
+                  "Escola",
+                  "Receita"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Settings\" significa \"Configurações\". Exemplo: You can change your privacy preferences in the settings menu."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Share\"?",
+              "options": [
+                  "Compartilhar",
+                  "Pássaro",
+                  "Deixar (alguém/algo) em algum lugar",
+                  "Atualizar-se sobre"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Share\" significa \"Compartilhar\". Exemplo: Please share this important message with your friends."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Eat out\"?",
+              "options": [
+                  "Comer fora",
+                  "Apimentado",
+                  "Pássaro",
+                  "Fronteira"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Eat out\" significa \"Comer fora\". Exemplo: We are too tired to cook tonight, so let's eat out at a restaurant."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Adopt\"?",
+              "options": [
+                  "Longe",
+                  "Ingredientes",
+                  "Configurações",
+                  "Adotar"
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Adopt\" significa \"Adotar\". Exemplo: We decided to adopt a rescue dog instead of buying a puppy from a store."
+          },
+          {
+              "question": "Traduza esta frase de nível B1: \"My grandmother gave me her secret recipe for chocolate cake.\"",
+              "options": [
+                  "Minha avó me deu a receita secreta dela de bolo de chocolate.",
+                  "O documentário mostrou imagens incríveis da vida selvagem africana.",
+                  "A Torre Eiffel é o ponto de referência mais famoso de Paris.",
+                  "Senha"
+              ],
+              "correctIndex": 0,
+              "explanation": "\"Recipe\" significa \"Receita (culinária)\". Exemplo: My grandmother gave me her secret recipe for chocolate cake."
+          },
+          {
+              "question": "Como se diz \"Ingredientes\" em inglês?",
+              "options": [
+                  "Download",
+                  "Ingredients",
+                  "Walk the dog",
+                  "Corner"
+              ],
+              "correctIndex": 1,
+              "explanation": "\"Ingredients\" significa \"Ingredientes\". Exemplo: Make sure you have all the ingredients before you start cooking."
+          },
+          {
+              "question": "O que significa a expressão/palavra \"Grill\"?",
+              "options": [
+                  "Atualizar-se sobre",
+                  "Alimentar",
+                  "Comer fora",
+                  "Grelhar"
+              ],
+              "correctIndex": 3,
+              "explanation": "\"Grill\" significa \"Grelhar\". Exemplo: We should grill some chicken and vegetables on the barbecue tonight."
+          }
+      ],
 
-    quizA2: [
-      { question: "A2 Dummy Question 1?", options: ["Option A", "Option B", "Option C"], correctIndex: 0, explanation: "A2 Explanation 1" },
-      { question: "A2 Dummy Question 2?", options: ["Option A", "Option B", "Option C"], correctIndex: 1, explanation: "A2 Explanation 2" }
-    ],
-
-    quizB1: [
-      { question: "B1 Dummy Question 1 (Intermediate)?", options: ["Option A", "Option B", "Option C"], correctIndex: 0, explanation: "B1 Explanation 1" },
-      { question: "B1 Dummy Question 2 (Intermediate)?", options: ["Option A", "Option B", "Option C"], correctIndex: 1, explanation: "B1 Explanation 2" }
-    ],
+        
     flashcards: [
       { english: "This city never sleeps at night.", portuguese: "Esta cidade nunca dorme à noite." },
       { english: "The dog barked loudly at the stranger.", portuguese: "O cachorro latiu alto para o estranho." },
@@ -408,17 +1656,7 @@ export const reviewScenarios: Scenario[] = [
       { english: "I got a notification about the meeting.", portuguese: "Eu recebi uma notificação sobre a reunião." }
     ],
 
-    flashcardsA2: [
-      { english: "A2 Example Card 1", portuguese: "Exemplo A2 1", example: "This is an A2 level example." },
-      { english: "A2 Example Card 2", portuguese: "Exemplo A2 2", example: "Keep practicing at A2 level." },
-      { english: "A2 Example Card 3", portuguese: "Exemplo A2 3", example: "You are doing great." }
-    ],
-
-    flashcardsB1: [
-      { english: "B1 Example Card 1", portuguese: "Exemplo B1 1", example: "This is a B1 level example, representing intermediate proficiency." },
-      { english: "B1 Example Card 2", portuguese: "Exemplo B1 2", example: "Furthermore, B1 requires more complex vocabulary." },
-      { english: "B1 Example Card 3", portuguese: "Exemplo B1 3", example: "Therefore, keep up the excellent work." }
-    ],
+        
     dialogue: [
       { speaker: "A", english: "Did you see that influencer's new video on the internet?", portuguese: "Você viu o novo vídeo daquele influenciador na internet?", isPrimary: true },
       { speaker: "B", english: "No, my smartphone is broken. I missed the notification.", portuguese: "Não, meu celular está quebrado. Eu perdi a notificação.", isPrimary: false },
