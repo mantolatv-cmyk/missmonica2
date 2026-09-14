@@ -11,6 +11,108 @@ export const scenarios2: Scenario[] = [
     image: "/images/compras.png",
     color: "sky",
     available: true,
+    reading: {
+      "level1": {
+            "textEn": "I absolutely love shopping for new clothes and updating my wardrobe every season. Usually, I prefer to go to the large mall on Saturday mornings right after breakfast because it is very quiet and not crowded. Last week, while walking past my favorite store, I found a beautiful, stylish jacket on display. However, when I checked the price tag, I realized it was way too expensive for my current budget. So, I decided to be practical and buy a cheaper casual shirt and a pair of comfortable blue jeans instead. Saving money is very important to me, so I always look carefully for great discounts and seasonal sales before I buy anything.",
+            "textPt": "Eu absolutamente amo comprar roupas novas e atualizar meu guarda-roupa a cada estação. Geralmente, prefiro ir ao grande shopping nas manhãs de sábado, logo após o café da manhã, porque é muito tranquilo e não está lotado. Na semana passada, ao passar pela minha loja favorita, encontrei uma jaqueta linda e estilosa em exibição. No entanto, quando verifiquei a etiqueta de preço, percebi que era muito cara para o meu orçamento atual. Então, decidi ser prático e comprar uma camisa casual mais barata e uma calça jeans azul confortável. Economizar dinheiro é muito importante para mim, então sempre procuro cuidadosamente por ótimos descontos e promoções sazonais antes de comprar qualquer coisa.",
+            "questions": [
+                  {
+                        "question": "Why does the author prefer to go to the mall on Saturday mornings?",
+                        "options": [
+                              "Because the mall is quiet",
+                              "Because that is when new clothes arrive",
+                              "Because they work on Saturday afternoons",
+                              "Because the discounts are better"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They go on Saturday mornings 'because it is very quiet and not crowded'."
+                  },
+                  {
+                        "question": "Why didn't the author buy the jacket?",
+                        "options": [
+                              "It was too expensive",
+                              "It was the wrong color",
+                              "It did not fit well",
+                              "They preferred the shirt"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They didn't buy the jacket because 'it was way too expensive'."
+                  },
+                  {
+                        "question": "What did the author ultimately purchase?",
+                        "options": [
+                              "A shirt and blue jeans",
+                              "Only a pair of blue jeans",
+                              "A jacket and a shirt",
+                              "Shoes and a shirt"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They decided to buy 'a cheaper casual shirt and a pair of comfortable blue jeans instead'."
+                  },
+                  {
+                        "question": "What does the author always look for?",
+                        "options": [
+                              "Discounts and sales",
+                              "Expensive jackets",
+                              "Quiet malls",
+                              "Saturday mornings"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They say 'I always look carefully for great discounts and seasonal sales'."
+                  }
+            ]
+      },
+      "level2": {
+            "textEn": "The global retail industry relies heavily on rapidly changing seasonal trends to drive massive consumer sales. Unfortunately, consumers are constantly encouraged to update their wardrobes frequently, which directly leads to the problematic phenomenon known as fast fashion. Although finding a surprisingly cheap bargain is often thrilling, we must seriously consider the severe environmental impact of producing millions of cheap garments every year. I recently discovered a charming vintage shop in my neighborhood that sells high-quality, pre-owned leather goods and classic clothing. Investing in durable, timeless items rather than disposable fashion is undeniably a much more sustainable and responsible approach to modern shopping.",
+            "textPt": "O setor de varejo global depende fortemente de tendências sazonais em rápida mudança para impulsionar vendas massivas aos consumidores. Infelizmente, os consumidores são constantemente incentivados a atualizar seus guarda-roupas com frequência, o que leva diretamente ao fenômeno problemático conhecido como moda rápida. Embora encontrar uma pechincha surpreendentemente barata seja frequentemente emocionante, devemos considerar seriamente o grave impacto ambiental de produzir milhões de roupas baratas todos os anos. Descobri recentemente um charmoso brechó no meu bairro que vende artigos de couro usados de alta qualidade e roupas clássicas. Investir em itens duráveis e atemporais, em vez de moda descartável, é inegavelmente uma abordagem muito mais sustentável e responsável para as compras modernas.",
+            "questions": [
+                  {
+                        "question": "What does the retail industry rely heavily on?",
+                        "options": [
+                              "Seasonal trends",
+                              "Selling high-quality leather",
+                              "Keeping prices high",
+                              "Vintage shops"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The industry relies heavily on 'rapidly changing seasonal trends'."
+                  },
+                  {
+                        "question": "What must consumers consider when buying cheap garments?",
+                        "options": [
+                              "The environmental impact",
+                              "The thrill of a bargain",
+                              "The seasonal trends",
+                              "The vintage shops"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "We must consider 'the severe environmental impact of producing millions of cheap garments'."
+                  },
+                  {
+                        "question": "What did the author recently discover?",
+                        "options": [
+                              "A vintage shop with high-quality goods",
+                              "A fast fashion store",
+                              "A cheap garment factory",
+                              "A new shopping mall"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They discovered 'a charming vintage shop in my neighborhood that sells high-quality, pre-owned leather goods'."
+                  },
+                  {
+                        "question": "What is presented as a sustainable approach?",
+                        "options": [
+                              "Investing in durable items",
+                              "Buying cheap clothes",
+                              "Updating wardrobes frequently",
+                              "Shopping at the mall"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The text concludes 'Investing in durable, timeless items... is undeniably a much more sustainable and responsible approach'."
+                  }
+            ]
+      }
+},
     vocabulary: [
       { english: "Clothes", portuguese: "Roupas",
           levels: { 
@@ -40,8 +142,9 @@ export const scenarios2: Scenario[] = [
       { english: "Try on", portuguese: "Experimentar",
           levels: { 
                         A1: { en: "Can I try this on?", pt: "Posso experimentar isto?" }, 
-                        A2: { en: "She tried on three different dresses.", pt: "Ela experimentou três vestidos diferentes." }
-                      }
+                        A2: { en: "She tried on three different dresses.", pt: "Ela experimentou três vestidos diferentes." },
+              B1: { en: "Can I try on these shoes in a bigger size?", pt: "Posso experimentar estes sapatos em um tamanho maior?" }
+        }
     },
       { english: "Store / Shop", portuguese: "Loja",
           levels: { 
@@ -137,11 +240,6 @@ export const scenarios2: Scenario[] = [
                         A2: { en: "They bought a special gift for their parents.", pt: "Eles compraram um presente especial para os pais deles." }
                       }
     },
-      { english: "Try on", portuguese: "Experimentar (roupas)",
-          levels: { 
-                        B1: { en: "Can I try on these shoes in a bigger size?", pt: "Posso experimentar estes sapatos em um tamanho maior?" } 
-                      }
-    },
       { english: "Fit", portuguese: "Servir / Caber (tamanho)",
           levels: { 
                         B1: { en: "This jacket doesn't fit me anymore; it's too tight.", pt: "Esta jaqueta não me serve mais; está muito apertada." } 
@@ -170,26 +268,6 @@ export const scenarios2: Scenario[] = [
       { english: "Bargain", portuguese: "Pechincha",
           levels: { 
                         B1: { en: "Buying this laptop for half the price was a real bargain.", pt: "Comprar este laptop pela metade do preço foi uma verdadeira pechincha." } 
-                      }
-    },
-      { english: "Customer", portuguese: "Cliente",
-          levels: { 
-                        B1: { en: "The store manager apologized to the angry customer.", pt: "O gerente da loja pediu desculpas ao cliente irritado." } 
-                      }
-    },
-      { english: "Try on", portuguese: "Experimentar (roupa)",
-          levels: { 
-                        B1: { en: "You should try on those jeans before buying them.", pt: "Você deveria experimentar essa calça jeans antes de comprá-la." } 
-                      }
-    },
-      { english: "Fit", portuguese: "Servir / Caber",
-          levels: { 
-                        B1: { en: "These shoes don't fit me very well, they are too tight.", pt: "Estes sapatos não me servem muito bem, eles estão muito apertados." } 
-                      }
-    },
-      { english: "Suit", portuguese: "Cair bem / Combinar",
-          levels: { 
-                        B1: { en: "That dark blue jacket really suits your eye color.", pt: "Aquela jaqueta azul escura realmente combina com a cor dos seus olhos." } 
                       }
     },
       { english: "Take back", portuguese: "Devolver (na loja)",
@@ -739,6 +817,108 @@ export const scenarios2: Scenario[] = [
     image: "/images/profissoes.png",
     color: "indigo",
     available: true,
+    reading: {
+      "level1": {
+            "textEn": "Choosing a career path is a very big and important decision for any young person. Personally, I want to be a teacher when I grow up because I really enjoy helping children learn and discover new things. My older brother works hard as a mechanic at a local garage, where he fixes broken cars and trucks every single day. Next week, my older cousin has a very important job interview to become a registered nurse at the main city hospital. Everyone in this world has completely different talents, interests, and goals for their future.",
+            "textPt": "Escolher um plano de carreira é uma decisão muito grande e importante para qualquer jovem. Pessoalmente, eu quero ser professor quando crescer porque gosto muito de ajudar as crianças a aprenderem e descobrirem coisas novas. Meu irmão mais velho trabalha duro como mecânico em uma oficina local, onde conserta carros e caminhões quebrados todos os dias. Na próxima semana, meu primo mais velho tem uma entrevista de emprego muito importante para se tornar enfermeiro registrado no hospital principal da cidade. Todos neste mundo têm talentos, interesses e objetivos completamente diferentes para o seu futuro.",
+            "questions": [
+                  {
+                        "question": "Why does the author want to be a teacher?",
+                        "options": [
+                              "Because they enjoy helping children learn",
+                              "Because it pays a lot of money",
+                              "Because they want to work in a hospital",
+                              "Because they like fixing cars"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They want to be a teacher 'because I really enjoy helping children learn'."
+                  },
+                  {
+                        "question": "What is the brother's profession?",
+                        "options": [
+                              "Mechanic",
+                              "Teacher",
+                              "Nurse",
+                              "Driver"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The text says 'My older brother works hard as a mechanic'."
+                  },
+                  {
+                        "question": "What is the cousin preparing for?",
+                        "options": [
+                              "A job interview to be a nurse",
+                              "A test to become a teacher",
+                              "Buying a new car",
+                              "Fixing cars at the hospital"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The cousin 'has a very important job interview to become a registered nurse'."
+                  },
+                  {
+                        "question": "What is the main conclusion of the text?",
+                        "options": [
+                              "Everyone has different talents",
+                              "Being a teacher is the best job",
+                              "Mechanics make the most money",
+                              "It is easy to choose a career"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The text concludes: 'Everyone in this world has completely different talents'."
+                  }
+            ]
+      },
+      "level2": {
+            "textEn": "The modern corporate workplace is evolving incredibly rapidly due to continuous technological advancements. Today, employers are actively seeking highly skilled candidates who can efficiently manage complex international projects and naturally adapt to mastering new software systems quickly. I recently conducted an interview with a brilliant candidate from overseas, and their unique, diverse perspective proved to be a great, invaluable asset for our entire marketing team. Additionally, working remotely from home has drastically changed how we interact daily; instead of casual office conversations, we rely heavily on scheduling formal virtual meetings. Ultimately, professional flexibility is considered an absolutely key survival skill in this new era.",
+            "textPt": "O ambiente de trabalho corporativo moderno está evoluindo incrivelmente rápido devido aos contínuos avanços tecnológicos. Hoje, os empregadores buscam ativamente candidatos altamente qualificados que possam gerenciar com eficiência projetos internacionais complexos e se adaptar naturalmente ao domínio de novos sistemas de software rapidamente. Recentemente conduzi uma entrevista com um candidato brilhante do exterior, e sua perspectiva única e diversificada provou ser um grande e inestimável recurso para toda a nossa equipe de marketing. Além disso, trabalhar remotamente de casa mudou drasticamente a forma como interagimos diariamente; em vez de conversas casuais no escritório, dependemos fortemente do agendamento de reuniões virtuais formais. Em última análise, a flexibilidade profissional é considerada uma habilidade de sobrevivência absolutamente essencial nesta nova era.",
+            "questions": [
+                  {
+                        "question": "What skills do employers value in candidates?",
+                        "options": [
+                              "Managing projects and adapting quickly",
+                              "Fixing computers",
+                              "Working without software",
+                              "Traveling overseas"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "Employers seek candidates who 'can efficiently manage complex international projects and naturally adapt to mastering new software systems'."
+                  },
+                  {
+                        "question": "Why was the overseas candidate valuable?",
+                        "options": [
+                              "They brought a diverse perspective",
+                              "They worked for less money",
+                              "They wanted to work remotely",
+                              "They avoided virtual meetings"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "Their 'unique, diverse perspective proved to be a great, invaluable asset'."
+                  },
+                  {
+                        "question": "How has remote work changed employee interactions?",
+                        "options": [
+                              "Employees hold virtual meetings",
+                              "Employees never interact",
+                              "Employees travel more",
+                              "Employees work longer hours"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "Instead of casual office conversations, 'we rely heavily on scheduling formal virtual meetings'."
+                  },
+                  {
+                        "question": "What is considered a key professional skill?",
+                        "options": [
+                              "Flexibility",
+                              "Software engineering",
+                              "Interviewing",
+                              "Working overseas"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The text concludes 'professional flexibility is considered an absolutely key survival skill'."
+                  }
+            ]
+      }
+},
     vocabulary: [
       { english: "Doctor", portuguese: "Médico(a)",
           levels: { 
@@ -857,8 +1037,9 @@ export const scenarios2: Scenario[] = [
       { english: "Salary", portuguese: "Salário",
           levels: { 
                         A1: { en: "He gets a good salary.", pt: "Ele recebe um bom salário." }, 
-                        A2: { en: "She negotiated a higher salary during the interview.", pt: "Ela negociou um salário mais alto durante a entrevista." }
-                      }
+                        A2: { en: "She negotiated a higher salary during the interview.", pt: "Ela negociou um salário mais alto durante a entrevista." },
+              B1: { en: "He accepted the job offer because the salary was excellent.", pt: "Ele aceitou a oferta de emprego porque o salário era excelente." }
+        }
     },
       { english: "Apply for", portuguese: "Candidatar-se a",
           levels: { 
@@ -880,11 +1061,6 @@ export const scenarios2: Scenario[] = [
                         B1: { en: "She received a well-deserved promotion after working hard all year.", pt: "Ela recebeu uma promoção merecida após trabalhar duro o ano todo." } 
                       }
     },
-      { english: "Salary", portuguese: "Salário",
-          levels: { 
-                        B1: { en: "He accepted the job offer because the salary was excellent.", pt: "Ele aceitou a oferta de emprego porque o salário era excelente." } 
-                      }
-    },
       { english: "Colleague", portuguese: "Colega de trabalho",
           levels: { 
                         B1: { en: "I had lunch with a colleague from the marketing department.", pt: "Eu almocei com uma colega de trabalho do departamento de marketing." } 
@@ -898,16 +1074,6 @@ export const scenarios2: Scenario[] = [
       { english: "Quit / Resign", portuguese: "Pedir demissão",
           levels: { 
                         B1: { en: "He decided to quit his job and travel around the world.", pt: "Ele decidiu pedir demissão do seu emprego e viajar pelo mundo." } 
-                      }
-    },
-      { english: "Apply for", portuguese: "Candidatar-se a",
-          levels: { 
-                        B1: { en: "I am going to apply for the marketing manager position tomorrow.", pt: "Vou me candidatar para a vaga de gerente de marketing amanhã." } 
-                      }
-    },
-      { english: "Hire", portuguese: "Contratar",
-          levels: { 
-                        B1: { en: "The company plans to hire fifty new engineers by the end of the year.", pt: "A empresa planeja contratar cinquenta novos engenheiros até o final do ano." } 
                       }
     },
       { english: "Fire", portuguese: "Demitir",
@@ -938,11 +1104,6 @@ export const scenarios2: Scenario[] = [
       { english: "Work out", portuguese: "Dar certo / Resolver-se",
           levels: { 
                         B1: { en: "Don't worry about the project, everything will work out fine in the end.", pt: "Não se preocupe com o projeto, tudo dará certo no final." } 
-                      }
-    },
-      { english: "Shift", portuguese: "Turno",
-          levels: { 
-                        B1: { en: "Nurses often have to work long night shifts at the hospital.", pt: "Enfermeiras frequentemente têm que trabalhar em longos turnos da noite no hospital." } 
                       }
     },
       { english: "Commute", portuguese: "Trajeto casa-trabalho",
@@ -1485,6 +1646,108 @@ export const scenarios2: Scenario[] = [
     image: "/images/lugares.png",
     color: "cyan",
     available: true,
+    reading: {
+      "level1": {
+            "textEn": "Even though my town is quite small, it has many interesting and beautiful public places to visit. The lively central square has a spectacular water fountain where many young children like to play in the late afternoon. Right next to the busy square, there is a large, quiet public library filled with thousands of fascinating books. On most Fridays, I usually go to the big movie theater downtown with my best friends to watch the latest releases. The only major problem with my town is that the main bus station is located very far from my house, which means we always have to walk a lot.",
+            "textPt": "Embora minha cidade seja bem pequena, ela tem muitos lugares públicos interessantes e bonitos para visitar. A animada praça central tem uma espetacular fonte de água onde muitas crianças pequenas gostam de brincar no final da tarde. Bem ao lado da praça movimentada, há uma grande e silenciosa biblioteca pública cheia de milhares de livros fascinantes. Na maioria das sextas-feiras, geralmente vou ao grande cinema do centro com meus melhores amigos para assistir aos últimos lançamentos. O único grande problema com a minha cidade é que a rodoviária principal fica muito longe da minha casa, o que significa que sempre temos que andar muito.",
+            "questions": [
+                  {
+                        "question": "What can be found in the central square?",
+                        "options": [
+                              "A beautiful fountain",
+                              "A large bus station",
+                              "A movie theater",
+                              "Thousands of books"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The text mentions 'The lively central square has a spectacular water fountain'."
+                  },
+                  {
+                        "question": "Where is the large library located?",
+                        "options": [
+                              "Next to the central square",
+                              "Far from the house",
+                              "Inside the movie theater",
+                              "Next to the bus station"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The text says 'Right next to the busy square, there is a large, quiet public library'."
+                  },
+                  {
+                        "question": "When does the author usually visit the movie theater?",
+                        "options": [
+                              "On Fridays",
+                              "Every afternoon",
+                              "On weekends",
+                              "In the morning"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They say 'On most Fridays, I usually go to the big movie theater'."
+                  },
+                  {
+                        "question": "What is the negative aspect of the town?",
+                        "options": [
+                              "The bus station is very far",
+                              "The library doesn't have enough books",
+                              "The town is too noisy",
+                              "The fountain is broken"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The only major problem is 'that the main bus station is located very far from my house'."
+                  }
+            ]
+      },
+      "level2": {
+            "textEn": "Navigating your way successfully through a massive, busy metropolis requires immense patience and a flawless sense of direction. When I am traveling to new destinations, I actively try not to ignore the intricate architectural details of old historical buildings. Just last month, I eagerly visited an exclusive contemporary art exhibition downtown that was truly captivating and thought-provoking. Unfortunately, to finally get there, I had to walk several exhausting miles around the confusing city center because my domestic flight was severely delayed. While thoroughly exploring public urban places on foot is undeniably tiring, it is also incredibly rewarding and eye-opening.",
+            "textPt": "Navegar com sucesso por uma metrópole enorme e movimentada exige imensa paciência e um senso de direção impecável. Quando estou viajando para novos destinos, tento ativamente não ignorar os intrincados detalhes arquitetônicos de prédios históricos antigos. Apenas no mês passado, visitei ansiosamente uma exposição de arte contemporânea exclusiva no centro da cidade que foi verdadeiramente cativante e instigante. Infelizmente, para finalmente chegar lá, tive que caminhar várias milhas exaustivas pelo confuso centro da cidade porque meu voo doméstico estava severamente atrasado. Embora explorar minuciosamente os espaços urbanos públicos a pé seja inegavelmente cansativo, é também incrivelmente gratificante e revelador.",
+            "questions": [
+                  {
+                        "question": "What does navigating a busy metropolis require?",
+                        "options": [
+                              "Patience",
+                              "A fast car",
+                              "Living downtown",
+                              "Taking a flight"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "Navigating a busy metropolis requires 'immense patience and a flawless sense of direction'."
+                  },
+                  {
+                        "question": "What does the author pay attention to while traveling?",
+                        "options": [
+                              "Architectural details of historical buildings",
+                              "The delays of trains",
+                              "The cost of flights",
+                              "The number of miles they walk"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They try not to ignore 'the intricate architectural details of old historical buildings'."
+                  },
+                  {
+                        "question": "Why did the author walk miles around the city center?",
+                        "options": [
+                              "Because the flight was delayed",
+                              "Because they wanted to exercise",
+                              "Because they couldn't afford a taxi",
+                              "Because the exhibition was closed"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They walked miles 'because my domestic flight was severely delayed'."
+                  },
+                  {
+                        "question": "How does the author describe exploring on foot?",
+                        "options": [
+                              "Tiring, but rewarding",
+                              "A waste of time",
+                              "Very fast",
+                              "Boring and difficult"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They state it is 'ineniably tiring, it is also incredibly rewarding'."
+                  }
+            ]
+      }
+},
     vocabulary: [
       { english: "Park", portuguese: "Parque",
           levels: { 
@@ -1649,11 +1912,6 @@ export const scenarios2: Scenario[] = [
       { english: "Show around", portuguese: "Mostrar o lugar (para alguém)",
           levels: { 
                         B1: { en: "When you visit London, I would be happy to show you around.", pt: "Quando você visitar Londres, eu ficaria feliz em te mostrar o lugar." } 
-                      }
-    },
-      { english: "Get lost", portuguese: "Perder-se",
-          levels: { 
-                        B1: { en: "We forgot our map and ended up getting lost in the forest.", pt: "Nós esquecemos o mapa e acabamos nos perdendo na floresta." } 
                       }
     },
       { english: "Head for", portuguese: "Ir em direção a",
@@ -2231,6 +2489,108 @@ export const scenarios2: Scenario[] = [
     image: "/images/animais.png",
     color: "stone",
     available: true,
+    reading: {
+      "level1": {
+            "textEn": "Animals are truly fascinating and wonderful creatures that share our planet. My absolute favorite animal in the world is the dog because it is known to be very friendly, loyal, and protective of its family. My closest neighbor actually has a big, fluffy dog that loves to bark loudly whenever the postman arrives. Conversely, some people much prefer having cats as pets because they are generally very quiet, independent, and extremely clean. Last summer during our vacation, we went to the city zoo and saw magnificent lions, giant gray elephants, and funny little monkeys playfully jumping high up in the trees.",
+            "textPt": "Os animais são criaturas verdadeiramente fascinantes e maravilhosas que compartilham nosso planeta. O meu animal favorito absoluto no mundo é o cachorro, porque é conhecido por ser muito amigável, leal e protetor de sua família. Meu vizinho mais próximo, na verdade, tem um cachorro grande e fofo que adora latir alto sempre que o carteiro chega. Por outro lado, algumas pessoas preferem muito mais ter gatos como animais de estimação porque geralmente são muito quietos, independentes e extremamente limpos. No verão passado, durante nossas férias, fomos ao zoológico da cidade e vimos leões magníficos, elefantes cinzentos gigantes e macaquinhos engraçados pulando de forma divertida no alto das árvores.",
+            "questions": [
+                  {
+                        "question": "Why does the author favor dogs?",
+                        "options": [
+                              "Because they are friendly",
+                              "Because they are quiet",
+                              "Because they jump in trees",
+                              "Because they bark a lot"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The author favors dogs 'because it is known to be very friendly, loyal, and protective'."
+                  },
+                  {
+                        "question": "What does the neighbor's dog like to do?",
+                        "options": [
+                              "Bark",
+                              "Sleep all day",
+                              "Jump in trees",
+                              "Chase cats"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The neighbor has a big dog that 'loves to bark loudly'."
+                  },
+                  {
+                        "question": "Why do some people prefer cats?",
+                        "options": [
+                              "Because they are quiet",
+                              "Because they are friendly",
+                              "Because they are big",
+                              "Because they like to bark"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "People prefer cats 'because they are generally very quiet'."
+                  },
+                  {
+                        "question": "Where did they see lions and elephants?",
+                        "options": [
+                              "At the zoo",
+                              "In the neighbor's yard",
+                              "At the park",
+                              "In the forest"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They 'went to the city zoo and saw magnificent lions, giant gray elephants'."
+                  }
+            ]
+      },
+      "level2": {
+            "textEn": "Global wildlife conservation is absolutely essential for maintaining the delicate balance of our planet's rich biodiversity. Unfortunately, ever since the dawn of the industrial revolution, the grim timeline of global species extinction has accelerated quite alarmingly across all continents. Just last month, I had the privilege of visiting a massive coastal aquarium that focuses extensively on rescuing and rehabilitating injured marine animals. The educational guides there strongly emphasized that continuously educating the general public about these majestic, vulnerable creatures is truly the critical first step toward ultimately saving them from permanent extinction.",
+            "textPt": "A conservação da vida selvagem global é absolutamente essencial para manter o delicado equilíbrio da rica biodiversidade do nosso planeta. Infelizmente, desde o alvorecer da revolução industrial, a sombria linha do tempo da extinção de espécies globais acelerou de forma bastante alarmante em todos os continentes. Apenas no mês passado, tive o privilégio de visitar um enorme aquário costeiro que se concentra extensivamente em resgatar e reabilitar animais marinhos feridos. Os guias educacionais lá enfatizaram fortemente que educar continuamente o público em geral sobre essas criaturas majestosas e vulneráveis é verdadeiramente o primeiro passo crítico para, em última análise, salvá-las da extinção permanente.",
+            "questions": [
+                  {
+                        "question": "What is the primary reason for wildlife conservation?",
+                        "options": [
+                              "To maintain biodiversity",
+                              "To build more aquariums",
+                              "To prevent hunting",
+                              "To accelerate extinction"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "It is 'absolutely essential for maintaining the delicate balance of our planet's rich biodiversity'."
+                  },
+                  {
+                        "question": "What has happened since the industrial revolution?",
+                        "options": [
+                              "Species extinction has accelerated alarmingly",
+                              "Extinction has stopped",
+                              "Biodiversity has increased",
+                              "Marine animals were rescued"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "Since then, 'the grim timeline of global species extinction has accelerated quite alarmingly'."
+                  },
+                  {
+                        "question": "What was the focus of the aquarium?",
+                        "options": [
+                              "Rescuing marine animals",
+                              "Training sharks to hunt",
+                              "Breeding lions",
+                              "Selling exotic fish"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The aquarium 'focuses extensively on rescuing and rehabilitating injured marine animals'."
+                  },
+                  {
+                        "question": "What is the first step toward saving these creatures?",
+                        "options": [
+                              "Educating the public",
+                              "Stopping the industrial revolution",
+                              "Closing aquariums",
+                              "Feeding them more"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "'Educating the general public about these majestic, vulnerable creatures is truly the critical first step'."
+                  }
+            ]
+      }
+},
     vocabulary: [
       { english: "Dog", portuguese: "Cachorro",
           levels: { 
@@ -2271,8 +2631,9 @@ export const scenarios2: Scenario[] = [
       { english: "Feed", portuguese: "Alimentar",
           levels: { 
                         A1: { en: "Dont forget to feed the cat.", pt: "Não esqueça de alimentar o gato." }, 
-                        A2: { en: "She checked her feed every morning to read the news.", pt: "Ela verificava o seu feed toda manhã para ler as notícias." }
-                      }
+                        A2: { en: "She checked her feed every morning to read the news.", pt: "Ela verificava o seu feed toda manhã para ler as notícias." },
+              B1: { en: "Don't forget to feed the fish twice a day with these special flakes.", pt: "Não se esqueça de alimentar os peixes duas vezes ao dia com estes flocos especiais." }
+        }
     },
       { english: "Horse", portuguese: "Cavalo",
           levels: { 
@@ -2337,8 +2698,9 @@ export const scenarios2: Scenario[] = [
       { english: "Bark", portuguese: "Latir",
           levels: { 
                         A1: { en: "The dog barks loudly.", pt: "O cachorro late alto." }, 
-                        A2: { en: "The guard dog barked aggressively at the unknown intruder.", pt: "O cão de guarda latiu agressivamente para o intruso desconhecido." }
-                      }
+                        A2: { en: "The guard dog barked aggressively at the unknown intruder.", pt: "O cão de guarda latiu agressivamente para o intruso desconhecido." },
+              B1: { en: "The dog started to bark loudly when the postman arrived.", pt: "O cachorro começou a latir alto quando o carteiro chegou." }
+        }
     },
       { english: "Meow", portuguese: "Miar",
           levels: { 
@@ -2349,8 +2711,9 @@ export const scenarios2: Scenario[] = [
       { english: "Bite", portuguese: "Morder",
           levels: { 
                         A1: { en: "Be careful, the dog might bite.", pt: "Cuidado, o cachorro pode morder." }, 
-                        A2: { en: "The frightened dog bit the stranger's hand unexpectedly.", pt: "O cachorro assustado mordeu a mão do estranho inesperadamente." }
-                      }
+                        A2: { en: "The frightened dog bit the stranger's hand unexpectedly.", pt: "O cachorro assustado mordeu a mão do estranho inesperadamente." },
+              B1: { en: "Be careful with that wild animal, it might bite you.", pt: "Tenha cuidado com aquele animal selvagem, ele pode te morder." }
+        }
     },
       { english: "Wildlife", portuguese: "Vida selvagem",
           levels: { 
@@ -2370,16 +2733,6 @@ export const scenarios2: Scenario[] = [
       { english: "Furry", portuguese: "Peludo",
           levels: { 
                         B1: { en: "They adopted a cute, furry little kitten from the shelter.", pt: "Eles adotaram um gatinho pequeno e peludo do abrigo." } 
-                      }
-    },
-      { english: "Bark", portuguese: "Latir",
-          levels: { 
-                        B1: { en: "The dog started to bark loudly when the postman arrived.", pt: "O cachorro começou a latir alto quando o carteiro chegou." } 
-                      }
-    },
-      { english: "Bite", portuguese: "Morder",
-          levels: { 
-                        B1: { en: "Be careful with that wild animal, it might bite you.", pt: "Tenha cuidado com aquele animal selvagem, ele pode te morder." } 
                       }
     },
       { english: "Protect", portuguese: "Proteger",
@@ -2402,21 +2755,6 @@ export const scenarios2: Scenario[] = [
                         B1: { en: "The scared dog managed to jump the fence and run away.", pt: "O cachorro assustado conseguiu pular a cerca e fugir." } 
                       }
     },
-      { english: "Bark", portuguese: "Latir",
-          levels: { 
-                        B1: { en: "My neighbor's dog barks loudly every time someone knocks on the door.", pt: "O cachorro do meu vizinho late alto toda vez que alguém bate na porta." } 
-                      }
-    },
-      { english: "Bite", portuguese: "Morder",
-          levels: { 
-                        B1: { en: "Be careful with that wild animal, it might bite you if you get too close.", pt: "Cuidado com esse animal selvagem, ele pode te morder se você chegar muito perto." } 
-                      }
-    },
-      { english: "Feed", portuguese: "Alimentar",
-          levels: { 
-                        B1: { en: "Don't forget to feed the fish twice a day with these special flakes.", pt: "Não se esqueça de alimentar os peixes duas vezes ao dia com estes flocos especiais." } 
-                      }
-    },
       { english: "Tame", portuguese: "Domar / Domesticar",
           levels: { 
                         B1: { en: "It takes a lot of patience to tame a wild horse.", pt: "É preciso muita paciência para domar um cavalo selvagem." } 
@@ -2435,11 +2773,6 @@ export const scenarios2: Scenario[] = [
       { english: "Stroke", portuguese: "Acariciar",
           levels: { 
                         B1: { en: "The cat started purring softly as soon as I began to stroke its back.", pt: "O gato começou a ronronar suavemente assim que comecei a acariciar suas costas." } 
-                      }
-    },
-      { english: "Protect", portuguese: "Proteger",
-          levels: { 
-                        B1: { en: "Many organizations are fighting to protect endangered species from extinction.", pt: "Muitas organizações estão lutando para proteger espécies ameaçadas da extinção." } 
                       }
     },
       { english: "Adopt", portuguese: "Adotar",
@@ -2977,6 +3310,108 @@ export const scenarios2: Scenario[] = [
     image: "/images/culinaria.png",
     color: "red",
     available: true,
+    reading: {
+      "level1": {
+            "textEn": "Knowing how to cook your own meals is a very useful and practical daily skill for everyone. On most mornings, I usually choose to quickly boil a couple of eggs and gently fry some crispy bacon for a hearty breakfast. Later in the day, if you want to make a healthy green salad, you have to carefully chop fresh vegetables like tomatoes and cucumbers with a very sharp kitchen knife. Meanwhile, my talented mother always likes to lovingly bake delicious, sweet chocolate cakes in the hot oven. I have learned that strictly following a written recipe really helps you measure and mix all the ingredients perfectly.",
+            "textPt": "Saber cozinhar as próprias refeições é uma habilidade diária muito útil e prática para todos. Na maioria das manhãs, eu geralmente escolho ferver rapidamente alguns ovos e fritar suavemente um bacon crocante para um café da manhã reforçado. Mais tarde no dia, se você quiser fazer uma salada verde saudável, você tem que picar cuidadosamente vegetais frescos como tomates e pepinos com uma faca de cozinha muito afiada. Enquanto isso, minha talentosa mãe sempre gosta de assar com amor bolos de chocolate deliciosos e doces no forno quente. Aprendi que seguir estritamente uma receita escrita realmente ajuda você a medir e misturar perfeitamente todos os ingredientes.",
+            "questions": [
+                  {
+                        "question": "What does the author usually make for breakfast?",
+                        "options": [
+                              "Boiled eggs and bacon",
+                              "Chocolate cakes",
+                              "A fresh salad",
+                              "Cereal and milk"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They usually 'choose to quickly boil a couple of eggs and gently fry some crispy bacon'."
+                  },
+                  {
+                        "question": "What tool is used to chop vegetables?",
+                        "options": [
+                              "A sharp knife",
+                              "A spoon",
+                              "An oven",
+                              "A fork"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "You chop fresh vegetables 'with a very sharp kitchen knife'."
+                  },
+                  {
+                        "question": "What does the mother like to bake?",
+                        "options": [
+                              "Chocolate cakes",
+                              "Bread",
+                              "Cookies",
+                              "Pizza"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The mother 'likes to lovingly bake delicious, sweet chocolate cakes'."
+                  },
+                  {
+                        "question": "Why is following a recipe helpful?",
+                        "options": [
+                              "It helps mix ingredients perfectly",
+                              "It makes cooking faster",
+                              "It cleans the kitchen",
+                              "It is required by law"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "Following a written recipe 'really helps you measure and mix all the ingredients perfectly'."
+                  }
+            ]
+      },
+      "level2": {
+            "textEn": "Genuinely mastering the advanced culinary arts requires not only raw talent but also immense patience and endless flavor experimentation. A truly great, world-class chef always knows exactly how to perfectly balance conflicting sweet, salty, and spicy flavor profiles within a single, cohesive dish. Yesterday evening, I bravely attempted a highly complex gourmet recipe that involved skillfully pouring a rich, delicate wine sauce over perfectly grilled organic chicken. Constantly tasting the food while you are actively cooking is incredibly important, as it ensures that the subtle seasoning is just right before serving. Finally, creatively presenting the food beautifully on a warm plate is also considered a crucial aspect of fine dining.",
+            "textPt": "Dominar genuinamente as artes culinárias avançadas exige não apenas talento bruto, mas também imensa paciência e experimentação de sabores sem fim. Um chef verdadeiramente grande e de classe mundial sempre sabe exatamente como equilibrar perfeitamente perfis conflitantes de sabores doces, salgados e picantes dentro de um único prato coeso. Ontem à noite, tentei corajosamente uma receita gourmet altamente complexa que envolvia derramar habilmente um molho de vinho rico e delicado sobre frango orgânico perfeitamente grelhado. Provar constantemente a comida enquanto você está cozinhando ativamente é incrivelmente importante, pois garante que o tempero sutil esteja no ponto antes de servir. Por fim, apresentar criativamente a comida de forma bela em um prato aquecido também é considerado um aspecto crucial da alta gastronomia.",
+            "questions": [
+                  {
+                        "question": "What does mastering the culinary arts require?",
+                        "options": [
+                              "Patience and experimentation",
+                              "A sharp knife and an oven",
+                              "Only expensive ingredients",
+                              "Cooking very fast"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "It requires 'immense patience and endless flavor experimentation'."
+                  },
+                  {
+                        "question": "What should a great chef know how to balance?",
+                        "options": [
+                              "Sweet, salty, and spicy flavors",
+                              "Water and oil",
+                              "Meat and vegetables",
+                              "Time and money"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "A great chef knows how to balance 'sweet, salty, and spicy flavor profiles'."
+                  },
+                  {
+                        "question": "Why is tasting the food while cooking important?",
+                        "options": [
+                              "It ensures the seasoning is just right",
+                              "It makes you less hungry",
+                              "It cools down the food",
+                              "It is a rule in the recipe"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "Tasting the food 'ensures that the subtle seasoning is just right before serving'."
+                  },
+                  {
+                        "question": "What is also considered crucial in cooking?",
+                        "options": [
+                              "Presenting the food beautifully on a plate",
+                              "Washing the dishes immediately",
+                              "Buying a new oven",
+                              "Using a lot of salt"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "'Creatively presenting the food beautifully on a warm plate is also considered a crucial aspect'."
+                  }
+            ]
+      }
+},
     vocabulary: [
       { english: "Cook", portuguese: "Cozinhar",
           levels: { 
@@ -2987,20 +3422,23 @@ export const scenarios2: Scenario[] = [
       { english: "Bake", portuguese: "Assar (bolos/pães)",
           levels: { 
                         A1: { en: "We bake chocolate chip cookies.", pt: "Nós assamos cookies de chocolate." }, 
-                        A2: { en: "He baked a delicious chocolate cake for the party.", pt: "Ele assou um bolo de chocolate delicioso para a festa." }
-                      }
+                        A2: { en: "He baked a delicious chocolate cake for the party.", pt: "Ele assou um bolo de chocolate delicioso para a festa." },
+              B1: { en: "She likes to bake fresh bread early in the morning.", pt: "Ela gosta de assar pão fresco de manhã cedo." }
+        }
     },
       { english: "Recipe", portuguese: "Receita",
           levels: { 
                         A1: { en: "This is my grandmothers recipe.", pt: "Esta é a receita da minha avó." }, 
-                        A2: { en: "They followed the traditional recipe step by step.", pt: "Eles seguiram a receita tradicional passo a passo." }
-                      }
+                        A2: { en: "They followed the traditional recipe step by step.", pt: "Eles seguiram a receita tradicional passo a passo." },
+              B1: { en: "My grandmother gave me her secret recipe for chocolate cake.", pt: "Minha avó me deu a receita secreta dela de bolo de chocolate." }
+        }
     },
       { english: "Ingredients", portuguese: "Ingredientes",
           levels: { 
                         A1: { en: "We need five ingredients for this.", pt: "Precisamos de cinco ingredientes para isto." }, 
-                        A2: { en: "She bought all the fresh ingredients at the local market.", pt: "Ela comprou todos os ingredientes frescos no mercado local." }
-                      }
+                        A2: { en: "She bought all the fresh ingredients at the local market.", pt: "Ela comprou todos os ingredientes frescos no mercado local." },
+              B1: { en: "Make sure you have all the ingredients before you start cooking.", pt: "Certifique-se de ter todos os ingredientes antes de começar a cozinhar." }
+        }
     },
       { english: "Knife", portuguese: "Faca",
           levels: { 
@@ -3017,14 +3455,16 @@ export const scenarios2: Scenario[] = [
       { english: "Boil", portuguese: "Ferver",
           levels: { 
                         A1: { en: "Boil the water before adding pasta.", pt: "Ferva a água antes de adicionar o macarrão." }, 
-                        A2: { en: "She boiled the water before adding the pasta.", pt: "Ela ferveu a água antes de adicionar o macarrão." }
-                      }
+                        A2: { en: "She boiled the water before adding the pasta.", pt: "Ela ferveu a água antes de adicionar o macarrão." },
+              B1: { en: "First, boil some water in a large pot for the pasta.", pt: "Primeiro, ferva um pouco de água em uma panela grande para o macarrão." }
+        }
     },
       { english: "Fry", portuguese: "Fritar",
           levels: { 
                         A1: { en: "Do you want to fry the eggs?", pt: "Você quer fritar os ovos?" }, 
-                        A2: { en: "He fried the potatoes until they were crispy.", pt: "Ele fritou as batatas até ficarem crocantes." }
-                      }
+                        A2: { en: "He fried the potatoes until they were crispy.", pt: "Ele fritou as batatas até ficarem crocantes." },
+              B1: { en: "They like to fry eggs and bacon for breakfast on Sunday mornings.", pt: "Eles gostam de fritar ovos e bacon para o café da manhã nos domingos." }
+        }
     },
       { english: "Chop", portuguese: "Picar / Cortar",
           levels: { 
@@ -3065,8 +3505,9 @@ export const scenarios2: Scenario[] = [
       { english: "Pour", portuguese: "Despejar",
           levels: { 
                         A1: { en: "Pour the milk into the glass.", pt: "Despeje o leite no copo." }, 
-                        A2: { en: "She poured the hot tea into the delicate cups.", pt: "Ela despejou o chá quente nas xícaras delicadas." }
-                      }
+                        A2: { en: "She poured the hot tea into the delicate cups.", pt: "Ela despejou o chá quente nas xícaras delicadas." },
+              B1: { en: "Could you please pour me a glass of cold water?", pt: "Você poderia, por favor, me servir um copo de água gelada?" }
+        }
     },
       { english: "Taste", portuguese: "Provar / Gosto",
           levels: { 
@@ -3077,8 +3518,9 @@ export const scenarios2: Scenario[] = [
       { english: "Spicy", portuguese: "Apimentado",
           levels: { 
                         A1: { en: "Mexican food is often spicy.", pt: "Comida mexicana é frequentemente apimentada." }, 
-                        A2: { en: "He loved the spicy food they served at the Indian restaurant.", pt: "Ele adorava a comida apimentada que serviam no restaurante indiano." }
-                      }
+                        A2: { en: "He loved the spicy food they served at the Indian restaurant.", pt: "Ele adorava a comida apimentada que serviam no restaurante indiano." },
+              B1: { en: "I can't eat this curry, it is way too spicy for me.", pt: "Não consigo comer esse curry, está apimentado demais para mim." }
+        }
     },
       { english: "Sweet", portuguese: "Doce",
           levels: { 
@@ -3098,34 +3540,9 @@ export const scenarios2: Scenario[] = [
                         A2: { en: "She heated the oil in the frying pan before adding the eggs.", pt: "Ela aqueceu o óleo na frigideira antes de adicionar os ovos." }
                       }
     },
-      { english: "Recipe", portuguese: "Receita (culinária)",
-          levels: { 
-                        B1: { en: "My grandmother gave me her secret recipe for chocolate cake.", pt: "Minha avó me deu a receita secreta dela de bolo de chocolate." } 
-                      }
-    },
-      { english: "Ingredients", portuguese: "Ingredientes",
-          levels: { 
-                        B1: { en: "Make sure you have all the ingredients before you start cooking.", pt: "Certifique-se de ter todos os ingredientes antes de começar a cozinhar." } 
-                      }
-    },
-      { english: "Spicy", portuguese: "Apimentado",
-          levels: { 
-                        B1: { en: "I can't eat this curry, it is way too spicy for me.", pt: "Não consigo comer esse curry, está apimentado demais para mim." } 
-                      }
-    },
       { english: "Tasty", portuguese: "Saboroso / Gostoso",
           levels: { 
                         B1: { en: "This soup is incredibly tasty, what did you put in it?", pt: "Esta sopa está incrivelmente saborosa, o que você colocou nela?" } 
-                      }
-    },
-      { english: "Bake", portuguese: "Assar",
-          levels: { 
-                        B1: { en: "She likes to bake fresh bread early in the morning.", pt: "Ela gosta de assar pão fresco de manhã cedo." } 
-                      }
-    },
-      { english: "Boil", portuguese: "Ferver",
-          levels: { 
-                        B1: { en: "First, boil some water in a large pot for the pasta.", pt: "Primeiro, ferva um pouco de água em uma panela grande para o macarrão." } 
                       }
     },
       { english: "Raw", portuguese: "Cru(a)",
@@ -3168,16 +3585,6 @@ export const scenarios2: Scenario[] = [
                         B1: { en: "If you are hungry, I can quickly whip up a sandwich for you.", pt: "Se você estiver com fome, eu posso preparar um sanduíche rapidamente para você." } 
                       }
     },
-      { english: "Bake", portuguese: "Assar (bolos/pães)",
-          levels: { 
-                        B1: { en: "She decided to bake a chocolate cake for her friend's birthday party.", pt: "Ela decidiu assar um bolo de chocolate para a festa de aniversário do seu amigo." } 
-                      }
-    },
-      { english: "Fry", portuguese: "Fritar",
-          levels: { 
-                        B1: { en: "They like to fry eggs and bacon for breakfast on Sunday mornings.", pt: "Eles gostam de fritar ovos e bacon para o café da manhã nos domingos." } 
-                      }
-    },
       { english: "Grill", portuguese: "Grelhar",
           levels: { 
                         B1: { en: "We should grill some chicken and vegetables on the barbecue tonight.", pt: "Nós deveríamos grelhar um pouco de frango e vegetais na churrasqueira hoje à noite." } 
@@ -3186,11 +3593,6 @@ export const scenarios2: Scenario[] = [
       { english: "Peel", portuguese: "Descascar",
           levels: { 
                         B1: { en: "You need to peel the potatoes before boiling them for the soup.", pt: "Você precisa descascar as batatas antes de fervê-las para a sopa." } 
-                      }
-    },
-      { english: "Pour", portuguese: "Despejar / Servir (líquido)",
-          levels: { 
-                        B1: { en: "Could you please pour me a glass of cold water?", pt: "Você poderia, por favor, me servir um copo de água gelada?" } 
                       }
     },
       { english: "Stir", portuguese: "Mexer (a comida)",
@@ -3723,6 +4125,108 @@ export const scenarios2: Scenario[] = [
     image: "/images/tecnologia.png",
     color: "slate",
     available: true,
+    reading: {
+      "level1": {
+            "textEn": "In my daily life, I heavily rely on my personal smartphone and lightweight laptop to accomplish almost every task. In order to safely access the internet and read my emails, I always make sure to type a secret, complicated password. During my free time, I often enjoy downloading new entertainment apps and exciting puzzle games from the digital store. Whenever the screen indicates that the battery is running low, I quickly grab a compatible charger and plug it into the wall socket. Modern devices are designed to be user-friendly; for instance, it is very easy to type quickly on the digital keyboard and comfortably look at the bright, high-resolution screen.",
+            "textPt": "Na minha vida diária, dependo muito do meu smartphone pessoal e do meu laptop leve para realizar quase todas as tarefas. Para acessar a internet com segurança e ler meus e-mails, sempre me certifico de digitar uma senha secreta e complicada. Durante meu tempo livre, costumo gostar de baixar novos aplicativos de entretenimento e emocionantes jogos de quebra-cabeça da loja digital. Sempre que a tela indica que a bateria está acabando, pego rapidamente um carregador compatível e o conecto na tomada da parede. Dispositivos modernos são projetados para serem fáceis de usar; por exemplo, é muito fácil digitar rapidamente no teclado digital e olhar confortavelmente para a tela brilhante e de alta resolução.",
+            "questions": [
+                  {
+                        "question": "What devices does the author use every day?",
+                        "options": [
+                              "Smartphone and laptop",
+                              "Television and radio",
+                              "Tablet and smartwatch",
+                              "Camera and printer"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "The text states 'I heavily rely on my personal smartphone and lightweight laptop'."
+                  },
+                  {
+                        "question": "What is needed to use the internet?",
+                        "options": [
+                              "A secret password",
+                              "A new app",
+                              "A charger",
+                              "A printer"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They say 'In order to safely access the internet... I always make sure to type a secret, complicated password'."
+                  },
+                  {
+                        "question": "What does the author often download?",
+                        "options": [
+                              "New apps and games",
+                              "Movies and music",
+                              "Books and photos",
+                              "Viruses"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They often enjoy 'downloading new entertainment apps and exciting puzzle games'."
+                  },
+                  {
+                        "question": "What do you use when the battery is low?",
+                        "options": [
+                              "A charger",
+                              "A keyboard",
+                              "A screen",
+                              "A password"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They state 'Whenever the screen indicates that the battery is running low, I quickly grab a compatible charger'."
+                  }
+            ]
+      },
+      "level2": {
+            "textEn": "The widespread adoption of cloud computing technology has fundamentally and irreversibly revolutionized how modern businesses and individuals securely store their digital data. Instead of precariously keeping all your vulnerable files on a single, fragile local hard drive, you can seamlessly upload everything to a highly secure, encrypted remote server. This amazing capability makes it incredibly easy to logically organize thousands of files into neat digital folders and instantly access them from absolutely any internet-connected device in the world. However, despite these benefits, you must always remain highly vigilant and extremely careful with disguised malicious links that could potentially steal your sensitive private data. Therefore, regularly backing up your important files and consistently updating your operating software is considered absolutely essential for cybersecurity.",
+            "textPt": "A ampla adoção da tecnologia de computação em nuvem revolucionou de forma fundamental e irreversível a maneira como empresas modernas e indivíduos armazenam com segurança seus dados digitais. Em vez de manter precariamente todos os seus arquivos vulneráveis em um único e frágil disco rígido local, você pode fazer upload perfeitamente de tudo para um servidor remoto altamente seguro e criptografado. Essa capacidade incrível torna incrivelmente fácil organizar logicamente milhares de arquivos em pastas digitais limpas e acessá-los instantaneamente de absolutamente qualquer dispositivo conectado à internet no mundo. No entanto, apesar desses benefícios, você deve sempre permanecer altamente vigilante e extremamente cuidadoso com links maliciosos disfarçados que podem potencialmente roubar seus dados privados sensíveis. Portanto, fazer backup regularmente de seus arquivos importantes e atualizar consistentemente seu software operacional é considerado absolutamente essencial para a segurança cibernética.",
+            "questions": [
+                  {
+                        "question": "How has cloud computing changed data storage?",
+                        "options": [
+                              "You can upload files to a secure server",
+                              "You must keep files on a local hard drive",
+                              "It deleted all digital folders",
+                              "It made passwords unnecessary"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "You can 'seamlessly upload everything to a highly secure, encrypted remote server'."
+                  },
+                  {
+                        "question": "What is an advantage of using digital folders in the cloud?",
+                        "options": [
+                              "Accessing files from any device",
+                              "Avoiding software updates",
+                              "Increasing battery life",
+                              "Listening to music offline"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "It makes it easy to 'instantly access them from absolutely any internet-connected device'."
+                  },
+                  {
+                        "question": "What danger should users be careful about?",
+                        "options": [
+                              "Malicious links that could steal data",
+                              "Uploading too many photos",
+                              "Forgetting the charger",
+                              "Organizing files too often"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "You must be careful with 'disguised malicious links that could potentially steal your sensitive private data'."
+                  },
+                  {
+                        "question": "What is considered essential for data security?",
+                        "options": [
+                              "Regularly backing up and updating software",
+                              "Sharing passwords",
+                              "Using a local hard drive",
+                              "Clicking on all links"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "'Regularly backing up your important files and consistently updating your operating software is considered absolutely essential'."
+                  }
+            ]
+      }
+},
     vocabulary: [
       { english: "Laptop", portuguese: "Notebook / PC",
           levels: { 
@@ -3745,26 +4249,30 @@ export const scenarios2: Scenario[] = [
       { english: "Keyboard", portuguese: "Teclado",
           levels: { 
                         A1: { en: "My keyboard is broken.", pt: "Meu teclado está quebrado." }, 
-                        A2: { en: "He typed the long document using a mechanical keyboard.", pt: "Ele digitou o longo documento usando um teclado mecânico." }
-                      }
+                        A2: { en: "He typed the long document using a mechanical keyboard.", pt: "Ele digitou o longo documento usando um teclado mecânico." },
+              B1: { en: "He spilled coffee on his laptop keyboard this morning.", pt: "Ele derramou café no teclado do laptop esta manhã." }
+        }
     },
       { english: "Screen", portuguese: "Tela",
           levels: { 
                         A1: { en: "Dont touch the screen.", pt: "Não toque na tela." }, 
-                        A2: { en: "She cracked her phone screen when it fell on the floor.", pt: "Ela rachou a tela do telefone quando ele caiu no chão." }
-                      }
+                        A2: { en: "She cracked her phone screen when it fell on the floor.", pt: "Ela rachou a tela do telefone quando ele caiu no chão." },
+              B1: { en: "She dropped her phone and cracked the screen completely.", pt: "Ela derrubou o telefone e rachou a tela completamente." }
+        }
     },
       { english: "Download", portuguese: "Baixar",
           levels: { 
                         A1: { en: "I download the file.", pt: "Eu baixo o arquivo." }, 
-                        A2: { en: "He downloaded the important files before the flight.", pt: "Ele baixou os arquivos importantes antes do voo." }
-                      }
+                        A2: { en: "He downloaded the important files before the flight.", pt: "Ele baixou os arquivos importantes antes do voo." },
+              B1: { en: "You can download the application directly from their website.", pt: "Você pode baixar o aplicativo diretamente do site deles." }
+        }
     },
       { english: "Password", portuguese: "Senha",
           levels: { 
                         A1: { en: "I forgot my password.", pt: "Esqueci minha senha." }, 
-                        A2: { en: "She forgot her password and locked her account.", pt: "Ela esqueceu sua senha e bloqueou sua conta." }
-                      }
+                        A2: { en: "She forgot her password and locked her account.", pt: "Ela esqueceu sua senha e bloqueou sua conta." },
+              B1: { en: "Make sure you choose a strong password for your email account.", pt: "Certifique-se de escolher uma senha forte para sua conta de e-mail." }
+        }
     },
       { english: "Charger", portuguese: "Carregador",
           levels: { 
@@ -3823,14 +4331,16 @@ export const scenarios2: Scenario[] = [
       { english: "Delete", portuguese: "Apagar",
           levels: { 
                         A1: { en: "Delete that picture, please.", pt: "Apague aquela foto, por favor." }, 
-                        A2: { en: "He deleted the old files to free up space on his computer.", pt: "Ele apagou os arquivos antigos para liberar espaço no seu computador." }
-                      }
+                        A2: { en: "He deleted the old files to free up space on his computer.", pt: "Ele apagou os arquivos antigos para liberar espaço no seu computador." },
+              B1: { en: "I accidentally deleted all the important photos from my phone.", pt: "Eu apaguei acidentalmente todas as fotos importantes do meu telefone." }
+        }
     },
       { english: "Folder", portuguese: "Pasta (arquivos)",
           levels: { 
                         A1: { en: "Put the document in the new folder.", pt: "Coloque o documento na pasta nova." }, 
-                        A2: { en: "She organized her digital photos in a specific folder.", pt: "Ela organizou suas fotos digitais numa pasta específica." }
-                      }
+                        A2: { en: "She organized her digital photos in a specific folder.", pt: "Ela organizou suas fotos digitais numa pasta específica." },
+              B1: { en: "I organized all the project files into a single folder.", pt: "Eu organizei todos os arquivos do projeto em uma única pasta." }
+        }
     },
       { english: "Headphones", portuguese: "Fones de ouvido",
           levels: { 
@@ -3841,38 +4351,9 @@ export const scenarios2: Scenario[] = [
       { english: "Plug in", portuguese: "Conectar na tomada",
           levels: { 
                         A1: { en: "Plug in the charger first.", pt: "Conecte o carregador na tomada primeiro." }, 
-                        A2: { en: "She plugged in her laptop before starting the presentation.", pt: "Ela conectou (na tomada) o laptop antes de começar a apresentação." }
-                      }
-    },
-      { english: "Download", portuguese: "Baixar (download)",
-          levels: { 
-                        B1: { en: "You can download the application directly from their website.", pt: "Você pode baixar o aplicativo diretamente do site deles." } 
-                      }
-    },
-      { english: "Password", portuguese: "Senha",
-          levels: { 
-                        B1: { en: "Make sure you choose a strong password for your email account.", pt: "Certifique-se de escolher uma senha forte para sua conta de e-mail." } 
-                      }
-    },
-      { english: "Delete", portuguese: "Apagar / Deletar",
-          levels: { 
-                        B1: { en: "I accidentally deleted all the important photos from my phone.", pt: "Eu apaguei acidentalmente todas as fotos importantes do meu telefone." } 
-                      }
-    },
-      { english: "Folder", portuguese: "Pasta (computador)",
-          levels: { 
-                        B1: { en: "I organized all the project files into a single folder.", pt: "Eu organizei todos os arquivos do projeto em uma única pasta." } 
-                      }
-    },
-      { english: "Screen", portuguese: "Tela",
-          levels: { 
-                        B1: { en: "She dropped her phone and cracked the screen completely.", pt: "Ela derrubou o telefone e rachou a tela completamente." } 
-                      }
-    },
-      { english: "Keyboard", portuguese: "Teclado",
-          levels: { 
-                        B1: { en: "He spilled coffee on his laptop keyboard this morning.", pt: "Ele derramou café no teclado do laptop esta manhã." } 
-                      }
+                        A2: { en: "She plugged in her laptop before starting the presentation.", pt: "Ela conectou (na tomada) o laptop antes de começar a apresentação." },
+              B1: { en: "The battery is almost dead, I need to plug in my charger right away.", pt: "A bateria está quase acabando, eu preciso conectar meu carregador imediatamente." }
+        }
     },
       { english: "Update", portuguese: "Atualizar",
           levels: { 
@@ -3919,11 +4400,6 @@ export const scenarios2: Scenario[] = [
                         B1: { en: "Click on the blue link to verify your email address.", pt: "Clique no link azul para verificar seu endereço de e-mail." } 
                       }
     },
-      { english: "Plug in", portuguese: "Ligar na tomada / Conectar",
-          levels: { 
-                        B1: { en: "The battery is almost dead, I need to plug in my charger right away.", pt: "A bateria está quase acabando, eu preciso conectar meu carregador imediatamente." } 
-                      }
-    },
       { english: "Hack into", portuguese: "Hackear / Invadir (sistema)",
           levels: { 
                         B1: { en: "Cybercriminals managed to hack into the bank's secure database.", pt: "Cibercriminosos conseguiram hackear o banco de dados seguro do banco." } 
@@ -3932,16 +4408,6 @@ export const scenarios2: Scenario[] = [
       { english: "Go offline", portuguese: "Ficar offline",
           levels: { 
                         B1: { en: "The server went offline for maintenance during the night.", pt: "O servidor ficou offline para manutenção durante a noite." } 
-                      }
-    },
-      { english: "Update", portuguese: "Atualizar",
-          levels: { 
-                        B1: { en: "Your phone will remind you when it is time to update the operating system.", pt: "Seu telefone o lembrará quando for a hora de atualizar o sistema operacional." } 
-                      }
-    },
-      { english: "Download", portuguese: "Baixar (arquivo)",
-          levels: { 
-                        B1: { en: "You can download the full report in PDF format from our main website.", pt: "Você pode baixar o relatório completo em formato PDF no nosso site principal." } 
                       }
     }
       ],
@@ -4469,6 +4935,108 @@ export const scenarios2: Scenario[] = [
     image: "/images/redes-sociais.png",
     color: "violet",
     available: true,
+    reading: {
+      "level1": {
+            "textEn": "Using social media applications on my phone is definitely a fun and fast way to stay closely connected with all my friends and family members. I really enjoy taking the time to post beautiful, bright photos from my weekend trips and happily share them on my public profile page for everyone to see. When I casually scroll through my daily feed during my lunch break, I can easily leave a nice, supportive comment or simply tap to like the latest pictures uploaded by my closest friends. Additionally, I learned that using a popular hashtag in your posts significantly helps other people around the world find and join conversations about interesting, trending topics.",
+            "textPt": "Usar aplicativos de mídia social no meu telefone é definitivamente uma maneira rápida e divertida de ficar conectado de perto com todos os meus amigos e familiares. Eu realmente gosto de reservar um tempo para postar fotos lindas e brilhantes das minhas viagens de fim de semana e compartilhá-las alegremente na minha página de perfil público para que todos vejam. Quando rolo casualmente o meu feed diário durante o meu horário de almoço, posso facilmente deixar um comentário agradável e encorajador ou simplesmente tocar para curtir as fotos mais recentes enviadas por meus amigos mais próximos. Além disso, aprendi que usar uma hashtag popular em suas postagens ajuda significativamente outras pessoas ao redor do mundo a encontrar e participar de conversas sobre tópicos interessantes e em alta.",
+            "questions": [
+                  {
+                        "question": "What is social media used for in the text?",
+                        "options": [
+                              "To connect with friends",
+                              "To download games",
+                              "To buy new clothes",
+                              "To watch movies"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "It is a 'fun and fast way to stay closely connected with all my friends'."
+                  },
+                  {
+                        "question": "Where does the author share photos?",
+                        "options": [
+                              "On their profile",
+                              "In a private message",
+                              "In an email",
+                              "On a website"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They 'happily share them on my public profile page'."
+                  },
+                  {
+                        "question": "What can the author do while scrolling the feed?",
+                        "options": [
+                              "Leave a comment or like pictures",
+                              "Delete old photos",
+                              "Change their password",
+                              "Call their friends"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They can 'leave a nice, supportive comment or simply tap to like the latest pictures'."
+                  },
+                  {
+                        "question": "What is the purpose of a hashtag?",
+                        "options": [
+                              "To help people find interesting topics",
+                              "To protect your password",
+                              "To charge your phone",
+                              "To block a follower"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "A popular hashtag 'significantly helps other people around the world find and join conversations about interesting, trending topics'."
+                  }
+            ]
+      },
+      "level2": {
+            "textEn": "In today's highly competitive corporate landscape, modern digital marketing strategies rely exceptionally heavily on complex, constantly changing social media algorithms to reach consumers. Popular internet influencers continuously attempt to strategically create viral, eye-catching videos hoping to spontaneously gain hundreds of thousands of new, loyal followers overnight. Furthermore, the psychological tactic of posting an engaging, exclusive video story that permanently disappears in exactly 24 hours effectively creates a powerful sense of urgency among the audience. Given how much data these platforms collect daily, it is incredibly important that users take the necessary time to adjust their account privacy settings to ensure their sensitive personal data is fiercely protected from aggressive, unwanted corporate access.",
+            "textPt": "No cenário corporativo altamente competitivo de hoje, as estratégias modernas de marketing digital dependem excepcionalmente forte de algoritmos complexos e em constante mudança das mídias sociais para alcançar os consumidores. Influenciadores populares da internet tentam continuamente criar vídeos virais e atraentes estrategicamente na esperança de ganhar espontaneamente centenas de milhares de novos seguidores leais da noite para o dia. Além disso, a tática psicológica de postar uma história de vídeo envolvente e exclusiva que desaparece permanentemente em exatamente 24 horas cria efetivamente um poderoso senso de urgência entre o público. Considerando a quantidade de dados que essas plataformas coletam diariamente, é incrivelmente importante que os usuários reservem o tempo necessário para ajustar as configurações de privacidade da conta para garantir que seus dados pessoais confidenciais sejam ferozmente protegidos contra acesso corporativo agressivo e indesejado.",
+            "questions": [
+                  {
+                        "question": "What does digital marketing rely on?",
+                        "options": [
+                              "Social media algorithms",
+                              "Private messages",
+                              "Hashtags only",
+                              "Local hard drives"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "It relies 'exceptionally heavily on complex, constantly changing social media algorithms'."
+                  },
+                  {
+                        "question": "What is the goal of creating a viral video?",
+                        "options": [
+                              "To gain thousands of new followers",
+                              "To delete the profile",
+                              "To hide personal data",
+                              "To adjust privacy settings"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "They hope 'to spontaneously gain hundreds of thousands of new, loyal followers overnight'."
+                  },
+                  {
+                        "question": "What creates a sense of urgency on social platforms?",
+                        "options": [
+                              "Posting a story that disappears in 24 hours",
+                              "Uploading a photo to the feed",
+                              "Leaving a short comment",
+                              "Following many people"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "Posting an 'engaging, exclusive video story that permanently disappears in exactly 24 hours effectively creates a powerful sense of urgency'."
+                  },
+                  {
+                        "question": "Why should you adjust your privacy settings?",
+                        "options": [
+                              "To protect personal data from unwanted access",
+                              "To get more followers",
+                              "To make a video go viral",
+                              "To see more ads"
+                        ],
+                        "correctIndex": 0,
+                        "explanation": "To ensure 'their sensitive personal data is fiercely protected from aggressive, unwanted corporate access'."
+                  }
+            ]
+      }
+},
     vocabulary: [
       { english: "Like", portuguese: "Curtir",
           levels: { 
@@ -4485,20 +5053,23 @@ export const scenarios2: Scenario[] = [
       { english: "Post", portuguese: "Publicar",
           levels: { 
                         A1: { en: "I post a video every week.", pt: "Eu publico um vídeo toda semana." }, 
-                        A2: { en: "She posted a beautiful picture of the sunset on her profile.", pt: "Ela postou uma foto linda do pôr do sol no seu perfil." }
-                      }
+                        A2: { en: "She posted a beautiful picture of the sunset on her profile.", pt: "Ela postou uma foto linda do pôr do sol no seu perfil." },
+              B1: { en: "He usually posts an update about his travels every week.", pt: "Ele geralmente posta uma atualização sobre suas viagens toda semana." }
+        }
     },
       { english: "Share", portuguese: "Compartilhar",
           levels: { 
                         A1: { en: "Share this post with your friends.", pt: "Compartilhe esta publicação com seus amigos." }, 
-                        A2: { en: "They shared the funny video with all their friends.", pt: "Eles compartilharam o vídeo engraçado com todos os seus amigos." }
-                      }
+                        A2: { en: "They shared the funny video with all their friends.", pt: "Eles compartilharam o vídeo engraçado com todos os seus amigos." },
+              B1: { en: "Please share this important message with your friends.", pt: "Por favor, compartilhe esta mensagem importante com seus amigos." }
+        }
     },
       { english: "Profile", portuguese: "Perfil",
           levels: { 
                         A1: { en: "Your profile picture is nice.", pt: "Sua foto de perfil é bonita." }, 
-                        A2: { en: "He updated his professional profile to find a better job.", pt: "Ele atualizou seu perfil profissional para encontrar um emprego melhor." }
-                      }
+                        A2: { en: "He updated his professional profile to find a better job.", pt: "Ele atualizou seu perfil profissional para encontrar um emprego melhor." },
+              B1: { en: "He updated his professional profile to look for a new job.", pt: "Ele atualizou seu perfil profissional para procurar um emprego novo." }
+        }
     },
       { english: "Message", portuguese: "Mensagem",
           levels: { 
@@ -4527,8 +5098,9 @@ export const scenarios2: Scenario[] = [
       { english: "Follower", portuguese: "Seguidor",
           levels: { 
                         A1: { en: "She has one million followers.", pt: "Ela tem um milhão de seguidores." }, 
-                        A2: { en: "The influencer gained a new follower every minute.", pt: "O influenciador ganhava um novo seguidor a cada minuto." }
-                      }
+                        A2: { en: "The influencer gained a new follower every minute.", pt: "O influenciador ganhava um novo seguidor a cada minuto." },
+              B1: { en: "She gained thousands of followers after her video went viral.", pt: "Ela ganhou milhares de seguidores depois que o vídeo dela viralizou." }
+        }
     },
       { english: "Feed", portuguese: "Feed / Linha do tempo",
           levels: { 
@@ -4539,23 +5111,14 @@ export const scenarios2: Scenario[] = [
       { english: "Tag", portuguese: "Marcar (alguém)",
           levels: { 
                         A1: { en: "Tag me in the photo.", pt: "Me marque na foto." }, 
-                        A2: { en: "He tagged his best friend in the hilarious meme.", pt: "Ele marcou seu melhor amigo no meme hilário." }
-                      }
+                        A2: { en: "He tagged his best friend in the hilarious meme.", pt: "Ele marcou seu melhor amigo no meme hilário." },
+              B1: { en: "Don't forget to tag me in the photos from the party.", pt: "Não se esqueça de me marcar nas fotos da festa." }
+        }
     },
       { english: "Story", portuguese: "Story (história temporária)",
           levels: { 
                         A1: { en: "I post a story at the beach.", pt: "Posto um story na praia." }, 
                         A2: { en: "She uploaded a quick update to her story yesterday.", pt: "Ela enviou uma atualização rápida para seu story ontem." }
-                      }
-    },
-      { english: "Follower", portuguese: "Seguidor",
-          levels: { 
-                        B1: { en: "She gained thousands of followers after her video went viral.", pt: "Ela ganhou milhares de seguidores depois que o vídeo dela viralizou." } 
-                      }
-    },
-      { english: "Share", portuguese: "Compartilhar",
-          levels: { 
-                        B1: { en: "Please share this important message with your friends.", pt: "Por favor, compartilhe esta mensagem importante com seus amigos." } 
                       }
     },
       { english: "Viral", portuguese: "Viral",
@@ -4568,24 +5131,9 @@ export const scenarios2: Scenario[] = [
                         B1: { en: "It took ten minutes to upload the heavy video file.", pt: "Levou dez minutos para fazer o upload do arquivo de vídeo pesado." } 
                       }
     },
-      { english: "Tag", portuguese: "Marcar (alguém)",
-          levels: { 
-                        B1: { en: "Don't forget to tag me in the photos from the party.", pt: "Não se esqueça de me marcar nas fotos da festa." } 
-                      }
-    },
-      { english: "Post", portuguese: "Postar / Publicar",
-          levels: { 
-                        B1: { en: "He usually posts an update about his travels every week.", pt: "Ele geralmente posta uma atualização sobre suas viagens toda semana." } 
-                      }
-    },
       { english: "Settings", portuguese: "Configurações",
           levels: { 
                         B1: { en: "You can change your privacy preferences in the settings menu.", pt: "Você pode alterar suas preferências de privacidade no menu de configurações." } 
-                      }
-    },
-      { english: "Profile", portuguese: "Perfil",
-          levels: { 
-                        B1: { en: "He updated his professional profile to look for a new job.", pt: "Ele atualizou seu perfil profissional para procurar um emprego novo." } 
                       }
     },
       { english: "Block", portuguese: "Bloquear",

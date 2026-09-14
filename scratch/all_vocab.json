@@ -1,0 +1,317 @@
+{
+  "familia": {
+    "level1": [
+      "Mother / Mom",
+      "Father / Dad",
+      "Brother",
+      "Sister",
+      "Grandmother",
+      "Grandfather",
+      "Aunt",
+      "Uncle",
+      "Cousin",
+      "Parents"
+    ],
+    "level2": [
+      "Nephew",
+      "Niece",
+      "Grandson",
+      "Granddaughter",
+      "Wife"
+    ]
+  },
+  "amigos": {
+    "level1": [
+      "Friend",
+      "Best friend",
+      "Hang out",
+      "Meet up",
+      "Chat",
+      "Fun",
+      "Invite",
+      "Party",
+      "Group",
+      "Share"
+    ],
+    "level2": [
+      "Trust",
+      "Keep a secret",
+      "Argue",
+      "Apologize",
+      "Help out"
+    ]
+  },
+  "corpo": {
+    "level1": [
+      "Head",
+      "Arm",
+      "Leg",
+      "Hand",
+      "Foot / Feet",
+      "Eyes",
+      "Hair",
+      "Mouth",
+      "Nose",
+      "Ears"
+    ],
+    "level2": [
+      "Shoulder",
+      "Knee",
+      "Fingers",
+      "Toes",
+      "Stomach"
+    ]
+  },
+  "casa": {
+    "level1": [
+      "Living room",
+      "Kitchen",
+      "Bedroom",
+      "Bathroom",
+      "Sweep the floor",
+      "Do the dishes",
+      "Make the bed",
+      "Take out the trash",
+      "Clean",
+      "Laundry"
+    ],
+    "level2": [
+      "Iron the clothes",
+      "Dust the furniture",
+      "Vacuum",
+      "Garage",
+      "Garden / Yard"
+    ]
+  },
+  "casa2": {
+    "level1": [
+      "Mop the floor",
+      "Fold the laundry",
+      "Dining room",
+      "Hallway",
+      "Ceiling",
+      "Wall",
+      "Balcony",
+      "Basement",
+      "Attic",
+      "Furniture"
+    ],
+    "level2": [
+      "Couch / Sofa",
+      "Wash the windows",
+      "Mow the lawn",
+      "Water the plants",
+      "Set the table"
+    ]
+  },
+  "hobbies": {
+    "level1": [
+      "Read a book",
+      "Play guitar",
+      "Listen to music",
+      "Watch movies",
+      "Draw / Paint",
+      "Travel",
+      "Play video games",
+      "Take photos",
+      "Dance",
+      "Sing"
+    ],
+    "level2": [
+      "Cook",
+      "Go hiking",
+      "Camp",
+      "Knit",
+      "Collect"
+    ]
+  },
+  "esportes": {
+    "level1": [
+      "Soccer / Football",
+      "Basketball",
+      "Swim",
+      "Run",
+      "Team",
+      "Match / Game",
+      "Win",
+      "Lose",
+      "Ball",
+      "Stadium"
+    ],
+    "level2": [
+      "Tennis",
+      "Volleyball",
+      "Cycling",
+      "Gym",
+      "Coach"
+    ]
+  },
+  "supermercado": {
+    "level1": [
+      "Shopping cart",
+      "Cashier",
+      "Aisle",
+      "Receipt",
+      "Grocery list",
+      "Checkout",
+      "Bag",
+      "Price",
+      "Discount",
+      "Pay"
+    ],
+    "level2": [
+      "Credit card",
+      "Cash",
+      "Change",
+      "Customer",
+      "Shelf"
+    ]
+  },
+  "compras": {
+    "level1": [
+      "Clothes",
+      "Shoes",
+      "Size",
+      "Price",
+      "Try on",
+      "Store / Shop",
+      "Fitting room",
+      "Sale",
+      "Customer",
+      "Expensive"
+    ],
+    "level2": [
+      "Cheap",
+      "Wallet",
+      "Credit card",
+      "Cash",
+      "Jacket"
+    ]
+  },
+  "profissoes": {
+    "level1": [
+      "Doctor",
+      "Teacher",
+      "Engineer",
+      "Chef",
+      "Police officer",
+      "Work / Job",
+      "Nurse",
+      "Mechanic",
+      "Lawyer",
+      "Office"
+    ],
+    "level2": [
+      "Dentist",
+      "Firefighter",
+      "Driver",
+      "Pilot",
+      "Artist"
+    ]
+  },
+  "lugares": {
+    "level1": [
+      "Park",
+      "Hospital",
+      "School",
+      "Bus stop",
+      "Street",
+      "Turn left / right",
+      "Library",
+      "Bank",
+      "Go straight",
+      "Near"
+    ],
+    "level2": [
+      "Pharmacy",
+      "Restaurant",
+      "Airport",
+      "Station",
+      "Museum"
+    ]
+  },
+  "animais": {
+    "level1": [
+      "Dog",
+      "Cat",
+      "Bird",
+      "Fish",
+      "Pet",
+      "Walk the dog",
+      "Feed",
+      "Horse",
+      "Cow",
+      "Vet"
+    ],
+    "level2": [
+      "Pig",
+      "Chicken",
+      "Rabbit",
+      "Lion",
+      "Tiger"
+    ]
+  },
+  "culinaria": {
+    "level1": [
+      "Cook",
+      "Bake",
+      "Recipe",
+      "Ingredients",
+      "Knife",
+      "Oven",
+      "Boil",
+      "Fry",
+      "Chop",
+      "Spoon"
+    ],
+    "level2": [
+      "Fork",
+      "Plate",
+      "Bowl",
+      "Mix",
+      "Pour"
+    ]
+  },
+  "tecnologia": {
+    "level1": [
+      "Laptop",
+      "Smartphone",
+      "Internet",
+      "Keyboard",
+      "Screen",
+      "Download",
+      "Password",
+      "Charger",
+      "App",
+      "Mouse"
+    ],
+    "level2": [
+      "Upload",
+      "Battery",
+      "Email",
+      "Website",
+      "Link"
+    ]
+  },
+  "redes-sociais": {
+    "level1": [
+      "Like",
+      "Follow",
+      "Post",
+      "Share",
+      "Profile",
+      "Message",
+      "Comment",
+      "Hashtag",
+      "Scroll",
+      "Follower"
+    ],
+    "level2": [
+      "Feed",
+      "Tag",
+      "Story",
+      "Influencer",
+      "Viral"
+    ]
+  }
+}

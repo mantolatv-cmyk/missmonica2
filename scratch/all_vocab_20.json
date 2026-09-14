@@ -1,0 +1,392 @@
+{
+  "familia": {
+    "part1": [
+      "Mother / Mom",
+      "Father / Dad",
+      "Brother",
+      "Sister",
+      "Grandmother",
+      "Grandfather",
+      "Aunt",
+      "Uncle",
+      "Cousin",
+      "Parents"
+    ],
+    "part2": [
+      "Nephew",
+      "Niece",
+      "Grandson",
+      "Granddaughter",
+      "Wife",
+      "Husband",
+      "Mother-in-law",
+      "Father-in-law",
+      "Stepmother",
+      "Stepfather"
+    ]
+  },
+  "amigos": {
+    "part1": [
+      "Friend",
+      "Best friend",
+      "Hang out",
+      "Meet up",
+      "Chat",
+      "Fun",
+      "Invite",
+      "Party",
+      "Group",
+      "Share"
+    ],
+    "part2": [
+      "Trust",
+      "Keep a secret",
+      "Argue",
+      "Apologize",
+      "Help out",
+      "Joke",
+      "Support",
+      "Advice",
+      "Get along",
+      "Introductions"
+    ]
+  },
+  "corpo": {
+    "part1": [
+      "Head",
+      "Arm",
+      "Leg",
+      "Hand",
+      "Foot / Feet",
+      "Eyes",
+      "Hair",
+      "Mouth",
+      "Nose",
+      "Ears"
+    ],
+    "part2": [
+      "Shoulder",
+      "Knee",
+      "Fingers",
+      "Toes",
+      "Stomach",
+      "Back",
+      "Neck",
+      "Teeth",
+      "Tongue",
+      "Lips"
+    ]
+  },
+  "casa": {
+    "part1": [
+      "Living room",
+      "Kitchen",
+      "Bedroom",
+      "Bathroom",
+      "Sweep the floor",
+      "Do the dishes",
+      "Make the bed",
+      "Take out the trash",
+      "Clean",
+      "Laundry"
+    ],
+    "part2": [
+      "Iron the clothes",
+      "Dust the furniture",
+      "Vacuum",
+      "Garage",
+      "Garden / Yard",
+      "Window",
+      "Door",
+      "Roof",
+      "Stairs",
+      "Mirror"
+    ]
+  },
+  "casa2": {
+    "part1": [
+      "Mop the floor",
+      "Fold the laundry",
+      "Dining room",
+      "Hallway",
+      "Ceiling",
+      "Wall",
+      "Balcony",
+      "Basement",
+      "Attic",
+      "Furniture"
+    ],
+    "part2": [
+      "Couch / Sofa",
+      "Wash the windows",
+      "Mow the lawn",
+      "Water the plants",
+      "Set the table",
+      "Clear the table",
+      "Sink",
+      "Faucet",
+      "Closet",
+      "Wipe the counter"
+    ]
+  },
+  "hobbies": {
+    "part1": [
+      "Read a book",
+      "Play guitar",
+      "Listen to music",
+      "Watch movies",
+      "Draw / Paint",
+      "Travel",
+      "Play video games",
+      "Take photos",
+      "Dance",
+      "Sing"
+    ],
+    "part2": [
+      "Cook",
+      "Go hiking",
+      "Camp",
+      "Knit",
+      "Collect",
+      "Write",
+      "Garden",
+      "Surf the internet",
+      "Workout",
+      "Play board games"
+    ]
+  },
+  "esportes": {
+    "part1": [
+      "Soccer / Football",
+      "Basketball",
+      "Swim",
+      "Run",
+      "Team",
+      "Match / Game",
+      "Win",
+      "Lose",
+      "Ball",
+      "Stadium"
+    ],
+    "part2": [
+      "Tennis",
+      "Volleyball",
+      "Cycling",
+      "Gym",
+      "Coach",
+      "Referee",
+      "Score",
+      "Tournament",
+      "Medal",
+      "Player"
+    ]
+  },
+  "supermercado": {
+    "part1": [
+      "Shopping cart",
+      "Cashier",
+      "Aisle",
+      "Receipt",
+      "Grocery list",
+      "Checkout",
+      "Bag",
+      "Price",
+      "Discount",
+      "Pay"
+    ],
+    "part2": [
+      "Credit card",
+      "Cash",
+      "Change",
+      "Customer",
+      "Shelf",
+      "Basket",
+      "Fresh",
+      "Frozen",
+      "Bakery",
+      "Scale"
+    ]
+  },
+  "compras": {
+    "part1": [
+      "Clothes",
+      "Shoes",
+      "Size",
+      "Price",
+      "Try on",
+      "Store / Shop",
+      "Fitting room",
+      "Sale",
+      "Customer",
+      "Expensive"
+    ],
+    "part2": [
+      "Cheap",
+      "Wallet",
+      "Credit card",
+      "Cash",
+      "Jacket",
+      "Pants",
+      "Dress",
+      "Hat",
+      "Mirror",
+      "Gift"
+    ]
+  },
+  "profissoes": {
+    "part1": [
+      "Doctor",
+      "Teacher",
+      "Engineer",
+      "Chef",
+      "Police officer",
+      "Work / Job",
+      "Nurse",
+      "Mechanic",
+      "Lawyer",
+      "Office"
+    ],
+    "part2": [
+      "Dentist",
+      "Firefighter",
+      "Driver",
+      "Pilot",
+      "Artist",
+      "Farmer",
+      "Waiter",
+      "Company",
+      "Boss",
+      "Salary"
+    ]
+  },
+  "lugares": {
+    "part1": [
+      "Park",
+      "Hospital",
+      "School",
+      "Bus stop",
+      "Street",
+      "Turn left / right",
+      "Library",
+      "Bank",
+      "Go straight",
+      "Near"
+    ],
+    "part2": [
+      "Pharmacy",
+      "Restaurant",
+      "Airport",
+      "Station",
+      "Museum",
+      "Far",
+      "Corner",
+      "Block",
+      "Traffic light",
+      "Bridge"
+    ]
+  },
+  "animais": {
+    "part1": [
+      "Dog",
+      "Cat",
+      "Bird",
+      "Fish",
+      "Pet",
+      "Walk the dog",
+      "Feed",
+      "Horse",
+      "Cow",
+      "Vet"
+    ],
+    "part2": [
+      "Pig",
+      "Chicken",
+      "Rabbit",
+      "Lion",
+      "Tiger",
+      "Monkey",
+      "Elephant",
+      "Bark",
+      "Meow",
+      "Bite"
+    ]
+  },
+  "culinaria": {
+    "part1": [
+      "Cook",
+      "Bake",
+      "Recipe",
+      "Ingredients",
+      "Knife",
+      "Oven",
+      "Boil",
+      "Fry",
+      "Chop",
+      "Spoon"
+    ],
+    "part2": [
+      "Fork",
+      "Plate",
+      "Bowl",
+      "Mix",
+      "Pour",
+      "Taste",
+      "Spicy",
+      "Sweet",
+      "Salty",
+      "Pan"
+    ]
+  },
+  "tecnologia": {
+    "part1": [
+      "Laptop",
+      "Smartphone",
+      "Internet",
+      "Keyboard",
+      "Screen",
+      "Download",
+      "Password",
+      "Charger",
+      "App",
+      "Mouse"
+    ],
+    "part2": [
+      "Upload",
+      "Battery",
+      "Email",
+      "Website",
+      "Link",
+      "Save",
+      "Delete",
+      "Folder",
+      "Headphones",
+      "Plug in"
+    ]
+  },
+  "redes-sociais": {
+    "part1": [
+      "Like",
+      "Follow",
+      "Post",
+      "Share",
+      "Profile",
+      "Message",
+      "Comment",
+      "Hashtag",
+      "Scroll",
+      "Follower"
+    ],
+    "part2": [
+      "Feed",
+      "Tag",
+      "Story",
+      "Influencer",
+      "Viral",
+      "Meme",
+      "Block",
+      "Notification",
+      "Update",
+      "Account"
+    ]
+  }
+}

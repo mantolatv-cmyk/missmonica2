@@ -1,0 +1,197 @@
+const fs = require('fs');
+
+const b1Replacements = {
+  // --- Familia ---
+  "Mother / Mom": { en: "My mother always supported our family during tough times.", pt: "Minha mãe sempre apoiou nossa família durante os momentos difíceis." },
+  "Father / Dad": { en: "My father worked at the same hospital for twenty years.", pt: "Meu pai trabalhou no mesmo hospital por vinte anos." },
+  "Brother": { en: "My younger brother graduated from university with honors.", pt: "Meu irmão mais novo se formou na universidade com honras." },
+  "Sister": { en: "My sister studied abroad last semester.", pt: "Minha irmã estudou no exterior no semestre passado." },
+  "Grandmother": { en: "We visited my grandmother every Sunday when I was a child.", pt: "Nós visitávamos minha avó todo domingo quando eu era criança." },
+  "Grandfather": { en: "My grandfather collected vintage stamps all his life.", pt: "Meu avô colecionou selos vintage a vida toda." },
+  "Aunt": { en: "My aunt lives in another city, so we rarely see her.", pt: "Minha tia mora em outra cidade, então raramente a vemos." },
+  "Uncle": { en: "My uncle bought a new car and planned a road trip.", pt: "Meu tio comprou um carro novo e planejou uma viagem." },
+  "Cousin": { en: "I played video games with my cousin when we were teenagers.", pt: "Eu jogava videogame com meu primo quando éramos adolescentes." },
+  "Parents": { en: "My parents were always very strict regarding my academic performance.", pt: "Meus pais sempre foram muito rigorosos em relação ao meu desempenho acadêmico." },
+  "Nephew": { en: "My nephew grew so much that I hardly recognized him.", pt: "Meu sobrinho cresceu tanto que mal o reconheci." },
+  "Niece": { en: "I bought a beautiful educational toy for my niece's birthday.", pt: "Eu comprei um lindo brinquedo educativo para o aniversário da minha sobrinha." },
+  "Grandson": { en: "The grandfather spent the entire afternoon playing board games with his grandson.", pt: "O avô passou a tarde inteira jogando jogos de tabuleiro com seu neto." },
+  "Granddaughter": { en: "She became the very first granddaughter in our family.", pt: "Ela se tornou a primeira neta na nossa família." },
+  "Wife": { en: "He bought beautiful red flowers for his wife.", pt: "Ele comprou lindas flores vermelhas para sua esposa." },
+  "Husband": { en: "Her husband works as a leading doctor at the local clinic.", pt: "O marido dela trabalha como médico chefe na clínica local." },
+  "Mother-in-law": { en: "My mother-in-law cooked an incredible feast for our gathering.", pt: "Minha sogra cozinhou um banquete incrível para a nossa reunião." },
+  "Father-in-law": { en: "My father-in-law always told the funniest jokes at dinners.", pt: "Meu sogro sempre contava as piadas mais engraçadas nos jantares." },
+  "Stepmother": { en: "His stepmother supported him a lot when she joined our family.", pt: "A madrasta dele o apoiou muito quando se juntou à nossa família." },
+  "Stepfather": { en: "My stepfather taught me how to drive safely.", pt: "Meu padrasto me ensinou a dirigir com segurança." },
+
+  // --- Amigos ---
+  "Friend": { en: "He was a supportive friend who always helped me overcome challenges.", pt: "Ele foi um amigo apoiador que sempre me ajudou a superar desafios." },
+  "Best friend": { en: "She was my most trusted best friend in elementary school.", pt: "Ela era minha melhor amiga de maior confiança no ensino fundamental." },
+  "Hang out": { en: "We rarely hung out because everyone was busy with work.", pt: "Nós raramente saíamos porque todos estavam ocupados com o trabalho." },
+  "Meet up": { en: "We agreed to meet up at the downtown cafe right after our shift.", pt: "Nós concordamos em nos encontrar no café do centro logo após o nosso turno." },
+  "Chat": { en: "I really enjoyed chatting with you about our future plans.", pt: "Eu gostei muito de bater papo com você sobre nossos planos futuros." },
+  "Fun": { en: "The surprise party at your house was the most fun event of the year.", pt: "A festa surpresa na sua casa foi o evento mais divertido do ano." },
+  "Invite": { en: "I invited all my closest friends to celebrate at my house.", pt: "Eu convidei todos os meus amigos mais próximos para celebrar na minha casa." },
+  "Party": { en: "Did you attend the graduation party last night?", pt: "Você compareceu à festa de formatura ontem à noite?" },
+  "Group": { en: "Our friend group remained incredibly united despite the distance.", pt: "Nosso grupo de amigos permaneceu incrivelmente unido apesar da distância." },
+  "Share": { en: "We always shared our deepest secrets with each other.", pt: "Nós sempre compartilhávamos nossos segredos mais profundos uns com os outros." },
+  "Trust": { en: "I trusted my friends completely with this sensitive information.", pt: "Eu confiei nos meus amigos completamente com essa informação delicada." },
+  "Keep a secret": { en: "Did you keep the major secret about the surprise party?", pt: "Você guardou o grande segredo sobre a festa surpresa?" },
+  "Argue": { en: "We argued a few times in the past, but we fixed things.", pt: "Nós discutimos algumas vezes no passado, mas consertamos as coisas." },
+  "Apologize": { en: "He finally apologized for being late to the important meeting.", pt: "Ele finalmente pediu desculpas por se atrasar para a reunião importante." },
+  "Help out": { en: "True friends always helped out when someone faced a tough phase.", pt: "Verdadeiros amigos sempre ajudavam quando alguém enfrentava uma fase difícil." },
+  "Joke": { en: "He told one of the most hilarious jokes I ever heard.", pt: "Ele contou uma das piadas mais hilárias que já ouvi." },
+  "Support": { en: "Good friends always supported each other unconditionally during hard times.", pt: "Bons amigos sempre se apoiavam incondicionalmente durante tempos difíceis." },
+  "Advice": { en: "I asked him to give me some professional advice about my career.", pt: "Eu pedi a ele que me desse um conselho profissional sobre minha carreira." },
+  "Get along": { en: "They got along surprisingly well on their first day at school.", pt: "Eles se deram surpreendentemente bem no primeiro dia na escola." },
+  "Introductions": { en: "I did the introductions so that everyone felt comfortable.", pt: "Eu fiz as apresentações para que todos se sentissem confortáveis." },
+
+  // --- Corpo ---
+  "Head": { en: "He bumped his head on the low ceiling yesterday.", pt: "Ele bateu a cabeça no teto baixo ontem." },
+  "Arm": { en: "She broke her arm while playing basketball.", pt: "Ela quebrou o braço enquanto jogava basquete." },
+  "Leg": { en: "He injured his leg during the marathon.", pt: "Ele machucou a perna durante a maratona." },
+  "Hand": { en: "She washed her hands before dinner.", pt: "Ela lavou as mãos antes do jantar." },
+  "Foot / Feet": { en: "His feet hurt after a long day of walking.", pt: "Os pés dele doíam após um longo dia caminhando." },
+  "Eyes": { en: "She closed her eyes and fell asleep.", pt: "Ela fechou os olhos e adormeceu." },
+  "Hair": { en: "He cut his hair very short last week.", pt: "Ele cortou o cabelo bem curto semana passada." },
+  "Mouth": { en: "The dentist asked him to open his mouth.", pt: "O dentista pediu a ele que abrisse a boca." },
+  "Nose": { en: "Her nose bled after she fell down.", pt: "O nariz dela sangrou depois que ela caiu." },
+  "Ears": { en: "He covered his ears because of the loud noise.", pt: "Ele cobriu as orelhas por causa do barulho alto." },
+  "Shoulder": { en: "She carried the heavy bag on her shoulder.", pt: "Ela carregou a bolsa pesada no ombro." },
+  "Knee": { en: "He scraped his knee when he tripped on the sidewalk.", pt: "Ele ralou o joelho quando tropeçou na calçada." },
+  "Fingers": { en: "She burned her fingers on the hot stove.", pt: "Ela queimou os dedos no fogão quente." },
+  "Toes": { en: "He stubbed his toes on the wooden door.", pt: "Ele bateu os dedos dos pés na porta de madeira." },
+  "Stomach": { en: "His stomach ached after he ate too much spicy food.", pt: "O estômago dele doeu depois que ele comeu muita comida apimentada." },
+  "Back": { en: "She injured her back lifting heavy boxes.", pt: "Ela machucou as costas levantando caixas pesadas." },
+  "Neck": { en: "He wore a thick scarf around his neck during winter.", pt: "Ele usou um cachecol grosso no pescoço durante o inverno." },
+  "Teeth": { en: "She brushed her teeth twice every day.", pt: "Ela escovava os dentes duas vezes todos os dias." },
+  "Tongue": { en: "He accidentally bit his tongue while chewing.", pt: "Ele acidentalmente mordeu a língua enquanto mastigava." },
+  "Lips": { en: "Her lips felt dry in the cold weather.", pt: "Os lábios dela ficaram secos no clima frio." },
+
+  // --- Casa ---
+  "Living room": { en: "We watched movies in the living room every Friday.", pt: "Nós assistíamos a filmes na sala de estar toda sexta-feira." },
+  "Kitchen": { en: "She cooked a delicious meal in the kitchen.", pt: "Ela cozinhou uma refeição deliciosa na cozinha." },
+  "Bedroom": { en: "He cleaned his bedroom before guests arrived.", pt: "Ele limpou seu quarto antes de os convidados chegarem." },
+  "Bathroom": { en: "She took a long shower in the bathroom.", pt: "Ela tomou um banho longo no banheiro." },
+  "Sweep the floor": { en: "He swept the floor after the party ended.", pt: "Ele varreu o chão depois que a festa acabou." },
+  "Do the dishes": { en: "She did the dishes while he dried them.", pt: "Ela lavou a louça enquanto ele as secava." },
+  "Make the bed": { en: "I made the bed as soon as I woke up.", pt: "Eu arrumei a cama assim que acordei." },
+  "Take out the trash": { en: "He took out the trash before going to work.", pt: "Ele tirou o lixo antes de ir para o trabalho." },
+  "Clean": { en: "They cleaned the entire house on Saturday morning.", pt: "Eles limparam a casa inteira no sábado de manhã." },
+  "Laundry": { en: "She did the laundry because she needed clean clothes.", pt: "Ela lavou as roupas porque precisava de roupas limpas." },
+  "Iron the clothes": { en: "He ironed his clothes for the important meeting.", pt: "Ele passou suas roupas para a reunião importante." },
+  "Dust the furniture": { en: "She dusted the furniture to keep the house neat.", pt: "Ela tirou o pó dos móveis para manter a casa arrumada." },
+  "Vacuum": { en: "He vacuumed the carpets to remove all the dirt.", pt: "Ele aspirou os tapetes para remover toda a sujeira." },
+  "Garage": { en: "He parked his new car in the garage.", pt: "Ele estacionou seu carro novo na garagem." },
+  "Garden / Yard": { en: "She planted beautiful roses in the garden last spring.", pt: "Ela plantou lindas rosas no jardim na primavera passada." },
+  "Window": { en: "He opened the window to let fresh air inside.", pt: "Ele abriu a janela para deixar o ar fresco entrar." },
+  "Door": { en: "She locked the front door before going to bed.", pt: "Ela trancou a porta da frente antes de ir para a cama." },
+  "Roof": { en: "The storm severely damaged the roof of our house.", pt: "A tempestade danificou severamente o telhado da nossa casa." },
+  "Stairs": { en: "He ran up the stairs to grab his forgotten keys.", pt: "Ele correu pelas escadas para pegar as chaves esquecidas." },
+  "Mirror": { en: "She looked at herself in the mirror before leaving.", pt: "Ela olhou para si mesma no espelho antes de sair." },
+  
+  // --- Casa 2 ---
+  "Mop the floor": { en: "He mopped the floor because he spilled coffee.", pt: "Ele passou pano no chão porque derramou café." },
+  "Fold the laundry": { en: "She folded the laundry while watching television.", pt: "Ela dobrou a roupa enquanto assistia televisão." },
+  "Dining room": { en: "We ate a huge dinner in the dining room.", pt: "Nós comemos um jantar enorme na sala de jantar." },
+  "Hallway": { en: "The long hallway connects all the bedrooms.", pt: "O longo corredor conecta todos os quartos." },
+  "Ceiling": { en: "They painted the ceiling white to brighten the room.", pt: "Eles pintaram o teto de branco para iluminar o cômodo." },
+  "Wall": { en: "He hung a beautiful painting on the empty wall.", pt: "Ele pendurou um lindo quadro na parede vazia." },
+  "Balcony": { en: "We stood on the balcony and watched the sunset.", pt: "Nós ficamos na varanda e assistimos ao pôr do sol." },
+  "Basement": { en: "They stored their old boxes in the dark basement.", pt: "Eles guardaram suas caixas antigas no porão escuro." },
+  "Attic": { en: "He found an old photograph hidden in the attic.", pt: "Ele encontrou uma fotografia antiga escondida no sótão." },
+  "Furniture": { en: "She bought elegant furniture for her new apartment.", pt: "Ela comprou móveis elegantes para o seu novo apartamento." },
+  "Couch / Sofa": { en: "He fell asleep on the comfortable couch.", pt: "Ele adormeceu no sofá confortável." },
+  "Wash the windows": { en: "They washed the windows to see the garden clearly.", pt: "Eles lavaram as janelas para ver o jardim com clareza." },
+  "Mow the lawn": { en: "He mowed the lawn on Saturday morning.", pt: "Ele cortou a grama no sábado de manhã." },
+  "Water the plants": { en: "She watered the plants because it didn't rain.", pt: "Ela regou as plantas porque não choveu." },
+  "Set the table": { en: "The children set the table before dinner.", pt: "As crianças arrumaram a mesa antes do jantar." },
+  "Clear the table": { en: "He cleared the table quickly after they finished eating.", pt: "Ele limpou a mesa rapidamente depois que terminaram de comer." },
+  "Sink": { en: "She washed her hands in the kitchen sink.", pt: "Ela lavou as mãos na pia da cozinha." },
+  "Faucet": { en: "The broken faucet leaked water all night.", pt: "A torneira quebrada vazou água a noite toda." },
+  "Closet": { en: "He organized all his winter clothes in the closet.", pt: "Ele organizou todas as suas roupas de inverno no guarda-roupa." },
+  "Wipe the counter": { en: "She wiped the counter after preparing the meal.", pt: "Ela limpou o balcão depois de preparar a refeição." },
+
+  // --- Hobbies ---
+  "Read a book": { en: "He read an interesting book about ancient history.", pt: "Ele leu um livro interessante sobre história antiga." },
+  "Play guitar": { en: "She played the guitar beautifully at the concert.", pt: "Ela tocou violão lindamente no show." },
+  "Listen to music": { en: "I listened to classical music to relax.", pt: "Eu escutei música clássica para relaxar." },
+  "Watch movies": { en: "We watched scary movies on Halloween.", pt: "Nós assistimos a filmes de terror no Halloween." },
+  "Draw / Paint": { en: "He painted a stunning landscape using watercolors.", pt: "Ele pintou uma paisagem deslumbrante usando aquarelas." },
+  "Travel": { en: "They traveled to Europe during their summer vacation.", pt: "Eles viajaram para a Europa durante as férias de verão." },
+  "Play video games": { en: "He played video games with his friends all night.", pt: "Ele jogou videogames com seus amigos a noite toda." },
+  "Take photos": { en: "She took amazing photos of the mountains.", pt: "Ela tirou fotos incríveis das montanhas." },
+  "Dance": { en: "We danced all night at the wedding reception.", pt: "Nós dançamos a noite toda na festa de casamento." },
+  "Sing": { en: "He sang his favorite song in the shower.", pt: "Ele cantou sua música favorita no chuveiro." },
+  "Cook": { en: "She cooked a special dinner for her anniversary.", pt: "Ela cozinhou um jantar especial para o seu aniversário." },
+  "Go hiking": { en: "They went hiking in the national park yesterday.", pt: "Eles fizeram trilha no parque nacional ontem." },
+  "Camp": { en: "We camped near a beautiful lake last weekend.", pt: "Nós acampamos perto de um lago lindo no final de semana passado." },
+  "Knit": { en: "My grandmother knitted a warm sweater for me.", pt: "Minha avó tricotou um suéter quente para mim." },
+  "Collect": { en: "He collected rare coins from different countries.", pt: "Ele colecionava moedas raras de diferentes países." },
+  "Write": { en: "She wrote a long letter to her best friend.", pt: "Ela escreveu uma longa carta para sua melhor amiga." },
+  "Garden": { en: "He spent his weekend gardening in the backyard.", pt: "Ele passou o fim de semana trabalhando no jardim no quintal." },
+  "Surf the internet": { en: "I surfed the internet looking for interesting articles.", pt: "Eu naveguei na internet procurando artigos interessantes." },
+  "Workout": { en: "She worked out at the gym every morning.", pt: "Ela malhava na academia toda manhã." },
+  "Play board games": { en: "We played strategic board games on Saturday.", pt: "Nós jogamos jogos de tabuleiro estratégicos no sábado." },
+
+  // --- Esportes ---
+  "Soccer / Football": { en: "He played professional soccer for ten years.", pt: "Ele jogou futebol profissional por dez anos." },
+  "Basketball": { en: "They practiced basketball every day after school.", pt: "Eles praticavam basquete todo dia depois da escola." },
+  "Swim": { en: "She swam in the ocean during her vacation.", pt: "Ela nadou no oceano durante suas férias." },
+  "Run": { en: "He ran a marathon in under four hours.", pt: "Ele correu uma maratona em menos de quatro horas." },
+  "Team": { en: "Our team won the championship last year.", pt: "Nosso time venceu o campeonato no ano passado." },
+  "Match / Game": { en: "The intense match ended in a tie.", pt: "A partida intensa terminou em empate." },
+  "Win": { en: "They won the gold medal at the Olympics.", pt: "Eles venceram a medalha de ouro nas Olimpíadas." },
+  "Lose": { en: "Unfortunately, he lost the important tennis match.", pt: "Infelizmente, ele perdeu a importante partida de tênis." },
+  "Ball": { en: "He threw the ball accurately across the field.", pt: "Ele jogou a bola com precisão pelo campo." },
+  "Stadium": { en: "Thousands of fans cheered in the crowded stadium.", pt: "Milhares de torcedores comemoraram no estádio lotado." },
+  "Tennis": { en: "She played tennis with her brother yesterday.", pt: "Ela jogou tênis com seu irmão ontem." },
+  "Volleyball": { en: "We played volleyball on the beach until sunset.", pt: "Nós jogamos vôlei na praia até o pôr do sol." },
+  "Cycling": { en: "He participated in a cycling race across the mountains.", pt: "Ele participou de uma corrida de ciclismo pelas montanhas." },
+  "Gym": { en: "She went to the gym to lift heavy weights.", pt: "Ela foi à academia para levantar pesos pesados." },
+  "Coach": { en: "The coach pushed the athletes to their limits.", pt: "O treinador levou os atletas aos seus limites." },
+  "Referee": { en: "The referee penalized the player for aggressive behavior.", pt: "O árbitro penalizou o jogador por comportamento agressivo." },
+  "Score": { en: "They checked the score at the end of the game.", pt: "Eles verificaram o placar no final do jogo." },
+  "Tournament": { en: "She entered a prestigious chess tournament last month.", pt: "Ela entrou em um torneio de xadrez de prestígio no mês passado." },
+  "Medal": { en: "He proudly displayed his silver medal.", pt: "Ele exibiu orgulhosamente sua medalha de prata." },
+  "Player": { en: "The professional player signed a new contract.", pt: "O jogador profissional assinou um novo contrato." },
+
+  // --- Supermercado ---
+  "Shopping cart": { en: "He pushed the heavy shopping cart down the aisle.", pt: "Ele empurrou o carrinho de compras pesado pelo corredor." },
+  "Cashier": { en: "The friendly cashier scanned all the items quickly.", pt: "O caixa amigável escaneou todos os itens rapidamente." },
+  "Aisle": { en: "She walked down the dairy aisle to find milk.", pt: "Ela andou pelo corredor de laticínios para encontrar leite." },
+  "Receipt": { en: "He kept the receipt to track his expenses.", pt: "Ele guardou o recibo para rastrear suas despesas." },
+  "Grocery list": { en: "I wrote a grocery list before I went shopping.", pt: "Eu escrevi uma lista de compras antes de ir às compras." },
+  "Checkout": { en: "She paid for her groceries at the checkout.", pt: "Ela pagou por suas compras no caixa (checkout)." },
+  "Bag": { en: "He carried the heavy bag of apples to the car.", pt: "Ele carregou a sacola pesada de maçãs até o carro." },
+  "Price": { en: "She checked the price before adding the item to her cart.", pt: "Ela verificou o preço antes de adicionar o item ao seu carrinho." },
+  "Discount": { en: "They offered a huge discount on fresh vegetables.", pt: "Eles ofereceram um enorme desconto em vegetais frescos." },
+  "Pay": { en: "He paid the cashier and left the store.", pt: "Ele pagou ao caixa e saiu da loja." },
+  "Credit card": { en: "She used her credit card to buy expensive groceries.", pt: "Ela usou seu cartão de crédito para comprar mantimentos caros." },
+  "Cash": { en: "He always paid in cash to control his budget.", pt: "Ele sempre pagava em dinheiro para controlar seu orçamento." },
+  "Change": { en: "The cashier gave him the correct change.", pt: "O caixa deu a ele o troco correto." },
+  "Customer": { en: "The demanding customer asked to speak with the manager.", pt: "O cliente exigente pediu para falar com o gerente." },
+  "Shelf": { en: "He grabbed the last box of cereal from the top shelf.", pt: "Ele pegou a última caixa de cereal da prateleira de cima." },
+  "Basket": { en: "She carried a small basket because she only needed bread.", pt: "Ela carregou uma cesta pequena porque só precisava de pão." },
+  "Fresh": { en: "They bought fresh strawberries from the local market.", pt: "Eles compraram morangos frescos no mercado local." },
+  "Frozen": { en: "He bought frozen pizza for a quick dinner.", pt: "Ele comprou pizza congelada para um jantar rápido." },
+  "Bakery": { en: "The bakery sold delicious chocolate cakes yesterday.", pt: "A padaria vendeu bolos de chocolate deliciosos ontem." },
+  "Scale": { en: "She weighed the bananas on the electronic scale.", pt: "Ela pesou as bananas na balança eletrônica." }
+};
+
+const filePath = '../data/scenarios1.ts';
+let content = fs.readFileSync(filePath, 'utf-8');
+
+let count = 0;
+
+for (const [word, b1Replacement] of Object.entries(b1Replacements)) {
+  const escapedWord = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+  const regex = new RegExp(\`(english:\\s*["'\`]\\$\{escapedWord\}["'\`][\\s\\S]\{0,300\}?B1:\\s*\\{\\s*en:\\s*["'\`])[^"'\`]+(["'\`]\\s*,\\s*pt:\\s*["'\`])[^"'\`]+(["'\`]\\s*\\})\`, 'g');
+  
+  content = content.replace(regex, (match, prefix, mid, suffix) => {
+    count++;
+    return `${prefix}${b1Replacement.en}${mid}${b1Replacement.pt}${suffix}`;
+  });
+}
+
+fs.writeFileSync(filePath, content, 'utf-8');
+console.log(`Updated ${count} items in scenarios1.ts`);
