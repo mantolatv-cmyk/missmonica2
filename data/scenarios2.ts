@@ -820,7 +820,10 @@ export const scenarios2: Scenario[] = [
         { optionA: { english: "Shop for clothes online", portuguese: "Comprar roupas online" }, optionB: { english: "Shop at the mall", portuguese: "Fazer compras no shopping" } },
         { optionA: { english: "Buy one expensive item", portuguese: "Comprar um item caro" }, optionB: { english: "Buy many cheap items", portuguese: "Comprar muitos itens baratos" } },
         { optionA: { english: "Pay with a credit card", portuguese: "Pagar com cartão de crédito" }, optionB: { english: "Pay with cash", portuguese: "Pagar com dinheiro" } },
-        { optionA: { english: "Wait for a big discount", portuguese: "Esperar por um grande desconto" }, optionB: { english: "Buy the new collection now", portuguese: "Comprar a nova coleção agora" } }
+        { optionA: { english: "Wait for a big discount", portuguese: "Esperar por um grande desconto" }, optionB: { english: "Buy the new collection now", portuguese: "Comprar a nova coleção agora" } },
+        { optionA: { english: "Get 50% off everything you buy", portuguese: "Ter 50% de desconto em tudo que comprar" }, optionB: { english: "Get a $100 gift card every month", portuguese: "Ganhar um vale-presente de $100 todo mês" } },
+        { optionA: { english: "Buy comfortable but ugly shoes", portuguese: "Comprar sapatos confortáveis mas feios" }, optionB: { english: "Buy beautiful but painful shoes", portuguese: "Comprar sapatos bonitos mas dolorosos" } },
+        { optionA: { english: "Shop at a crowded mall", portuguese: "Fazer compras em um shopping lotado" }, optionB: { english: "Shop online and wait 3 weeks", portuguese: "Comprar online e esperar 3 semanas" } }
       ]
 },
   {
@@ -1665,7 +1668,10 @@ export const scenarios2: Scenario[] = [
         { optionA: { english: "Work in a busy office", portuguese: "Trabalhar em um escritório movimentado" }, optionB: { english: "Work from home", portuguese: "Trabalhar de casa" } },
         { optionA: { english: "Be a successful doctor", portuguese: "Ser um médico bem-sucedido" }, optionB: { english: "Be an inspiring teacher", portuguese: "Ser um professor inspirador" } },
         { optionA: { english: "Have a high salary", portuguese: "Ter um salário alto" }, optionB: { english: "Love your job", portuguese: "Amar o seu trabalho" } },
-        { optionA: { english: "Be the boss", portuguese: "Ser o chefe" }, optionB: { english: "Be an employee with no stress", portuguese: "Ser um funcionário sem estresse" } }
+        { optionA: { english: "Be the boss", portuguese: "Ser o chefe" }, optionB: { english: "Be an employee with no stress", portuguese: "Ser um funcionário sem estresse" } },
+        { optionA: { english: "Work 4 days a week for 10 hours", portuguese: "Trabalhar 4 dias por semana durante 10 horas" }, optionB: { english: "Work 5 days a week for 8 hours", portuguese: "Trabalhar 5 dias por semana durante 8 horas" } },
+        { optionA: { english: "Have a boring job that pays very well", portuguese: "Ter um trabalho chato que paga muito bem" }, optionB: { english: "Have an exciting job that pays poorly", portuguese: "Ter um trabalho empolgante que paga mal" } },
+        { optionA: { english: "Be a smart engineer", portuguese: "Ser um engenheiro inteligente" }, optionB: { english: "Be a creative designer", portuguese: "Ser um designer criativo" } }
       ]
 },
   {
@@ -2524,7 +2530,10 @@ export const scenarios2: Scenario[] = [
         { optionA: { english: "Visit a historic city", portuguese: "Visitar uma cidade histórica" }, optionB: { english: "Visit a modern metropolis", portuguese: "Visitar uma metrópole moderna" } },
         { optionA: { english: "Walk around the city center", portuguese: "Caminhar pelo centro da cidade" }, optionB: { english: "Take a bus tour", portuguese: "Fazer um passeio de ônibus" } },
         { optionA: { english: "Drink coffee at a cafe", portuguese: "Beber café em uma cafeteria" }, optionB: { english: "Read a book at the library", portuguese: "Ler um livro na biblioteca" } },
-        { optionA: { english: "Live near a famous square", portuguese: "Morar perto de uma praça famosa" }, optionB: { english: "Live near a quiet park", portuguese: "Morar perto de um parque tranquilo" } }
+        { optionA: { english: "Live near a famous square", portuguese: "Morar perto de uma praça famosa" }, optionB: { english: "Live near a quiet park", portuguese: "Morar perto de um parque tranquilo" } },
+        { optionA: { english: "Get lost in a foreign city", portuguese: "Se perder em uma cidade estrangeira" }, optionB: { english: "Use a map all the time", portuguese: "Usar um mapa o tempo todo" } },
+        { optionA: { english: "Live near a beautiful beach", portuguese: "Morar perto de uma praia bonita" }, optionB: { english: "Live near a beautiful mountain", portuguese: "Morar perto de uma montanha bonita" } },
+        { optionA: { english: "Travel by airplane", portuguese: "Viajar de avião" }, optionB: { english: "Travel by high-speed train", portuguese: "Viajar de trem de alta velocidade" } }
       ]
 },
   {
@@ -3361,7 +3370,10 @@ export const scenarios2: Scenario[] = [
         { optionA: { english: "Have a cute dog", portuguese: "Ter um cachorro fofo" }, optionB: { english: "Have a lazy cat", portuguese: "Ter um gato preguiçoso" } },
         { optionA: { english: "Walk the dog in the park", portuguese: "Passear com o cachorro no parque" }, optionB: { english: "Sleep on the sofa like a cat", portuguese: "Dormir no sofá como um gato" } },
         { optionA: { english: "Feed pet birds", portuguese: "Alimentar pássaros de estimação" }, optionB: { english: "Watch fish in an aquarium", portuguese: "Observar peixes em um aquário" } },
-        { optionA: { english: "Live with 3 dogs", portuguese: "Morar com 3 cachorros" }, optionB: { english: "Live with 3 cats", portuguese: "Morar com 3 gatos" } }
+        { optionA: { english: "Live with 3 dogs", portuguese: "Morar com 3 cachorros" }, optionB: { english: "Live with 3 cats", portuguese: "Morar com 3 gatos" } },
+        { optionA: { english: "Can talk to animals", portuguese: "Poder falar com animais" }, optionB: { english: "Can speak all human languages", portuguese: "Poder falar todas as línguas humanas" } },
+        { optionA: { english: "Ride a horse", portuguese: "Andar a cavalo" }, optionB: { english: "Swim with dolphins", portuguese: "Nadar com golfinhos" } },
+        { optionA: { english: "Have a pet tiger", portuguese: "Ter um tigre de estimação" }, optionB: { english: "Have a pet monkey", portuguese: "Ter um macaco de estimação" } }
       ]
 },
   {
@@ -4192,7 +4204,10 @@ export const scenarios2: Scenario[] = [
         { optionA: { english: "Cook a delicious meal", portuguese: "Cozinhar uma refeição deliciosa" }, optionB: { english: "Bake a sweet cake", portuguese: "Assar um bolo doce" } },
         { optionA: { english: "Eat at a fancy restaurant", portuguese: "Comer em um restaurante chique" }, optionB: { english: "Eat homemade food", portuguese: "Comer comida caseira" } },
         { optionA: { english: "Chop vegetables", portuguese: "Cortar vegetais" }, optionB: { english: "Wash the hot pans", portuguese: "Lavar as panelas quentes" } },
-        { optionA: { english: "Follow a recipe book", portuguese: "Seguir um livro de receitas" }, optionB: { english: "Invent your own dish", portuguese: "Inventar seu próprio prato" } }
+        { optionA: { english: "Follow a recipe book", portuguese: "Seguir um livro de receitas" }, optionB: { english: "Invent your own dish", portuguese: "Inventar seu próprio prato" } },
+        { optionA: { english: "Never eat sugar again", portuguese: "Nunca mais comer açúcar" }, optionB: { english: "Never eat salt again", portuguese: "Nunca mais comer sal" } },
+        { optionA: { english: "Burn the dinner", portuguese: "Queimar o jantar" }, optionB: { english: "Put too much salt in the food", portuguese: "Colocar muito sal na comida" } },
+        { optionA: { english: "Eat pizza every day", portuguese: "Comer pizza todos os dias" }, optionB: { english: "Eat ice cream every day", portuguese: "Comer sorvete todos os dias" } }
       ]
 },
   {
@@ -5018,7 +5033,10 @@ export const scenarios2: Scenario[] = [
         { optionA: { english: "Have a fast laptop", portuguese: "Ter um notebook rápido" }, optionB: { english: "Have the newest smartphone", portuguese: "Ter o smartphone mais novo" } },
         { optionA: { english: "Use virtual reality glasses", portuguese: "Usar óculos de realidade virtual" }, optionB: { english: "Play traditional video games", portuguese: "Jogar videogames tradicionais" } },
         { optionA: { english: "Live without internet for a week", portuguese: "Viver sem internet por uma semana" }, optionB: { english: "Live without a phone for a week", portuguese: "Viver sem telefone por uma semana" } },
-        { optionA: { english: "Type on a physical keyboard", portuguese: "Digitar em um teclado físico" }, optionB: { english: "Type on a digital screen", portuguese: "Digitar em uma tela digital" } }
+        { optionA: { english: "Type on a physical keyboard", portuguese: "Digitar em um teclado físico" }, optionB: { english: "Type on a digital screen", portuguese: "Digitar em uma tela digital" } },
+        { optionA: { english: "Never use social media again", portuguese: "Nunca mais usar redes sociais" }, optionB: { english: "Never watch TV again", portuguese: "Nunca mais assistir TV" } },
+        { optionA: { english: "Have a slow internet connection", portuguese: "Ter uma conexão de internet lenta" }, optionB: { english: "Have a fast internet that drops randomly", portuguese: "Ter uma internet rápida que cai aleatoriamente" } },
+        { optionA: { english: "Lose your phone", portuguese: "Perder o seu telefone" }, optionB: { english: "Lose your laptop", portuguese: "Perder o seu notebook" } }
       ]
 },
   {
@@ -5862,6 +5880,9 @@ export const scenarios2: Scenario[] = [
         { optionA: { english: "Take a selfie for Instagram", portuguese: "Tirar uma selfie para o Instagram" }, optionB: { english: "Record a viral video", portuguese: "Gravar um vídeo viral" } },
         { optionA: { english: "Have 1 million followers", portuguese: "Ter 1 milhão de seguidores" }, optionB: { english: "Have 5 close real friends", portuguese: "Ter 5 amigos reais próximos" } },
         { optionA: { english: "Share a post with friends", portuguese: "Compartilhar uma postagem com amigos" }, optionB: { english: "Keep your profile private", portuguese: "Manter seu perfil privado" } },
-        { optionA: { english: "Chat online all night", portuguese: "Conversar online a noite toda" }, optionB: { english: "Talk face to face", portuguese: "Conversar cara a cara" } }
+        { optionA: { english: "Chat online all night", portuguese: "Conversar online a noite toda" }, optionB: { english: "Talk face to face", portuguese: "Conversar cara a cara" } },
+        { optionA: { english: "Accidentally like your ex's old photo", portuguese: "Curtir sem querer a foto antiga do seu ex" }, optionB: { english: "Send a message to the wrong person", portuguese: "Enviar uma mensagem para a pessoa errada" } },
+        { optionA: { english: "Delete all your photos", portuguese: "Apagar todas as suas fotos" }, optionB: { english: "Delete all your contacts", portuguese: "Apagar todos os seus contatos" } },
+        { optionA: { english: "Become a famous influencer", portuguese: "Se tornar um influenciador famoso" }, optionB: { english: "Live a quiet offline life", portuguese: "Viver uma vida tranquila offline" } }
       ]
 }];
