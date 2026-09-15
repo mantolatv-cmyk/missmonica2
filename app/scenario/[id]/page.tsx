@@ -18,6 +18,9 @@ import SpeakingPractice from "@/components/SpeakingPractice";
 import UsefulExpressions from "@/components/UsefulExpressions";
 import Reading from "@/components/Reading";
 import BuildSentence from "@/components/BuildSentence";
+import ImageDescription from "@/components/ImageDescription";
+import WouldYouRather from "@/components/WouldYouRather";
+import { Image as ImageIcon, SplitSquareHorizontal } from "lucide-react";
 
 const iconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
   Users, UserPlus, Accessibility, Home, Palette, Trophy,
@@ -34,7 +37,7 @@ export default function ScenarioPage({ params }: ScenarioPageProps) {
   const router = useRouter();
   const scenario = getScenarioById(id);
 
-  const [activeTab, setActiveTab] = useState<"vocabulary" | "dialogue" | "flashcards" | "quiz" | "truefalse" | "speaking" | "expressions" | "reading" | "buildsentence">("vocabulary");
+  const [activeTab, setActiveTab] = useState<"vocabulary" | "dialogue" | "flashcards" | "quiz" | "truefalse" | "speaking" | "expressions" | "reading" | "buildsentence" | "imagedescription" | "wouldyourather">("vocabulary");
 
   if (!scenario || !scenario.available) {
     return (
@@ -80,7 +83,7 @@ export default function ScenarioPage({ params }: ScenarioPageProps) {
       </div>
 
       {/* Tabs */}
-      <div className="tabs-nav">
+      <div className="tabs-nav" style={{ flexWrap: "wrap" }}>
         <button
           className={`tab-btn ${activeTab === "vocabulary" ? "tab-btn-active" : ""}`}
           onClick={() => setActiveTab("vocabulary")}
@@ -143,6 +146,24 @@ export default function ScenarioPage({ params }: ScenarioPageProps) {
               </button>
             )}
             
+            {scenario.imageDescription && (
+              <button
+                onClick={() => setActiveTab("imagedescription")}
+                className={`tab-btn ${activeTab === "imagedescription" ? "tab-btn-active" : "tab-btn-inactive"}`}
+              >
+                <ImageIcon size={18} /> Descreva a Imagem
+              </button>
+            )}
+
+            {scenario.wouldYouRather && (
+              <button
+                onClick={() => setActiveTab("wouldyourather")}
+                className={`tab-btn ${activeTab === "wouldyourather" ? "tab-btn-active" : "tab-btn-inactive"}`}
+              >
+                <SplitSquareHorizontal size={18} /> Would You Rather
+              </button>
+            )}
+            
             {scenario.usefulExpressions && (
           <button
             className={`tab-btn ${activeTab === "expressions" ? "tab-btn-active" : ""}`}
@@ -178,6 +199,12 @@ export default function ScenarioPage({ params }: ScenarioPageProps) {
       )}
       {activeTab === "buildsentence" && scenario.buildSentence && (
         <BuildSentence data={scenario.buildSentence} />
+      )}
+      {activeTab === "imagedescription" && scenario.imageDescription && (
+        <ImageDescription data={scenario.imageDescription} />
+      )}
+      {activeTab === "wouldyourather" && scenario.wouldYouRather && (
+        <WouldYouRather questions={scenario.wouldYouRather} />
       )}
       {activeTab === "expressions" && scenario.usefulExpressions && (
         <UsefulExpressions items={scenario.usefulExpressions} />

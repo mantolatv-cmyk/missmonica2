@@ -850,7 +850,23 @@ export const scenarios1: Scenario[] = [
       speakingPracticeLevel2: {
                     part1: [ { question: "Can you use \"Mother / Mom\" in a sentence in the past simple?", translation: "Você consegue usar \"Mother / Mom\" em uma frase no passado simples?" }, { question: "Can you use \"Father / Dad\" in a sentence in the past simple?", translation: "Você consegue usar \"Father / Dad\" em uma frase no passado simples?" }, { question: "Can you use \"Brother\" in a sentence in the past simple?", translation: "Você consegue usar \"Brother\" em uma frase no passado simples?" }, { question: "Can you use \"Sister\" in a sentence in the past simple?", translation: "Você consegue usar \"Sister\" em uma frase no passado simples?" }, { question: "Can you use \"Grandmother\" in a sentence in the past simple?", translation: "Você consegue usar \"Grandmother\" em uma frase no passado simples?" }, { question: "Can you use \"Grandfather\" in a sentence in the past simple?", translation: "Você consegue usar \"Grandfather\" em uma frase no passado simples?" }, { question: "Can you use \"Aunt\" in a sentence in the past simple?", translation: "Você consegue usar \"Aunt\" em uma frase no passado simples?" }, { question: "Can you use \"Uncle\" in a sentence in the past simple?", translation: "Você consegue usar \"Uncle\" em uma frase no passado simples?" }, { question: "Can you use \"Cousin\" in a sentence in the past simple?", translation: "Você consegue usar \"Cousin\" em uma frase no passado simples?" }, { question: "Can you use \"Parents\" in a sentence in the past simple?", translation: "Você consegue usar \"Parents\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Nephew\" in a sentence in the past simple?", translation: "Você consegue usar \"Nephew\" em uma frase no passado simples?" }, { question: "Can you use \"Niece\" in a sentence in the past simple?", translation: "Você consegue usar \"Niece\" em uma frase no passado simples?" }, { question: "Can you use \"Grandson\" in a sentence in the past simple?", translation: "Você consegue usar \"Grandson\" em uma frase no passado simples?" }, { question: "Can you use \"Granddaughter\" in a sentence in the past simple?", translation: "Você consegue usar \"Granddaughter\" em uma frase no passado simples?" }, { question: "Can you use \"Wife\" in a sentence in the past simple?", translation: "Você consegue usar \"Wife\" em uma frase no passado simples?" }, { question: "Can you use \"Husband\" in a sentence in the past simple?", translation: "Você consegue usar \"Husband\" em uma frase no passado simples?" }, { question: "Can you use \"Mother-in-law\" in a sentence in the past simple?", translation: "Você consegue usar \"Mother-in-law\" em uma frase no passado simples?" }, { question: "Can you use \"Father-in-law\" in a sentence in the past simple?", translation: "Você consegue usar \"Father-in-law\" em uma frase no passado simples?" }, { question: "Can you use \"Stepmother\" in a sentence in the past simple?", translation: "Você consegue usar \"Stepmother\" em uma frase no passado simples?" }, { question: "Can you use \"Stepfather\" in a sentence in the past simple?", translation: "Você consegue usar \"Stepfather\" em uma frase no passado simples?" } ]
-                  }
+                  },
+      imageDescription: {
+                  imagePath: "/images/scenarios/scenario_familia_1789410479958.jpg",
+                  keywords: [
+                    { english: "A family sitting together on a blue sofa", portuguese: "Uma família sentada junta em um sofá azul" },
+                    { english: "Drinking orange juice and coffee", portuguese: "Bebendo suco de laranja e café" },
+                    { english: "Cozy living room with a fireplace", portuguese: "Sala de estar aconchegante com lareira" },
+                    { english: "Bookshelves full of books and photos", portuguese: "Estantes cheias de livros e fotos" }
+                  ]
+                },
+
+      wouldYouRather: [
+        { optionA: { english: "Have a big family gathering every weekend", portuguese: "Ter uma grande reunião de família todo fim de semana" }, optionB: { english: "Have a quiet weekend alone", portuguese: "Ter um fim de semana tranquilo sozinho" } },
+        { optionA: { english: "Live close to your parents", portuguese: "Morar perto dos seus pais" }, optionB: { english: "Live in another country", portuguese: "Morar em outro país" } },
+        { optionA: { english: "Have three brothers", portuguese: "Ter três irmãos" }, optionB: { english: "Have three sisters", portuguese: "Ter três irmãs" } },
+        { optionA: { english: "Cook dinner for the family", portuguese: "Fazer o jantar para a família" }, optionB: { english: "Wash all the dishes", portuguese: "Lavar toda a louça" } }
+      ]
 },
   {
     id: "amigos",
@@ -1696,7 +1712,23 @@ export const scenarios1: Scenario[] = [
       speakingPracticeLevel2: {
                     part1: [ { question: "Can you use \"Friend\" in a sentence in the past simple?", translation: "Você consegue usar \"Friend\" em uma frase no passado simples?" }, { question: "Can you use \"Best friend\" in a sentence in the past simple?", translation: "Você consegue usar \"Best friend\" em uma frase no passado simples?" }, { question: "Can you use \"Hang out\" in a sentence in the past simple?", translation: "Você consegue usar \"Hang out\" em uma frase no passado simples?" }, { question: "Can you use \"Meet up\" in a sentence in the past simple?", translation: "Você consegue usar \"Meet up\" em uma frase no passado simples?" }, { question: "Can you use \"Chat\" in a sentence in the past simple?", translation: "Você consegue usar \"Chat\" em uma frase no passado simples?" }, { question: "Can you use \"Fun\" in a sentence in the past simple?", translation: "Você consegue usar \"Fun\" em uma frase no passado simples?" }, { question: "Can you use \"Invite\" in a sentence in the past simple?", translation: "Você consegue usar \"Invite\" em uma frase no passado simples?" }, { question: "Can you use \"Party\" in a sentence in the past simple?", translation: "Você consegue usar \"Party\" em uma frase no passado simples?" }, { question: "Can you use \"Group\" in a sentence in the past simple?", translation: "Você consegue usar \"Group\" em uma frase no passado simples?" }, { question: "Can you use \"Share\" in a sentence in the past simple?", translation: "Você consegue usar \"Share\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Trust\" in a sentence in the past simple?", translation: "Você consegue usar \"Trust\" em uma frase no passado simples?" }, { question: "Can you use \"Keep a secret\" in a sentence in the past simple?", translation: "Você consegue usar \"Keep a secret\" em uma frase no passado simples?" }, { question: "Can you use \"Argue\" in a sentence in the past simple?", translation: "Você consegue usar \"Argue\" em uma frase no passado simples?" }, { question: "Can you use \"Apologize\" in a sentence in the past simple?", translation: "Você consegue usar \"Apologize\" em uma frase no passado simples?" }, { question: "Can you use \"Help out\" in a sentence in the past simple?", translation: "Você consegue usar \"Help out\" em uma frase no passado simples?" }, { question: "Can you use \"Joke\" in a sentence in the past simple?", translation: "Você consegue usar \"Joke\" em uma frase no passado simples?" }, { question: "Can you use \"Support\" in a sentence in the past simple?", translation: "Você consegue usar \"Support\" em uma frase no passado simples?" }, { question: "Can you use \"Advice\" in a sentence in the past simple?", translation: "Você consegue usar \"Advice\" em uma frase no passado simples?" }, { question: "Can you use \"Get along\" in a sentence in the past simple?", translation: "Você consegue usar \"Get along\" em uma frase no passado simples?" }, { question: "Can you use \"Introductions\" in a sentence in the past simple?", translation: "Você consegue usar \"Introductions\" em uma frase no passado simples?" } ]
-                  }
+                  },
+      imageDescription: {
+                  imagePath: "/images/scenarios/scenario_amigos_1789410489902.jpg",
+                  keywords: [
+                    { english: "Six friends having a picnic in the park", portuguese: "Seis amigos fazendo um piquenique no parque" },
+                    { english: "Sitting on a checkered picnic blanket", portuguese: "Sentados em uma toalha de piquenique xadrez" },
+                    { english: "Eating sandwiches and having fun", portuguese: "Comendo sanduíches e se divertindo" },
+                    { english: "Wicker picnic basket on the grass", portuguese: "Cesta de piquenique de vime na grama" }
+                  ]
+                },
+
+      wouldYouRather: [
+        { optionA: { english: "Have one best friend", portuguese: "Ter um melhor amigo" }, optionB: { english: "Have many good friends", portuguese: "Ter muitos bons amigos" } },
+        { optionA: { english: "Travel with friends", portuguese: "Viajar com amigos" }, optionB: { english: "Travel alone", portuguese: "Viajar sozinho" } },
+        { optionA: { english: "Go to a loud party", portuguese: "Ir a uma festa barulhenta" }, optionB: { english: "Have a picnic in the park", portuguese: "Fazer um piquenique no parque" } },
+        { optionA: { english: "Lend money to a friend", portuguese: "Emprestar dinheiro a um amigo" }, optionB: { english: "Borrow money from a friend", portuguese: "Pegar dinheiro emprestado de um amigo" } }
+      ]
 },
   {
     id: "corpo",
@@ -2545,7 +2577,23 @@ export const scenarios1: Scenario[] = [
       speakingPracticeLevel2: {
                     part1: [ { question: "Can you use \"Head\" in a sentence in the past simple?", translation: "Você consegue usar \"Head\" em uma frase no passado simples?" }, { question: "Can you use \"Arm\" in a sentence in the past simple?", translation: "Você consegue usar \"Arm\" em uma frase no passado simples?" }, { question: "Can you use \"Leg\" in a sentence in the past simple?", translation: "Você consegue usar \"Leg\" em uma frase no passado simples?" }, { question: "Can you use \"Hand\" in a sentence in the past simple?", translation: "Você consegue usar \"Hand\" em uma frase no passado simples?" }, { question: "Can you use \"Foot / Feet\" in a sentence in the past simple?", translation: "Você consegue usar \"Foot / Feet\" em uma frase no passado simples?" }, { question: "Can you use \"Eyes\" in a sentence in the past simple?", translation: "Você consegue usar \"Eyes\" em uma frase no passado simples?" }, { question: "Can you use \"Hair\" in a sentence in the past simple?", translation: "Você consegue usar \"Hair\" em uma frase no passado simples?" }, { question: "Can you use \"Mouth\" in a sentence in the past simple?", translation: "Você consegue usar \"Mouth\" em uma frase no passado simples?" }, { question: "Can you use \"Nose\" in a sentence in the past simple?", translation: "Você consegue usar \"Nose\" em uma frase no passado simples?" }, { question: "Can you use \"Ears\" in a sentence in the past simple?", translation: "Você consegue usar \"Ears\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Shoulder\" in a sentence in the past simple?", translation: "Você consegue usar \"Shoulder\" em uma frase no passado simples?" }, { question: "Can you use \"Knee\" in a sentence in the past simple?", translation: "Você consegue usar \"Knee\" em uma frase no passado simples?" }, { question: "Can you use \"Fingers\" in a sentence in the past simple?", translation: "Você consegue usar \"Fingers\" em uma frase no passado simples?" }, { question: "Can you use \"Toes\" in a sentence in the past simple?", translation: "Você consegue usar \"Toes\" em uma frase no passado simples?" }, { question: "Can you use \"Stomach\" in a sentence in the past simple?", translation: "Você consegue usar \"Stomach\" em uma frase no passado simples?" }, { question: "Can you use \"Back\" in a sentence in the past simple?", translation: "Você consegue usar \"Back\" em uma frase no passado simples?" }, { question: "Can you use \"Neck\" in a sentence in the past simple?", translation: "Você consegue usar \"Neck\" em uma frase no passado simples?" }, { question: "Can you use \"Teeth\" in a sentence in the past simple?", translation: "Você consegue usar \"Teeth\" em uma frase no passado simples?" }, { question: "Can you use \"Tongue\" in a sentence in the past simple?", translation: "Você consegue usar \"Tongue\" em uma frase no passado simples?" }, { question: "Can you use \"Lips\" in a sentence in the past simple?", translation: "Você consegue usar \"Lips\" em uma frase no passado simples?" } ]
-                  }
+                  },
+      imageDescription: {
+                  imagePath: "/images/scenarios/scenario_corpo_1789410497176.jpg",
+                  keywords: [
+                    { english: "People working out at the gym", portuguese: "Pessoas malhando na academia" },
+                    { english: "Stretching on yoga mats", portuguese: "Alongando-se em tapetes de yoga" },
+                    { english: "A man doing bicep curls with a barbell", portuguese: "Um homem fazendo rosca bíceps com uma barra" },
+                    { english: "Strength and balance written on the wall", portuguese: "Força e equilíbrio escrito na parede" }
+                  ]
+                },
+
+      wouldYouRather: [
+        { optionA: { english: "Work out in a gym", portuguese: "Malhar em uma academia" }, optionB: { english: "Run in the park", portuguese: "Correr no parque" } },
+        { optionA: { english: "Have very strong arms", portuguese: "Ter braços muito fortes" }, optionB: { english: "Have very fast legs", portuguese: "Ter pernas muito rápidas" } },
+        { optionA: { english: "Wake up early to exercise", portuguese: "Acordar cedo para se exercitar" }, optionB: { english: "Exercise late at night", portuguese: "Se exercitar tarde da noite" } },
+        { optionA: { english: "Be very tall", portuguese: "Ser muito alto" }, optionB: { english: "Be very flexible", portuguese: "Ser muito flexível" } }
+      ]
 },
   {
     id: "casa",
@@ -3389,7 +3437,23 @@ export const scenarios1: Scenario[] = [
       speakingPracticeLevel2: {
                     part1: [ { question: "Can you use \"Living room\" in a sentence in the past simple?", translation: "Você consegue usar \"Living room\" em uma frase no passado simples?" }, { question: "Can you use \"Kitchen\" in a sentence in the past simple?", translation: "Você consegue usar \"Kitchen\" em uma frase no passado simples?" }, { question: "Can you use \"Bedroom\" in a sentence in the past simple?", translation: "Você consegue usar \"Bedroom\" em uma frase no passado simples?" }, { question: "Can you use \"Bathroom\" in a sentence in the past simple?", translation: "Você consegue usar \"Bathroom\" em uma frase no passado simples?" }, { question: "Can you use \"Sweep the floor\" in a sentence in the past simple?", translation: "Você consegue usar \"Sweep the floor\" em uma frase no passado simples?" }, { question: "Can you use \"Do the dishes\" in a sentence in the past simple?", translation: "Você consegue usar \"Do the dishes\" em uma frase no passado simples?" }, { question: "Can you use \"Make the bed\" in a sentence in the past simple?", translation: "Você consegue usar \"Make the bed\" em uma frase no passado simples?" }, { question: "Can you use \"Take out the trash\" in a sentence in the past simple?", translation: "Você consegue usar \"Take out the trash\" em uma frase no passado simples?" }, { question: "Can you use \"Clean\" in a sentence in the past simple?", translation: "Você consegue usar \"Clean\" em uma frase no passado simples?" }, { question: "Can you use \"Laundry\" in a sentence in the past simple?", translation: "Você consegue usar \"Laundry\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Iron the clothes\" in a sentence in the past simple?", translation: "Você consegue usar \"Iron the clothes\" em uma frase no passado simples?" }, { question: "Can you use \"Dust the furniture\" in a sentence in the past simple?", translation: "Você consegue usar \"Dust the furniture\" em uma frase no passado simples?" }, { question: "Can you use \"Vacuum\" in a sentence in the past simple?", translation: "Você consegue usar \"Vacuum\" em uma frase no passado simples?" }, { question: "Can you use \"Garage\" in a sentence in the past simple?", translation: "Você consegue usar \"Garage\" em uma frase no passado simples?" }, { question: "Can you use \"Garden / Yard\" in a sentence in the past simple?", translation: "Você consegue usar \"Garden / Yard\" em uma frase no passado simples?" }, { question: "Can you use \"Window\" in a sentence in the past simple?", translation: "Você consegue usar \"Window\" em uma frase no passado simples?" }, { question: "Can you use \"Door\" in a sentence in the past simple?", translation: "Você consegue usar \"Door\" em uma frase no passado simples?" }, { question: "Can you use \"Roof\" in a sentence in the past simple?", translation: "Você consegue usar \"Roof\" em uma frase no passado simples?" }, { question: "Can you use \"Stairs\" in a sentence in the past simple?", translation: "Você consegue usar \"Stairs\" em uma frase no passado simples?" }, { question: "Can you use \"Mirror\" in a sentence in the past simple?", translation: "Você consegue usar \"Mirror\" em uma frase no passado simples?" } ]
-                  }
+                  },
+      imageDescription: {
+                  imagePath: "/images/scenarios/scenario_casa_1789410507520.jpg",
+                  keywords: [
+                    { english: "Cozy rustic living room and kitchen", portuguese: "Sala de estar e cozinha rústicas e aconchegantes" },
+                    { english: "Green velvet sofa on a rug", portuguese: "Sofá de veludo verde em um tapete" },
+                    { english: "Exposed brick wall in the background", portuguese: "Parede de tijolos expostos ao fundo" },
+                    { english: "Wooden dining counter with stools", portuguese: "Balcão de jantar de madeira com banquetas" }
+                  ]
+                },
+
+      wouldYouRather: [
+        { optionA: { english: "Live in a big house", portuguese: "Morar em uma casa grande" }, optionB: { english: "Live in a modern apartment", portuguese: "Morar em um apartamento moderno" } },
+        { optionA: { english: "Have a big garden", portuguese: "Ter um jardim grande" }, optionB: { english: "Have a large balcony", portuguese: "Ter uma varanda grande" } },
+        { optionA: { english: "Clean the living room", portuguese: "Limpar a sala de estar" }, optionB: { english: "Organize the bedroom", portuguese: "Organizar o quarto" } },
+        { optionA: { english: "Have a green velvet sofa", portuguese: "Ter um sofá de veludo verde" }, optionB: { english: "Have a black leather sofa", portuguese: "Ter um sofá de couro preto" } }
+      ]
 },
   {
     id: "casa2",
@@ -4212,7 +4276,23 @@ export const scenarios1: Scenario[] = [
       speakingPracticeLevel2: {
                     part1: [ { question: "Can you use \"Mop the floor\" in a sentence in the past simple?", translation: "Você consegue usar \"Mop the floor\" em uma frase no passado simples?" }, { question: "Can you use \"Fold the laundry\" in a sentence in the past simple?", translation: "Você consegue usar \"Fold the laundry\" em uma frase no passado simples?" }, { question: "Can you use \"Dining room\" in a sentence in the past simple?", translation: "Você consegue usar \"Dining room\" em uma frase no passado simples?" }, { question: "Can you use \"Hallway\" in a sentence in the past simple?", translation: "Você consegue usar \"Hallway\" em uma frase no passado simples?" }, { question: "Can you use \"Ceiling\" in a sentence in the past simple?", translation: "Você consegue usar \"Ceiling\" em uma frase no passado simples?" }, { question: "Can you use \"Wall\" in a sentence in the past simple?", translation: "Você consegue usar \"Wall\" em uma frase no passado simples?" }, { question: "Can you use \"Balcony\" in a sentence in the past simple?", translation: "Você consegue usar \"Balcony\" em uma frase no passado simples?" }, { question: "Can you use \"Basement\" in a sentence in the past simple?", translation: "Você consegue usar \"Basement\" em uma frase no passado simples?" }, { question: "Can you use \"Attic\" in a sentence in the past simple?", translation: "Você consegue usar \"Attic\" em uma frase no passado simples?" }, { question: "Can you use \"Furniture\" in a sentence in the past simple?", translation: "Você consegue usar \"Furniture\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Couch / Sofa\" in a sentence in the past simple?", translation: "Você consegue usar \"Couch / Sofa\" em uma frase no passado simples?" }, { question: "Can you use \"Wash the windows\" in a sentence in the past simple?", translation: "Você consegue usar \"Wash the windows\" em uma frase no passado simples?" }, { question: "Can you use \"Mow the lawn\" in a sentence in the past simple?", translation: "Você consegue usar \"Mow the lawn\" em uma frase no passado simples?" }, { question: "Can you use \"Water the plants\" in a sentence in the past simple?", translation: "Você consegue usar \"Water the plants\" em uma frase no passado simples?" }, { question: "Can you use \"Set the table\" in a sentence in the past simple?", translation: "Você consegue usar \"Set the table\" em uma frase no passado simples?" }, { question: "Can you use \"Clear the table\" in a sentence in the past simple?", translation: "Você consegue usar \"Clear the table\" em uma frase no passado simples?" }, { question: "Can you use \"Sink\" in a sentence in the past simple?", translation: "Você consegue usar \"Sink\" em uma frase no passado simples?" }, { question: "Can you use \"Faucet\" in a sentence in the past simple?", translation: "Você consegue usar \"Faucet\" em uma frase no passado simples?" }, { question: "Can you use \"Closet\" in a sentence in the past simple?", translation: "Você consegue usar \"Closet\" em uma frase no passado simples?" }, { question: "Can you use \"Wipe the counter\" in a sentence in the past simple?", translation: "Você consegue usar \"Wipe the counter\" em uma frase no passado simples?" } ]
-                  }
+                  },
+      imageDescription: {
+                  imagePath: "/images/scenarios/scenario_casa2_1789410518274.jpg",
+                  keywords: [
+                    { english: "A sunny balcony overlooking the city", portuguese: "Uma varanda ensolarada com vista para a cidade" },
+                    { english: "Potted green plants and pink flowers", portuguese: "Plantas verdes em vasos e flores rosas" },
+                    { english: "Small round table with two chairs", portuguese: "Mesa redonda pequena com duas cadeiras" },
+                    { english: "Cars parked on the street below", portuguese: "Carros estacionados na rua lá embaixo" }
+                  ]
+                },
+
+      wouldYouRather: [
+        { optionA: { english: "Cook in a modern kitchen", portuguese: "Cozinhar em uma cozinha moderna" }, optionB: { english: "Order food delivery", portuguese: "Pedir comida por delivery" } },
+        { optionA: { english: "Wash the dishes by hand", portuguese: "Lavar a louça à mão" }, optionB: { english: "Take out the trash", portuguese: "Levar o lixo para fora" } },
+        { optionA: { english: "Live in the city center", portuguese: "Morar no centro da cidade" }, optionB: { english: "Live in the quiet suburbs", portuguese: "Morar no subúrbio tranquilo" } },
+        { optionA: { english: "Have a big refrigerator", portuguese: "Ter uma geladeira grande" }, optionB: { english: "Have a large dining table", portuguese: "Ter uma mesa de jantar grande" } }
+      ]
 },
   {
     id: "hobbies",
@@ -5041,7 +5121,23 @@ export const scenarios1: Scenario[] = [
       speakingPracticeLevel2: {
                     part1: [ { question: "Can you use \"Read a book\" in a sentence in the past simple?", translation: "Você consegue usar \"Read a book\" em uma frase no passado simples?" }, { question: "Can you use \"Play guitar\" in a sentence in the past simple?", translation: "Você consegue usar \"Play guitar\" em uma frase no passado simples?" }, { question: "Can you use \"Listen to music\" in a sentence in the past simple?", translation: "Você consegue usar \"Listen to music\" em uma frase no passado simples?" }, { question: "Can you use \"Watch movies\" in a sentence in the past simple?", translation: "Você consegue usar \"Watch movies\" em uma frase no passado simples?" }, { question: "Can you use \"Draw / Paint\" in a sentence in the past simple?", translation: "Você consegue usar \"Draw / Paint\" em uma frase no passado simples?" }, { question: "Can you use \"Travel\" in a sentence in the past simple?", translation: "Você consegue usar \"Travel\" em uma frase no passado simples?" }, { question: "Can you use \"Play video games\" in a sentence in the past simple?", translation: "Você consegue usar \"Play video games\" em uma frase no passado simples?" }, { question: "Can you use \"Take photos\" in a sentence in the past simple?", translation: "Você consegue usar \"Take photos\" em uma frase no passado simples?" }, { question: "Can you use \"Dance\" in a sentence in the past simple?", translation: "Você consegue usar \"Dance\" em uma frase no passado simples?" }, { question: "Can you use \"Sing\" in a sentence in the past simple?", translation: "Você consegue usar \"Sing\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Cook\" in a sentence in the past simple?", translation: "Você consegue usar \"Cook\" em uma frase no passado simples?" }, { question: "Can you use \"Go hiking\" in a sentence in the past simple?", translation: "Você consegue usar \"Go hiking\" em uma frase no passado simples?" }, { question: "Can you use \"Camp\" in a sentence in the past simple?", translation: "Você consegue usar \"Camp\" em uma frase no passado simples?" }, { question: "Can you use \"Knit\" in a sentence in the past simple?", translation: "Você consegue usar \"Knit\" em uma frase no passado simples?" }, { question: "Can you use \"Collect\" in a sentence in the past simple?", translation: "Você consegue usar \"Collect\" em uma frase no passado simples?" }, { question: "Can you use \"Write\" in a sentence in the past simple?", translation: "Você consegue usar \"Write\" em uma frase no passado simples?" }, { question: "Can you use \"Garden\" in a sentence in the past simple?", translation: "Você consegue usar \"Garden\" em uma frase no passado simples?" }, { question: "Can you use \"Surf the internet\" in a sentence in the past simple?", translation: "Você consegue usar \"Surf the internet\" em uma frase no passado simples?" }, { question: "Can you use \"Workout\" in a sentence in the past simple?", translation: "Você consegue usar \"Workout\" em uma frase no passado simples?" }, { question: "Can you use \"Play board games\" in a sentence in the past simple?", translation: "Você consegue usar \"Play board games\" em uma frase no passado simples?" } ]
-                  }
+                  },
+      imageDescription: {
+                  imagePath: "/images/scenarios/scenario_hobbies_1789410561252.jpg",
+                  keywords: [
+                    { english: "Three people doing hobbies in the living room", portuguese: "Três pessoas fazendo hobbies na sala de estar" },
+                    { english: "A woman painting on a canvas", portuguese: "Uma mulher pintando em uma tela" },
+                    { english: "A man playing an acoustic guitar", portuguese: "Um homem tocando um violão acústico" },
+                    { english: "A woman reading a book on the armchair", portuguese: "Uma mulher lendo um livro na poltrona" }
+                  ]
+                },
+
+      wouldYouRather: [
+        { optionA: { english: "Play a musical instrument", portuguese: "Tocar um instrumento musical" }, optionB: { english: "Paint a beautiful picture", portuguese: "Pintar um quadro bonito" } },
+        { optionA: { english: "Read books all day", portuguese: "Ler livros o dia todo" }, optionB: { english: "Watch movies all day", portuguese: "Assistir a filmes o dia todo" } },
+        { optionA: { english: "Have a quiet hobby at home", portuguese: "Ter um hobby tranquilo em casa" }, optionB: { english: "Have an active outdoor hobby", portuguese: "Ter um hobby ativo ao ar livre" } },
+        { optionA: { english: "Play the acoustic guitar", portuguese: "Tocar violão acústico" }, optionB: { english: "Play the piano", portuguese: "Tocar piano" } }
+      ]
 },
   {
     id: "esportes",
@@ -5872,7 +5968,23 @@ export const scenarios1: Scenario[] = [
       speakingPracticeLevel2: {
                     part1: [ { question: "Can you use \"Soccer / Football\" in a sentence in the past simple?", translation: "Você consegue usar \"Soccer / Football\" em uma frase no passado simples?" }, { question: "Can you use \"Basketball\" in a sentence in the past simple?", translation: "Você consegue usar \"Basketball\" em uma frase no passado simples?" }, { question: "Can you use \"Swim\" in a sentence in the past simple?", translation: "Você consegue usar \"Swim\" em uma frase no passado simples?" }, { question: "Can you use \"Run\" in a sentence in the past simple?", translation: "Você consegue usar \"Run\" em uma frase no passado simples?" }, { question: "Can you use \"Team\" in a sentence in the past simple?", translation: "Você consegue usar \"Team\" em uma frase no passado simples?" }, { question: "Can you use \"Match / Game\" in a sentence in the past simple?", translation: "Você consegue usar \"Match / Game\" em uma frase no passado simples?" }, { question: "Can you use \"Win\" in a sentence in the past simple?", translation: "Você consegue usar \"Win\" em uma frase no passado simples?" }, { question: "Can you use \"Lose\" in a sentence in the past simple?", translation: "Você consegue usar \"Lose\" em uma frase no passado simples?" }, { question: "Can you use \"Ball\" in a sentence in the past simple?", translation: "Você consegue usar \"Ball\" em uma frase no passado simples?" }, { question: "Can you use \"Stadium\" in a sentence in the past simple?", translation: "Você consegue usar \"Stadium\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Tennis\" in a sentence in the past simple?", translation: "Você consegue usar \"Tennis\" em uma frase no passado simples?" }, { question: "Can you use \"Volleyball\" in a sentence in the past simple?", translation: "Você consegue usar \"Volleyball\" em uma frase no passado simples?" }, { question: "Can you use \"Cycling\" in a sentence in the past simple?", translation: "Você consegue usar \"Cycling\" em uma frase no passado simples?" }, { question: "Can you use \"Gym\" in a sentence in the past simple?", translation: "Você consegue usar \"Gym\" em uma frase no passado simples?" }, { question: "Can you use \"Coach\" in a sentence in the past simple?", translation: "Você consegue usar \"Coach\" em uma frase no passado simples?" }, { question: "Can you use \"Referee\" in a sentence in the past simple?", translation: "Você consegue usar \"Referee\" em uma frase no passado simples?" }, { question: "Can you use \"Score\" in a sentence in the past simple?", translation: "Você consegue usar \"Score\" em uma frase no passado simples?" }, { question: "Can you use \"Tournament\" in a sentence in the past simple?", translation: "Você consegue usar \"Tournament\" em uma frase no passado simples?" }, { question: "Can you use \"Medal\" in a sentence in the past simple?", translation: "Você consegue usar \"Medal\" em uma frase no passado simples?" }, { question: "Can you use \"Player\" in a sentence in the past simple?", translation: "Você consegue usar \"Player\" em uma frase no passado simples?" } ]
-                  }
+                  },
+      imageDescription: {
+                  imagePath: "/images/scenarios/scenario_esportes_1789410571759.jpg",
+                  keywords: [
+                    { english: "A mixed soccer game on a green field", portuguese: "Um jogo de futebol misto em um campo verde" },
+                    { english: "A man and a woman competing for the ball", portuguese: "Um homem e uma mulher competindo pela bola" },
+                    { english: "Players wearing green and blue jerseys", portuguese: "Jogadores vestindo camisas verdes e azuis" },
+                    { english: "Mud flying from their cleats", portuguese: "Lama voando de suas chuteiras" }
+                  ]
+                },
+
+      wouldYouRather: [
+        { optionA: { english: "Play soccer in the rain", portuguese: "Jogar futebol na chuva" }, optionB: { english: "Play basketball indoors", portuguese: "Jogar basquete em local fechado" } },
+        { optionA: { english: "Be a professional athlete", portuguese: "Ser um atleta profissional" }, optionB: { english: "Be a famous coach", portuguese: "Ser um treinador famoso" } },
+        { optionA: { english: "Watch sports on TV", portuguese: "Assistir a esportes na TV" }, optionB: { english: "Go to the stadium", portuguese: "Ir ao estádio" } },
+        { optionA: { english: "Win the race by one second", portuguese: "Vencer a corrida por um segundo" }, optionB: { english: "Help a teammate win", portuguese: "Ajudar um colega de equipe a vencer" } }
+      ]
 },
   {
     id: "supermercado",
@@ -6704,5 +6816,21 @@ export const scenarios1: Scenario[] = [
       speakingPracticeLevel2: {
                     part1: [ { question: "Can you use \"Shopping cart\" in a sentence in the past simple?", translation: "Você consegue usar \"Shopping cart\" em uma frase no passado simples?" }, { question: "Can you use \"Cashier\" in a sentence in the past simple?", translation: "Você consegue usar \"Cashier\" em uma frase no passado simples?" }, { question: "Can you use \"Aisle\" in a sentence in the past simple?", translation: "Você consegue usar \"Aisle\" em uma frase no passado simples?" }, { question: "Can you use \"Receipt\" in a sentence in the past simple?", translation: "Você consegue usar \"Receipt\" em uma frase no passado simples?" }, { question: "Can you use \"Grocery list\" in a sentence in the past simple?", translation: "Você consegue usar \"Grocery list\" em uma frase no passado simples?" }, { question: "Can you use \"Checkout\" in a sentence in the past simple?", translation: "Você consegue usar \"Checkout\" em uma frase no passado simples?" }, { question: "Can you use \"Bag\" in a sentence in the past simple?", translation: "Você consegue usar \"Bag\" em uma frase no passado simples?" }, { question: "Can you use \"Price\" in a sentence in the past simple?", translation: "Você consegue usar \"Price\" em uma frase no passado simples?" }, { question: "Can you use \"Discount\" in a sentence in the past simple?", translation: "Você consegue usar \"Discount\" em uma frase no passado simples?" }, { question: "Can you use \"Pay\" in a sentence in the past simple?", translation: "Você consegue usar \"Pay\" em uma frase no passado simples?" } ],
                     part2: [ { question: "Can you use \"Credit card\" in a sentence in the past simple?", translation: "Você consegue usar \"Credit card\" em uma frase no passado simples?" }, { question: "Can you use \"Cash\" in a sentence in the past simple?", translation: "Você consegue usar \"Cash\" em uma frase no passado simples?" }, { question: "Can you use \"Change\" in a sentence in the past simple?", translation: "Você consegue usar \"Change\" em uma frase no passado simples?" }, { question: "Can you use \"Customer\" in a sentence in the past simple?", translation: "Você consegue usar \"Customer\" em uma frase no passado simples?" }, { question: "Can you use \"Shelf\" in a sentence in the past simple?", translation: "Você consegue usar \"Shelf\" em uma frase no passado simples?" }, { question: "Can you use \"Basket\" in a sentence in the past simple?", translation: "Você consegue usar \"Basket\" em uma frase no passado simples?" }, { question: "Can you use \"Fresh\" in a sentence in the past simple?", translation: "Você consegue usar \"Fresh\" em uma frase no passado simples?" }, { question: "Can you use \"Frozen\" in a sentence in the past simple?", translation: "Você consegue usar \"Frozen\" em uma frase no passado simples?" }, { question: "Can you use \"Bakery\" in a sentence in the past simple?", translation: "Você consegue usar \"Bakery\" em uma frase no passado simples?" }, { question: "Can you use \"Scale\" in a sentence in the past simple?", translation: "Você consegue usar \"Scale\" em uma frase no passado simples?" } ]
-                  }
+                  },
+      imageDescription: {
+                  imagePath: "/images/scenarios/scenario_supermercado_1789410581014.jpg",
+                  keywords: [
+                    { english: "A woman pushing a shopping cart", portuguese: "Uma mulher empurrando um carrinho de compras" },
+                    { english: "Shopping in the produce and organics aisle", portuguese: "Fazendo compras no corredor de hortifrúti e orgânicos" },
+                    { english: "Cart filled with fresh tomatoes and lettuce", portuguese: "Carrinho cheio de tomates frescos e alface" },
+                    { english: "Looking at the groceries on the shelves", portuguese: "Olhando para os mantimentos nas prateleiras" }
+                  ]
+                },
+
+      wouldYouRather: [
+        { optionA: { english: "Go grocery shopping early", portuguese: "Fazer as compras do mercado cedo" }, optionB: { english: "Shop late at night", portuguese: "Fazer compras tarde da noite" } },
+        { optionA: { english: "Buy fresh organic food", portuguese: "Comprar comida orgânica fresca" }, optionB: { english: "Buy cheap processed food", portuguese: "Comprar comida processada barata" } },
+        { optionA: { english: "Push a heavy shopping cart", portuguese: "Empurrar um carrinho de compras pesado" }, optionB: { english: "Carry heavy shopping bags", portuguese: "Carregar sacolas de compras pesadas" } },
+        { optionA: { english: "Wait in a long line", portuguese: "Esperar em uma fila longa" }, optionB: { english: "Use self-checkout", portuguese: "Usar o caixa de autoatendimento" } }
+      ]
 }];

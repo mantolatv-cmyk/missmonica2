@@ -71,6 +71,21 @@ export interface ReadingPractice {
   level2: ReadingLevel;
 }
 
+export interface ImageDescriptionKeyword {
+  english: string;
+  portuguese: string;
+}
+
+export interface ImageDescriptionPractice {
+  imagePath: string;
+  keywords: ImageDescriptionKeyword[];
+}
+
+export interface WouldYouRatherQuestion {
+  optionA: { english: string; portuguese: string };
+  optionB: { english: string; portuguese: string };
+}
+
 export interface Scenario {
   id: string;
   title: string;
@@ -97,4 +112,6 @@ export interface Scenario {
   speakingPracticeLevel2?: SpeakingPractice;
   buildSentence?: BuildSentencePractice;
   reading?: ReadingPractice;
+  imageDescription?: ImageDescriptionPractice;
+  wouldYouRather?: WouldYouRatherQuestion[];
 }
