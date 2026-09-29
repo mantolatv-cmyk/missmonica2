@@ -73,7 +73,8 @@ export default function WouldYouRather({ questions }: WouldYouRatherProps) {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "0.5rem"
+            justifyContent: "center",
+            minHeight: "120px"
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.borderColor = "var(--primary)";
@@ -86,11 +87,8 @@ export default function WouldYouRather({ questions }: WouldYouRatherProps) {
             e.currentTarget.style.boxShadow = "none";
           }}
         >
-          <span style={{ fontSize: "1.25rem", fontWeight: 700, color: "var(--text-primary)" }}>
+          <span style={{ fontSize: "1.25rem", fontWeight: 700, color: "var(--text-primary)", lineHeight: 1.4 }}>
             {currentQuestion.optionA.english}
-          </span>
-          <span style={{ fontSize: "0.9rem", color: "var(--text-muted)" }}>
-            {currentQuestion.optionA.portuguese}
           </span>
         </button>
 
@@ -112,7 +110,8 @@ export default function WouldYouRather({ questions }: WouldYouRatherProps) {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "0.5rem"
+            justifyContent: "center",
+            minHeight: "120px"
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.borderColor = "var(--primary)";
@@ -125,11 +124,8 @@ export default function WouldYouRather({ questions }: WouldYouRatherProps) {
             e.currentTarget.style.boxShadow = "none";
           }}
         >
-          <span style={{ fontSize: "1.25rem", fontWeight: 700, color: "var(--text-primary)" }}>
+          <span style={{ fontSize: "1.25rem", fontWeight: 700, color: "var(--text-primary)", lineHeight: 1.4 }}>
             {currentQuestion.optionB.english}
-          </span>
-          <span style={{ fontSize: "0.9rem", color: "var(--text-muted)" }}>
-            {currentQuestion.optionB.portuguese}
           </span>
         </button>
       </div>
