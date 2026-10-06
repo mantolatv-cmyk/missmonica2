@@ -82,8 +82,8 @@ export interface ImageDescriptionPractice {
 }
 
 export interface WouldYouRatherQuestion {
-  optionA: { english: string; portuguese: string };
-  optionB: { english: string; portuguese: string };
+  optionA: { english: string };
+  optionB: { english: string };
 }
 
 export interface Scenario {
